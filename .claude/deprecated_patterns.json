@@ -1,0 +1,24 @@
+{
+  "patterns": [
+    {
+      "regex": "skip_gates\\s*=",
+      "reason": "GATE 우회 금지 (하네스 공용 원칙) — shorts CONFLICT_MAP A-6 승계"
+    },
+    {
+      "regex": "TODO\\s*\\(\\s*next-session",
+      "reason": "미완성 wiring 금지 — 미완은 raise NotImplementedError + 명시적 이유 사용 (shorts A-5 승계)"
+    },
+    {
+      "regex": "try\\s*:[^\\n]*\\n\\s+pass\\s*$",
+      "reason": "try-except 침묵 폴백 금지 — 명시적 raise + GATE 기록 필수 (하네스 공용 원칙)"
+    },
+    {
+      "regex": "(?i)\\[REMOVED\\]|\\[DELETED\\]|delete this entry",
+      "reason": "FAILURES.md 삭제 마커 금지 — append-only 위반 (실제 파일 보호는 check_failures_append_only Python 체크)"
+    },
+    {
+      "regex": "SKILL\\.md",
+      "reason": "SKILL.md 직접 수정 감지 — SKILL_HISTORY 백업 강제 (실제 백업은 backup_skill_before_write Python 체크)"
+    }
+  ]
+}
