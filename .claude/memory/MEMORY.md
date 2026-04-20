@@ -10,4 +10,4 @@
 - (아직 없음 — Phase 1+ 세션에서 축적)
 
 ## Reference (외부 리소스 위치)
-- (아직 없음 — Phase 2+ 에서 API 키·Unity 라이센스·Steamworks 경로 등 박제 예정)
+- [reference_beginner_gamedev_knowledge](reference_beginner_gamedev_knowledge.md) — NotebookLM 6-쿼리 딥 리서치 결과 인덱스 (Unity 6/Steam/AI 도구 체인/한국 컨텍스트, 2026-04-20)
