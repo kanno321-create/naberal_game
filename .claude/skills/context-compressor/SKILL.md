@@ -22,7 +22,7 @@ Claude 세션이 시작될 때 CLAUDE.md + WORK_HANDOFF.md + SESSION_LOG.md + FA
 
 ### Phase 1: 측정
 ```bash
-python ../harness/scripts/context_audit.py --mode session-load
+python ../../harness/scripts/context_audit.py --mode session-load
 ```
 **출력**:
 ```

@@ -69,11 +69,11 @@ studios/game/
 
 ## 하네스 상속
 
-- **Layer 1**: `../harness/` (naberal_harness v1.0)
-- **원칙**: `../harness/CLAUDE.md` + `../harness/docs/ARCHITECTURE.md`
-- **Whitelist 헌법**: `../harness/STRUCTURE.md` — Layer 1 자체 구조 규율 (Layer 2 는 독립)
+- **Layer 1**: `../../harness/` (naberal_harness v1.0)
+- **원칙**: `../../harness/CLAUDE.md` + `../../harness/docs/ARCHITECTURE.md`
+- **Whitelist 헌법**: `../../harness/STRUCTURE.md` — Layer 1 자체 구조 규율 (Layer 2 는 독립)
 - **공용 스킬**: 5종 자동 설치 (progressive-disclosure, drift-detection, gate-dispatcher, context-compressor, harness-audit)
-- **업데이트**: `python ../harness/scripts/new_domain.py update game --only <skill>`
+- **업데이트**: `python ../../harness/scripts/new_domain.py update game --only <skill>`
 
 ## AI 위키 + Obsidian 이중 용도 설계
 

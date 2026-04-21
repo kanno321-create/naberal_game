@@ -30,7 +30,7 @@ references/                    ← 필요할 때만 로드, 무제한
 ### Phase 1: 스캔
 **도구**: `harness/scripts/context_audit.py` (또는 수동)
 ```bash
-python ../harness/scripts/context_audit.py --threshold 500
+python ../../harness/scripts/context_audit.py --threshold 500
 ```
 **출력**: 500줄 초과 파일 목록 + 각 파일 줄수
 

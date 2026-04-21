@@ -93,7 +93,7 @@ Claude Code Hook 등록:
 
 ```bash
 cd my_studio/
-cp ../harness/hooks/*.py .claude/hooks/
+cp ../../harness/hooks/*.py .claude/hooks/
 git diff .claude/hooks/  # 변경 확인
 git add .claude/hooks/ && git commit -m "chore: update harness hooks to v{version}"
 ```

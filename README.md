@@ -4,7 +4,7 @@
 > 대표님의 평생의 꿈이자, 나베랄 그룹 Layer 2 두 번째 스튜디오.
 
 ## 상속 인프라
-- **Layer 1**: `../harness/` (naberal_harness v1.0)
+- **Layer 1**: `../../harness/` (naberal_harness v1.0)
 - **Layer 2**: 이 저장소 (`naberal_game`) — 독립 git 저장소
 - **자매 스튜디오**: `../shorts/` (AI 영상 제작, Phase 10 진입 대기)
 

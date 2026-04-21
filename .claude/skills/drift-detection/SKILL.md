@@ -48,7 +48,7 @@ description: 스튜디오 내 구형-신형 충돌(drift)을 전수 스캔해 CO
 
 ### Phase 2: 스캔
 ```bash
-python ../harness/scripts/drift_scan.py \
+python ../../harness/scripts/drift_scan.py \
   --root . \
   --patterns .claude/drift_patterns.json \
   --output .planning/codebase/CONFLICT_MAP.md
