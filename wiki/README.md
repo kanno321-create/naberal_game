@@ -8,7 +8,7 @@ tags: [readme, wiki-home, tier-2, game]
 
 ## Tier 분류
 
-- **Tier 1** (`../../../harness/wiki/`): 도메인-독립 공용 (모든 스튜디오 공유)
+- **Tier 1** (`../../harness/wiki/`): 도메인-독립 공용 (모든 스튜디오 공유)
 - **Tier 2** (이 폴더): 게임 개발 도메인 전용 (6 카테고리)
 - **Tier 3** (`../.preserved/`): 향후 외부 자산 읽기 전용 저장소
 

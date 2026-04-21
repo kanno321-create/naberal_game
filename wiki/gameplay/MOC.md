@@ -1,64 +1,208 @@
 ---
 category: gameplay
-status: scaffold
+status: active
 tags: [moc, game, gameplay]
-updated: 2026-04-20
+updated: 2026-04-21
+revision: 2
 ---
 
 # Gameplay — Map of Content
 
 > Tier 2 도메인-특화 지식 노드 맵. 게임플레이 시스템 영역.
+> **2026-04-21 Revision 2 박제 완료** — 콤보 턴 리셋 · 전략적 순서 · 3층 스킬 시스템 · 동료 8명 · 동료 극딜 · 콤보 재료 드랍.
 
-## Scope
+## 확정 장르 정체성
 
-핵심 루프, 진행 시스템 (unlock·progression·meta), 경제 시스템 (리소스·통화·밸런스), 난이도 곡선, 플레이어 에이전시, 피드백 루프 (Juice).
+**HD-2D 다크 판타지 웨이브 턴제 핵앤슬래시 with 직업 패링 시스템**
 
-## Planned Nodes
+4장르 융합:
+- 턴제 JRPG (사고 시간)
+- 액션 RPG (단축키 입력)
+- 소울라이크 (패링)
+- 로그라이트 (콤보 배율)
 
-- [ ] `core_loop_30s_3m_30m.md` — 30초 (행동) · 3분 (목표) · 30분 (세션) 3-tier 루프 설계
-- [ ] `progression_systems.md` — meta-progression vs per-run 언락 (로그라이크 기준)
-- [ ] `economy_balancing.md` — 리소스 획득/소비 곡선, 통화 인플레이션 방지
-- [ ] `difficulty_curve.md` — 난이도 곡선 + Dynamic Difficulty Adjustment
-- [ ] `feedback_juice.md` — 스크린쉐이크, 파티클, 사운드 임팩트 (Game Feel 원칙)
-
-## Related
-
-- **Other Tier 2**: [[../design/MOC]] (장르별 루프 특성), [[../audio/MOC]] (피드백 오디오), [[../art/MOC]] (피드백 비주얼)
-- **Root CLAUDE.md**: [[../../CLAUDE.md]] — 필수사항 §4 "MVP 우선 — 핵심 루프 검증 후 확장"
-
-## NotebookLM 딥 리서치 (2026-04-20)
-
-**원본 답변**: [../../.planning/research/nlm_result_01_indie_mvp_design.md](../../.planning/research/nlm_result_01_indie_mvp_design.md) §2-3 (핵심 루프 + 디자인 원칙)
-
-### 30초·3분·30분 3-tier 루프 (외부 게임 기획 지식)
-- **30초** — 전투·이동의 즉각적 재미 (기본 컨트롤·타격감)
-- **3분** — 스테이지/웨이브 클리어 및 단기 보상 (작은 선택·업그레이드)
-- **30분** — 빌드 완성·업그레이드·로그라이크 런 종료 후 메타 성장
-
-**Feature Creep 조기 감지 신호**: "이 기능이 30초 핵심 루프의 재미를 높이는가?" 에 답 못 할 때.
-
-### Flow Theory · Juice · Risk/Reward · Meaningful Choice
-- **Flow**: 플레이어 실력 ↔ 게임 난이도 곡선 일치 → Modl:play AI QA 로 난이도 스파이크 자동 감지
-- **Juice**: 파티클 + 화면 흔들림 + 조명 + 효과음 조합. Unity UI Toolkit + VFX Graph + Animator Pitch 랜덤 (0.9-1.1) 으로 극대화
-- **Risk/Reward**: Slay the Spire 의 덱빌딩 = 무작위 속 통제감
-- **Meaningful Choice**: 로그라이크/시뮬/RPG 하이브리드의 핵심
-
-### 하이브리드 장르 사례 (벤치마킹)
-- **Slay the Spire** — RNG + 덱빌딩 통제감 (Risk/Reward 표본)
-- **Into the Breach** — 적 행동 완전 공개 → 퍼즐적 해결
-- **Hades** — 죽음을 스토리텔링화 → 로그라이크 피로도 감소
-
-### AI 연결
-- **Beehave** (행동 트리) + **LLM 로컬 모델** → 지능형 NPC 반응
-- **Modl:play** AI QA → 맵 시뮬레이션 → 난이도 밸런스 자동 점검
-
-### Planned Nodes 상태
-- [ ] `core_loop_30s_3m_30m.md` — 3-tier 루프 상세 설계
-- [ ] `progression_systems.md` — meta-progression vs per-run (로그라이크)
-- [ ] `economy_balancing.md` — 리소스 곡선
-- [ ] `difficulty_curve.md` — Flow + Dynamic Difficulty
-- [ ] `feedback_juice.md` — Game Feel 원칙 (nlm_result_01 §3)
+**시장 증명작**: Clair Obscur: Expedition 33 (2025 · Metacritic 90+).
+참조 추가: Octopath Traveler · Chained Echoes · FF7 · Disgaea · Path of Exile.
 
 ---
 
-*Scaffolded: 2026-04-20 · Updated: 2026-04-21 (NotebookLM 딥 리서치 반영)*
+## 문서 인덱스 (Active)
+
+| 문서 | 내용 | 상태 |
+|---|---|---|
+| [[combat_system]] | 웨이브 · AP · 기술 슬롯 4~6개 · **콤보 턴 리셋** · **전략적 순서** · 방어 3선택 · 반격 · 극딜 · **동료 AI 간빗** | ✅ Rev.2 |
+| [[build_system]] | 5대 빌드 · **8직업 방어** · **스킬 3층 (스킬트리 + FF10 스피어 + D4 정복자)** · 상태이상 · 장비 랜덤 속성 · 콤보 재료 드랍 | ✅ Rev.2 |
+| [[endgame]] | 히든 보스 3계층 · 역대 신 무기 · **동료 극딜 모드** · **콤보 × 재료 드랍** · 진엔딩 | ✅ Rev.2 |
+
+## 디자인 문서 연계
+
+| 문서 | 연계 내용 |
+|---|---|
+| [[../design/world_lore]] | 설계 헌법 · 신앙 경제학 · 순환 구조 |
+| [[../design/story_outline]] | Phase 별 스토리 · 엔딩 분기 |
+| [[../design/main_character]] | 주인공 · 동료 · NPC 전투 역할 |
+
+---
+
+## 핵심 시스템 요약
+
+### 전투 루프
+```
+[웨이브 1~3 소환] → [주인공 공격 턴 (AP 소진까지 단축키)]
+    ↓
+[적 턴] → [방어 메뉴 3선택 + 타이밍 입력]
+    ↓
+[반격 성공 시 2차 선택 4슬롯]
+    ↓
+[전투 종료 — 콤보 × 보상 배율]
+```
+
+### 5대 빌드 분기
+- **진노** (공격 극단) — AP 폭발
+- **수호** (방어 극단) — 극딜 누적
+- **속박** (상태이상) — 곱연산 증폭
+- **균형** (만능형) — 상황 적응
+- **광기** (하이리스크) — HP 낮을수록 강함
+
+### 8직업 방어 시스템 (동료 8명 대응)
+방패 전사 · 힐러 · 도적 · 양손 전사 · 마법사 · 소환사 · **궁수** · **드루이드/샤먼**
+
+### 스킬 시스템 3층 구조 (대표님 확정)
+- **1층 스킬트리** (Diablo 4 방식) — 액티브·패시브 선택
+- **2층 스피어 보드** (FF10 방식) — 스탯 확장 + 범용 스킬 + 크로스오버
+- **3층 정복자 보드** (Diablo 4 Paragon 방식) — 레벨 100+ 엔드게임 확장
+
+---
+
+## 설계 헌법 게임플레이 번역
+
+### 제1조 — 공격/방어 책임 분리
+- 공격: 주인공 단축키 입력 (액션 느낌)
+- 방어: 동료 직업 기반 (전략 느낌)
+
+### 제2조 — 빌드 다양성
+- 5대 분기 × 6직업 조합
+- 빌드별 최적 상황 다름, 엔드게임 클리어 전부 가능
+
+### 제3조 — 인간 비악
+- Phase 2 에서 학살 대상이 인간으로 바뀌어도 "악" 으로 묘사 안 함
+- 모두 피해자 — 광신도 · 교회 · 왕국군 모두 세뇌 결과
+- 콤보 배율로 플레이어 도덕 시험 (Spec Ops 구조)
+
+---
+
+## 대표님 결정 대기
+
+### 전투 시스템
+- **콤보 정의**: 공격 횟수 vs 처치 수 vs 하이브리드
+- 패링 2차 선택 시간 윈도우 (1초 / 1.5초 / 3초)
+- 방어 턴 보너스 콤보가 다음 주인공 턴에 승계 여부
+
+### 빌드 시스템
+- 빌드 리셋 방식 (페이즈 전환 자동 / 유료 / 고정)
+- 스피어 보드 크기·노드 수 (초안 필요)
+- 정복자 보드 개수 (4 / 6 / 8)
+
+### 엔드게임
+- 히든 보스 수 (출시 시 2/3/5마리)
+- 역대 신 무기 수 (5/7기)
+- 동료 극딜 모드 출시 시 구현 범위 (주인공만 / 2~3명 / 8명 전부)
+- 진엔딩 해금 조건 세부
+
+---
+
+## Revision 2 변경 내역 (2026-04-21 2차 박제)
+
+### 핵심 수정
+- **콤보 초기화 = 턴 종료 시 즉시** (이전 박제 무효)
+- **입력 압박 = 타이밍 리듬이 아닌 전략적 순서** (이전 박제 수정)
+- **주인공 직업 = 고유 직업 "균형의 수호자" 고정 + 다직업 느낌** (확정)
+- **동료 = 인간 4 + 타종족 4 = 총 8명** (5명에서 확장)
+- **동료 직업 = 고정 + 보조 직업** (확정)
+- **스킬 시스템 = 3층 구조** (스킬트리 + FF10 스피어 + D4 정복자)
+
+### 신규 추가
+- **콤보 × 희귀 재료 드랍 연동** (제작 노가다 루프)
+- **동료 극딜 모드** (턴 몰아주기로 특정 동료 주인공급 강화)
+- **콤보 증가 기믹 다양화** (처치·서포트·자체기술·아이템·상태이상·AP회복)
+- **동료 AI = FF12 간빗 구조** (전투 중 프리셋 선택 / 전투 외 커스터마이징)
+- **장비 랜덤 속성 확장** (+N 스킬 레벨, +속성 공격, +상태이상 데미지 등)
+
+---
+
+## Planned Nodes (Phase 2+ 확장)
+
+### Scaffold 상태 (기존 유지)
+- [ ] `core_loop_30s_3m_30m.md` — 일부는 [[combat_system]] 에 반영됨
+- [ ] `progression_systems.md` — 레벨업·스킬트리 상세
+- [ ] `economy_balancing.md` — 화폐·자원 곡선
+- [ ] `difficulty_curve.md` — 난이도 곡선 (Easy ~ Nightmare)
+- [ ] `feedback_juice.md` — Game Feel (이펙트·사운드·스크린쉐이크)
+
+### 신규 제안 (Phase 2+)
+- [ ] `ai_companion_logic.md` — 동료 AI 연계 태그 · 우선순위 트리
+- [ ] `parry_timing_tuning.md` — 패링 윈도우 세부 · 난이도별 조정
+- [ ] `status_ailment_matrix.md` — 상태이상 × 카테고리 × 데미지 공식
+- [ ] `loot_drop_tables.md` — 장비 드롭 테이블 · 희귀도 확률
+- [ ] `dungeon_design.md` — 타겟 파밍 던전 구조 · 보스 배치
+- [ ] `boss_pattern_design.md` — 히든 보스별 패턴 명세
+
+---
+
+## 1인 개발 단계적 구현
+
+### Phase 4 MVP (3~4개월)
+- 웨이브 2개 · AP 3~10 · 스킬 단축키 3~5
+- 콤보 1~50 · 방어 3선택
+- 3대 빌드 분기 · 3직업 방어
+- 동료 1명 AI 연계
+
+### Phase 5 Vertical Slice (4~6개월)
+- 웨이브 3개 · AP 30 · 스킬 단축키 8
+- 반격 4슬롯 · 극딜 게이지
+- 4대 빌드 · 5직업
+- 히든 보스 1마리 · 최강 무기 1종
+
+### Phase 7 Alpha/Beta
+- 전체 시스템 완성
+- 5대 빌드 · 6직업 전부
+- 히든 보스 2마리 · 최강 무기 3종
+- 한 방 최종 보스 메커니즘 완성
+
+### Phase 8+ Post-Launch
+- 무료 패치 2회 (각 히든 보스 · 무기 추가)
+- 대형 DLC (뉴게임+ · 신규 영역 · 무명의 방랑자 보스)
+- 빌드 코드 공유 (Path of Exile 방식)
+
+---
+
+## Related
+
+- **Root CLAUDE.md**: [[../../CLAUDE.md]] — 필수사항 §4 "MVP 우선 — 핵심 루프 검증 후 확장"
+- **Design MOC**: [[../design/MOC]]
+- **Other Tier 2**: [[../engine/MOC]] · [[../art/MOC]] · [[../audio/MOC]] · [[../steam/MOC]]
+
+---
+
+## 이전 NotebookLM 리서치 (2026-04-20 · 부분 유효)
+
+**원본**: [../../.planning/research/nlm_result_01_indie_mvp_design.md](../../.planning/research/nlm_result_01_indie_mvp_design.md) §2-3
+
+### 지금도 유효
+- **30초·3분·30분 3-tier 루프** — [[combat_system]] 에 반영
+- **Feature Creep 감지**: *"이 기능이 30초 루프 재미를 높이는가"*
+- **Flow · Juice · Risk/Reward · Meaningful Choice** 원칙
+
+### 이제 확장·구체화됨
+- **Juice (Game Feel)** — 대표님의 콤보 배율 · 학살 쾌감 설계로 구체화
+- **Meaningful Choice** — 5대 빌드 분기 · 방어 3선택지 · 엔딩 분기로 실현
+- **하이브리드 장르** — Clair Obscur 결 (턴제 + 패링) 로 구체 확정
+
+### 더 이상 해당 없음
+- ~~Slay the Spire 덱빌딩~~ — 턴제 핵앤슬래시로 대체
+- ~~Into the Breach 완전 정보~~ — 불완전 정보 + 타이밍 입력으로 대체
+- ~~Hades 룸 구조~~ — 웨이브 인카운터로 대체
+
+---
+
+*Scaffolded: 2026-04-20 · Updated: 2026-04-21 (대표님 브레인스토밍 1차 박제 — 전투·빌드·엔드게임 확정)*
