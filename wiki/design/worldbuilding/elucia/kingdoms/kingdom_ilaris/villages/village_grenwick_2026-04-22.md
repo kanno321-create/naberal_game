@@ -1,0 +1,20 @@
+---
+title: "Grenwick — Ilaris 남부 해안 어촌"
+type: village
+kingdom: kingdom_ilaris
+tier: village
+created: 2026-04-22
+updated: 2026-04-22
+agent: Wave2-Toponymist
+wave: 2
+---
+
+# Grenwick (그렌위크) — Silvan Cape 남안 어촌
+
+| 항목 | 내용 |
+|------|------|
+| **위치** | Silvan Cape 남쪽 해안 소만 |
+| **인구** | 약 500~800 |
+| **산업** | 소규모 어업·해산물·어망 제조 |
+| **어원** | *gren* (green·녹지) + *-wick* (취락) = "녹지 해안 취락" |
+| **분위기** | 초록 절벽 아래 항구. 해조 냄새와 갈매기 소리 |

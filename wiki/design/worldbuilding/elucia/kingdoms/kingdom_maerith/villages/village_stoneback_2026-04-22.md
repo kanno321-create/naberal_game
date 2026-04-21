@@ -1,0 +1,20 @@
+---
+title: "Stoneback — 고원 석재 채취 마을"
+type: village
+kingdom: kingdom_maerith
+created: 2026-04-22
+updated: 2026-04-22
+agent: Wave4-Kingdom-Detailer-maerith
+wave: 4
+---
+
+# Stoneback (스톤백)
+
+| 항목 | 내용 |
+|------|------|
+| **위치** | Auryn 고원 서부 · Aurynseat 공작령 내 |
+| **인구** | 약 250~400 |
+| **산업** | 화강암 채석·석재 가공 |
+| **어원** | *stone* (돌) + *back* (등·뒤) — 돌산을 등에 지다 |
+| **분위기** | 석분 날리는 마을. 석공들의 두꺼운 손. 완성된 석재 블록이 쌓임. |
+| **교역** | Maerholt 왕도 건축 자재 공급 |

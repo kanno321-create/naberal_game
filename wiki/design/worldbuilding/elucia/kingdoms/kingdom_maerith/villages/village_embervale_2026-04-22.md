@@ -1,0 +1,20 @@
+---
+title: "Embervale — 약초 계곡 마을"
+type: village
+kingdom: kingdom_maerith
+created: 2026-04-22
+updated: 2026-04-22
+agent: Wave4-Kingdom-Detailer-maerith
+wave: 4
+---
+
+# Embervale (엠버베일)
+
+| 항목 | 내용 |
+|------|------|
+| **위치** | Auryn 고원 남쪽 사면 계곡 · Highvane 근방 |
+| **인구** | 약 200~350 |
+| **산업** | 고지 약초 전문 채취·건조·포장 |
+| **어원** | *ember* (잔불·불씨 — 약초 건조 화덕) + *vale* (계곡) |
+| **분위기** | 약초 건조 향기. 낮은 연기. 치유소 기능 겸함. |
+| **특이사항** | Maerholt Herb Lane 공급 주산지. 공주 Lyrath 연구 관심 마을. |
