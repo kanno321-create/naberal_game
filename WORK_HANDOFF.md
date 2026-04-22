@@ -1,9 +1,525 @@
 # WORK HANDOFF — naberal_game
 
 ## 최종 업데이트
-- 날짜: 2026-04-22 (세션 #5 · 대표님 기상 결정 10건 전원 반영 · 완전 마감)
-- 세션: **#5** (Q-FIX 10 + X1·X2·X3·X4 해소 · Wave 5 · Ashenveil · Ch.01 · Karzor MVP · 대표님 post-wake 10 결정)
-- 상태: **Phase 0 Bootstrap 연장 종료** — Elucia 정합성 완전 수술 · Karzor MVP 20파일 대표님 승인 · 소설 Ch.01 주인공 "나이트" 확정 · Ch.02 진입 준비 완료
+- 날짜: **2026-04-24 (세션 #8 진입 · 영속 앵커 #3 구조적 결함 발견·복구 · 이중 박제 원칙 영구 박제 · FAIL-017 등재)**
+- 세션: **#8** (세션 #7 재발 방지 체계의 **허위 작동** 발견 → 이중 박제 원칙으로 구조 재설계)
+- 상태: **Phase 0 Bootstrap 추가 연장 · 재발 방지 체계 비로소 실제 작동** — Critical Memories 3건 priority 자동 주입 검증 완료 · 전역↔로컬 27개 auto-sync 검증 완료 · FAIL-017 등재 · 다음 세션부터 이중 박제 원칙 자동 집행
+
+> **다음 세션 (#9) 진입 시 필독 순서**:
+> 1. 본 파일 **"세션 #8 완료 항목"** 섹션 (하단에 prepend)
+> 2. [SESSION_LOG.md · Session #7·#8 블록](SESSION_LOG.md)
+> 3. [.claude/memory/MEMORY.md](.claude/memory/MEMORY.md) — 🔒 **Critical Memories 3건 자동 주입 (session_start.py §6.5)**:
+>    - `feedback_dual_persistence_required.md` — **이중 박제 원칙** · git + Claude Code 메모리 동시 저장 (세션 #8 신규)
+>    - `feedback_knight_canon_locked.md` — **나이트 Canon 완전 세트** (본명·친부모·형제·고향 없음 · 외형·무기·레퍼런스)
+>    - `feedback_no_sampling_full_read.md` — **샘플링 독서 금지** · 전수 읽기 필수 파일 목록
+> 4. [wiki/design/케릭 컨셉 및 프로필.md](wiki/design/케릭%20컨셉%20및%20프로필.md) — 대표님 직접 작성 **8 동료 Canon** (루시안·엘라라·카일·미리암·실리엔·보르단·나일라·세리스) · 갭 모에 집필 지침
+> 5. [wiki/design/brainstorm_2026-04-22_karzor_act2_revelation.md](wiki/design/brainstorm_2026-04-22_karzor_act2_revelation.md) — a-47 대표님 직접 9건 확정 + 이하
+> 6. [wiki/design/art/reference/_INDEX.md](wiki/design/art/reference/_INDEX.md) — **나이트 공식 레퍼런스 아트 3종** (외형·무기 시각 기준)
+> 7. [.claude/failures/FAILURES.md § FAIL-016·017](.claude/failures/FAILURES.md) — 세션 #7 반복 실패 + 세션 #8 재발 방지 체계 자체의 결함
+> 8. 이전 세션 누적 핸드오프는 본 파일 하단 "세션 #7 완료 항목" 섹션부터 시대순 역방향 참조
+
+---
+
+## 세션 #8 **완료 항목** (2026-04-24 · 영속 앵커 #3 복구 · 이중 박제 원칙 영구화)
+
+> **세션 성격**: 세션 초반 = **재발 방지 체계 자체의 구조적 결함 발견·진단·복구** (FAIL-017) · 세션 #7 박제한 "priority: critical 메모리 자동 주입 앵커 #3" 이 **경로 이원화로 실제 작동 안 함** 을 세션 시작 hook 직접 실행으로 확인
+> **핵심 가치**: 형식적 박제 ≠ 실제 작동 — 이중 박제 원칙을 영구 박제해 단일 채널 저장 원천 차단
+> **원전 맥락**: 대표님 지시 *"깃에도 박재하고, 메모리에도 박제해라 매번까먹어서 너가, 나 힘듦"* (2026-04-24) · `.claude/failures/FAILURES.md § FAIL-017` · `.claude/memory/feedback_dual_persistence_required.md` (priority: critical)
+
+### Phase A — FAIL-017 진단 (영속 앵커 #3 허위 작동 발견)
+- 세션 #8 진입 시 WORK_HANDOFF `📋 FAIL-016 재발 방지 검증` 최우선 선행 지시 확인
+- `session_start.py §6.5 load_critical_memories()` 코드 전수 읽기 → 프로젝트 로컬 `.claude/memory/` 만 스캔
+- 프로젝트 로컬 디렉토리 확인 → 메모리 파일 **3개만 존재** (기존 2 + MEMORY.md) · 세션 #7 에 신설한 Critical Memories 2건 **부재**
+- 전역 Claude Code auto-memory 경로 (`C:\Users\PC\.claude\projects\c--Users-PC-Desktop-naberal-group-studios-game\memory\`) 확인 → **25개 메모리 전부 여기에 존재**
+- Hook 실제 실행 검증 (`PYTHONIOENCODING=utf-8 python .claude/hooks/session_start.py`) → §6.5 출력 `ℹ️ Critical memory 없음 (priority: critical 마커 메모리 미존재)`
+- **결론**: 세션 #7 박제는 **기록만 존재, 실제 기능 0**. 재발 방지 앵커 #3 이 스스로 FAIL (FAIL-017)
+
+### Phase B — 대표님 지시 + 이중 박제 원칙 수립
+- 대표님 원문: *"깃에도 박재하고, 메모리에도 박제해라 매번까먹어서 너가, 나 힘듦"*
+- 대표님 감정 토로 *"나 힘듦"* → FAIL 추적 변수로 **대표님 피로감 누적** 도 포함 (기술 결함 + 감정 부담 이중 차원)
+- 옵션 C (하이브리드) 확정: git (영속성) + Claude Code 전역 (자동 주입) **동시 박제**
+- 설계 원칙: Belt-and-suspenders · 단일 지점 실패 (SPOF) 구조적 제거
+
+### Phase C — 전역 → 로컬 전수 이식 (25개)
+- `cp` 로 전역 경로 25개 메모리 전부 프로젝트 로컬 `.claude/memory/` 로 복사
+- 로컬 기존 2개 (`project_game_stack.md` · `reference_beginner_gamedev_knowledge.md`) 보존
+- 총 27 메모리 + MEMORY.md 확보
+
+### Phase D — 이중 박제 원칙 feedback memory 신설 (priority: critical)
+- `.claude/memory/feedback_dual_persistence_required.md` 작성 (59줄 · frontmatter `priority: critical`)
+- 전역에도 즉시 복사 (이중 박제 원칙 자체가 이중 박제됨)
+- 규칙·Why·How to apply·Related FAILURES·Related Memories 5 섹션 구조
+
+### Phase E — MEMORY.md 인덱스 완전 재구성 (18 → 28 항목)
+- 🔒 Critical (3) / 📘 Feedback (9) / 📗 Project (12) / 📙 Reference (4) 4 카테고리
+- 신규 Critical 3건 최상위 등록 · 누락 9건 추가 · 이중 박제 원칙 주석 상단 박제
+- 로컬·전역 양쪽 동시 업데이트
+
+### Phase F — session_start.py `sync_global_to_local_memory()` 함수 신설
+- 매 세션 시작 시 전역 → 로컬 단방향 동기화
+- Idempotent (내용 동일 시 touch 안 함) + mtime 비교 (전역 최신 시만 덮어씀) + 로컬-only 파일 보존
+- Claude Code 경로 인코딩 규칙 학습 (`_` → `-` · `:` → `-` · `/` → `-`) 코드 주석 박제
+- §6.4 Memory Dual-Persistence Sync 섹션 추가 (§6.5 선행 실행)
+
+### Phase G — Hook 실행 검증 (FAIL-017 재발 방지 실증)
+- 1차 실행: §6.4 `ℹ️ 전역 경로 없음` + `priority_hint` 없음 → 인코딩 버그 발견 (`naberal_group` 그대로 썼음)
+- 경로 인코딩 수정: `.replace("_", "-")` 추가 → `c--Users-PC-Desktop-naberal-group-studios-game` 정상 매칭
+- 2차 실행: **✅ Sync 완료: 복사 0 / 동일 27 / 로컬 최신 0 (총 27)** + **Critical Memories 3건 전체 본문 주입 확인**
+- 재발 방지 앵커 #3 비로소 **실제 작동**
+
+### Phase H — FAIL-017 등재
+- `FAILURES.md` append: 증상·근본 원인 5가지·조치 5가지·교훈 5가지·참고 6건
+- `FAILURES_INDEX.md` bullet 추가
+- 연관 FAIL: FAIL-016 (세션 #7 원전 · 해결 시도 실패) · FAIL-014 (허위 박제 패턴) · FAIL-009 (대표님 결정 전 예단)
+
+### 산출물 요약
+
+**생성 (1건)**:
+- `.claude/memory/feedback_dual_persistence_required.md` (priority: critical · 양쪽 경로 박제)
+
+**복사 (25건)**:
+- 전역 → 프로젝트 로컬 일괄 복사 (`feedback_*` 11 + `project_*` 10 + `reference_*` 4)
+
+**수정 (4건)**:
+- `.claude/memory/MEMORY.md` (18 → 28 항목 · 4 카테고리 재구조화)
+- `.claude/hooks/session_start.py` (`sync_global_to_local_memory()` 함수 + §6.4 섹션 추가 + 경로 인코딩 2회 수정)
+- `.claude/failures/FAILURES.md` (FAIL-017 append · 85줄)
+- `.claude/failures/FAILURES_INDEX.md` (FAIL-017 bullet)
+
+**검증 (2건)**:
+- Hook 직접 실행 §6.4 `✅ Sync 완료: 27 파일` + §6.5 3건 전체 본문 주입 확인
+- 이중 박제 원칙 자체도 양쪽 경로 존재 확인
+
+### 재발 방지 구조 최종 상태
+
+| 채널 | 내용 | 매커니즘 |
+|------|------|---------|
+| 📁 git 로컬 | `.claude/memory/` 28 파일 | git commit 으로 영속 보존 · 다른 PC 복구 가능 |
+| 🧠 Claude Code 전역 | 전역 auto-memory 26 파일 | Claude Code 자동 주입 (시스템 리마인더 채널) |
+| 🔁 동기화 | `sync_global_to_local_memory()` | 매 세션 시작 시 전역 → 로컬 자동 반영 |
+| 🔒 Critical 주입 | `load_critical_memories()` §6.5 | `priority: critical` 마커 3건 전체 본문 매 세션 주입 |
+
+### 의사결정 통계
+- 대표님 직접 결정: 1건 (옵션 C 이중 박제 · 감정 토로 포함)
+- 구조적 결함 발견: 1건 (FAIL-017 · 재발 방지 체계 자체의 허위 작동)
+- 경로 이슈 수정: 2회 (인코딩 언더스코어 → 하이픈 규칙 미인지)
+- Critical 메모리 신설: 1건 (이중 박제 원칙 · priority: critical)
+- Hook 함수 신설: 1건 (sync_global_to_local_memory)
+- 메모리 전수 이식: 25건 (전역 → 로컬)
+- MEMORY.md 인덱스 재구조화: 18 → 28 항목
+- FAIL 등재: 1건 (FAIL-017)
+
+## 다음 세션 (#9) 진입 준비
+
+### 📋 검증 체크리스트 (세션 #9 시작 시)
+- [ ] 세션 시작 context 에 `### 🔁 Memory Dual-Persistence Sync` 섹션 포함 확인
+- [ ] `✅ Sync 완료: 복사 X / 동일 Y / 로컬 최신 Z` 출력 확인
+- [ ] `### 🔒 Critical Memories` 아래 3건 전체 본문 주입 확인:
+  - `feedback_dual_persistence_required.md`
+  - `feedback_knight_canon_locked.md`
+  - `feedback_no_sampling_full_read.md`
+- [ ] 세션 중 새 메모리 저장 시 **두 경로 모두 Write** 준수
+
+### 📋 차후 결정 대기 (세션 #7 에서 이월 + 세션 #8 추가)
+1. **세션 #6·#7·#8 git 커밋 통합 실행** — 옵션 A 재분류 (feat + docs + chore 3 커밋 + 이중 박제 복구 fix 커밋)
+2. **Ch.01 내용적 재작성** (세션 #7 대기)
+3. **세션 #6 git 미완 후속** — `wiki/게임/` Obsidian 자동 vault 삭제 여부 · .env 주석 처리
+4. **브레인스토밍 트랙 재개** 후보 (세션 #7 목록 유지):
+   - Ch.15 마왕 봉인 대면 씬
+   - 삼각 관계 감정 곡선 타임라인
+   - 여섯 번의 균형 역사
+   - 교회 수뇌부 3인 악역 설계
+   - Ch.16 진엔딩 씬 8 동료 최후 순서
+   - 새 챕터 seed (Ch.02 · Ch.08)
+5. **style_bible_v2 § 갭 모에 조항 신설** (세션 #7 대기)
+6. **main_character.md Rev.3** — 8 동료 Canon 통합 반영 (세션 #7 대기)
+
+---
+
+## 🗂️ PC 환경 정합성 — 집 PC 마스터 (2026-04-22 세션 #6 진입 시 수립)
+
+### 기준 구조 (Master)
+- **집 PC**: `C:\Users\PC\Desktop\naberal_group\studios\game` (현재 위치)
+- **harness**: `C:\Users\PC\Desktop\naberal_group\harness` (`../../harness/` 상대참조)
+- **NotebookLM skill**: `C:\Users\PC\Desktop\secondjob_naberal\.claude\skills\notebooklm` (naberal_group 과 형제 폴더)
+
+### 경로 resolution 설계
+- `.claude/settings.json` hook 3종: **상대경로**만 사용 (PC 독립)
+- `scripts/notebooklm/query.py`: **4단 fallback** — kwarg > env(`NOTEBOOKLM_SKILL_PATH`) > auto-detect(parents[5] 탐색) > hardcoded
+- `.env`: `NOTEBOOKLM_SKILL_PATH` 주석 템플릿 상비 (회사 PC 등 다른 환경용)
+
+### 회사 PC 재정비 체크리스트 (회사 PC 에서 git pull 후)
+1. **폴더 위치 확인**: `C:\Users\PC\Desktop\naberal_group\studios\game` 경로로 이동했는가?
+   - 기존 `C:\Users\PC\바탕 화면\naberal_group\naberal_game-main` 구조면 → Desktop 로 옮기고 `studios/game` 으로 이름 재정리
+2. **harness 동반 이동**: `naberal_group/harness/` 가 프로젝트와 **같은 부모** 에 있는가?
+3. **secondjob_naberal 확인**: `Desktop/secondjob_naberal/.claude/skills/notebooklm/` 존재하는가?
+   - 없으면 `.env` 의 `NOTEBOOKLM_SKILL_PATH=...` 주석 해제하고 실제 경로 지정
+4. **검증 명령**: `python -c "from scripts.notebooklm.query import _resolve_skill_path; from pathlib import Path; p=_resolve_skill_path(None); print(p, p.exists())"` — True 나오면 OK
+5. **Hook 동작 확인**: `python .claude/hooks/session_start.py < /dev/null` 실행 시 Navigator Coverage 5/5 출력되면 정상
+6. **auto_memory_snapshot 잔여물**: `.claude/auto_memory_snapshot/*.jsonl` 에 회사 PC 시절 cwd 기록은 **캐시**이므로 무시 (Claude Code 가 관리)
+
+### 금기 — 절대경로 하드코딩 추가 금지
+- 새 스크립트 작성 시 **반드시** `Path(__file__).resolve().parents[N]` 또는 env var 기반으로. `C:/Users/...` 직접 작성 금지.
+- 예외: `HARDCODED_FALLBACK` 같은 **최후안 fallback** 만 허용 (그 위에 3단 resolution 존재 전제).
+
+---
+
+## 세션 #7 **완료 항목** (2026-04-23 · 브레인스토밍 전환 · 나이트 Canon 완전 락업)
+
+> **세션 성격**: 세션 초반 = 세션 #6 git 커밋 잔여 (옵션 A 승인 → 미완료) / 세션 본편 = **브레인스토밍 · 소설 집필 모드** / 세션 후반 = **나이트 Canon 재발 차단** (샘플링 독서 반복 실패 교훈 박제)
+> **핵심 가치**: 창작 진도보다 **"정합 회복 + 재발 방지 체계 구축"** · 세션 #8 부터 자동 주입으로 샘플링 실패 구조적 차단
+> **원전 맥락 파일**: `wiki/design/케릭 컨셉 및 프로필.md` (대표님 직접 작성) · `brainstorm_2026-04-22_karzor_act2_revelation.md` a-47 (세션 #6·#7 경계) · `.claude/memory/feedback_knight_canon_locked.md` · `.claude/failures/FAILURES.md § FAIL-016`
+
+### Phase A — 세션 #6 git 커밋 준비 (옵션 A 승인 · 미완료)
+- `git status --short` 874 파일 변경 분석 · 832개 Obsidian 자동 백링크 (비본질)
+- 실제 사람이 쓴 변경: 핸드오프 3종 + novel + 스크립트 소수
+- 커밋 분류안 2개 제시 (Commit 1 = feat 리서치·스킬·v2·Obsidian 복구 / Commit 2 = docs 핸드오프 3종)
+- 대표님 "a" 승인 → `.env` TWELVELABS_API_KEY 노출 경고 + `wiki/게임/` Obsidian 자동 vault 감지 후 브레인스토밍 전환으로 커밋 실행 전 중단
+- ⚠️ 대표님 "api키는 알아서 할테니 신경안써도된다" → API 관련 경고 적용 제외
+- **다음 세션 과제**: 세션 #6·#7 통합 커밋 재분류 필요 (feat + docs + chore 3 커밋 안)
+
+### Phase B — 브레인스토밍 전환 · a-44/a-46 속성 체계 재확인
+- 대표님 "다음 브레인스토밍하자"
+- `brainstorming` 스킬 로드
+- a-44 "3가지 혁명" (물리=속성 통합 · 조합 속성 4종 · a-17 메시지 증명) 요약
+- a-46 에서 이미 FINAL CANON 락업 확인: **기본 4 (불·얼음·번개·물리) + 조합 4 (암흑·공허·혼돈·신성) = 8 · 추가 금지**
+- 내가 제시한 "미정 2조합 폭풍/파쇄" 은 전부 `<rejected>` 처리됨 확인
+
+### Phase C — a-47 소설 서사 디테일 9건 대표님 직접 작성 420줄 분석
+- `brainstorm_2026-04-22_karzor_act2_revelation.md` line 6285~6703 신규 추가 내용 전수 읽기 (세션 #6 말미~#7 경계)
+- 9건 구조:
+  - **[A] 핵심 연출 3건**: Ch.01~03 동기 4중 구조 (본능·연결감·호기심·정체 탐구) + 은하의 환영 신규
+  - **[2·3] 진엔딩 동료 명단 7인 (당시)**: 사망 4 / 생존 3 · 인간 도적 = 서술자
+  - **[4·5·6] 오크·드워프 세부 설정**: 피의 사냥 · 강철 초커 성인식
+  - **[7] 마족·용족 내재 장착 의지결**: 마력 핵 · 역린 + 룬 문신
+  - **[8] 마왕 현재 상태**: **수정 2 내부 봉인 의식** (Q-CORE 1·3 심화)
+  - **[9] 우주 포식자 vs 균형 수호자 선행 역사**: 마족 학살 진실 · "모두 비악" 부조리 완성
+- 파생 구조 a-47-A ~ a-47-J 상세 분석 · 세계관 Canon 6건 확장:
+  - 🆕 **"은하의 환영" (Galaxy Vision)** 정식 명칭 (Q-CORE 4 시각 상징)
+  - 🆕 **"모두 비악"** 부조리 완성 (설계 헌법 제3조 확장 · 인간 + 수호자 + 마족 + 신)
+  - 🆕 **마왕 = 수정 2 내부 봉인 의식** (Q-CORE 1·3 심화 · 수천 년 후손 학살 관찰 형벌)
+  - 🆕 **이전 세대 수호자가 마족 대학살** (세상 구하려 불가피 · 비극의 주체)
+  - 🆕 **인간 도적 1인칭 회고 프레임** (소설·게임 이중 매체)
+  - 🆕 **Canon 서열 a-47-I 재정렬** (Q-CORE 1~4 · a-47-E · a-17 · a-23 · a-29 · a-34 · a-38 · a-46 · a-47)
+
+### Phase D — 동료 라인업 연속 조정 (드워프/용족/수인족)
+1. "드워프포함 8인" → a-47-B 명단 확장 (8인 = 인간 4 + 타종족 4)
+2. "수인족빼라 용족넣어라 드워프 생존" → 해석 A/B/C 옵션 제시
+3. 정정 "아니다 용족은 반신이기때문에 설정상 밸런스가 안맞다":
+   - 용족 = 상설 동료 **제외** (반신 · 밸런스)
+   - 신규 시스템: **이벤트성 임시 동료** (우주 포식자 전투 시 일시 합류 · FF 게스트 캐릭터 · Chrono Trigger Magus · Warcraft 3 일회 동행 벤치마크)
+   - 상설 동료 8 = 인간 4 + 타종족 4 (엘프·마족·오크·드워프) · a-47 원안 유지
+   - 오크 폐기 걱정 해소 (대표님 해석이 "수인족 = 7번째 종족 삭제" 와 "오크 상위 카테고리로 통합" 둘 다)
+
+### Phase E — 🌟 **케릭 컨셉 및 프로필.md** 대표님 직접 작성 (8 동료 Canon 완결)
+- 빈 .txt 파일 (03:24) → .md 교체 (03:28 · 8,962 bytes) · 대표님 본인 작성
+- 8 동료 전수 프로필:
+
+| # | 이름 | 종족/직업 | 무기 | 포지션 | 갭 모에 | 진엔딩 결말 |
+|---|------|---------|------|--------|-------|----------|
+| 1 | 🛡️ **루시안 (Lucian)** | 인간 기사 · 일라리스 왕국 | 대검+방패 | 메인 탱커 | 길치 | 사망 (선 채로 절명) |
+| 2 | 🔮 **엘라라 (Elara)** | 인간 마법사 · 교회 등짐 | 고목 지팡이+마도서 | 원거리 딜러 | 마법 오타쿠 | 생존 (역사 기록자) |
+| 3 | 🗡️ **카일 (Kyle)** | 인간 도적 · 뒷골목 | 쌍단검 (독) | 근접 암살자 | 빈민가 츤데레 | 🌟 **생존 · 서술자** |
+| 4 | 🕊️ **미리암 (Miriam)** | 인간 신관 · 엘루시아 | 백금 메이스 | 메인 힐러 | 보드카 주당 | 생존 · **나이트 연모** (오열) |
+| 5 | 🏹 **실리엔 (Syllien)** | 엘프 궁수 | 정령의 뼈 장궁 | 스나이퍼 | 화폐·기계 맹한 | 사망 ("당신의 짐을 덜어주지 못해 미안하다") |
+| 6 | 🔨 **보르단 (Bordan)** | 드워프 전사 · **담금질 장인** | 배틀액스 + 강철 초커 | 서브 탱커 | 나무조각 섬세 | **사망** (미소 지으며 산화) |
+| 7 | 🪓 **나일라 (Naila)** | **수인족(오크)** 전사 · 카르조르 저항군 | 쌍도끼 + 뼈 목걸이 | 버서커 | 요리 담당 | 사망 ("훌륭한 투기였다!") |
+| 8 | 🥀 **세리스 (Ceris)** | 마족 히로인 | 마력 핵 + 고대 룬어 | 마법 폭격기 | 순정파 (유혹 척→진심에 새빨개짐) | 사망 (나이트 품에서 소멸) |
+
+- 대표님 작법 팁 명시: *"갭 모에 빌드업 → Ch.14~16 학살 카타르시스 기하급수 증폭"*
+
+### Phase F — 신규 Canon 요소 5건 정리
+1. **수인족 = 오크** 종족 통합 재정의 (기존 "7번째 종족 절멸" → "오크 상위 카테고리 · 나일라 카르조르 저항군 = 살아남은 전투 부족")
+2. **담금질 시스템 (Forging/Enchanting)** · 보르단 고유 게임플레이 축 (a-47 "룬 대장장이" 제안이 Canon 으로 확정)
+3. **삼각 히로인** · 세리스 (관능·소멸) + 미리암 (성녀·연모·생존) 이중축 · 나이트 정신적 버팀목 ↔ 육체적 파멸
+4. **갭 모에 공식 집필 지침** · LN 최적화 도구 · style_bible_v2 § 갭 모에 신설 대기
+5. **국가별 동료 출신** · Elucia 측 (루시안 일라리스 · 미리암 엘루시아 전체 교회 · 엘라라 학자 협회? · 카일 하층민 도시) + Karzor 저항군 (나일라) + 중간 지대 (실리엔 엘프 숲 · 세리스 마족 동굴 · 보르단 드워프 공방)
+
+### Phase G — 보르단 진엔딩 결말 확정 (α 사망)
+- 대표님 초기 "드워프 생존" (β 옵션) → 프로필 md 본문엔 α 사망 "미소 지으며 장렬히 산화"
+- 충돌 확인 후 대표님 *"글쿤 그럼 사망시켜라 그놈의 드워프 나도 헷갈린다"*
+- 보르단 = **사망** 최종 확정 (α)
+- 진엔딩 명단 **락업**:
+  - 사망 5 (루시안·실리엔·보르단·나일라·세리스)
+  - 생존 3 (카일·엘라라·미리암) · 전원 인간
+  - "인간만 생존" 명제 극대화 · a-47-E "모두 비악" 부조리 완성
+- **운영 원칙 신설**: 프로필 md = 최상위 Canon · 대화 옵션 토의는 하위 · 충돌 시 프로필 md 우선
+
+### Phase H — 소설 집필 모드 선언 + 투자 논리
+- 대표님 *"스토리와 설정을 진짜 탄탄하게 소설급으로 잡아놔야 게임만들때 써먹을것도 많으니 브레인스토밍 지속하자"*
+- 작업 모드 = **소설 집필 우선** · 게임 시스템 정합은 잠시 접어둠
+- 소설 = 게임의 사전 투자 · 인물·감정·세계 디테일을 밑바닥까지 쌓으면 나중에 퀘스트·NPC 대사·과거 플래시백·아트 레퍼런스 전부 재사용 가능
+
+### Phase I — 🔴 **FAIL-016 반복 실패 (대표님 분노 3회)**
+- 내가 Tier A 10문항 제시 · 10문항 중 **10개 전부** 이미 세션 #1·#2·#5 에 확정 박제된 사항
+- 대표님 분노 1: *"나이트는 우주적존재로 창조된존재인데 자꾸 이름이랑 부모이야기꺼내노"*
+- 대표님 분노 2: *"그 컨셉이 자꾸 어디서 나오길래 반복하노? 나이트의 부모 나이트 이름, 어디서 극런 컨셉이 적혀있는지 당장삭제해라 모든 파일 모든 설정에서 이거 전에도 똑같은 말했는데 어제"*
+- 대표님 분노 3: *"미치것네 지금 너가 하는 질문 모두 이미 거의다 나랑 결정난것들이다."* + *"너가 글을 자꾸 샘플링으로 읽으니까 이런일이 발생하는거다."*
+- 대표님 추가 지시:
+  - *"나이트는 레퍼런스 모델도있다 찾아봐라"* → 발언 39 + 공식 레퍼런스 아트 3종 발견 누락 확인
+  - *"나이트검은 한손검 1, 양손검1 사용함 그리고 우주에서 창조됫다는데 왜자꾸 엄마 아빠 형제를 묻는거고 그만물어라 없다그딴거"*
+  - *"주인공은 고향같은것도없다 ... ashenveil에 떨어졌을뿐이다. 우주에서 거기로 도착한것뿐인거다 굳이 고향이라고 말하고 싶으면 우주어딘가다"*
+
+### Phase J — 🛡️ 재발 방지 완전 박제 (세션 #7 핵심 산출물)
+
+**`Canon 정합 Edit 22건`**:
+- `main_character.md` · `MOC.md` · `game_setting_complete_2026-04-21.md` · `village_ashenveil.md`: 본명 미확정 표기 삭제 + Canon 확정값 반영 + 가족 테이블 "해당 없음" 대체 + 외형·무기 반영
+- `novel/ch01.md`: **"어머니" → "아주머니"** · **"아버지" → "아저씨"** replace_all (마을 공동체 돌봄 관계로 재규정) · "할아저씨" 부작용 "할아버지" 복원 · frontmatter `status: draft_v2 · 세션 #7 친부모 제거 정정`
+- `novel/prologue.md:85`: 무기 "등에 검·옆구리 단검" → "등에 **양손검**·옆구리 **한손검**"
+- `worldbuilding/elucia/MASTER_elucia_worldbook.md:188` · `MAP_annotations.md:110·132` · `toponymy/protagonist_village_candidates_2026-04-22.md`: "주인공 고향" → "주인공 추락 도착지 (고향 아님)"
+- `memory/project_session5_ch01_pov_reconciliation.md`: 3곳 전수 정정
+
+**`글로벌 메모리 2건 신설 (priority: critical)`**:
+- `feedback_knight_canon_locked.md` — 나이트 Canon 완전 세트 (이름·성별·나이·정체·친부모/형제/고향 없음·외형·무기·레퍼런스 아트·추락 도착지)
+- `feedback_no_sampling_full_read.md` — 샘플링 금지 + 전수 로드 필수 파일 목록 10여개
+- `MEMORY.md` 인덱스에 2건 추가
+
+**`session_start.py 영속 앵커 #3 신설`**:
+- `load_critical_memories()` 함수 신설 (기존 `load_memory_index` 후속)
+- `main()` 에 **§6.5 Critical Memories 섹션** 추가
+- 세션마다 `priority: critical` 마커 메모리 **전체 내용 자동 주입**
+- 하네스 공용 코드 수정 (harness/templates 동기화 필요 시 별도 작업)
+
+**`FAIL-016 등재`**:
+- `FAILURES.md` line 398~ (85줄 append · 증상·원인·조치·교훈 상세)
+- `FAILURES_INDEX.md` bullet 추가
+- 연관 FAIL: FAIL-002 (AI 과해석) · FAIL-006 (재발) · FAIL-009 (자기 정정 연속)
+
+### Phase K — Canon 최종 락업 표 (재발 방지 후)
+
+| 항목 | Canon | 확정 위치·근거 |
+|------|-------|----------|
+| 이름 | "나이트" · **본명 없음** | 세션 #5 post-wake 2차 · `village_ashenveil.md:108` · `style_bible_v2:75-76` · `ch01.md:407-409` |
+| 성별 | 남자 | 세션 #5 |
+| 나이 | 불명 ("불명" 자체가 설정) | 세션 #5 |
+| 정체 | 우주 창조 균형 수호자 · Q-CORE 4 A(백지) + B(수호자) 이중 자아 | Q-CORE 4 memory |
+| 친부모·형제·고향 | 🚫 **존재 안 함** · 굳이 고향이면 "우주 어딘가" | 세션 #7 (2026-04-23) |
+| 추락 도착지 | Ashenveil (Ilaris 왕국 동쪽 · Silvan Forest 서쪽 끝 · 기억 봉인 거점 · 고향 아님) | `village_ashenveil.md` + 세션 #7 |
+| 외형 | 순백 긴 머리 (남자치곤 살짝 긴) · 파란 눈 · 178cm · 좋은 밸런스 · 그리피스(베르세르크) + 세피로스(FF7) 스타일 | 발언 39 · `brainstorm_2026-04-21_worldview_expansion.md:2500-2502` |
+| 무기 | **한손검 1 + 양손검 1** · Ch.01 봉인 후 일시 상실 · Phase 1 성장 후 회수 · 진엔딩 악마왕 = 거대 양손 검 (보라 공허 빛) | 세션 #7 대표님 재확정 (2026-04-23) · `prologue.md:85` · `art/reference/_INDEX.md` |
+| 공식 레퍼런스 아트 | `wiki/design/art/reference/knight_OFFICIAL_fullbody_2026-04-21.png` · `knight_OFFICIAL_concept_2026-04-21.png` · `knight_OFFICIAL_demon_king_2026-04-21.png` (3종) | 세션 #1·#2 공식 승격 |
+
+### 산출물 요약
+
+**생성 (3건)**:
+- `wiki/design/케릭 컨셉 및 프로필.md` (대표님 직접 · 8 동료 Canon + 갭 모에 집필 지침)
+- `.claude/memory/feedback_knight_canon_locked.md` (priority: critical)
+- `.claude/memory/feedback_no_sampling_full_read.md` (priority: critical)
+
+**수정 (Edit 총 ~28건)**:
+- Canon 정합: 11 파일 22 Edit (본명·가족·고향 삭제 + 외형·무기 반영)
+- `.claude/hooks/session_start.py` §6.5 신설
+- `.claude/memory/MEMORY.md` 인덱스 2건 추가
+- `.claude/failures/FAILURES.md` FAIL-016 append (85줄)
+- `.claude/failures/FAILURES_INDEX.md` bullet 추가
+
+**의사결정 통계**:
+- 대표님 직접 결정: 16건
+- Canon 신설: 5건 (이벤트 동료·담금질·삼각 히로인·갭 모에·수인족=오크 통합)
+- Canon 정정 대형: 8 동료 확정 · 보르단 α 사망 · 고향 삭제 · 무기 한손검+양손검 · 외형 락업 · 친부모/형제/고향 부존재 명시
+- 글로벌 메모리 신설: 2건 (priority: critical · 영속 앵커)
+- 정합 Edit: 22건
+- FAIL 등재: 1건 (FAIL-016)
+- 대표님 분노: 3회 (샘플링 독서 근본 원인)
+
+## 다음 세션 (#8) 진입 준비
+
+### 📋 차후 결정 대기 (대표님 승인 시 착수)
+1. **Ch.01 내용적 재작성** — 현재 draft_v2 = 용어 변환만 적용. 서사 맥락 더 깊은 재작성은 대표님 지시 대기
+   - 예: "아주머니" 가 **양어머니** 관계였는지 / **그저 마을 이웃 여인** 이었는지
+   - "아저씨" 도 동일 (마을 이웃 목탄장 / 나이트 돌봄 역할)
+   - "사랑한다" 대사 유지 여부 · 공동체 사랑으로 재해석 가능?
+2. **세션 #6·#7 git 커밋 통합 실행** — 옵션 A 재분류 (feat · docs · chore 3 커밋)
+3. **세션 #6 git 미완 후속** — `wiki/게임/` Obsidian 자동 vault 삭제 여부 · .env 주석 처리 등
+4. **브레인스토밍 트랙 재개** 후보:
+   - Ch.15 마왕 봉인 대면 씬 스크립트 (세리스 "시조이신가" · 나이트 수호자 자아 각성)
+   - 삼각 관계 감정 곡선 타임라인 (Ch.14 세리스 각성 ↔ 미리암 연모 발현 · 나이트 자각)
+   - 여섯 번의 균형 역사 (할배 시점 타임라인 · 이전 수호자 관계)
+   - 교회 수뇌부 3인 (교황·이단심문관·기사단장) 악역 설계 · 루시안 과거 전우 관계
+   - Ch.16 진엔딩 씬 8 동료 최후 순서·대사 배치
+   - 새 챕터 seed (Ch.02 성인식 목걸이 · Ch.08 드워프 담금질 등)
+5. **style_bible_v2 § 갭 모에 조항 신설** — 대표님 집필 지침 정식화
+6. **main_character.md Rev.3** — 8 동료 Canon 통합 반영 (용족 동료 폐기 · 드워프 추가 · 이벤트 동료 용족 슬롯 신설)
+
+### 📋 FAIL-016 재발 방지 검증 (세션 #8 초반)
+- 세션 시작 시 §6.5 Critical Memories 자동 주입 확인 (본 파일 상단 2, 3번 필독 순서)
+- 나이트 본명·부모·외형·무기·고향 관련 질문이 내 사이드에서 자동 차단되는지 체크
+
+---
+
+## 세션 #6 **Part 2 완료 항목** (2026-04-22 말미 · 대표님 서사·시스템 구술 46 섹션)
+
+> **원전 파일**: `wiki/design/brainstorm_2026-04-22_karzor_act2_revelation.md` (단일 파일 · 약 3,000줄 · 전 구술 원문 보존 · FAIL-006 엄수)
+> **상세 요약**: `SESSION_6_SUMMARY.md` 참조
+
+### Phase G — Act 2 Karzor 서사 원전 (b · y · a-1~6)
+- **Phase B (좌측 대륙 여정)**: Elucia 도시별 퀘스트 · 동료 영입 · 과거 아픔 공개
+- **Phase Y (던전 계시)**:
+  - y-1 양 대륙 교회 수뇌부 대화 엿듣기 (타종족 절멸 · 북쪽섬 제2마력수정 · 용족 멸종 계획)
+  - y-2 광신도 성전 · "인간의 욕심 + 신의 나태함 · 인간만의 땅"
+  - y-3 **⭐ 테마 선언**: "신의 권능은 더이상 **축복이 아닌 저주**구나"
+- **Phase A (Karzor 수도)**:
+  - a-1 우주 포식자의 고발 · 쫓김
+  - a-2 목걸이 = 신의 추적 장치 · 버림
+  - a-3 "**감시? 하? 어이없군,,,**" 뜯어냄
+  - a-4 이중 자아 대화 · 동쪽끝 · 엘프 명령 (Q-CORE 4 시각 규약 확정)
+  - a-5 시스템 공지: 인간 전면 적대화 · 인지도 시스템 · Point of No Return
+  - a-6 히든 영웅 모험가 · 최강장비 4슬롯 (모든 상태이상 무효 + 3 커스텀)
+
+### Phase H — 게임 시스템 확장 (a-7~11 · a-18~19)
+- a-7~9 **담금질 시스템** · 2단계 게이트 (영웅 전투 → 드워프 망치) · 레시피 소모 + 교환소
+- a-11 **타종족 촌락 + 인지도 2축 + 보조 직업** (일반 2 + 전설 3)
+- a-18 **엔드게임 4 컨텐츠**:
+  - 엔딩 후 시점 복귀 · 자동 저장
+  - Terror Zone (Diablo 2 공포의 영역)
+  - 장비 경제 비대칭 (스토리 보장 vs 엔드 파밍)
+  - 인디아나 존스 (고대 마족 유적 · 메테오 마법)
+- a-19 **던전 강화 + 크리티컬 히든 던전** (카우방 오마주 · Pity 보장 드롭)
+
+### Phase I — 마법·스킬 통합 룬어 시스템 (a-20~22 · a-31~43)
+- a-20 **할배 퀘스트 체인** (Q-CORE 2 게임플레이 번역) + **청마도사** (몬스터 기술 학습 · Phoenix Down 즉사 오마주)
+- a-22 **룬어 자유 조합** (화합 루트 전용)
+- a-31 **4슬롯 UI** (1회차 인간 = 박제 자동 / 화합·NG+ = 자유 조합)
+- a-32 공허 속성 (a-44 에서 재정의: 조합 속성 · 물리+불)
+- a-33 **슬롯 4 개방** (화합·NG+ 중후반)
+- ⭐ **a-34 시스템 통합 혁명** — 마법+스킬 단일 룬어 체계 (PoE Gem Link 식)
+- a-35 스탯·장비 = 룬어 효율 결정 (MOC.md 제2조 보존)
+- a-36 **하이브리드 극대** (다중 타격 + 상태이상)
+- a-37 이중 속성 + 볼트 형상 + 증폭 수정자 (a-44 에서 재해석)
+- ⭐ **a-38 슬롯 구조 최종** — 4슬롯 기본 + 궁극 무기 1개만 5슬롯 · **공식: 속성 + 형태 + 추가효과**
+- a-39 슬롯 **자유 배치** (같은 축 중복 가능 · 노바 형태 신규) · FF7 마테리아 식
+- a-40 **극한 물리 다중 빌드** (5슬롯 궁극 · 물리+다중×3+증폭 · 숨겨진 보스 원킬)
+- a-41 **룬어 희귀도 4티어** (일반 구매 / 중급 드롭 / 희귀 엔드게임 / 전설 히든) · **맛보기 1개 퀘스트**
+- a-42 **수치 변동 드랍** (다중 히트 2~4회 · 4회 = 잭팟)
+- ⭐ **a-43 전체 룬어 수치 변동** — "좋은거 먹었을 때 기분 업" (Variable Ratio Reinforcement · Diablo 2 검증)
+
+### Phase J — 루트·엔딩 구조 (a-12~17 · a-23~30)
+- a-12 분기 UI 도움말 · **네이밍 공식화**: 인간 루트 · **화합 루트**
+- a-13 인간 루트 = **전형적 JRPG + 이세계 라노벨 클리셰** (북쪽섬 원정대 영웅)
+- a-14 인간 루트 동료 8 전원 인간 + **로맨스 완성** (이세계 판타지물)
+- a-15 화합 루트 로맨스 = 썸·애간장·미완결 · **마족 히로인 유력**
+- a-16 **파티원 전원 비극** (화합 루트 · 진엔딩 근본 해결의 비극)
+- ⭐⭐ **a-17 설계 최상위 명제** — "진정한 메시지 전달은 화합으로 가야만 얻을 수 있다"
+- ⭐ **a-23 볼륨 비대칭 공식화** — 인간 루트 = 튜토리얼 (5~12h) / 화합 루트 = 본게임 (30~60h) · 90:10 개발 비율
+- a-24 **NG+ 분기 승계** (Chrono Trigger 식 · 인간→화합 성장 유지)
+- a-25 **메타 메뉴 전환** — 엔딩 A 후 메인 화면 밝음 → 다크 (Doki Doki · Undertale 계보)
+- a-26 1회차 화합 루트 숙련자 난이도 (고인물 헛점 허용)
+- a-27 난이도 공식 단순화: **플레이어 레벨 + N**
+- a-28 화합 루트 초반 = 도주 + 비전투 퀘스트 (Undertale Pacifist 식)
+- ⭐⭐ **a-29 4회차 엔딩 구조 + 숨겨진 엔딩**:
+  - 1회차: 인간 승리 / 2회차: 화합 엔딩 1 / 3회차: **악마왕 루트** / 4회차: 인간 루트 재감상 + **크레딧 숨겨진 엔딩**
+  - 4회차 숨겨진 엔딩: 나이트가 몇백 년 후 재방문 · **폐허 행성 · 원숭이처럼 퇴화된 인간**
+  - **철학 메시지**: "다양성 상실 = 문명 멸종"
+- a-30 난이도 균형 최종: **소울라이크 아님** · RPG 중급자 가능
+
+### Phase K — 속성 체계 최종 (a-44~46)
+- a-44 속성 체계 설계: **물리 = 속성 분류** (혁명적)
+- a-45 속성 경제학 · 4+4=8 sweet spot
+- ⭐⭐ **a-46 속성 최종 정의 (FINAL CANON)**:
+  - **기본 4**: 불 · 얼음 · 번개 · **물리**
+  - **조합 4**:
+    - 암흑 = 얼음 + 번개
+    - 공허 = 물리 + 불
+    - 혼돈 = 불 + 얼음
+    - 신성 = 물리 + 번개
+  - **총 8 · 추가 없음 · 3중 조합 없음**
+
+### Phase L — 취소된 아이디어 (대표님 scope 방어)
+- ❌ **a-10 경매장** (멀티플레이 리스크 · 나베랄 감마 경고 수용)
+- ❌ **a-18-D 주둔지→제국 오버로드 엔드게임** (전략 시뮬 스코프 초과)
+- 대표님 판단: Diablo 3 경매장 실패·Mount & Blade 개발 규모 고려
+
+### Phase M — 핸드오프 3종 생성 (현재 작업)
+- WORK_HANDOFF.md 업데이트 (본 섹션)
+- SESSION_6_SUMMARY.md 신규 (상세 요약 · 다음 세션 연속성)
+- NEXT_SESSION_BRIEFING.md 신규 (즉시 재개 가이드)
+
+### Part 2 신규 Canon 최상위 등록
+1. **a-17** · "진짜 메시지 = 화합"
+2. **a-23** · 인간=튜토리얼 / 화합=본게임
+3. **a-29** · 4회차 + 숨겨진 엔딩 + 악마왕 루트
+4. **a-34** · 마법+스킬 통합 룬어 시스템
+5. **a-38** · 슬롯 4+1 · 공식 "속성+형태+추가효과"
+6. **a-46** · 속성 4+4=8 최종
+
+### MOC.md 설계 헌법 명제 업데이트 제안 (다음 세션 작업)
+기존 5대 명제에 추가 권장:
+- 6번째: "진정한 메시지는 화합 루트에만 존재" (a-17)
+- 7번째: "인간 루트 = 튜토리얼 / 화합 루트 = 본게임" (a-23)
+- 8번째: "4회차 구조로 서사 완성 · 1회차 엔딩 A 진짜 결말 4회차 공개" (a-29)
+- 9번째: "다양성 상실 = 문명 멸종" (a-29 철학)
+
+---
+
+## 세션 #6 **Part 1 완료 항목** (2026-04-22 · 집필 인프라·Q-CORE 4)
+
+### Phase A — PC 환경 정합성 (집 PC 마스터)
+- `scripts/notebooklm/query.py` path resolution 3단 → **4단 fallback** (kwarg > env > auto-detect > hardcoded)
+- `_auto_detect_skill_path()` 신설 · `Path(__file__).resolve().parents[5]` 기반 자동 탐색
+- `run_deep_research.py` docstring 갱신
+- `.env` `NOTEBOOKLM_SKILL_PATH` 주석 템플릿 추가 (회사 PC 용 override)
+- 회사 PC 작업 흔적 분석 (`auto_memory_snapshot/fddafb7a.jsonl` 380회 cwd = `바탕 화면/naberal_game-main` · a1c9437 이식 커밋 889 파일)
+
+### Phase B — 라이트노벨 상위 1% 딥 리서치
+- `deep-research-agent` 4대 병렬 fan-out (sonnet 모델)
+- 총 **110 URL 교차검증 · 2,210줄 · 약 33,000 단어**
+- 산출: `.planning/research/novel_deep_2026-04-22/`
+  - `01_format_and_dialogue.md` (578줄, 18 URL) — LN 포맷·대화 기법
+  - `02_prose_and_character.md` (573줄, 22 URL) — 문체 3층 리듬·감정 7단계·캐릭터 공학
+  - `03_structure_mediamix_korean.md` (625줄, 32 URL) — 기승전결+서파급·서사 아이러니 3층·한국어 특수성
+  - `04_commerce_workflow_advanced.md` (434줄, 38 URL) — 플랫폼 알고리즘·Transportation Theory·AI 경계선
+
+### Phase C — 집필 인프라 3종 생성
+- **INDEX** (`.planning/research/novel_deep_2026-04-22/00_INDEX.md`) — 통합 네비 · 주제별 라우팅 · 40항목 체크리스트
+- **style_bible v2** (`wiki/design/novel/style_bible_v2_2026-04-22.md`) — v1 모든 조항 유지 + 리서치 흡수
+- **novel-writer 스킬** (`.claude/skills/novel-writer/SKILL.md`, 265줄) — 자동 활성화 시스템 리마인더로 검증
+
+### Phase D — Ch.01 1인칭 재샘플링 (rev1 → rev2)
+- `ch01_test_sample_LN_v2.md` rev1: 1인칭 최초 구현, 그러나 ~다 85% 과잉
+- 대표님 피드백 *"너무 다,다.다.다.다 어색하다"* 수용
+- rev2: ~다 **52%** + 명사·부사·현재·의문·불확정·진행형 6종 혼용 + 3연속 금지
+- style_bible v2 §5-2 동시 개정 (55~65% + 3연속 금지 + 6종 혼용)
+
+### Phase E — 대표님 Beat 3 직접 수정 → 6종 고급 기법 발굴·정식화
+대표님이 Ch.01 test sample v2 Beat 3 를 직접 수정하시며 드러난 6종 기법 전부 style_bible v2 에 조항화:
+- **§6-11 3중 내면 목소리 구조** 신설 — 괄호 = B(수호자 자아) 발화 공식 표기
+- **§2-9 의도적 붙여쓰기** 신설 — "알고있다" 웹소설 속도감
+- **§2-10 구두점 복합** 신설 — "?." "?!" 감정 강조
+- **§5-6 연결어미 종결 파격** 신설 — "꿇고." "걸린뿐" 한국어 고유 파격
+
+### Phase F — Q-CORE 4 확정 (대표님 5축 결정)
+- **나이트 이중 자아 → 점진 융화 → 감정 중심 수호자**
+- 5축 결정:
+  1. **호칭**: 균형 수호자 = 창조물 (무명) / "나이트" = 즉흥 → 동료·시간 누적 → 본인이 정체성으로 확정
+  2. **트리거** (하이브리드): 레벨업 10당 1회 + 기억의 조각 획득 시마다 스킬·패시브 추가
+  3. **속도**: Act 1 말부터 점진 + 그라인딩 보상 (지역 레벨 초과 파워 허용)
+  4. **발전된 자아**: 백지 기반 + 수호자 지혜 (감정 중심 · "선택할 줄 아는 수호자")
+  5. **Bad Ending**: 없음 · 성장 확정, 엔딩은 "어떻게 성장했는가" 의 차이
+- 박제: `.claude/memory/project_qcore4_dual_self_integration.md`
+- MEMORY.md 인덱스 라인 추가
+- style_bible v2 §1 Act 구조 + §4 ② 한결같음 원칙 동시 개정 (이중 자아 A/B 명시)
+
+---
+
+## 다음 세션 (#7) 진입 준비
+
+### 차후 결정 대기 5건 (Q-CORE 4 §"차후 결정")
+1. **"기억의 조각" 정식 명칭** — memory shard / 기억편 / 의지결 조각 / 기타
+2. **레벨업 융화 이벤트의 LN 서사 표현** — 꿈 / 환상 / 직감 / 복합
+3. **이름 확정 시점** — Act 3 어느 챕터에서 자각
+4. **엔딩 Bad 자리 대체** — 4구조 축소 / 미완 엔딩 / 분기 엔딩 / 기타
+5. **수호자 자아 B 첫 명료 발화 타이밍** — Ch.01 Beat 3 "(당연히)나. (왜? 난 누구였지)" 가 그 시작인가
+
+### 후속 작업 후보
+- **A**: `ch01.md` (7,150자 정식본) Q-CORE 4 + style_bible v2 rev2 기준 재검수
+- **B**: Ch.02 집필 착수 (촌장 만남 · 술집의 늙은 학자)
+- **C**: 차후 결정 5건 일괄 수신 + 반영
+- **D**: outline.md Act 1~3 재정비 (융화 비트 삽입)
+- **E**: 월드빌딩 "수호자 창조 메커니즘" 파일 신설
+
+### 세션 #6 로 등재된 실패 2건
+- **FAIL-014**: style_bible v2 §5-2 "~다 70%+" 하한 설계 미스로 단조성 발생
+- **FAIL-015**: style_bible v1 Act 1 = 1인칭 규정을 위반한 3인칭 테스트 샘플 작성
 
 ---
 

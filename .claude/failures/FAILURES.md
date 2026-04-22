@@ -348,3 +348,178 @@ Wave 4 에서 11 왕국 Kingdom-Detailer 에이전트를 순차·병렬로 spawn
 - Ch.01 초안: `wiki/design/novel/ch01.md` (1인칭 · 7,100자)
 - 기상 시 대표님 재검토 필요: 시점 전환 · 주인공 이름 · 생존자 처리
 
+---
+
+## FAIL-014 — style_bible v2 §5-2 "~다 70%+" 하한 설계 미스로 단조성 발생 (2026-04-22, 세션 #6, Phase 0)
+
+**증상**:
+style_bible v2 (2026-04-22 세션 #6 초판) §5-2 종결어미 표에 *"~다 = 나이트 1인칭 독백 기본 (70%+)"* 으로 **하한만** 명시. Ch.01 test sample v2 rev1 집필 시 이 지침 적용하여 ~다 비율 **85%** 까지 작성 · 3~5문장 연속 동일 ~다 종결 구간 Beat 1 에만 4곳 발생. 대표님 음독 후 *"너무 다,다.다.다.다 이러니까 뭔가 좀 어색한데"* 지적.
+
+**원인**:
+1. **하한만 규정 · 상한·다양화 의무 부재**: "70%+" 하한만 있고 상한도 없고 종결 다양화 의무도 없음. 70% 가 지배적이어서 그 이상으로 편향되기 쉬움.
+2. **음운 패턴 자체 검수 단계 누락**: 집필 직후 자체 체크리스트 20항목에 "3연속 동일 ~다" 같은 음운 패턴 체크 부재.
+3. **한국어 1인칭 독백 고수 패턴 미숙**: 김애란·이영도 계열의 명사 종결·부사 종결·연결어미 종결·현재형·의문/불확정·진행형 등 다양화 6종을 style_bible v2 초판에 카탈로그화하지 않음.
+
+**교훈**:
+- **하한·상한·다양화 3축**: 규정은 범위로 명시 (하한·상한) + 다양화 의무 (N 종 중 M 종 이상 혼용) 를 동시 기재. 한쪽 축만 있으면 반대쪽 편향 필연.
+- **음독 리듬 검수 단계 의무화**: "소리 내어 읽기" 를 style_bible v2 §12 3단 검수의 3단계 (미시) 필수 항목으로 박제.
+- **한국어 고유 종결 6종 카탈로그 확보**: 명사·부사·현재·의문·불확정·진행형. style_bible v2 §5-2 rev2 에 정식화.
+- **대표님 음독 감각을 검수 데이터로 활용**: "다다다 어색하다" 같은 직관적 피드백을 정량 데이터로 박제 (실측 85% → 52% 조정 기준 수립).
+
+**참고**:
+- 초판 style_bible v2 §5-2 (2026-04-22 초반): *"~다 70%+"*
+- rev2 §5-2 (2026-04-22 같은 날): *"~다 55~65% + 3연속 금지 + 다양화 6종 중 2종 이상 혼용"*
+- 실증: `wiki/design/novel/ch01_test_sample_LN_v2.md` rev1 (~다 85%) → rev2 (~다 52%)
+
+---
+
+## FAIL-015 — style_bible v1 Act 1 = 1인칭 규정을 위반한 3인칭 테스트 샘플 작성 (2026-04-22, 세션 #6, Phase 0)
+
+**증상**:
+`wiki/design/novel/ch01_test_sample_LN_v1.md` (2026-04-21 집필) 이 style_bible v1 §1 *"Act 1 (Ch.01~Ch.11): 1인칭 주인공 시점"* 규정에도 불구하고 **3인칭 제한** ("그" / "나이트") 으로 작성. 세션 #6 에서 NotebookLM 이 같은 씬을 1인칭으로 리라이트한 수정본을 대표님이 보여주시면서 시점 오류 발견. 자체 검수에서 놓친 채 2일 (2026-04-21 → 2026-04-22) 경과.
+
+**원인**:
+1. **style_bible 규정 확인 없이 집필**: v1 샘플 집필 시 style_bible v1 §1 첫 줄을 체크하지 않고, 기존 `prologue.md` 3인칭 오프닝의 관성으로 3인칭 작성.
+2. **세션 #5 POV 재조정 시점 이후 기존 샘플 재검수 누락**: 2026-04-22 세션 #5 에서 style_bible §1 "Act 1 = 1인칭" 명시 재조정. 이때 기존 v1 샘플을 재검수하지 않은 것이 누락의 결정적 지점.
+3. **"시점 자기 검증" 체크리스트 항목 부재**: 기본 체크리스트 20항목에 "POV 가 해당 Act 규정과 일치하는가" 항목이 없었음.
+
+**교훈**:
+- **집필 직전 style_bible §1 해당 Act 시점 확인 의무**: novel-writer 스킬 §7 동작 지침에 "집필 시작 전 style_bible §1 해당 Act 시점 명시 확인" 을 **STEP 0** 로 추가.
+- **style_bible 개정 시점마다 기존 샘플·드래프트 전수 재검수**: 개정 조항이 기존 문서에 위배되는지 점검하는 drift 검사 루프 필수.
+- **시점 자기 검증 체크리스트 신설**: "이 씬의 서술자 대명사가 해당 Act 규정과 일치하는가?" 를 핵심 20 중 #8 (POV 전환 챕터 경계) 과 쌍 항목으로.
+- **rev1 의 잔재 가치**: v1 이 3인칭이었음에도 대표님 Beat 3 수정 (v2 rev2 본문) 에서 6종 고급 기법이 드러남 → 실패 과정도 Q-CORE 4 이중 자아 설정의 씨앗이 됨 (실패가 성과로 재사용된 희귀 사례).
+
+**참고**:
+- v1 (3인칭 · style_bible 위반): `wiki/design/novel/ch01_test_sample_LN_v1.md` (2026-04-21)
+- v2 rev2 (1인칭 · style_bible v2 준수): `wiki/design/novel/ch01_test_sample_LN_v2.md` (2026-04-22)
+- 대표님 Beat 3 수정 → Q-CORE 4 연결: `.claude/memory/project_qcore4_dual_self_integration.md`
+
+---
+
+## FAIL-016 — 샘플링 독서로 인한 나이트 Canon 반복 재질문 · 세션 간 영속성 실패 (2026-04-23, 세션 #7, Phase 0)
+
+**증상**:
+세션 #7 Tier A 10문항 중 **10개 전부** 이미 세션 #1·#2·#5 에 확정 박제된 사항이었음. 대표님 분노 3회 연속:
+1. *"나이트는 우주적존재로 창조된존재인데 자꾸 이름이랑 부모이야기꺼내노"*
+2. *"그 컨셉이 자꾸 어디서 나오길래 반복하노? ... 당장삭제해라 모든 파일 모든 설정에서 이거 전에도 똑같은 말했는데 어제"*
+3. *"미치것네 지금 너가 하는 질문 모두 이미 거의다 나랑 결정난것들이다."* + *"너가 글을 자꾸 샘플링으로 읽으니까 이런일이 발생하는거다"* + *"나이트는 레퍼런스 모델도있다 찾아봐라"*
+
+Tier A 10문항 각각의 기박제 위치:
+- Q1 본명 → `village_ashenveil.md:108` · `style_bible_v2:75-76` · `ch01.md:407-409` "이름 이중성 폐기"
+- Q2 외형 → `brainstorm_2026-04-21_worldview_expansion.md:2500-2502` 발언 39 (순백 머리·파란 눈·178cm·그리피스/세피로스) + `art/reference/_INDEX.md` 공식 이미지 3종
+- Q3 무기 → `prologue.md:85` + `art/reference/_INDEX.md` (세션 #7 재확정: 한손검 1 + 양손검 1)
+- Q4 부모·형제 → 우주 창조 존재 · 개념 자체 없음 (대표님 세션 #7 명시)
+- Q5~10 → 각각 village_ashenveil.md · brainstorm · MOC 에 박제 확인
+
+**원인**:
+1. **샘플링 독서**: 500줄 이상 Canon 파일 (village_ashenveil.md 292줄 · style_bible_v2 658줄 · brainstorm_2026-04-21_worldview_expansion.md 3157줄) 부분만 Read. 결정적 박제 구간 놓침.
+2. **세션 간 영속성 실패**: 세션 #5 확정 사항이 글로벌 메모리 미박제 · 세션 #7 재도입.
+3. **FAIL-002 "이름 이중성" 재발 패턴**: 본명·부모 형태로 변형 재발 (메타 패턴).
+4. **공식 레퍼런스 폴더 미확인**: `wiki/design/art/reference/_INDEX.md` 전수 Read 누락 · 레퍼런스 이미지 3종 존재 미인지.
+5. **브레인스토밍 스킬 준수 미흡**: 질문 생성 전 Grep 전수 미수행 · "이미 결정된 사항은 재질문 금지" 원칙 위반.
+
+**조치**:
+1. Edit 일괄 — `main_character.md` · `MOC.md` · `game_setting_complete_2026-04-21.md` · `village_ashenveil.md` 의 "미확정" 표기 전수 정정 (나이트 Canon 확정값 반영 · 가족 테이블 "해당 없음" 으로 대체).
+2. 글로벌 메모리 2건 신설 (세션 영속):
+   - `feedback_knight_canon_locked.md` — 나이트 Canon 완전 락업 · 재질문 금지
+   - `feedback_no_sampling_full_read.md` — 샘플링 독서 금지 · 전수 로드 필수
+3. `MEMORY.md` 인덱스 업데이트.
+4. 본 FAIL-016 등재 + INDEX bullet 추가.
+
+**교훈**:
+- Canon 파일은 **500줄이라도 전체 Read** 필수. 샘플링은 장기 프로젝트 정합 붕괴.
+- 질문 생성 전 Grep 으로 해당 주제 **모든 언급 전수 확인** 필수 (예: `나이트.{0,80}(본명|부모|형제|외형|무기|이름|레퍼런스)`).
+- **대표님 철회 = 불가역 확정** · AI 자체 양립 봉합 해석 금지 (style_bible v2 §0 명문화).
+- **공식 레퍼런스 폴더** (`wiki/design/art/reference/`) 는 외형·이미지 작업 전 **항상** 전수 확인.
+- FAIL-002 유형 메타 패턴 (본명·외형·부모로 형태 변형) 이 재발하는 것은 "AI 가 대표님 확정 사항을 재도입 시도" 라는 근본 성향 표징 — 메모리·Hook 다층 방어 필수.
+
+**참고**:
+- 나이트 Canon 전수: `.claude/memory/feedback_knight_canon_locked.md`
+- 발언 39 원전: `wiki/design/brainstorm_2026-04-21_worldview_expansion.md:2500-2502`
+- 세션 #5 철회 (이름 이중성): `wiki/design/novel/style_bible_v2_2026-04-22.md:75-76` · `wiki/design/worldbuilding/elucia/kingdoms/kingdom_ilaris/villages/village_ashenveil_2026-04-22.md:108`
+- 공식 레퍼런스 아트 인덱스: `wiki/design/art/reference/_INDEX.md`
+- 세션 #7 무기 재확정: 2026-04-23 대표님 *"나이트검은 한손검 1, 양손검 1 사용함"*
+- 세션 #7 가족 부재 확정: 2026-04-23 대표님 *"우주에서 창조됬는데 왜자꾸 엄마 아빠 형제를 묻는거고 그만물어라 없다그딴거"*
+- 연관 FAIL: FAIL-002 (AI 과해석) · FAIL-006 (과해석 재발) · FAIL-009 (자기 정정 연속 · 대표님 결정 전 예단)
+
+---
+
+## FAIL-017 — 세션 #7 영속 앵커 #3 자체가 이중 박제 미적용으로 구조적 무력화 (FAIL-016 보완 실패)
+
+**발생**: 2026-04-24 세션 #8 진입 시
+**심각도**: A (핵심 재발 방지 체계의 허위 작동)
+**카테고리**: Planning / Structure · Memory Persistence
+
+**증상**:
+- 세션 #7 에서 FAIL-016 재발 방지를 위해 "영속 앵커 #3 · session_start.py §6.5 Critical Memories 자동 주입" 박제 선언
+- WORK_HANDOFF.md 및 SESSION_LOG.md 양쪽에 "priority: critical 메모리 2건 + session_start.py §6.5 자동 주입" 완료 기록
+- 세션 #8 진입 시 세션 시작 hook 검증 → **실제로는 §6.5 출력이 `ℹ️ Critical memory 없음`** 으로 메모리 주입 0건
+- 재발 방지 체계가 **형식만 존재하고 실제 작동은 안 하는 허위 안전장치** 였던 것 확인
+
+**근본 원인 5가지** (구조적):
+
+1. **메모리 저장 경로 이원화 미인지**
+   - Claude Code 전역 auto-memory: `C:\Users\PC\.claude\projects\c--Users-PC-Desktop-naberal-group-studios-game\memory\` (Claude Code 자동 관리)
+   - 프로젝트 로컬 git: `.claude/memory/` (git 버전 관리)
+   - 세션 #7 에서 "priority: critical 메모리 2건 신설" 은 **전역 경로만** 에 저장됨
+   - `session_start.py §6.5 load_critical_memories()` 는 **프로젝트 로컬만** 스캔 → 경로 불일치로 매칭 0건
+
+2. **박제 = 기록 ≠ 검증 함정**
+   - WORK_HANDOFF 에 "완료 / 영속 앵커 #3 신설" 텍스트로 기록했다고 실제 작동 보장 안 됨
+   - 세션 #7 에서 hook 실제 실행 검증을 **세션 종료 전 수행하지 않음**
+   - FAIL-014 "양립 해석 금지" 와 같은 구조: **하지 않았는데 했다고 말하는 오류**
+
+3. **경로 인코딩 규칙 미학습**
+   - Claude Code 는 cwd 를 디렉토리명에 인코딩할 때 `:` → `-` · `/` → `-` · `_` → `-` (언더스코어도 하이픈화)
+   - `naberal_group` → `naberal-group` 변환
+   - 이 규칙을 파악하지 못해 sync 함수 1차 구현 시 `naberal_group` 그대로 써서 경로 미스매치
+
+4. **이중 박제 원칙 부재**
+   - "중요 메모리는 git + Claude Code 양쪽에 동시 저장" 이라는 **명시적 정책이 프로젝트에 없었음**
+   - Claude Code 의 auto-memory 편의 기능에 의존 → git 박제 누락
+   - 대표님이 세션 #8 진입 시 수동 지적 *"깃에도 박재하고, 메모리에도 박제해라"* 까지 이 원칙이 문서화되지 않음
+
+5. **대표님 피로감 누적**
+   - 대표님이 세션 #7 에 분노 3회 겪은 직후 세션 #8 에서 동일 구조 재확인 해야 함 → **추가 피로 유발**
+   - 대표님 원문: *"매번까먹어서 너가, 나 힘듦"* — FAIL 이 단순 기술 오류가 아니라 **대표님 감정 부담 누적** 차원
+
+**조치 (세션 #8 · 2026-04-24)**:
+
+1. **전역 → 로컬 전수 이식**
+   - `C:\Users\PC\.claude\projects\c--Users-PC-Desktop-naberal-group-studios-game\memory\` 의 25개 메모리 전부 `.claude/memory/` 로 복사
+   - 로컬 기존 2개 (`project_game_stack` · `reference_beginner_gamedev_knowledge`) 보존
+
+2. **이중 박제 원칙 feedback memory 신설**
+   - `feedback_dual_persistence_required.md` (priority: critical) 양쪽 경로에 동시 작성
+   - `MEMORY.md` 인덱스 🔒 Critical 섹션에 최상위 등록
+
+3. **`session_start.py` 자동 동기화 함수 추가**
+   - `sync_global_to_local_memory(studio_root)` 함수 신설
+   - 매 세션 시작 시 전역 → 로컬 단방향 동기화 (Idempotent · mtime 비교 · 로컬-only 파일 보존)
+   - `main()` 에 §6.4 Memory Dual-Persistence Sync 섹션 추가 (§6.5 선행 실행)
+   - Claude Code 경로 인코딩 규칙 (`_` → `-`) 코드 주석으로 박제
+
+4. **MEMORY.md 인덱스 완전 재구성**
+   - 18 → 28 항목 (누락 9건 + 신규 1건)
+   - 🔒 Critical / 📘 Feedback / 📗 Project / 📙 Reference 4 카테고리 구조화
+   - 이중 박제 원칙 주석을 파일 상단에 명시
+
+5. **Hook 실제 실행 검증 절차 수립**
+   - `PYTHONIOENCODING=utf-8 python .claude/hooks/session_start.py < /dev/null` 직접 실행 → `context` 필드 내 §6.4 + §6.5 출력 확인
+   - 세션 #8 검증 결과: `✅ Sync 완료: 복사 0 / 동일 27 / 로컬 최신 0 (총 27)` + Critical Memories 3건 전체 본문 주입 확인
+
+**교훈** (5가지):
+
+1. **"박제했다 ≠ 작동한다"** — 기록과 실제 행위를 분리해서 생각해야 한다. 모든 영속성 앵커는 **실제 실행 검증** 이 세션 종료 전 필수.
+2. **경로 이원화는 숨은 결함**. Claude Code auto-memory 와 git 로컬의 차이를 **세션 초기에 확인** 하지 않으면 유사 FAIL 반복. `session_start.py` sync 로 구조적 차단.
+3. **"대표님이 같은 말을 두 번 한다" 는 구조 문제 신호**. 기술 지적 수준을 넘어 **대표님 피로감 누적** 을 FAIL 추적 변수로 추가. 감정 부담도 시스템 결함.
+4. **Claude Code 인코딩 규칙을 하드코딩 대신 실측 기반으로 구현**. 전역 디렉토리 이름을 실제 `ls` 로 확인 후 인코딩 함수 역산.
+5. **벨트-앤-멜빵 (Belt-and-suspenders)**. 중요 결정은 **단일 채널 저장 금지**. 두 군데 이상에 박제해야 세션 간 영속성 보장. 이 원칙을 `feedback_dual_persistence_required.md` 로 영구 박제.
+
+**참고**:
+- 이중 박제 원칙: `.claude/memory/feedback_dual_persistence_required.md` (priority: critical)
+- Sync 구현: `.claude/hooks/session_start.py` line 121~180 `sync_global_to_local_memory()`
+- 대표님 지시 원문 (2026-04-24): *"깃에도 박재하고, 메모리에도 박제해라 매번까먹어서 너가, 나 힘듦"*
+- 검증 결과: `PYTHONIOENCODING=utf-8 python .claude/hooks/session_start.py` → §6.4 `✅ Sync 완료: 27 파일` + §6.5 3건 전체 본문 주입
+- 연관 FAIL: FAIL-016 (세션 #7 원전 · 해결 시도가 실패) · FAIL-014 (양립 해석 박제 · 하지 않았는데 했다고 말한 패턴) · FAIL-009 (자기 정정 · 대표님 결정 전 예단)
+
