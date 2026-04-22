@@ -1,10 +1,23 @@
 ---
+title: "정치 구역 및 지명 명단 — 세트 B 확정"
+layer: 1
+canon_tier: derived
 category: design/world
-tags: [political, geography, naming, 2026-04-21]
+status: active
+tags: [political, geography, naming, 2026-04-21, design]
 created: 2026-04-21
-updated: 2026-04-21
-status: 세트 B 확정 (2026-04-21 대표님 승인)
+updated: 2026-04-22
 source: 2026-04-21 세션 #2 대표님 위임 작명 · 세트 B 선택
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[world_lore]]"
+  - "[[story_outline]]"
+  - "[[maps/reference/_INDEX]]"
+agent_briefing_level: required
 ---
 
 # 🏛️ 정치 구역 및 지명 명단 (세트 B 확정)

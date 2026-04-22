@@ -1,12 +1,23 @@
 ---
 title: "철의 맹세 (Iron Oath / Eiseneid)"
-type: festival
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, festival, culture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "'망치와 땀이 왕관을 만든다'는 건국 철학이 지금도 귀족 문화를 지배한다"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[festival_founders_day_2026-04-22]]"
+  - "[[order_iron_brotherhood_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # 철의 맹세 (Iron Oath / Eiseneid)

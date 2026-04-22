@@ -1,15 +1,32 @@
 ---
 title: "산악 고개 — Norvend 3고개 및 확장 고개 체계"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, roads]
+updated: 2026-04-22
+parent: "[[roads_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "하단 주황색은 이어진길이다 (대표님 지도 발언 5 — Via Imperialis 원전)"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "서쪽 대평원 축산: Elucia 중앙·남부 (Aurion·Soranth·Lonwyn) 대규모 목축 → 도로망 기반"
+related:
+  - "[[geography_00_overview]]"
+  - "[[economy_00_overview]]"
+  - "[[political_00_overview]]"
+agent_briefing_level: reference
 type: road
 road_class: pass
 kingdom: thaloss_maerith_moran_vaelin
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Road-Engineer
 wave: 2
 qcore_version: v1.0
-inputs:
-  - wiki/design/worldbuilding/elucia/geography/mountain_ranges_2026-04-22.md
+inputs:   - wiki/design/worldbuilding/elucia/geography/mountain_ranges_2026-04-22.md
   - wiki/design/worldbuilding/elucia/geography/elevation_profile_2026-04-22.md
   - wiki/design/political_divisions.md
   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md

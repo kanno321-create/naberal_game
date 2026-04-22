@@ -1,7 +1,25 @@
 ---
 title: "수호 성인 Aurel 축일 — 성좌국 최대 연간 축제"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, festival, religion, pilgrimage]
 type: festival
 kingdom: empire_choir
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]"
+    quote: "교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다."
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[city_solaris_2026-04-22]]"
+  - "[[festivals/festival_ascension_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

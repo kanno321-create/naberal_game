@@ -1,7 +1,25 @@
 ---
 title: "Choir of Elucia 건축 양식 — 고딕 대성당·수도원·교황궁"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, architecture, culture]
 type: architecture
 kingdom: empire_choir
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제"
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[capital_map_2026-04-22]]"
+  - "[[city_solaris_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

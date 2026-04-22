@@ -1,9 +1,27 @@
 ---
 title: "셀웬 셀리파 — 세렌 왕국 왕세녀"
-type: royal
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, royals]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:111"
+    quote: "Loravel / 로라벨 / 서남 습지·호수 / 세렌 왕국"
+  - src: "[[story_full_narrative]]"
+    quote: "한결같음 — 나이트는 한결같은 인격체"
+related:
+  - "[[king_aedran_sellypha_2026-04-22]]"
+  - "[[queen_mireth_sellypha_2026-04-22]]"
+  - "[[house_sellypha_2026-04-22]]"
+agent_briefing_level: reference
+type: royal
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 qcore_version: v1.0

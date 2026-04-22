@@ -1,13 +1,27 @@
 ---
 title: "Corvin — Sylren 왕세자"
-type: royal
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[founding_2026-04-22]]:60–62"
+    quote: "왕권 vs 교황 대리인 권한 충돌이 내정 주요 갈등"
+  - src: "[[economic_clusters_2026-04-22]]:181"
+    quote: "Sylren | C6 | 남부 곡창 + Azim Pass 물자 집결"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Corvin Varentis — 왕세자
 
 ## 원전 인용 증명

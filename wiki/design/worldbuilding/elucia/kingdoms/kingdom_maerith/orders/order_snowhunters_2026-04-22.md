@@ -1,14 +1,27 @@
 ---
 title: "설원 사냥꾼단 — Order of the Snow Hunters"
-type: order
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, orders]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "기사단: 설원 사냥꾼·고지 수호단"
+  - src: "[[founding_2026-04-22]]:55–56"
+    quote: "북방 몬스터 대토벌: 상비 방위군 제도화 계기"
+  - src: "[[economic_clusters_2026-04-22]]:82"
+    quote: "익명 학자 마법 침투율: 낮음 (~20%) — 고립 지역"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Order of the Snow Hunters (설원 사냥꾼단)
 
 ## 원전 인용 증명

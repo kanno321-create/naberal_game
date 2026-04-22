@@ -1,9 +1,27 @@
 ---
 title: "Lakewatch 백작 — 담수 진주 백작령"
-type: noble
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, nobles]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Lonwynshire / 백작령 × 4~5"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[duke_lonwynshire_vaeron_2026-04-22]]"
+  - "[[house_aldric_2026-04-22]]"
+  - "[[princess_calla_2026-04-22]]"
+agent_briefing_level: reference
+type: noble
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

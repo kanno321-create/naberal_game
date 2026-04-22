@@ -1,9 +1,27 @@
 ---
 title: "왕도 Lonwyn → Lonwynshire 공작령 북부 도로"
-type: road
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, roads]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Lonwynshire / Lonwyn Basin 북부 · 왕도"
+  - src: "[[capital_map_2026-04-22]]"
+    quote: "내항 도로: 내항 부두 → 대시장 직결 화물 운송로"
+related:
+  - "[[duke_lonwynshire_vaeron_2026-04-22]]"
+  - "[[city_lonwyn_2026-04-22]]"
+  - "[[city_lakemere_2026-04-22]]"
+agent_briefing_level: reference
+type: road
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

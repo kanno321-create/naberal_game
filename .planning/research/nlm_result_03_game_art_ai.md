@@ -1,4 +1,5 @@
 ---
+title: "NLM Result 03 — 게임 아트 종합 (2D/3D 전통 툴·AI 아트 2026·리깅/애니 AI)"
 query_idx: 3
 label: 영역 게임 아트 종합 (2D/3D 전통 툴 + AI 아트 2026 + 리깅/애니 AI)
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
@@ -6,6 +7,16 @@ question_chars: 1273
 answer_chars: 12265
 duration_s: 216.4
 date: 2026-04-20
+layer: 1
+canon_tier: derived
+tags: [research, nlm, art, ai-art, 2d, 3d]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/art/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM 응답 — 영역 게임 아트 종합 (2D/3D 전통 툴 + AI 아트 2026 + 리깅/애니 AI)

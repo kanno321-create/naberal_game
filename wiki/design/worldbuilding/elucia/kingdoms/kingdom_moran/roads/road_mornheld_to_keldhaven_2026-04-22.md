@@ -1,11 +1,23 @@
 ---
 title: "왕도 → Keldhaven 도로"
-type: road
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, road]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "온천도시: Keldhaven · 남부 온천 지점 · 치유·순례"
+related:
+  - "[[city_mornheld_2026-04-22]]"
+  - "[[city_keldhaven_2026-04-22]]"
+  - "[[road_mornheld_to_stoneheld_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Mornheld → Keldhaven 도로 (Pilgrim's Road)

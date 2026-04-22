@@ -1,7 +1,26 @@
 ---
 title: "Sabin — Azim Pass 남단 관문 자치구"
-type: subregion
-parent: karzor
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, subregions, sabin, azim-pass]
+continent: karzor
+parent: "[[00_zarahim_capital_2026-04-22]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[brainstorm_2026-04-22_game_second_round]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "이게 내가 그린맵, 내가 보는방향에서 좌측이 서구중세문명, 우측이 이슬람과비슷한 문명 [...] 하단 주황식은 이어진길이다."
+  - src: "[[brainstorm_2026-04-22_game_second_round]]"
+    quote: "마법 감지 장치 기술 근거 = C · Nomen 수정 2 파생 — 기원 경로: 태초 마왕이 마족 증식 위해 제작한 수정 2 (Q-CORE 3) → Veilglass 봉인지 → Nomen 섬 유입 → Karzor Sabin 장치 재료"
+related:
+  - "[[../00_overview]]"
+  - "[[00_zarahim_capital_2026-04-22]]"
+  - "[[subregion_azim_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft
@@ -50,7 +69,35 @@ status: mvp-draft
   - Act 2 Thaloss 탈주 기사·Ceren 습지 도적·Nomen 밀수업자 등이 "마법 감지 회피 기술" 보유자로 동료 합류 동기
   - Act 3 Karzor 진입 루트가 Sabin 공식 통과 vs 밀수 동굴 루트 vs 해상 우회 중 **이탈 전략적 딜레마**
 
+## 세션 #6 확정 (대표님 · 2026-04-22 후반 · 2차 브레인스토밍 라운드)
+
+### ✅ 마법 감지 장치 기술 근거 = **C · Nomen 수정 2 파생**
+
+- **기원 경로**: 태초 마왕이 마족 증식 위해 제작한 수정 2 (Q-CORE 3) → Veilglass 봉인지 → Nomen 섬 유입 → Karzor Sabin 장치 재료
+- **핵심 아이러니 (이중 무지)**:
+  - Karzor 성좌 왕조가 **수정 2 가 태초 마왕 유물임을 모름** — 단순 감시 장치로 오인 운용
+  - 이는 교황청이 **할배 = 수호자 임을 모르는 구조** 와 평행한 이중 아이러니
+  - 주인공 나이트 / 작가만 아는 설정 · 인-월드에서 Karzor 측 완전 무지
+- **Q-CORE 3 세계관 근본 연결**: 수정 2 = 마족 증식용 · 수정 1 = 수호자 제한용 (마족이 자기 장치로 오인) 구조가 Karzor Sabin 감지 장치로 확장됨
+- **교황청 산하 마법 감지 도구 가설 (기존 서술) 철회**: Karzor 독자 운용 · Elucia 교회 개입 없음
+
+### 서사 파급 (Act 3 플롯 신설)
+
+- **Sabin 통과 우회 서사**: Nomen 섬에서 수정 2 조각 **회수 또는 파괴** → Sabin 장치 기능 저하 → Karzor 진입 가능
+- **Ch.16 전 Nomen 섬 챕터 신설 가능성** — 의지결 각성 후 동료 합류 완성된 상태에서 Nomen 경유
+- **Act 3 이탈 전략적 딜레마 재정의**:
+  1. Sabin 공식 통과 (감지 회피 기술 보유 동료 필요)
+  2. 밀수 동굴 루트 (Zarahim 암묵 협력 여부에 따라)
+  3. 해상 우회 (시간·위험)
+  4. **Nomen 수정 2 회수·파괴 후 Sabin 돌파** (신규 · C안 확정 기반)
+- **Act 3 테마 강화**: 세계관의 모든 "감시·통제 장치" 가 사실 태초 마왕의 유산 또는 수호자의 함정 — 주인공이 이를 해체하는 축이 중심 모티프
+
+### 원전
+
+- 세션 #6 2차 브레인스토밍: [[../../../design/brainstorm_2026-04-22_game_second_round#sabin-c-결정의-서사-파급]]
+- 세션 #4 Q-CORE 3 해결: 수정 1·2 기원 확정
+
 ## 남은 미확정
 
-- 마법 감지 장치의 기술적 근거 (교황청 성물? Karzor 고유 마법? Nomen 의 수정 2 파생?)
-- 밀수 조직의 Zarahim 와의 암묵 협력 관계 여부
+- 밀수 조직의 Zarahim 와의 암묵 협력 관계 여부 (Act 3 루트 2번 관련)
+- Nomen 섬 내 수정 2 조각의 물리적 위치·보관자 (Ch.16 전 챕터 설계 시 필요)

@@ -1,15 +1,27 @@
 ---
 title: "Sinevara — 마에리스 왕비"
-type: royal
-kingdom: kingdom_maerith
-role: queen
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "왕족: 고지 왕조 · 폐쇄적 전통 · 왕비 Thaloss 또는 Vaelin 방계 혼인"
+  - src: "[[kingdom_maerith_territories_2026-04-22]]:66"
+    quote: "접경: 북서 Thaloss (Whitecrest Saddle) / 서 Vaelin"
+  - src: "[[_shared_briefing]]:86"
+    quote: "세계관 철학 3조: 불완전성 — 모든 것은 불완전하다"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Sinevara Maern (née Veldrath) — 왕비
 
 ## 원전 인용 증명

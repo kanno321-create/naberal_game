@@ -1,17 +1,23 @@
 ---
 title: "Aurynseat 공작령 — 왕가 직할"
-type: noble
-kingdom: kingdom_maerith
-role: duke_direct
-domain: Duchy of Aurynseat
-family: Maern
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_maerith_territories_2026-04-22]]:75"
+    quote: "Duchy of Aurynseat / 고원 중심 · 왕도 인근 / ~35K km² / 목축·양모·고원 농업 / 왕도 공작령 (추정)"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Duchy of Aurynseat — 왕가 직할 공작령
 
 ## 원전 인용 증명

@@ -1,13 +1,23 @@
 ---
 title: "Sunfield — Sylren 해바라기·기름작물 마을"
-type: village
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, villages]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[agriculture_2026-04-22]]:93"
+    quote: "주요 작물 | 밀·옥수수류·콩류·기름작물 (추정)"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Sunfield (선필드) — 기름작물 전문 농촌
 
 | 항목 | 내용 |

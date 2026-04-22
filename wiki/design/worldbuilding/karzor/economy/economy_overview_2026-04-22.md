@@ -1,13 +1,28 @@
 ---
 title: "Karzor — 경제 개요"
-type: economy
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, economy]
 continent: karzor
+parent: "[[../00_overview]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "동쪽은 농업 어업, 서쪽은 농업 축산업"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+related:
+  - "[[../00_overview]]"
+  - "[[../culture/culture_overview_2026-04-22]]"
+  - "[[../political/political_divisions_karzor_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft
-sources:
-  - brainstorm_2026-04-21_worldview_expansion.md (발언 47·50)
-  - project_qcore2 (서민 마법 배포 — 경제 영향)
 ---
 
 # Karzor 경제 개요

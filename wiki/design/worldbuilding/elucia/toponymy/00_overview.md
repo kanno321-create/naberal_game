@@ -1,9 +1,27 @@
 ---
 title: "Elucia 지명 체계 — 인덱스"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, toponymy]
+updated: 2026-04-22
+parent: "[[toponymy_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "서쪽 대륙: 서구중세문명 — 지명 작명은 서구 중세 어감 기반"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "Elucia (서쪽) 징병제 엘리트 기사도대학 출신 장교 — 서구 중세 어휘 정합"
+related:
+  - "[[geography_00_overview]]"
+  - "[[culture_00_common_frame]]"
+  - "[[MASTER_elucia_worldbook]]"
+agent_briefing_level: reference
 type: toponymy
 subject: index
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Toponymist
 wave: 2
 ---
@@ -19,11 +37,11 @@ wave: 2
 
 | 파일 | 주제 | 키 포인트 |
 |------|------|---------|
-| [`naming_conventions_2026-04-22.md`](naming_conventions_2026-04-22.md) | 라틴·게르만·켈트 혼합 규칙 | 4개 언어층·음절 제한·금기 |
-| [`etymology_roots_2026-04-22.md`](etymology_roots_2026-04-22.md) | 어근 사전 100+ | 지형·정치·문화 어근 분류 |
-| [`phoneme_patterns_2026-04-22.md`](phoneme_patterns_2026-04-22.md) | 음운 패턴·발음 규칙 | 모음 조화·자음 군집·왕국별 차이 |
-| [`suffix_patterns_2026-04-22.md`](suffix_patterns_2026-04-22.md) | 지명 접미사 체계 | -holm·-vale·-wald·-gard·-port 등 |
-| [`protagonist_village_candidates_2026-04-22.md`](protagonist_village_candidates_2026-04-22.md) | 주인공 마을 후보 10~20개 | 입지·분위기·적합도 평가 |
+| [[naming_conventions_2026-04-22|`naming_conventions_2026-04-22.md`]] | 라틴·게르만·켈트 혼합 규칙 | 4개 언어층·음절 제한·금기 |
+| [[etymology_roots_2026-04-22|`etymology_roots_2026-04-22.md`]] | 어근 사전 100+ | 지형·정치·문화 어근 분류 |
+| [[phoneme_patterns_2026-04-22|`phoneme_patterns_2026-04-22.md`]] | 음운 패턴·발음 규칙 | 모음 조화·자음 군집·왕국별 차이 |
+| [[suffix_patterns_2026-04-22|`suffix_patterns_2026-04-22.md`]] | 지명 접미사 체계 | -holm·-vale·-wald·-gard·-port 등 |
+| [[protagonist_village_candidates_2026-04-22|`protagonist_village_candidates_2026-04-22.md`]] | 주인공 마을 후보 10~20개 | 입지·분위기·적합도 평가 |
 
 ---
 

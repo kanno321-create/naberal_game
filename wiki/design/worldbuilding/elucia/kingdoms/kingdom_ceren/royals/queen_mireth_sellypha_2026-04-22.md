@@ -1,9 +1,27 @@
 ---
 title: "미레스 셀리파 — 세렌 왕국 왕비"
-type: royal
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, royals]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[king_aedran_sellypha_2026-04-22]]"
+  - "[[crown_princess_selwen_sellypha_2026-04-22]]"
+  - "[[house_sellypha_2026-04-22]]"
+agent_briefing_level: reference
+type: royal
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 qcore_version: v1.0

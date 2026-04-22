@@ -1,15 +1,22 @@
 ---
-category: design/novel
-tags: [brainstorm, worldview, expansion, 2026-04-21, session_2]
+title: "Brainstorm 2026-04-21 Worldview Expansion — 11축 원전"
+category: design
+layer: 0
+canon_tier: core
+tags: [canon, brainstorm, worldview, expansion, 2026-04-21, session_2]
 created: 2026-04-21
+updated: 2026-04-22
 status: active-interactive
 mode: brainstorming-skill-interactive
-purpose: 대표님의 "세계관이 좀 모자라다" 선언에 따른 11개 축(A-K) 확장 브레인스토밍. 원전 보존 원칙 준수. brainstorm_2026-04-21.md 의 원안 22건 앵커 보존 관례 계승.
+purpose: "대표님 '세계관이 좀 모자라다' 선언에 따른 11개 축(A-K) 확장 브레인스토밍. 원전 보존 원칙 준수. 대표님 발언 50건 앵커."
+agent_briefing_level: required
+canon_authority: "대표님 발언 50건 앵커 · 세계관 반전 5단 · 마법 5계층 · 26 정치단위 근거 원전"
 related:
-  - brainstorm_2026-04-21.md        # 원전 (세계관 Rev.3 기준)
-  - game_setting_complete_2026-04-21.md  # 현재 확정본
-  - story_full_narrative.md          # Rev.3 서사
-  - novel/outline.md                 # 챕터 지도
+  - "[[brainstorm_2026-04-21]]"
+  - "[[game_setting_complete_2026-04-21]]"
+  - "[[story_full_narrative]]"
+  - "[[novel/outline]]"
+  - "[[../FRONTMATTER_STANDARD]]"
 ---
 
 # 세계관 보강 브레인스토밍 — 2026-04-21 (세션 #2 연장)

@@ -1,12 +1,24 @@
 ---
 title: "Maerith 왕국 — 전체 개요 · 인덱스"
-type: overview
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_maerith, overview]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_maerith
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:59"
+    quote: "마에리스 / Maerith / 북동 고지"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+related:
+  - "[[kingdom_sylren/00_overview]]"
+  - "[[kingdom_thaloss/00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
 
 # Kingdom of Maerith — 마에리스 왕국 전체 개요

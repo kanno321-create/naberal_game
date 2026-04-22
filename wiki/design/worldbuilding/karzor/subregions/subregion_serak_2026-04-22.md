@@ -1,7 +1,25 @@
 ---
 title: "Serak — 중부 사막 부족 자치구"
-type: subregion
-parent: karzor
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, subregions, serak, desert]
+continent: karzor
+parent: "[[00_zarahim_capital_2026-04-22]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+related:
+  - "[[../00_overview]]"
+  - "[[subregion_tilnar_2026-04-22]]"
+  - "[[00_zarahim_capital_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft

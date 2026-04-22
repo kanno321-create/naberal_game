@@ -1,13 +1,23 @@
 ---
 title: "Corndale — Sylren 곡물 집산 마을"
-type: village
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, villages]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[agricultural_2026-04-22]]:62–63"
+    quote: "Soranth Plain | 남중앙 | ~160,000 km² | Sylren 왕국"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Corndale (코른데일) — Soranth 평원 곡물 집산 마을
 
 | 항목 | 내용 |

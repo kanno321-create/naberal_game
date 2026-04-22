@@ -1,9 +1,27 @@
 ---
 title: "세른미어 → 화이트크로스 북부 가도"
-type: road
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, roads]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+related:
+  - "[[city_cernmere_2026-04-22]]"
+  - "[[city_whitecross_2026-04-22]]"
+  - "[[queen_mireth_sellypha_2026-04-22]]"
+agent_briefing_level: reference
+type: road
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 ---

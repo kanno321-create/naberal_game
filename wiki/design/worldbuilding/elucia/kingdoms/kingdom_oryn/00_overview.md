@@ -1,13 +1,28 @@
 ---
 title: "Kingdom of Oryn — 전체 개요·인덱스"
-type: overview
-kingdom: kingdom_oryn
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_oryn, overview]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-oryn
-wave: 4
+kingdom: "kingdom_oryn"
+parent: "[[elucia_kingdoms_MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[political_divisions]]"
+  - "[[kingdom_novas/00_overview]]"
+  - "[[game_setting_complete_2026-04-21]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[political_divisions]]:113"
+    quote: "Orenwald / 오렌왈드 / 동부 숲 / 오린 왕국"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: required
 ---
-
 # Kingdom of Oryn (오린 왕국) — 전체 개요
 
 ## 원전 인용 증명

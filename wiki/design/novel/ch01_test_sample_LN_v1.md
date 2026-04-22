@@ -1,14 +1,32 @@
 ---
+title: "Ch.01 — 숲의 그림자 (테스트 샘플 · LN 스타일 시연)"
+layer: 2
+canon_tier: detail
 category: design/novel
 tags: [novel, chapter, test, LN_style, 2026-04-21]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 status: test-sample-v1
 chapter: 01
 pov: 3인칭 제한 (나이트 중심)
 target_length: ~3000자
 current_length: ~2950자
 purpose: 라노벨 3권 분량 결정 + LN 스타일 시연을 위한 테스트 샘플. 세계관 보강 + LN 수준(L1/L2/L3) 확정 전 임시 작성. 공식 ch01 파일 아님.
+parent: "[[../novel/outline]]"
+up: "[[../novel/outline]]"
+moc: "[[../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+canon_anchors:
+  - src: "[[story_full_narrative]]:89"
+    quote: "이름은 나이트(Knight). 수천 년을 수행한 균형 수호자."
+  - src: "[[story_full_narrative.txt]]:79"
+    quote: "빛이 나이트를 휩싼다. 그의 권능이 봉인된다. 그의 기억이 박탈된다. 단검 한 자루만 남는다."
+related:
+  - "[[prologue]]"
+  - "[[ch01]]"
+  - "[[../style_bible]]"
+agent_briefing_level: optional
 ---
 
 # Ch.01 — 숲의 그림자 (테스트 샘플 · LN 스타일 시연)

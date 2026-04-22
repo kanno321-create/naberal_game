@@ -1,11 +1,23 @@
 ---
 title: "Misthollow — Moran 안개 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "안개와 파도를 신성시하는 고유 신앙이 교황청 공식 신학과 병존"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[festival_mist_2026-04-22]]"
+  - "[[village_morntide_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Misthollow (미스트홀로우) — 안개 계곡 마을

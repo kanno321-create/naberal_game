@@ -1,9 +1,27 @@
 ---
 title: "Grayfen — Ceren 습지 깊숙 고립 마을"
-type: village
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, villages]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움"
+related:
+  - "[[village_mistlyn_2026-04-22]]"
+  - "[[duke_loravale_cael_2026-04-22]]"
+  - "[[village_marshcroft_2026-04-22]]"
+agent_briefing_level: reference
+type: village
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 ---

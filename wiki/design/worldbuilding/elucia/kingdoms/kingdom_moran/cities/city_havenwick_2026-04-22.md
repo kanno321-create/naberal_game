@@ -1,12 +1,23 @@
 ---
 title: "Havenwick — Moran 내만 어업 도시"
-type: city
-kingdom: kingdom_moran
-tier: coastal_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "어업도시: Havenwick · Havren 내만 중부 · 청어 염장 수출"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_mornheld_2026-04-22]]"
+  - "[[city_greycliff_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Havenwick (헤이번위크) — Havren 내만 어업 도시

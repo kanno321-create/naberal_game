@@ -1,12 +1,25 @@
 ---
 title: "탈로스 왕국 (Kingdom of Thaloss) — 전체 개요 인덱스"
-type: overview
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_thaloss, overview]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[design/MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:57"
+    quote: "탈로스 / Thaloss / 북부 산맥 / Norvend / 노르벤드 / 북부 산맥 너머 / 탈로스 왕국"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "이게 내가 그린맵, 내가 보는방향에서 좌측이 서구중세문명 ... 좌측은 강이 많고 풍요로움"
+related:
+  - "[[kingdom_vaelin/00_overview]]"
+  - "[[kingdom_moran/00_overview]]"
+  - "[[elucia_kingdoms_MOC]]"
+agent_briefing_level: reference
 ---
 
 # 탈로스 왕국 (Kingdom of Thaloss) — 전체 개요

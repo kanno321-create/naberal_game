@@ -1,11 +1,23 @@
 ---
 title: "Tidegate — Moran 조수문 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "정체: 해양 왕국 · 해병·수군 보유"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_mornheld_2026-04-22]]"
+  - "[[village_morntide_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Tidegate (타이드게이트) — 조수문 관리 마을

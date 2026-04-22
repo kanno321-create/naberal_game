@@ -1,11 +1,27 @@
 ---
+title: "Novel Outline — 25~30 챕터 지도"
 category: design/novel
+layer: 1
+canon_tier: derived
 tags: [novel, outline, structure, 2026-04-21]
 created: 2026-04-21
-updated: 2026-04-21
-status: draft
-target_length: 한국어 30-40만 자 (영문 10-15만 단어)
-chapters_planned: 25-30
+updated: 2026-04-22
+status: active
+target_length: "한국어 24~30만 자 (라노벨 3권)"
+chapters_planned: "25~30"
+derived_from:
+  - "[[../story_full_narrative]]"
+  - "[[../brainstorm_2026-04-21]]"
+  - "[[../brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[style_bible]]"
+  - "[[../main_character]]"
+  - "[[../story_outline]]"
+  - "[[ch01]]"
+  - "[[prologue]]"
+parent: "[[../MOC]]"
+moc: "[[../MOC]]"
+agent_briefing_level: required
 ---
 
 # 소설 outline — naberal_game (가제)
@@ -32,7 +48,7 @@ chapters_planned: 25-30
 ### Act 1 — 기억을 찾아서 (10~12 챕터)
 
 #### Ch.01 — 안개, 그리고 서쪽에서 온 것 (세션 #5 재정의)
-- **주인공**: 나이트 (Ashenveil 소년 · 남자 · 나이 불명 · 의지결 잠복 보유자)
+- **주인공**: 나이트 (Ashenveil 주민 · 남자 · **외관 16~18세 성인식 또래** · **실체 수천 년 수호자** · 우주 포식자 봉인으로 권능·기억 박탈 · 외관도 소년 또래로 위장됨 · 본인 자각 X · 의지결 잠복 보유)
 - 평화로운 안개 마을 일상 (버섯 채집·가족·이웃)
 - 이름 없는 백발 노인의 마지막 방문 · *"미안하구나"*
 - 서쪽에서 오는 불길한 징조 · 이장의 침묵
@@ -51,7 +67,7 @@ chapters_planned: 25-30
 - 마을 16세 아이들의 성인식 전날
 - 촌장이 눈감아주는 편입
 - 목걸이를 받는 나이트 (자신의 이름을 처음 낯설게 부르는 순간)
-- 어린 소년이 "수호자" 자격을 얻는 아이러니 (독자는 수수께끼 중 · 주인공 자각 X)
+- **이미 수호자인 자가 성인식 목걸이를 받는 아이러니** (봉인으로 외관이 16세 또래로 위장된 상태 · 실체는 수천 년 수호자 · 독자는 수수께끼 중 · 주인공 자각 X)
 
 #### Ch.04 — 숲의 악마 본체
 - 본격 몬스터 추적

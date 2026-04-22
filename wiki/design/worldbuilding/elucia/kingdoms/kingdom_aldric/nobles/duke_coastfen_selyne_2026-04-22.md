@@ -1,9 +1,27 @@
 ---
 title: "Selyne 공작 — Duchy of Coastfen (서해 해안 공작)"
-type: noble
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, nobles]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Coastfen / 서남 해안·Ceren 접경 / ~15K km² / 해안 어업·소금 / 서해 출구"
+  - src: "[[political_divisions]]:54"
+    quote: "세렌 / Ceren / 서남 습지"
+related:
+  - "[[house_selyne_2026-04-22]]"
+  - "[[king_aldric_iv_2026-04-22]]"
+  - "[[kingdom_ceren_00_overview]]"
+agent_briefing_level: reference
+type: noble
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

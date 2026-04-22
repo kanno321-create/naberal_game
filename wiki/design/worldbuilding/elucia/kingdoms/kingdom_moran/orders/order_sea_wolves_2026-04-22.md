@@ -1,11 +1,23 @@
 ---
 title: "바다 늑대단 — Moran 왕국 해병 기사단"
-type: order
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, order, military]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "군제: 모병제 · 정체: 해양 왕국 · 해병·수군 보유"
+related:
+  - "[[kingdom_moran_military_2026-04-22]]"
+  - "[[order_wave_knights_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # 바다 늑대단 (Sea Wolves · Order of the Sea Wolf)

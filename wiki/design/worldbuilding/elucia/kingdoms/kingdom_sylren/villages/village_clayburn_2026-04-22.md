@@ -1,13 +1,23 @@
 ---
 title: "Clayburn — Sylren 도기 제조 마을"
-type: village
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, villages]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[Wave 4 에이전트 지시문 — 건축 항목]]"
+    quote: "건축: ... 테라코타 지붕"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Clayburn (클레이번) — 테라코타 도기 제조 취락
 
 | 항목 | 내용 |

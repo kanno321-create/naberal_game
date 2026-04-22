@@ -1,9 +1,27 @@
 ---
 title: "Lowenmere → 성좌국 Solaris 방면 국경 도로"
-type: road
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, roads]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:47"
+    quote: "엘루시아 성좌국 (수도 Solaris) / 교황청 보유"
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "접경: 북 성좌국·Ceren / Lowen 강 — 성좌국 경계 후보"
+related:
+  - "[[duke_lowenmere_brynn_2026-04-22]]"
+  - "[[road_lonwyn_to_lowenmere_2026-04-22]]"
+  - "[[king_aldric_iv_2026-04-22]]"
+agent_briefing_level: reference
+type: road
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

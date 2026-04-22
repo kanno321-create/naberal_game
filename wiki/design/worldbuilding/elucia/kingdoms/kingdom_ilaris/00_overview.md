@@ -1,9 +1,29 @@
 ---
 title: "Ilaris 왕국 — 전체 개요 및 인덱스"
-type: overview
-kingdom: kingdom_ilaris
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_ilaris, overview]
 updated: 2026-04-22
+kingdom: kingdom_ilaris
+parent: "[[../../../../design/MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+  - src: "[[political_divisions]]:110"
+    quote: "Silvan / 실반 / 서해안 숲 / 일라리스 왕국"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]] 발언 5"
+    quote: "좌측은 강이 많고 풍요로움"
+related:
+  - "[[kingdom_vaelin/00_overview]]"
+  - "[[political_divisions]]"
+  - "[[kingdom_ilaris/villages/village_ashenveil_2026-04-22]]"
+agent_briefing_level: reference
+type: overview
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ilaris
 wave: 4
 ---
@@ -77,7 +97,7 @@ graph TD
 
 ## 수도 Ilarien 주요 지구
 
-→ `capital_map_2026-04-22.md` 참조
+→ [[capital_map_2026-04-22]] 참조
 
 | 지구 | 역할 |
 |------|------|
@@ -93,59 +113,59 @@ graph TD
 ## 파일 인덱스
 
 ### 개요
-- `00_overview.md` (이 파일)
-- `capital_map_2026-04-22.md`
+- [[00_overview]] (이 파일)
+- [[capital_map_2026-04-22]]
 
 ### 왕족 `royals/`
-- `king_aldric_maeran_2026-04-22.md` (현 왕)
-- `queen_lirien_ceren_2026-04-22.md` (왕비 · Ceren 출신)
-- `crown_prince_caeron_2026-04-22.md` (왕세자)
-- `princess_sylvara_2026-04-22.md` (왕녀)
-- `prince_davan_2026-04-22.md` (왕자)
-- `previous_king_thaeron_maeran_2026-04-22.md` (선왕)
-- `queen_dowager_elowen_2026-04-22.md` (태왕비)
+- [[king_aldric_maeran_2026-04-22]] (현 왕)
+- [[queen_lirien_ceren_2026-04-22]] (왕비 · Ceren 출신)
+- [[crown_prince_caeron_2026-04-22]] (왕세자)
+- [[princess_sylvara_2026-04-22]] (왕녀)
+- [[prince_davan_2026-04-22]] (왕자)
+- [[previous_king_thaeron_maeran_2026-04-22]] (선왕)
+- [[queen_dowager_elowen_2026-04-22]] (태왕비)
 
 ### 귀족 `nobles/`
-- `duke_silvanreach_vaern_2026-04-22.md` (왕도 공작)
-- `duke_mirevane_lorcas_2026-04-22.md` (항구 공작)
-- `duke_deepsilvan_bruiden_2026-04-22.md` (삼림 공작)
-- `count_westshore_cailean_2026-04-22.md` (남해안 백작)
-- `count_deepsilvan_frontier_fenrik_2026-04-22.md` (숲 경계 백작)
+- [[duke_silvanreach_vaern_2026-04-22]] (왕도 공작)
+- [[duke_mirevane_lorcas_2026-04-22]] (항구 공작)
+- [[duke_deepsilvan_bruiden_2026-04-22]] (삼림 공작)
+- [[count_westshore_cailean_2026-04-22]] (남해안 백작)
+- [[count_deepsilvan_frontier_fenrik_2026-04-22]] (숲 경계 백작)
 
 ### 가문 `houses/`
-- `house_maeran_2026-04-22.md` (왕가)
-- `house_vaern_2026-04-22.md` (항구 공작가)
-- `house_bruiden_2026-04-22.md` (삼림 공작가)
-- `house_lorcas_2026-04-22.md` (조선소 공작가)
+- [[house_maeran_2026-04-22]] (왕가)
+- [[house_vaern_2026-04-22]] (항구 공작가)
+- [[house_bruiden_2026-04-22]] (삼림 공작가)
+- [[house_lorcas_2026-04-22]] (조선소 공작가)
 
 ### 기사단 `orders/`
-- `order_silver_sail_2026-04-22.md` (은빛 돛단 기사단)
-- `order_seawind_2026-04-22.md` (해풍 기사단)
+- [[order_silver_sail_2026-04-22]] (은빛 돛단 기사단)
+- [[order_seawind_2026-04-22]] (해풍 기사단)
 
 ### 문화·체제
-- `heraldry_2026-04-22.md`
-- `military_2026-04-22.md`
-- `clothing_2026-04-22.md`
-- `cuisine_2026-04-22.md`
-- `architecture_2026-04-22.md`
-- `dialect_2026-04-22.md`
+- [[heraldry_2026-04-22]]
+- [[military_2026-04-22]]
+- [[clothing_2026-04-22]]
+- [[cuisine_2026-04-22]]
+- [[architecture_2026-04-22]]
+- [[dialect_2026-04-22]]
 
 ### 축제 `festivals/`
-- `festival_opening_harbor_2026-04-22.md` (개항제)
-- `festival_trade_fair_2026-04-22.md` (무역제)
-- `festival_shipwright_day_2026-04-22.md` (조선장인 축일)
-- `festival_citizen_march_2026-04-22.md` (시민 행진)
+- [[festival_opening_harbor_2026-04-22]] (개항제)
+- [[festival_trade_fair_2026-04-22]] (무역제)
+- [[festival_shipwright_day_2026-04-22]] (조선장인 축일)
+- [[festival_citizen_march_2026-04-22]] (시민 행진)
 
 ### 도시·마을
 → `cities/` (Wave 2 Toponymist 기본 · Wave 4 심화 적용)
 → `villages/` (Wave 2 기본 + Wave 4 신규 15개 추가)
 
 ### 도로 `roads/`
-- `road_ilarien_to_silvanreach_2026-04-22.md`
-- `road_ilarien_to_mirevane_2026-04-22.md`
-- `road_ilarien_to_deepsilvan_2026-04-22.md`
-- `road_ilarien_to_westshore_2026-04-22.md`
-- `road_westshore_to_ceren_border_2026-04-22.md`
+- [[road_ilarien_to_silvanreach_2026-04-22]]
+- [[road_ilarien_to_mirevane_2026-04-22]]
+- [[road_ilarien_to_deepsilvan_2026-04-22]]
+- [[road_ilarien_to_westshore_2026-04-22]]
+- [[road_westshore_to_ceren_border_2026-04-22]]
 
 ---
 

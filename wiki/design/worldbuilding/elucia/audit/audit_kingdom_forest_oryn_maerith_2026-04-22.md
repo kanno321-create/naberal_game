@@ -1,16 +1,30 @@
 ---
 title: "Wave 4 2차 검사 — Kingdom Oryn + Maerith 전수검사 리포트"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, audit]
+updated: 2026-04-22
+parent: "[[elucia_MOC]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "대표님 발언 50건 앵커 · 세계관 반전 5단 · 마법 5계층 · 26 정치단위 근거 원전"
+related:
+  - "[[MASTER_elucia_worldbook]]"
+  - "[[relationship_graph]]"
+  - "[[integrator_report_2026-04-22]]"
+agent_briefing_level: reference
 type: audit
 subject: kingdom_oryn_kingdom_maerith
 auditor: Wave4-Inspector-I (숲·고지: Oryn + Maerith)
 created: 2026-04-22
-updated: 2026-04-22
 fix_status: CR-Q1 ✅ CR-Q2 ✅ (2026-04-22 검사관 I 직접 수정 완료)
-scope:
-  - wiki/design/worldbuilding/elucia/kingdoms/kingdom_oryn/ (57 파일)
+scope:   - wiki/design/worldbuilding/elucia/kingdoms/kingdom_oryn/ (57 파일)
   - wiki/design/worldbuilding/elucia/kingdoms/kingdom_maerith/ (56 파일)
-reference_sources:
-  - wiki/design/brainstorm_2026-04-21_worldview_expansion.md (발언 1~50 전체)
+reference_sources:   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md (발언 1~50 전체)
   - wiki/design/political_divisions.md
   - wiki/design/game_setting_complete_2026-04-21.md
   - wiki/design/brainstorm_2026-04-21.md

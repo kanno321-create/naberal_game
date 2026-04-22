@@ -1,10 +1,24 @@
 ---
+title: "빌드 시스템 — 스피어 보드 × 정복자 보드 × 스킬트리"
+layer: 1
+canon_tier: derived
 category: gameplay
-status: draft
-tags: [build, skill-tree, class, job, ailment, sphere-board, paragon]
+status: active
+tags: [build, skill-tree, class, job, ailment, sphere-board, paragon, gameplay]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 revision: 2
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[combat_system]]"
+  - "[[endgame]]"
+  - "[[mvp_phase4_scope]]"
+  - "[[../design/main_character]]"
+agent_briefing_level: required
 ---
 
 # 빌드 시스템 — 스피어 보드 × 정복자 보드 × 스킬트리

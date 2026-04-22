@@ -1,13 +1,26 @@
 ---
 title: "Sylren 왕국 — 전체 개요 인덱스"
-type: overview
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_sylren, overview]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[political_divisions]]:60·114"
+    quote: "실렌 / Sylren / 남중앙"
+  - src: "[[economic_clusters_2026-04-22]]:181"
+    quote: "Sylren | C6 | 남부 곡창 + Azim Pass 물자 집결"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Sylren 왕국 (Kingdom of Sylren) — 전체 개요
 
 ## 원전 인용 증명

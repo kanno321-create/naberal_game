@@ -1,9 +1,27 @@
 ---
 title: "Vaelin 왕국 건축"
-type: culture
-kingdom: kingdom_vaelin
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_vaelin, architecture]
 updated: 2026-04-22
+kingdom: "kingdom_vaelin"
+parent: "[[kingdom_vaelin/00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:53"
+    quote: "바엘린 / Vaelin / 북부 평원"
+  - src: "[[story_full_narrative]]"
+    quote: "세계관 철학 3조 — 불완전성·한결같음·영혼 평등"
+related:
+  - "[[kingdom_vaelin/00_overview]]"
+  - "[[kingdom_vaelin/military_2026-04-22]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
+type: culture
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-vaelin
 wave: 4
 ---
@@ -70,7 +88,7 @@ Vaelin 건축은 방어와 실용성 우선. 두꺼운 석조 성벽·목조 내
 
 ## 3. 대표 건물 — Vaelthorn 왕궁
 
-- 외성·내성 이중 구조 (상세 → `capital_map_2026-04-22.md`)
+- 외성·내성 이중 구조 (상세 → [[capital_map_2026-04-22]])
 - 기마 광장 (Stallion Square): 돌 포장 · 기마 조각 12기 배치 (추정)
 - 대 마구간: 왕실 명마 50두 상시 수용
 

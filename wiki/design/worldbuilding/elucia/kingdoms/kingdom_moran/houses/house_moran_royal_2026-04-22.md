@@ -1,11 +1,23 @@
 ---
 title: "House Moran — 왕가 (파도의 혈통)"
-type: house
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, house, royal]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "왕족: 해양 왕·파도의 혈통·왕비 Ilaris 혼인 전통 (서해안 동맹)"
+related:
+  - "[[king_calder_2026-04-22]]"
+  - "[[kingdom_moran_heraldry_2026-04-22]]"
+  - "[[kingdom_moran_history_founding_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # House Moran — 파도의 혈통 (Wave-Born)

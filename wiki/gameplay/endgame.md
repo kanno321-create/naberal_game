@@ -1,10 +1,25 @@
 ---
+title: "엔드게임 — 히든 보스 · 최강 무기 · 동료 극딜 · 진엔딩"
+layer: 1
+canon_tier: derived
 category: gameplay
-status: draft
-tags: [endgame, hidden-boss, legendary-weapon, post-launch, true-ending]
+status: active
+tags: [endgame, hidden-boss, legendary-weapon, post-launch, true-ending, gameplay]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 revision: 2
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[combat_system]]"
+  - "[[build_system]]"
+  - "[[mvp_phase4_scope]]"
+  - "[[../design/world_lore]]"
+  - "[[../design/story_outline]]"
+agent_briefing_level: required
 ---
 
 # 엔드게임 — 히든 보스 · 최강 무기 · 동료 극딜 · 진엔딩

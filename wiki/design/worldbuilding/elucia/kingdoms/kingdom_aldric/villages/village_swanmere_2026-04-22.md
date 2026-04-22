@@ -1,9 +1,27 @@
 ---
 title: "Swanmere — 백조 서식지 인근 마을"
-type: village
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, villages]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[festival_swan_return_2026-04-22]]"
+    quote: "Lonwyn 대호 북안 백조 서식 구역"
+  - src: "[[heraldry_2026-04-22]]"
+    quote: "백조 = 왕국의 고귀함·순결 / 물결 = 호수·수운 / 진주 = 왕국의 보화"
+related:
+  - "[[order_swan_2026-04-22]]"
+  - "[[festival_swan_return_2026-04-22]]"
+  - "[[road_lonwyn_to_lonwynshire_2026-04-22]]"
+agent_briefing_level: reference
+type: village
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

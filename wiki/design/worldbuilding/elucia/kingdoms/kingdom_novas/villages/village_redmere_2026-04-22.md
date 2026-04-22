@@ -1,13 +1,26 @@
 ---
-title: "Redmere — 붉은 늪지 북동 마을"
-type: village
-kingdom: kingdom_novas
-created: 2026-04-22
+title: "Redmere — 붉은 사암 인근 호수 마을"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[roads/road_duskgate_to_thornheld_2026-04-22]]"
+  - "[[cities/city_redstone_2026-04-22]]"
+  - "[[villages/village_havenford_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "하단 주황식은 이어진길이다."
+agent_briefing_level: reference
 ---
-
 # Redmere (레드미어)
 
 | 항목 | 내용 |

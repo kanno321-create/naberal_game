@@ -1,12 +1,23 @@
 ---
 title: "House Krauss — 탈로스 광부 왕조"
-type: house
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, house, royal]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "왕조는 광부 출신으로, '망치와 땀이 왕관을 만든다'는 건국 철학이 지금도 귀족 문화를 지배한다"
+related:
+  - "[[king_thormund_2026-04-22]]"
+  - "[[kingdom_thaloss_heraldry_2026-04-22]]"
+  - "[[history_founding_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # House Krauss (크라우스 가문) — 탈로스 왕가

@@ -1,9 +1,27 @@
 ---
 title: "Calla — 알드릭 왕국 장녀 공주"
-type: royal
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, royals]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[story_full_narrative]]"
+    quote: "영혼 평등 — 모든 영혼은 크기가 다를 수 있으나 고귀함은 같다."
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[king_aldric_iv_2026-04-22]]"
+  - "[[queen_sylren_mora_2026-04-22]]"
+  - "[[house_aldric_2026-04-22]]"
+agent_briefing_level: reference
+type: royal
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

@@ -1,15 +1,25 @@
 ---
 title: "Lyrath Maern — 마에리스 공주"
-type: royal
-kingdom: kingdom_maerith
-role: princess
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "왕족: 고지 왕조 · 폐쇄적 전통 · 왕비 Thaloss 또는 Vaelin 방계 혼인"
+  - src: "[[_shared_briefing]]:62–66"
+    quote: "파편 단서만 허용 / 구전·전설 층위에 '이름 모를 학자' 단서 일부 등장"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Lyrath Maern — 장녀 공주
 
 ## 원전 인용 증명

@@ -1,13 +1,31 @@
 ---
+title: "프롤로그 — 우주, 그리고 추락"
+layer: 2
+canon_tier: detail
 category: design/novel
 tags: [novel, prologue, chapter, 2026-04-21]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 status: draft-v1
 chapter: 00
 pov: 3인칭 전지 → 3인칭 제한 전환
 target_length: 5000-7000자
 current_length: ~6200자
+parent: "[[../novel/outline]]"
+up: "[[../novel/outline]]"
+moc: "[[../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+canon_anchors:
+  - src: "[[story_full_narrative]]:89"
+    quote: "이름은 나이트(Knight). 수천 년을 수행한 균형 수호자."
+  - src: "[[story_full_narrative.txt]]:79"
+    quote: "빛이 나이트를 휩싼다. 그의 권능이 봉인된다. 그의 기억이 박탈된다."
+related:
+  - "[[ch01]]"
+  - "[[../style_bible]]"
+  - "[[../world_lore]]"
+agent_briefing_level: optional
 ---
 
 # 프롤로그 — 우주, 그리고 추락

@@ -1,10 +1,28 @@
 ---
-title: 인간 시대 현재 — Rev.3 본편 시점 직전 상태
+title: "인간 시대 현재 — Rev.3 본편 시점 직전 상태"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, history]
+updated: 2026-04-22
+parent: "[[history_00_timeline]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "용족·엘프가 행성 최초. 첫 번째 신은 마족 괴멸 후 수호자가 강림시킨 후발주자"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "[시대 3] 균형 수호자 외부 개입 → 마족 괴멸. [시대 4] 균형 수호자가 첫 번째 신 강림시키고 떠남"
+related:
+  - "[[geography_00_overview]]"
+  - "[[political_00_overview]]"
+  - "[[culture_00_common_frame]]"
+agent_briefing_level: reference
 type: history
 scope: continental
 era: human_present
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave3-Historian
 wave: 3
 qcore_version: v1.0

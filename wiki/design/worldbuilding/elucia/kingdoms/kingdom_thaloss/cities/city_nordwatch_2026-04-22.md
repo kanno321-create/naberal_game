@@ -1,12 +1,23 @@
 ---
 title: "Nordwatch — Thaloss 북부 감시 초소 도시"
-type: city
-kingdom: kingdom_thaloss
-tier: fortress_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Stonecrown / Norvend 동쪽 끝 봉 / 고원 목축 · 드워프 전설 / Nordwatch"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[city_icehelm_2026-04-22]]"
+  - "[[order_winter_wardens_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Nordwatch (노드워치) — Norvend Range 전진 감시 도시

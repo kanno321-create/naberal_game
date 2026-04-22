@@ -1,12 +1,25 @@
 ---
 title: "Maerholt — 왕도 상세 지도"
-type: capital_map
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, city]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_maerith
+parent: "[[kingdom_maerith/00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:59"
+    quote: "마에리스 / Maerith / 북동 고지"
+  - src: "[[political_divisions]]:108"
+    quote: "Auryn / 오린 (지역) / 북동 고지 / 마에리스 왕국"
+related:
+  - "[[kingdom_maerith/00_overview]]"
+  - "[[king_aldrath_2026-04-22]]"
+  - "[[military_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Maerholt (매어홀트) — 왕도 상세 지도

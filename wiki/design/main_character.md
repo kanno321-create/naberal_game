@@ -1,10 +1,25 @@
 ---
+title: "주요 캐릭터 — 나이트 + 동료 8인 + NPC"
+layer: 1
+canon_tier: derived
 category: design
-status: draft
-tags: [character, protagonist, party, companion, npc]
+status: active
+tags: [character, protagonist, party, companion, npc, design]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 revision: 2
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[world_lore]]"
+  - "[[story_outline]]"
+  - "[[../gameplay/combat_system]]"
+  - "[[../gameplay/build_system]]"
+  - "[[../gameplay/endgame]]"
+agent_briefing_level: required
 ---
 
 # 주요 캐릭터

@@ -1,8 +1,21 @@
 ---
+title: "NLM Summary — NotebookLM 딥 리서치 핵심 요약 인덱스"
 date: 2026-04-20
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
 total_answer_chars: 57609
 total_queries: 6
+layer: 1
+canon_tier: derived
+tags: [research, nlm, summary, index]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[nlm_queries]]"
+  - "[[../../wiki/gameplay/MOC]]"
+  - "[[../../wiki/engine/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM Deep Research — 핵심 요약 인덱스
@@ -15,12 +28,12 @@ total_queries: 6
 
 | 질문 주제 | 원본 파일 |
 |---------|---------|
-| "인디 현실" / "MVP" / "장르 선택" / "핵심 루프" / "Flow/Juice/Risk-Reward" | [nlm_result_01_indie_mvp_design.md](nlm_result_01_indie_mvp_design.md) |
-| "Unity 6 학습" / "C# 패턴" / "ScriptableObject" / "URP" / "Profiler" / "IL2CPP" | [nlm_result_02_unity6_all.md](nlm_result_02_unity6_all.md) |
-| "게임 아트" / "Aseprite/Blender/ZBrush" / "Nano Banana/Scenario/Leonardo" / "Meshy/Tripo/Mixamo" | [nlm_result_03_game_art_ai.md](nlm_result_03_game_art_ai.md) |
-| "게임 오디오" / "Suno/ElevenLabs/Sononym" / "FMOD/Wwise/AudioMixer" / "LUFS" | [nlm_result_04_game_audio.md](nlm_result_04_game_audio.md) |
-| "Steam 출시" / "Steamworks" / "위시리스트" / "Next Fest" / "EA 전략" / "마케팅" / "BIC" | [nlm_result_05_steam_marketing.md](nlm_result_05_steam_marketing.md) |
-| "번아웃" / "멘털" / "사업자 등록" / "세금" / "AI 저작권" / "CLAUDE.md 스코프 통제" | [nlm_result_06_mental_legal_ai.md](nlm_result_06_mental_legal_ai.md) |
+| "인디 현실" / "MVP" / "장르 선택" / "핵심 루프" / "Flow/Juice/Risk-Reward" | [[nlm_result_01_indie_mvp_design]] |
+| "Unity 6 학습" / "C# 패턴" / "ScriptableObject" / "URP" / "Profiler" / "IL2CPP" | [[nlm_result_02_unity6_all]] |
+| "게임 아트" / "Aseprite/Blender/ZBrush" / "Nano Banana/Scenario/Leonardo" / "Meshy/Tripo/Mixamo" | [[nlm_result_03_game_art_ai]] |
+| "게임 오디오" / "Suno/ElevenLabs/Sononym" / "FMOD/Wwise/AudioMixer" / "LUFS" | [[nlm_result_04_game_audio]] |
+| "Steam 출시" / "Steamworks" / "위시리스트" / "Next Fest" / "EA 전략" / "마케팅" / "BIC" | [[nlm_result_05_steam_marketing]] |
+| "번아웃" / "멘털" / "사업자 등록" / "세금" / "AI 저작권" / "CLAUDE.md 스코프 통제" | [[nlm_result_06_mental_legal_ai]] |
 
 ## 핵심 발견 — 2026 1인 인디 게임 개발 프레임
 

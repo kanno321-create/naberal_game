@@ -1,8 +1,26 @@
 ---
 title: "Irondelta — 성좌국 하구 항구 도시"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, city, port]
 type: city
 kingdom: empire_choir
 tier: major_city
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제"
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[nobles/duke_mirevane_mireval_2026-04-22]]"
+  - "[[roads/road_solaris_to_irondelta_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave2-Toponymist

@@ -1,14 +1,25 @@
 ---
 title: "모피 축일 — Fur Tide"
-type: festival
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, festivals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "축제: 모피 축일"
+  - src: "[[economic_clusters_2026-04-22]]:82"
+    quote: "C2 — 북동 고지 클러스터 / 주력 산업: 소규모 구리 광업 + 고지 축산 + 목재 / 대표 수출품: 구리·모피"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Fur Tide (모피 축일)
 
 ## 원전 인용 증명

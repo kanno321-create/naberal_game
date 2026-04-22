@@ -1,12 +1,23 @@
 ---
 title: "Balmere — Moran 호변 어촌"
-type: village
-kingdom: kingdom_moran
-tier: village
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "주요 자원: 청어·대구·석재·해운"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[village_ashfield_2026-04-22]]"
+  - "[[city_havenwick_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Balmere (발미어) — Havren 내만 소어촌

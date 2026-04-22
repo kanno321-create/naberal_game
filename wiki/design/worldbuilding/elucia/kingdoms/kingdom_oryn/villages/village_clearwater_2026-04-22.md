@@ -1,13 +1,26 @@
 ---
-title: "Clearwater — Soranth 강 수원 마을"
-type: village
-kingdom: kingdom_oryn
-created: 2026-04-22
+title: "Clearwater — 맑은 물 담수 어업 마을"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_oryn, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-oryn
-wave: 4
+kingdom: "kingdom_oryn"
+parent: "[[kingdom_oryn_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[nobles/count_soranmere_fisher_2026-04-22]]"
+  - "[[villages/village_greenpool_2026-04-22]]"
+  - "[[cities/city_soranwatch_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: reference
 ---
-
 # Clearwater (클리어워터) — Soranth 강 최상류 마을
 
 | 항목 | 내용 |

@@ -1,14 +1,26 @@
 ---
 title: "관문제 — Gateway Festival"
-type: festival
-kingdom: kingdom_novas
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, festival]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[festivals/festival_harvest_duskgate_2026-04-22]]"
+  - "[[cities/city_duskgate_2026-04-22]]"
+  - "[[military_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "하단 주황식은 이어진길이다."
+agent_briefing_level: reference
 ---
-
 # 관문제 (Gateway Festival) — 통행자 환영 축제
 
 ## 원전 인용 증명

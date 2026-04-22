@@ -1,11 +1,27 @@
 ---
-title: Wave Audit — Toponymy · History · Ports 전수검사
+title: "Wave Audit — Toponymy · History · Ports 전수검사"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, audit]
+updated: 2026-04-22
+parent: "[[elucia_MOC]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "대표님 발언 50건 앵커 · 세계관 반전 5단 · 마법 5계층 · 26 정치단위 근거 원전"
+related:
+  - "[[MASTER_elucia_worldbook]]"
+  - "[[relationship_graph]]"
+  - "[[integrator_report_2026-04-22]]"
+agent_briefing_level: reference
 type: audit
 scope: continent
 auditor: Inspector-D (Toponymy + History + Ports)
 wave: audit
 created: 2026-04-22
-updated: 2026-04-22
 qcore_version: v1.0
 ---
 

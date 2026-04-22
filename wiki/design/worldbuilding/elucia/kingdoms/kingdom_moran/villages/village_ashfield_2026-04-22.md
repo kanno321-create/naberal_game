@@ -1,11 +1,23 @@
 ---
 title: "Ashfield — Moran 남부 농촌 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Aldenmere / 남부 완충 · 농업·통행세"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[count_aldenmere_lorne_2026-04-22]]"
+  - "[[village_balmere_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Ashfield (애쉬필드) — Aldenmere 남부 농촌 마을

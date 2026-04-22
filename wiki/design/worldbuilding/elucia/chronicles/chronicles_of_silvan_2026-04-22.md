@@ -1,4 +1,19 @@
 ---
+title: "Chronicles Of Silvan"
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, chronicles, in-world-document]
+updated: 2026-04-22
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "신은 권능과 은혜를 교회를통해내리고 교회가 개개인에게 권능을 나눠주는 시스템이었지만. 나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "[시대 1] 용족 + 엘프족 (신 이전 행성 최초 존재). [시대 6~12] 6~7회 신 교체 순환 (타락 → 처단 → 새 신)"
+agent_briefing_level: optional
 type: in_world_document
 chronicle_type: 구전
 era_covered: 인간 시대 전반 — Silvan 권역 지역 전승 채록

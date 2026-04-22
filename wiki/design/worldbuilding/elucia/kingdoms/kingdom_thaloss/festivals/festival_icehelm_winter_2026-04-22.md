@@ -1,12 +1,23 @@
 ---
 title: "Icehelm 겨울제 (Winter Festival of Icehelm)"
-type: festival
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, festival, culture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "왕도: Icehelm (아이스헬름) · 문명 성격: 스칸디·게르만 산악 문화 · 강인·폐쇄"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[city_icehelm_2026-04-22]]"
+  - "[[festival_iron_oath_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Icehelm 겨울제 (Winter Festival of Icehelm)

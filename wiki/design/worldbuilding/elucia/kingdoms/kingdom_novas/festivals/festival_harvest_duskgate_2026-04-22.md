@@ -1,15 +1,26 @@
 ---
 title: "더스크게이트 수확 축제"
-type: festival
-kingdom: kingdom_novas
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, festival]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
-qfix7_applied: 2026-04-22
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[festivals/festival_gateway_2026-04-22]]"
+  - "[[cuisine_2026-04-22]]"
+  - "[[villages/village_moorend_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:261"
+    quote: "좌우 대륙은 같은 신을 믿지만 서로 해석을 달리한다."
+agent_briefing_level: reference
 ---
-
 # 더스크게이트 수확 축제 — Duskgate Harvest
 
 ## 원전 인용 증명

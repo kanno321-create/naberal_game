@@ -1,7 +1,25 @@
 ---
 title: "도로 — Solaris → Aurewatch (북부 군사 가도)"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, road, military]
 type: road
 kingdom: empire_choir
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "Elucia (서쪽) / 징병제 / 중세 유럽 봉건 의무병"
+  - src: "[[political_divisions]]"
+    quote: "엘루시아 성좌국 (수도 소라리스) / Choir of Elucia (Capital: Solaris) / 교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+related:
+  - "[[cities/city_solaris_2026-04-22]]"
+  - "[[cities/city_aurewatch_2026-04-22]]"
+  - "[[empire_choir_00_overview]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

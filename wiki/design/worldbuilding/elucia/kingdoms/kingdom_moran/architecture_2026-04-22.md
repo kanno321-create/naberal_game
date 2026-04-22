@@ -1,11 +1,23 @@
 ---
 title: "Moran 왕국 건축 양식"
-type: architecture
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, culture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:발언5"
+    quote: "대륙윗쪽에서는 좌우 모두 물길이 너무험하고 작은 암초가 많아서 불가능, 몬스터도 많음"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[kingdom_moran_military_2026-04-22]]"
+  - "[[kingdom_moran_heraldry_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Moran 왕국 건축 양식 — 해안 석성·등대·어부 공동 창고

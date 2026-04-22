@@ -1,9 +1,27 @@
 ---
 title: "왕도 Lonwyn → Lowenmere 공작령 동부 도로"
-type: road
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, roads]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Lowenmere / Lowen 강 하류 유입부"
+  - src: "[[rivers_major_2026-04-22]]"
+    quote: "Lowen River / 내륙 수운의 동서 축 / 성좌국·Aldric"
+related:
+  - "[[duke_lowenmere_brynn_2026-04-22]]"
+  - "[[city_lonwyn_2026-04-22]]"
+  - "[[road_lowenmere_to_solaris_border_2026-04-22]]"
+agent_briefing_level: reference
+type: road
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

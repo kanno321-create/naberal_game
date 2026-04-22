@@ -1,13 +1,27 @@
 ---
 title: "House Pelorn — Herdsland 목축 가문"
-type: house
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, houses]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:2869 (발언 48)"
+    quote: "서쪽은 농업 축산업"
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:77"
+    quote: "Duchy of Herdsland | 남중앙 대초원 | ~32K km² | 양모·목축·말"
+  - src: "[[Wave 4 에이전트 지시문 — 귀족 항목]]"
+    quote: "Soranth 대평원 공작"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # House Pelorn (펠로른 가문) — 목축 공작 가문
 
 ## 원전 인용 증명

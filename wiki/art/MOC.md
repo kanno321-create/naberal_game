@@ -1,8 +1,22 @@
 ---
+title: "Art — Map of Content"
+layer: 1
+canon_tier: derived
 category: art
-status: scaffold
+status: active
 tags: [moc, game, art]
-updated: 2026-04-20
+created: 2026-04-20
+updated: 2026-04-22
+parent: "[[../README]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[../design/MOC]]"
+  - "[[../engine/MOC]]"
+  - "[[../gameplay/MOC]]"
+agent_briefing_level: required
 ---
 
 # Art — Map of Content
@@ -28,7 +42,7 @@ updated: 2026-04-20
 
 ## NotebookLM 딥 리서치 (2026-04-20)
 
-**원본 답변**: [../../.planning/research/nlm_result_03_game_art_ai.md](../../.planning/research/nlm_result_03_game_art_ai.md) (25.7KB, 12,265자 — 가장 풍부)
+**원본 답변**: [[../../.planning/research/nlm_result_03_game_art_ai|nlm_result_03_game_art_ai]] (25.7KB, 12,265자 — 가장 풍부)
 
 ### 2D 전통 툴 (인디 비용 순)
 - **Krita** (무료) — 디지털 페인팅 + 애니 타임라인

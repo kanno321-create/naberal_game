@@ -1,13 +1,27 @@
 ---
 title: "Sylvenmere 왕도 상세 지도"
-type: capital_map
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, capital_map]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:75"
+    quote: "Duchy of Soranthmere | 평원 중심 · Soranth 강 중류 | ~30K km² | 곡물·목축 | 왕도 공작령 (추정)"
+  - src: "[[city_sylvenmere_2026-04-22 (Wave 2 Toponymist)]]"
+    quote: "Soranth 강 중류 · 큰 자연 호수 연안 / 인구 약 30,000~50,000 / 수상 시장 유명"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Sylvenmere (실벤미어) — 왕도 상세 지도
 
 ## 원전 인용 증명

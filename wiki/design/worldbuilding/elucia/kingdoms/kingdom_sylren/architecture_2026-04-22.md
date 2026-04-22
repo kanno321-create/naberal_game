@@ -1,13 +1,27 @@
 ---
 title: "Sylren 왕국 건축 양식"
-type: architecture
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, architecture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[Wave 4 에이전트 지시문 — 건축 항목]]"
+    quote: "건축: 넓은 석조 저택·포치·분수·테라코타 지붕"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[political_divisions]]:114"
+    quote: "Soranth / 소란스 / 남중앙 평원"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Sylren 왕국 건축 양식
 
 ## 원전 인용 증명

@@ -1,0 +1,14 @@
+{
+  "types": {
+    "layer": "number",
+    "canon_tier": "text",
+    "parent": "multitext",
+    "up": "multitext",
+    "derived_from": "multitext",
+    "related": "multitext",
+    "moc": "text",
+    "canon_anchors": "multitext",
+    "agent_briefing_level": "text",
+    "tags": "tags"
+  }
+}

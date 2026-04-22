@@ -1,9 +1,27 @@
 ---
 title: "백조 기사단 (Order of the Swan) — 알드릭 호반 파수"
-type: order
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, orders]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[military_2026-04-22]]"
+    quote: "백조 기사단 | 150~250명 | 왕궁 근위·호수 순찰 엘리트"
+  - src: "[[heraldry_2026-04-22]]"
+    quote: "청색·은색·진주 · 백조·물결·호수"
+related:
+  - "[[military_2026-04-22]]"
+  - "[[prince_loryn_2026-04-22]]"
+  - "[[king_aldric_iv_2026-04-22]]"
+agent_briefing_level: reference
+type: order
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

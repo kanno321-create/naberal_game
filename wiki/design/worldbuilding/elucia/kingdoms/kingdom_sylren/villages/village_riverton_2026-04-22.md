@@ -1,13 +1,23 @@
 ---
 title: "Riverton — Sylren 강변 도하 마을"
-type: village
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, villages]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:111"
+    quote: "동부: Soranth 강 — Oryn 방향 경계 후보"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Riverton (리버튼) — Soranth 강 도하 거점 마을
 
 | 항목 | 내용 |

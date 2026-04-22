@@ -1,12 +1,23 @@
 ---
 title: "Irongate — Thaloss 관문 도시"
-type: city
-kingdom: kingdom_thaloss
-tier: fortress_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Greygate / Greygate Pass 통제 구역 / 서쪽 관문 · 대륙 교통 독점 / Irongate"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[duke_greygate_house_kaerv_2026-04-22]]"
+  - "[[city_icehelm_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Irongate (아이언게이트) — Greygate Pass 관문 요새

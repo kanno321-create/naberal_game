@@ -1,9 +1,25 @@
 ---
+title: "Design MOC — naberal_game 디자인 카테고리 인덱스"
 category: design
+layer: 1
+canon_tier: derived
 status: active
 tags: [moc, game, design]
-updated: 2026-04-21
-revision: 2
+created: 2026-04-20
+updated: 2026-04-22
+revision: 3
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[game_setting_complete_2026-04-21]]"
+related:
+  - "[[../FRONTMATTER_STANDARD]]"
+  - "[[../gameplay/MOC]]"
+  - "[[novel/outline]]"
+  - "[[novel/style_bible]]"
+moc_children_auto: "dataview: LIST FROM 'design' WHERE layer = 2"
+agent_briefing_level: required
 ---
 
 # Design — Map of Content

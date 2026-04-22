@@ -1,15 +1,26 @@
 ---
 title: "House Voss — 노바스 관문 왕조"
-type: house
-kingdom: kingdom_novas
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, house]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
-qfix7_applied: 2026-04-22
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[royals/king_aldaron_voss_2026-04-22]]"
+  - "[[history/founding_2026-04-22]]"
+  - "[[heraldry_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "하단 주황식은 이어진길이다."
+agent_briefing_level: reference
 ---
-
 # House Voss — 관문 왕조
 
 ## 원전 인용 증명

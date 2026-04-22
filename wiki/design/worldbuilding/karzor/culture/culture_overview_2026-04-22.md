@@ -1,14 +1,30 @@
 ---
 title: "Karzor — 문화 개요"
-type: culture
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, culture]
 continent: karzor
+parent: "[[../00_overview]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제, 동쪽은 모병제 군대의 차이다."
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "그외 초소수민족인 수인족들은 거의 노예시장에서 거래된다 사실상 야생에선 볼수없는 절멸상태,"
+related:
+  - "[[../00_overview]]"
+  - "[[../economy/economy_overview_2026-04-22]]"
+  - "[[../political/political_divisions_karzor_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft
-sources:
-  - political_divisions.md (칭호 체계)
-  - brainstorm_2026-04-21_worldview_expansion.md (발언 5·7·46·47·50)
-  - project_qcore1/2
 ---
 
 # Karzor 문화 개요

@@ -1,7 +1,27 @@
 ---
 title: "Choir of Elucia (성좌국) — 왕국 전체 개요 및 인덱스"
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, empire_choir, overview, kingdom, index]
 type: overview
 kingdom: empire_choir
+parent: "[[../elucia_kingdoms_MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌우 대륙은 같은 신을 믿지만 서로 해석을 달리한다. 서로 적대적이긴하나 하나의 목표는 지성이있는 타 종족 몰살로 오로지 인류를 위한 행성을 목표로한다."
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌."
+related:
+  - "[[political_divisions]]"
+  - "[[empire_choir_00_overview]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+agent_briefing_level: required
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

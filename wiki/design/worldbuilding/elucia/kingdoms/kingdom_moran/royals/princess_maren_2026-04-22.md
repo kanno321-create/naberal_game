@@ -1,12 +1,23 @@
 ---
 title: "Maren — Moran 공주"
-type: royal
-kingdom: kingdom_moran
-role: princess
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, royal, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "공주 Maren"
+related:
+  - "[[king_calder_2026-04-22]]"
+  - "[[crown_prince_aldwin_2026-04-22]]"
+  - "[[prince_corvin_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Maren (마렌) — Moran 공주

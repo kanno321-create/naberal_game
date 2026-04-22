@@ -1,13 +1,26 @@
 ---
-title: "House Ashwood — Deepwald 深林 가문"
-type: house
-kingdom: kingdom_oryn
-created: 2026-04-22
+title: "House Ashwood — Oryn 귀족 가문"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_oryn, house]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-oryn
-wave: 4
+kingdom: "kingdom_oryn"
+parent: "[[kingdom_oryn_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[houses/house_erevorn_2026-04-22]]"
+  - "[[houses/house_calder_2026-04-22]]"
+  - "[[nobles/duke_orenwarden_thornwall_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: reference
 ---
-
 # House Ashwood (애시우드 가문) — Deepwald 深林 귀족
 
 ## 원전 인용 증명

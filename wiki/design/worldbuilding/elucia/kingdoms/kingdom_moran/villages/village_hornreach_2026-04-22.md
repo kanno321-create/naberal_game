@@ -1,11 +1,23 @@
 ---
 title: "Hornreach — Moran 북단 돌출 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Morncliff / 절벽 해안 북부 · 어업·방어"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_greycliff_2026-04-22]]"
+  - "[[village_cliffwatch_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Hornreach (혼리치) — Morncliff Spine 북단 마을

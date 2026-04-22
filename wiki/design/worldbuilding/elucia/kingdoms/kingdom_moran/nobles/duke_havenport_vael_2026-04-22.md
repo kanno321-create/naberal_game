@@ -1,14 +1,23 @@
 ---
 title: "Vael 공작 — Havenport 공작령"
-type: noble
-kingdom: kingdom_moran
-rank: duke
-domain: Havenport
-family: Vael
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, noble, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Havenport / 왕도 해안 · 해운·무역"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[house_vael_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Edran Vael (에드란 바엘) — Havenport 공작

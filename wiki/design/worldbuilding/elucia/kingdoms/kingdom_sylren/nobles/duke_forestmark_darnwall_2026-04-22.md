@@ -1,13 +1,27 @@
 ---
 title: "Edric Darnwall — Forestmark 공작"
-type: noble
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:78"
+    quote: "Duchy of Forestmark | 동부 · Oryn 접경 삼림 | ~22K km² | 목재·수렵 | 동부 방어"
+  - src: "[[economic_clusters_2026-04-22]]:131"
+    quote: "C6 남부 복합 클러스터 ... Orenwald 변경 ~20% (익명 학자 마법 침투율 낮음)"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Edric Darnwall — Forestmark 공작
 
 ## 원전 인용 증명

@@ -1,11 +1,23 @@
 ---
 title: "Haldurmere — Stonecrown 고원 목축·모피 마을"
-type: village
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Haldurmere / Stonecrown 고원 / 고산 목축·모피"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[city_stonecrown_2026-04-22]]"
+  - "[[count_whitecrest_house_solden_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Haldurmere (할두르메어)

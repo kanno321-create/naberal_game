@@ -1,13 +1,27 @@
 ---
 title: "Ysara Caelindra — Auravale 공작"
-type: noble
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:76"
+    quote: "Duchy of Auravale | Auravel 강 동쪽 유역 | ~28K km² | 관개 농업"
+  - src: "[[agriculture_2026-04-22]]:93–94"
+    quote: "주요 작물 | 밀·옥수수류·콩류·기름작물 (추정) / 특성 | 남부 온난 기후 → 다작물 재배 가능"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Ysara Caelindra — Auravale 공작
 
 ## 원전 인용 증명

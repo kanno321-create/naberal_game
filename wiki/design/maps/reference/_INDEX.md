@@ -1,10 +1,25 @@
 ---
+title: "공식 세계 지도 레퍼런스"
+layer: 2
+canon_tier: detail
 category: design/maps/reference
 tags: [reference, official, world_map, 2026-04-21]
 created: 2026-04-21
+updated: 2026-04-22
 status: OFFICIAL
 purpose: 세계 지도 공식 레퍼런스. 향후 모든 집필·아트·게임 개발의 지리 기준.
 승격_지시: "이번지도는 맘에든다" (대표님 2026-04-21 세션 #2)
+parent: "[[../../../design/MOC]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측대륙은 1개의 교황청이있는 제국, 나머지 왕국 10개, 우측은 한개의 수도와 나머지의 직할자치구 14개"
+related:
+  - "[[../../political_divisions]]"
+  - "[[../../art/reference/_INDEX]]"
+agent_briefing_level: optional
 ---
 
 # 🗺️ 공식 세계 지도 레퍼런스
@@ -50,8 +65,8 @@ purpose: 세계 지도 공식 레퍼런스. 향후 모든 집필·아트·게임
 
 ## 연계 문서
 
-- [political_divisions.md](../../political_divisions.md) — 26 정치 단위 + 20 권역 상세
-- [character references/](../../art/reference/) — 주인공 나이트 외형 레퍼런스
+- [[../../political_divisions|political_divisions]] — 26 정치 단위 + 20 권역 상세
+- [[../../art/reference/_INDEX|character references]] — 주인공 나이트 외형 레퍼런스
 
 ---
 

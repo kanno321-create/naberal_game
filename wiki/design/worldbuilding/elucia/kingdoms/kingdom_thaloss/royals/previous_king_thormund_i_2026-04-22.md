@@ -1,14 +1,23 @@
 ---
 title: "Thormund I — 탈로스 선왕 (15년 전쟁의 왕)"
-type: royal
-role: previous_king
-kingdom: kingdom_thaloss
-status: deceased
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, royal, character, history]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "바엘린과의 15년 전쟁은 세대 원한을 남겼다"
+related:
+  - "[[king_thormund_2026-04-22]]"
+  - "[[war_thaloss_vaelin_perspective_2026-04-22]]"
+  - "[[history_founding_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Thormund I (소르문드 1세) — 탈로스 선왕

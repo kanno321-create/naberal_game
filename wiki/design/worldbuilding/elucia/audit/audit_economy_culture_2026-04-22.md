@@ -1,13 +1,28 @@
 ---
 title: "Wave Audit B — Economy·Culture 전수검사 리포트"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, audit]
+updated: 2026-04-22
+parent: "[[elucia_MOC]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "대표님 발언 50건 앵커 · 세계관 반전 5단 · 마법 5계층 · 26 정치단위 근거 원전"
+related:
+  - "[[MASTER_elucia_worldbook]]"
+  - "[[relationship_graph]]"
+  - "[[integrator_report_2026-04-22]]"
+agent_briefing_level: reference
 type: audit
 subject: economy_culture_wave2
 created: 2026-04-22
-updated: 2026-04-22
 agent: Auditor-B (나베랄 감마)
 wave: audit
-scope:
-  - wiki/design/worldbuilding/elucia/economy/ (16파일)
+scope:   - wiki/design/worldbuilding/elucia/economy/ (16파일)
   - wiki/design/worldbuilding/elucia/culture/ (18파일)
 total_files_read: 34
 status: COMPLETE

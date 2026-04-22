@@ -348,3 +348,45 @@ Wave 4 에서 11 왕국 Kingdom-Detailer 에이전트를 순차·병렬로 spawn
 - Ch.01 초안: `wiki/design/novel/ch01.md` (1인칭 · 7,100자)
 - 기상 시 대표님 재검토 필요: 시점 전환 · 주인공 이름 · 생존자 처리
 
+
+---
+
+## FAIL-014 — 원전 무시 집필 오염 drift · Ch.01 마을 토박이 서사 (2026-04-22, 세션 #6, Phase 0)
+
+**증상**:
+세션 #5 Ch.01 draft_v1 (7,150자, 1인칭) 이 원전 `story_full_narrative.md` 의 **"나이트 = 우주에서 창조된 수호자 · 이 행성 외부인 · 가족 없음 · 권능·기억 봉인 상태로 추락"** 설정과 완전 모순되는 **"마을 토박이 소년 · 내 어머니·내 아버지 · 십오 년 동안 · 우리 가족 굴 · 아버지가 열세 살 때 주신 칼 · 십육 년을 살면서"** 서사로 집필됨.
+`outline.md` Ch.01 beat (L36 "가족·이웃" · L40 "어머니의 마지막 말 살아남아라 사랑한다") + `village_ashenveil_2026-04-22.md` "가족" 섹션 (L110 아버지·어머니·형제 항목) 등 3 파일 연쇄 오염. 세션 #6 대표님 직접 지적으로 발견 — *"나이트는 소년시대가 없었는데?"* · *"우주적존재인 나이트는 가족같은거없음, 태어나는게 아니라 창조됨, 그리고 그 행성에서 살았던게 아니라 우주에서 왔는데"*.
+
+**원인**:
+1. **원전 위계 부재**: `story_full_narrative.md` 가 사실상 Layer 0 원전임에도 집필 시 검증 없이 덮어쓰기 가능. 문서 간 레이어 체계 없음.
+2. **집필 전 Canon 검증 규율 없음**: 세션 #5 Ch.01 집필 당시 원전 참조 0건. "Ashenveil 확정 + 6 NPC 생존 + LN 1인칭"만 보고 즉시 본문 착수.
+3. **자의 해석 재발 (FAIL-002 4회차)**: 세션 #5 대표님 "6 NPC 전원 생존" 결정을 **"주인공의 가족이 생존"**으로 오독. 실제 의도는 "나이트를 보살펴 준 마을 사람 6명 (가족 아님)".
+4. **3축 인프라 명목만 존재**: CLAUDE.md "하네스 + AI 위키 + 옵시디언 3축 조합 Day 1 이식" 선언에도 실제로는 (a) 하네스 templates/ 에 Obsidian 설정 전무 · (b) `wiki/.obsidian/` vault 설정 없음 (wiki-link 2.8% 커버리지) · (c) 에이전트가 원전 검증 규율 없이 집필.
+5. **드리프트 자동 스캔 부재**: 대표님 직접 읽기 전까지 발견 불가.
+
+**교훈** (세션 #6 시스템 구축):
+1. **3축 통합 인프라 v1.0 구축** (CLAUDE.md 상단 신규 섹션) — 하네스 + AI 위키 + 옵시디언 단일 표준 · frontmatter 공통 언어.
+2. **Canon Hierarchy** (`wiki/FRONTMATTER_STANDARD.md` §3) — Layer 0 원전 변경 불가 · Layer 2 세부는 `canon_anchors` 3~5건 박제 후 본문 착수.
+3. **CLAUDE.md 금기사항 §10 신규**: "Layer 0 (원전) 검증 없이 Layer 2 집필·박제 금지".
+4. **CLAUDE.md 금기사항 §11 신규**: "Obsidian Wikilinks 외 링크 형식 금지".
+5. **CLAUDE.md 필수사항 §9 신규**: "모든 .md 는 FRONTMATTER_STANDARD v1.0 준수".
+6. **CLAUDE.md 필수사항 §10 신규**: "Obsidian Vault 활성 유지".
+7. **에이전트 briefing v3**: `_shared_briefing.md` STEP 0 필독 9 파일 확장 + **Canon Anchor GATE** 신설 — Layer 2 집필·박제 시 canon_anchors 박제 검증 후 본문 착수. 위반 시 산출물 자동 반려.
+8. **Obsidian Vault 이식 완료**: `wiki/.obsidian/` 신규 생성 · 플러그인 3 (breadcrumbs · dataview · juggl) · graph.json Layer 색상 코딩 (L0 빨강 · L1 주황 · L2 파랑).
+9. **942 파일 전수 Layer 태깅** (10 병렬 에이전트) · wikilink 62건 전환 · canon_anchors 평균 2건/파일.
+
+**재발 방지 — 코드·구조 강제**:
+- Obsidian vault Layer 색상 그래프 → 고립 노드 즉시 식별 가능
+- drift-detection skill 주기 스캔 (Layer 0 원전 명사 vs Layer 2 본문 불일치)
+- Layer 2 파일 생성 시 frontmatter 검증 (layer·canon_anchors·derived_from 필드 존재)
+- `_shared_briefing.md` Canon Anchor GATE 위반 시 자동 반려
+
+**정정 대상** (세션 #6 또는 후속):
+- ✅ `ch01.md` draft_v1 → v2 skeleton 교체 (외부인 서사 · 6개월 체류 · 촌장 하밀 집 얹혀살기)
+- ⏳ `outline.md` Ch.01 beat 재작성 (가족 참조 전량 제거)
+- ⏳ `village_ashenveil_2026-04-22.md` "주인공의 고향 → 체류 마을" · "가족" 섹션 폐기 · 6 NPC 의미 재정의
+
+**참고**:
+- 대표님 지적 대화 (세션 #6, 2026-04-22): "나이트는 소년시대가 없었는데? 혹시 동명 2인이고 그게 나이트랑 관계있다는 설정?" → "우주적존재인 나이트는 가족같은거없음, 태어나는게 아니라 창조됨"
+- 대표님 3축 시스템 지시: "하네스 + AI 위키 + 옵시디언 이 최강의 조합이라던데 현재 AI 상황에서...활용을 못하면 안되지" → "즉시 풀스코프 도입해라. 3축 시스템에서 벗어난 행동도 말도하지말고 우리가 정한 방식으로 체계적으로 한다."
+- 구축 산출: `wiki/.obsidian/` · `wiki/FRONTMATTER_STANDARD.md` · CLAUDE.md 3축 섹션 · `_shared_briefing.md` v3 · 942 파일 전수 Layer 태깅 커밋

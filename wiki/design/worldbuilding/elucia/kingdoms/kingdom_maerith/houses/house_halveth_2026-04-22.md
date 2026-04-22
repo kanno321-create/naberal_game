@@ -1,14 +1,23 @@
 ---
 title: "House Halveth — Greycliff 삼림 경계 가문"
-type: house
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, houses]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_maerith_territories_2026-04-22]]:77"
+    quote: "Duchy of Greycliff / 고지 동쪽 · Oryn 방향 / 목재·수렵 / 동부 삼림 접경 (추정)"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # House Halveth — Greycliff 공작 가문
 
 ## 원전 인용 증명

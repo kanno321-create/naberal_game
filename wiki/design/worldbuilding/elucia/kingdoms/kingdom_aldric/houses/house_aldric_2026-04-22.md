@@ -1,9 +1,27 @@
 ---
 title: "House Aldric — 호반 왕조 (알드릭 왕가)"
-type: house
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, houses]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[history_founding_2026-04-22]]"
+    quote: "Lonwyn 호수 연안 어촌·교역 마을들이 수운 협력을 위해 연합을 형성한 것이 기원."
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[king_aldric_iv_2026-04-22]]"
+  - "[[queen_sylren_mora_2026-04-22]]"
+  - "[[heraldry_2026-04-22]]"
+agent_briefing_level: reference
+type: house
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

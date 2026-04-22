@@ -1,10 +1,30 @@
 ---
 title: "Caeron Maeran — Ilaris 왕세자"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ilaris, royals]
+updated: 2026-04-22
+kingdom: "kingdom_ilaris"
+parent: "[[kingdom_ilaris/00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_ilaris/history/founding_2026-04-22]]"
+    quote: "교황청과의 관계: 복종하되 이단 심문관 파견은 내심 불만"
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+  - src: "[[story_full_narrative]]"
+    quote: "세계관 철학 3조 — 불완전성·한결같음·영혼 평등"
+related:
+  - "[[kingdom_ilaris/00_overview]]"
+  - "[[kingdom_ilaris/houses/house_maeran_2026-04-22]]"
+  - "[[kingdom_ilaris/military_2026-04-22]]"
+agent_briefing_level: reference
 type: royal
-kingdom: kingdom_ilaris
 role: crown_prince
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ilaris
 wave: 4
 ---

@@ -1,11 +1,23 @@
 ---
 title: "Veldmoor — Southveld 유일 평야 농업 마을"
-type: village
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Veldmoor / Southveld 중심 / 유일 평야 농업 마을"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[count_southveld_house_ergal_2026-04-22]]"
+  - "[[village_grudenmoor_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Veldmoor (벨드무어)

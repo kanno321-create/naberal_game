@@ -1,15 +1,33 @@
 ---
+title: "Gameplay — Map of Content"
+layer: 1
+canon_tier: derived
 category: gameplay
 status: active
 tags: [moc, game, gameplay]
-updated: 2026-04-21
-revision: 2
+created: 2026-04-20
+updated: 2026-04-22
+revision: 3
+parent: "[[../README]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+  - "[[../design/brainstorm_2026-04-22_game_second_round]]"
+related:
+  - "[[../design/MOC]]"
+  - "[[../engine/MOC]]"
+  - "[[../art/MOC]]"
+  - "[[../audio/MOC]]"
+  - "[[../steam/MOC]]"
+agent_briefing_level: required
 ---
 
 # Gameplay — Map of Content
 
 > Tier 2 도메인-특화 지식 노드 맵. 게임플레이 시스템 영역.
-> **2026-04-21 Revision 2 박제 완료** — 콤보 턴 리셋 · 전략적 순서 · 3층 스킬 시스템 · 동료 8명 · 동료 극딜 · 콤보 재료 드랍.
+> **2026-04-21 Revision 2** — 콤보 턴 리셋 · 전략적 순서 · 3층 스킬 · 동료 8명 · 동료 극딜 · 콤보 재료 드랍.
+> **2026-04-22 Revision 3** — 월드 구조(허브+챕터) · 데스(전투 시작점 복귀) · 세이브(수동+자동) · 서사(2D+애니컷 혼용) · 튜토리얼 통합 · 사이드(얕은 시드) · 호감도(트리거) · MVP Phase 4 범위 확정.
 
 ## 확정 장르 정체성
 
@@ -26,6 +44,41 @@ revision: 2
 
 ---
 
+## 확정 게임 구조 (Rev.3 · 2026-04-22 · 2차 브레인스토밍)
+
+원전: [[../design/brainstorm_2026-04-22_game_second_round]] · 5축 11결정
+
+### 월드 구조 & 진행
+- **허브 마을 + 지역 챕터** (Octopath · Chrono Trigger) — 탐험 + 선형 서사 하이브리드
+- 26 정치 단위 중 **실제 방문 허브 5~8개** 선별 (Ashenveil·Misthollow·Solaris·Duskgate·Nomen·Sabin·Zarahim·Tilnar 후보)
+- 역주행 가능 · 나머지 18~21 단위 = 세계관 배경
+
+### 마을 기능
+- **NPC 호감도·사이드 퀘스트 허브** — 저장·쇼핑·NPC·동료 이벤트 트리거
+
+### 데스 페널티
+- **전투 시작점 복귀** (FF7 결) — 서사 진행 부담 낮춤. Soulslike 긴장 X
+- **세이브 = 수동 + 자동 혼합** — 마을 수동 저장 · 필드·전투 자동 저장
+
+### 서사 전달 방식
+- **2D 대화창 + 초상화 기본 + 애니메이션 컷신 혼용**
+- 애니컷 **3~5컷 한정** (프롤로그 마왕 / Ashenveil 습격 / Act 2 동료 이탈 / Act 3 진입 / 진엔딩)
+- AI 도구 체인 활용: Kling AI · Veo 3.1 · Nano Banana Pro
+- **튜토리얼 = 서사 통합** (Ch.01 진행 = 기본 조작 학습)
+
+### 사이드 컨텐츠 & 호감도
+- **얕은 시드 퀘스트** (Octopath 결) — NPC 심부름·수집
+- **동료 호감도 = 특정 이벤트 트리거** (Chrono Trigger 결) — 선물·반복 대화 X
+- 동료 8인 × 이벤트 8~12종/인 = 64~96 이벤트
+- 호감도 MAX → 고유 궁극기 해금 → 엔드게임 극딜 모드
+
+### Phase 4 MVP 범위 확정 (3~4개월)
+- 데모 = **Ashenveil 공격 재현** (서사 + 전투 통합)
+- 포함 11항목 · 제외 다수 → 상세 [[mvp_phase4_scope]]
+- 검증 = Phase 4 직후 **대표님 본인 판단** + Phase 7 직전 **Steam Next Fest 공개**
+
+---
+
 ## 문서 인덱스 (Active)
 
 | 문서 | 내용 | 상태 |
@@ -33,6 +86,7 @@ revision: 2
 | [[combat_system]] | 웨이브 · AP · 기술 슬롯 4~6개 · **콤보 턴 리셋** · **전략적 순서** · 방어 3선택 · 반격 · 극딜 · **동료 AI 간빗** | ✅ Rev.2 |
 | [[build_system]] | 5대 빌드 · **8직업 방어** · **스킬 3층 (스킬트리 + FF10 스피어 + D4 정복자)** · 상태이상 · 장비 랜덤 속성 · 콤보 재료 드랍 | ✅ Rev.2 |
 | [[endgame]] | 히든 보스 3계층 · 역대 신 무기 · **동료 극딜 모드** · **콤보 × 재료 드랍** · 진엔딩 | ✅ Rev.2 |
+| [[mvp_phase4_scope]] | **Phase 4 MVP 3~4개월 프로토타입 범위** · 3-tier 루프 · Ashenveil 데모 시나리오 · 포함/제외 · 검증 기준 | ✅ Rev.1 (2026-04-22) |
 
 ## 디자인 문서 연계
 
@@ -92,6 +146,20 @@ revision: 2
 ---
 
 ## 대표님 결정 대기
+
+### Rev.3 결정 완료 (2026-04-22 후반)
+- ✅ MVP 파티 = **주인공 + 기사 + 신관 = 3인** (콤보 맛 체감 목적)
+- ✅ 균형 빌드 MVP 기술 = **콤보 트리거 다양화 우선** (광역·단일·독·버프 필수 + 처형·AP회복 선택)
+- ✅ Ashenveil 2D CG = **5컷**
+- ✅ Ch.02 도착 마을 = **Misthollow**
+- ✅ Unity 6 LTS 조기 설치 = **Phase 1 종료 직후 즉시 (대표님 "미리미리")**
+- ✅ Steamworks 파트너 등록 = **Unity 설치와 동시 착수**
+
+### Rev.3 전량 해소 완료 (2026-04-22 후반)
+- ✅ Sabin 마법 감지 = **C Nomen 수정 2 파생** 확정 · Q-CORE 3 세계관 근본 연결 · Act 3 Nomen 섬 회수 플롯 신설
+- ✅ MVP 기간 = **3~4개월 유지** (압축 운영 · 마을 UI 간소화 · CG AI 병렬)
+
+**2차 라운드 13건 전량 해소. 3차 라운드 진입.**
 
 ### 전투 시스템
 - **콤보 정의**: 공격 횟수 vs 처치 수 vs 하이브리드
@@ -186,7 +254,7 @@ revision: 2
 
 ## 이전 NotebookLM 리서치 (2026-04-20 · 부분 유효)
 
-**원본**: [../../.planning/research/nlm_result_01_indie_mvp_design.md](../../.planning/research/nlm_result_01_indie_mvp_design.md) §2-3
+**원본**: [[../../.planning/research/nlm_result_01_indie_mvp_design|nlm_result_01_indie_mvp_design]] §2-3
 
 ### 지금도 유효
 - **30초·3분·30분 3-tier 루프** — [[combat_system]] 에 반영

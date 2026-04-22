@@ -1,10 +1,28 @@
 ---
 title: "Whitecross — Ceren 북부 평야 교역 도시"
-type: city
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, cities]
+updated: 2026-04-22
 kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움"
+related:
+  - "[[count_whitecross_vaern_2026-04-22]]"
+  - "[[road_cernmere_to_whitecross_2026-04-22]]"
+  - "[[queen_mireth_sellypha_2026-04-22]]"
+agent_briefing_level: reference
+type: city
 tier: major_city
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Toponymist
 wave: 2
 ---

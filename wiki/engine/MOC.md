@@ -1,8 +1,23 @@
 ---
+title: "Engine — Map of Content"
+layer: 1
+canon_tier: derived
 category: engine
-status: scaffold
+status: active
 tags: [moc, game, engine, unity]
-updated: 2026-04-20
+created: 2026-04-20
+updated: 2026-04-22
+parent: "[[../README]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[../design/MOC]]"
+  - "[[../art/MOC]]"
+  - "[[../steam/MOC]]"
+  - "[[../gameplay/MOC]]"
+agent_briefing_level: required
 ---
 
 # Engine — Map of Content
@@ -29,7 +44,7 @@ Unity 6 LTS 설정, C# 코드 패턴 (ScriptableObject, Assembly Definition, Add
 
 ## NotebookLM 딥 리서치 (2026-04-20)
 
-**원본 답변**: [../../.planning/research/nlm_result_02_unity6_all.md](../../.planning/research/nlm_result_02_unity6_all.md) (18.6KB, 9,301자)
+**원본 답변**: [[../../.planning/research/nlm_result_02_unity6_all|nlm_result_02_unity6_all]] (18.6KB, 9,301자)
 
 ### 학습 로드맵 (C# 중급자 전제)
 1. **Unity 공식 "Essentials"** (8-10h) — 엔진 인터페이스

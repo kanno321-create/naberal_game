@@ -1,17 +1,27 @@
 ---
 title: "Drak 공작 — Northmere 공작령"
-type: noble
-kingdom: kingdom_maerith
-role: duke
-domain: Duchy of Northmere
-family: Drak
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_maerith_territories_2026-04-22]]:78"
+    quote: "Duchy of Northmere / 고원 북부 · Norvend 접경 / ~32K km² / 광물·철광 / 산악 광업 (추정)"
+  - src: "[[economic_clusters_2026-04-22]]:82"
+    quote: "C2 — 북동 고지 클러스터 / 주력 산업: 소규모 구리 광업 + 고지 축산 + 목재"
+  - src: "[[mining_metals_2026-04-22]]:56–57"
+    quote: "Auryn 고지 광업: 소규모 구리·철 채굴 / C1 Thaloss 광업의 보완 공급"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Duke Corvath Drak — Northmere 공작
 
 ## 원전 인용 증명

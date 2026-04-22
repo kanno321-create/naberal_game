@@ -1,17 +1,25 @@
 ---
 title: "Vorn 공작 — Crestwatch 공작령"
-type: noble
-kingdom: kingdom_maerith
-role: duke
-domain: Duchy of Crestwatch
-family: Vorn
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_maerith_territories_2026-04-22]]:77"
+    quote: "Duchy of Crestwatch / Whitecrest Saddle 남측 / ~30K km² / 통행세·군사 / Thaloss 접경 관문 수"
+  - src: "[[economic_clusters_2026-04-22]]:83–84"
+    quote: "교역 파트너: Thaloss (대형 철로 교환) / 산악 고립 → 교역 비용 높음"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Duke Halvard Vorn — Crestwatch 공작
 
 ## 원전 인용 증명

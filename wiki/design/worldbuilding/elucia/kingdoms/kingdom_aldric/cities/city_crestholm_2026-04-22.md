@@ -1,10 +1,28 @@
 ---
 title: "Crestholm — Aldric 북부 구릉 도시"
-type: city
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, cities]
+updated: 2026-04-22
 kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]"
+    quote: "Aldric | 남서 호수 / Lonwyn | 론윈 — 남서 호수 | 알드릭 왕국"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[military_2026-04-22]]"
+  - "[[city_lonwyn_2026-04-22]]"
+  - "[[kingdom_aldric_territories_2026-04-22]]"
+agent_briefing_level: reference
+type: city
 tier: major_city
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

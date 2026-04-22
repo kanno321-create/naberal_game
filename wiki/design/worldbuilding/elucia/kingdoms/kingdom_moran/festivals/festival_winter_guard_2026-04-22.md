@@ -1,11 +1,23 @@
 ---
 title: "겨울 수호제 — Moran 왕국 동계 수호 축제"
-type: festival
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, festival, culture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "종교: 교황청 공식 교리 + 해신 신앙 혼재"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[kingdom_moran_military_2026-04-22]]"
+  - "[[festival_departure_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # 겨울 수호제 (Festival of the Winter Guard · Vel Draven)

@@ -1,9 +1,27 @@
 ---
 title: "Oarston — 수운 노잡이 마을"
-type: village
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, villages]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Lowenmere / Lowen 강 하류 유입부 / 수운·내륙 교역 / 동서 수운 관문"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움"
+related:
+  - "[[duke_lowenmere_brynn_2026-04-22]]"
+  - "[[road_lonwyn_to_lowenmere_2026-04-22]]"
+  - "[[village_heronbridge_2026-04-22]]"
+agent_briefing_level: reference
+type: village
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

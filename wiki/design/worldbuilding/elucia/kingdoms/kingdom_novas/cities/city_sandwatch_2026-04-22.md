@@ -1,15 +1,26 @@
 ---
 title: "Sandwatch — Novas 사막 경계 감시 요새 도시"
-type: city
-kingdom: kingdom_novas
-tier: fortress_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, city]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[orders/order_desert_scout_2026-04-22]]"
+  - "[[nobles/count_sandwatch_border_veth_2026-04-22]]"
+  - "[[cities/city_duskgate_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:261"
+    quote: "좌우 대륙은 같은 신을 믿지만 서로 해석을 달리한다."
+agent_briefing_level: reference
 ---
-
 # Sandwatch (샌드워치) — Karzor 사막 전방 요새
 
 > **Wave 4 심화**

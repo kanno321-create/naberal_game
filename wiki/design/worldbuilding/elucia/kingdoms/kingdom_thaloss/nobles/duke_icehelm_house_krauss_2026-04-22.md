@@ -1,15 +1,23 @@
 ---
 title: "Icehelm 공작 — House Krauss (왕실 직할)"
-type: noble
-role: duke
-domain: Duchy of Icehelm
-family: House Krauss
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, noble, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Icehelm / Norvend 중심부 · 최고봉 / 왕실 직할 · 희귀 광석"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[house_krauss_2026-04-22]]"
+  - "[[king_thormund_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Konrad Krauss (콘라드 크라우스) — Icehelm 공작 (왕의 친형)

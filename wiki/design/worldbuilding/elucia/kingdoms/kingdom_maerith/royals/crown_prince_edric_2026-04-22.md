@@ -1,15 +1,27 @@
 ---
 title: "Edric Maern — 마에리스 왕세자"
-type: royal
-kingdom: kingdom_maerith
-role: crown_prince
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "왕족: 고지 왕조 · 폐쇄적 전통"
+  - src: "[[_shared_briefing]]:87"
+    quote: "한결같음 — 나이트는 한결같은 인격체"
+  - src: "[[founding_2026-04-22]]:56"
+    quote: "바엘린-탈로스 전쟁 중재 시도: 3년차 실패 → 중립 외교 전통 확립"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Edric Caern Maern — 왕세자
 
 ## 원전 인용 증명

@@ -1,12 +1,25 @@
 ---
 title: "Moran 왕국 — 전체 개요 · 인덱스"
-type: overview
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_moran, overview]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_moran
+parent: "[[design/MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:발언5"
+    quote: "대륙윗쪽에서는 좌우 모두 물길이 너무험하고 작은 암초가 많아서 불가능, 몬스터도 많음"
+  - src: "[[political_divisions]]:54"
+    quote: "모란 / Moran / 북서 · Havren / 하브렌 / 북서 해안 / 모란·바엘린 왕국"
+related:
+  - "[[kingdom_vaelin/00_overview]]"
+  - "[[kingdom_ilaris/00_overview]]"
+  - "[[elucia_kingdoms_MOC]]"
+agent_briefing_level: reference
 ---
 
 # 모란 왕국 (Kingdom of Moran) — 북서 해양 대왕국

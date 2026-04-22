@@ -1,9 +1,27 @@
 ---
 title: "초대 왕 기념일 (Founder's Day)"
-type: festival
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, festivals]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[history_founding_2026-04-22]]"
+    quote: "호수 연안 어촌·교역 마을들이 수운 협력을 위해 연합을 형성한 것이 기원."
+  - src: "[[house_aldric_2026-04-22]]"
+    quote: "초대 왕 — 대표님 미확정"
+related:
+  - "[[house_aldric_2026-04-22]]"
+  - "[[king_aldric_iv_2026-04-22]]"
+  - "[[history_founding_2026-04-22]]"
+agent_briefing_level: reference
+type: festival
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

@@ -1,14 +1,26 @@
 ---
 title: "Novas 왕국 건축 양식"
-type: architecture
-kingdom: kingdom_novas
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, architecture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[cities/city_redstone_2026-04-22]]"
+  - "[[heraldry_2026-04-22]]"
+  - "[[clothing_2026-04-22]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:261"
+    quote: "좌우 대륙은 같은 신을 믿지만 서로 해석을 달리한다."
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+agent_briefing_level: reference
 ---
-
 # Novas 왕국 건축 — 붉은 사암 요새와 Karzor 아치
 
 ## 원전 인용 증명

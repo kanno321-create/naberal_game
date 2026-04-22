@@ -1,10 +1,25 @@
 ---
+title: "공식 레퍼런스 아트 — 나이트 주인공"
+layer: 2
+canon_tier: detail
 category: design/art/reference
 tags: [reference, official, character, knight, 2026-04-21]
 created: 2026-04-21
+updated: 2026-04-22
 status: OFFICIAL
 purpose: 나이트 주인공의 공식 외형·장면 레퍼런스 아트. 향후 모든 집필·아트·게임 개발 작업의 시각 기준.
 승격_지시: "이 두 이미지를 레퍼런스아트로 승격하고 저장헤" (대표님 2026-04-21 세션 #2)
+parent: "[[../../../art/MOC]]"
+moc: "[[../../../art/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+canon_anchors:
+  - src: "[[story_full_narrative]]:89"
+    quote: "이름은 나이트(Knight). 수천 년을 수행한 균형 수호자."
+related:
+  - "[[../../main_character]]"
+  - "[[../../maps/reference/_INDEX]]"
+agent_briefing_level: optional
 ---
 
 # 🎨 공식 레퍼런스 아트 — 나이트 주인공

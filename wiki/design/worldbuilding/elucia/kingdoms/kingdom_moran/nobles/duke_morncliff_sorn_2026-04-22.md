@@ -1,14 +1,23 @@
 ---
 title: "Sorn 공작 — Morncliff 공작령"
-type: noble
-kingdom: kingdom_moran
-rank: duke
-domain: Morncliff
-family: Sorn
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, noble, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Morncliff / 절벽 해안 북부 · 어업·방어"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[house_sorn_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Verin Sorn (베린 소른) — Morncliff 공작

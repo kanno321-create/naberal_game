@@ -1,9 +1,20 @@
 ---
+title: "Phase 2 대기 도구 목록 — Unity 프로젝트 생성 시 설치 예정"
 category: research
-tags: [deferred, phase-2, unity, tools, 2026-04-21]
+tags: [research, nlm, deferred, phase-2, unity, tools, 2026-04-21]
 created: 2026-04-21
 purpose: Phase 2 Unity 프로젝트 생성 시점에 설치할 도구 목록
 status: deferred
+layer: 1
+canon_tier: derived
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/engine/MOC]]"
+  - "[[nlm_result_08_game_dev_libraries]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # Phase 2 대기 도구 (2026-04-21 기준)

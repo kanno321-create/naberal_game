@@ -1,13 +1,25 @@
 ---
 title: "Thormund II — 탈로스 현 왕 (철왕)"
-type: royal
-role: king
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, royal, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "군주 칭호: 철왕 (Iron King / Eisenkönig)"
+  - src: "[[political_divisions]]:57"
+    quote: "탈로스 / Thaloss / 북부 산맥 / 철·구리 광산 독점 / 철 공급 레버리지로 반독립적 태도"
+related:
+  - "[[queen_aelindra_2026-04-22]]"
+  - "[[crown_prince_aldren_2026-04-22]]"
+  - "[[house_krauss_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Thormund II (소르문드 2세) — 현 탈로스 왕

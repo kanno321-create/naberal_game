@@ -1,13 +1,27 @@
 ---
 title: "Solveig Carath — Azimgate 백작"
-type: noble
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "하단 주황색은 이어진길이다"
+  - src: "[[economic_clusters_2026-04-22]]:130–131"
+    quote: "C6 클러스터 ... 다양한 산업 포트폴리오 · Azim Pass 접근"
+  - src: "[[economic_clusters_2026-04-22]]:165"
+    quote: "Azim Pass 통행세 | Novas vs Karzor·Sabin | 노예·물자 이동 통행료 분쟁"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Solveig Carath — Azimgate 백작
 
 ## 원전 인용 증명

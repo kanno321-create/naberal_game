@@ -1,12 +1,23 @@
 ---
 title: "Sorwen — Moran 왕비"
-type: royal
-kingdom: kingdom_moran
-role: queen
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, royal, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "왕족: 해양 왕·파도의 혈통·왕비 Ilaris 혼인 전통 (서해안 동맹)"
+related:
+  - "[[king_calder_2026-04-22]]"
+  - "[[crown_prince_aldwin_2026-04-22]]"
+  - "[[kingdom_ilaris/00_overview]]"
+agent_briefing_level: reference
 ---
 
 # Sorwen (소르웬) — Moran 왕비 · Ilaris 혼인 전통

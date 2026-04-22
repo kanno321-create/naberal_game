@@ -1,9 +1,27 @@
 ---
 title: "Brynn 공작 — Duchy of Lowenmere (수운 항만 공작)"
-type: noble
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, nobles]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Lowenmere / Lowen 강 하류 유입부 / ~18K km² / 수운·내륙 교역 / 동서 수운 관문"
+  - src: "[[rivers_major_2026-04-22]]"
+    quote: "Lowen River / 내륙 수운의 동서 축 / 성좌국·Aldric"
+related:
+  - "[[house_brynn_2026-04-22]]"
+  - "[[crown_prince_edwyn_2026-04-22]]"
+  - "[[count_rivermoor_2026-04-22]]"
+agent_briefing_level: reference
+type: noble
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

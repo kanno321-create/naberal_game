@@ -1,11 +1,21 @@
 ---
+title: "Brainstorm 2026-04-21 — 설계 원전 1차"
 category: design
+layer: 0
+canon_tier: core
 status: active
-tags: [brainstorm, session-log, revision-source, 2026-04-21]
+tags: [canon, brainstorm, session-log, revision-source, 2026-04-21]
 created: 2026-04-21
-updated: 2026-04-21
-revision: 0 (원전)
-purpose: 2026-04-21 대표님 브레인스토밍 세션 박제 — Rev.3 통합 작업의 원전 (原典)
+updated: 2026-04-22
+revision: "0 (원전 · Canon Layer 0)"
+purpose: "2026-04-21 대표님 브레인스토밍 세션 박제 — Rev.3 통합 작업의 원전 (原典)"
+agent_briefing_level: required
+canon_authority: "대표님 원문 발언 22건 앵커 · 변경 불가 · 모든 Layer 1/2 파일 인용 기준"
+related:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[brainstorm_2026-04-22_game_second_round]]"
+  - "[[../FRONTMATTER_STANDARD]]"
 ---
 
 # 2026-04-21 대표님 브레인스토밍 원전

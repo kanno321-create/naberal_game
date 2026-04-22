@@ -1,4 +1,5 @@
 ---
+title: "NLM Result 02 — Unity 6 LTS 전부 (로드맵·스크립팅·비주얼·퍼포먼스)"
 query_idx: 2
 label: 영역 Unity 6 LTS 전부 (로드맵 + 스크립팅 + 비주얼 + 퍼포먼스)
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
@@ -6,6 +7,16 @@ question_chars: 1007
 answer_chars: 9301
 duration_s: 171.3
 date: 2026-04-20
+layer: 1
+canon_tier: derived
+tags: [research, nlm, unity6, engine, scripting]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/engine/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM 응답 — 영역 Unity 6 LTS 전부 (로드맵 + 스크립팅 + 비주얼 + 퍼포먼스)

@@ -1,9 +1,27 @@
 ---
 title: "개항제 (Festival of the Opening Harbor)"
-type: festival
-kingdom: kingdom_ilaris
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ilaris, festivals]
 updated: 2026-04-22
+kingdom: "kingdom_ilaris"
+parent: "[[kingdom_ilaris/00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+  - src: "[[story_full_narrative]]"
+    quote: "세계관 철학 3조 — 불완전성·한결같음·영혼 평등"
+related:
+  - "[[kingdom_ilaris/00_overview]]"
+  - "[[kingdom_ilaris/clothing_2026-04-22]]"
+  - "[[kingdom_ilaris/cuisine_2026-04-22]]"
+agent_briefing_level: reference
+type: festival
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ilaris
 wave: 4
 ---

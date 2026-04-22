@@ -1,9 +1,27 @@
 ---
 title: "Archbishop Sybilla Vorn — Aurioncross 대교구장"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, royal, archbishop, pilgrimage]
 type: royal
 kingdom: empire_choir
 role: archbishop
 rank: archdiocesan_head
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제"
+  - src: "[[political_divisions]]"
+    quote: "교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+related:
+  - "[[royals/pope_aurelius_iv_2026-04-22]]"
+  - "[[cities/city_lumstow_2026-04-22]]"
+  - "[[empire_choir_00_overview]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

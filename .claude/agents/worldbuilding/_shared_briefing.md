@@ -1,36 +1,54 @@
-# Worldbuilding Shared Briefing v1.0 — 서쪽 대륙 Elucia
+# Shared Briefing v3 — 3축 통합 인프라 (하네스 + AI 위키 + 옵시디언)
 
-> 모든 월드빌딩 에이전트 (Geographer, Political-Cartographer, Toponymist, Road-Engineer, Economist, Culturalist, Historian, Diplomat, Kingdom-Detailer × 12, Chronicler, World-Integrator) 공통 briefing. 각자 도메인 briefing 과 병용.
+> 모든 에이전트 (Worldbuilding × Wave 1~5, Kingdom-Detailer × 12, Chronicler, World-Integrator, Phase 3+ 게임 개발 에이전트 · Layer 태깅 에이전트 · Canon 검증 에이전트 전체) 공통 briefing.
+>
+> **v3 (2026-04-22 세션 #6)**: FAIL-014 원전 무시 drift 교훈 반영. 3축 통합 인프라 (`CLAUDE.md` §3축 섹션) + Canon Hierarchy + Frontmatter Standard 필독 추가.
 
 ---
 
 ## ⚠️ STEP 0 — 필독 (우회 금지 · 위반 시 산출물 자동 반려)
 
-아래 7 파일을 **Read tool 로 전부 읽은 후에만** 작업 시작한다.
+아래 **9 파일**을 **Read tool 로 전부 읽은 후에만** 작업 시작한다.
 
-| # | 경로 | 줄 | 역할 |
-|---|------|-----|------|
-| 1 | `wiki/design/brainstorm_2026-04-21_worldview_expansion.md` | 3,146 | 50 발언 원전 · 세계관 근본 |
-| 2 | `wiki/design/brainstorm_2026-04-21.md` | 903 | Rev.3 기준 브레인스토밍 |
-| 3 | `wiki/design/game_setting_complete_2026-04-21.md` | 630 | 통합 스냅샷 |
-| 4 | `wiki/design/political_divisions.md` | 150 | 26 정치단위 확정 |
-| 5 | `wiki/design/story_full_narrative.md` | 1,026 | Rev.3 서사 |
-| 6 | `CLAUDE.md` | 84 | 정체성·금기 9·필수 8 |
-| 7 | `.claude/failures/FAILURES.md` | 175 | FAIL-001~006 교훈 |
+| # | 경로 | Layer | 역할 |
+|---|------|-------|------|
+| 1 | `wiki/FRONTMATTER_STANDARD.md` | **v1.0 표준** | **3축 공통 언어 · frontmatter 스펙 (세션 #6 신설)** |
+| 2 | `CLAUDE.md` | 규율 | 3축 통합 인프라 섹션 + 금기 11 + 필수 10 |
+| 3 | `wiki/design/story_full_narrative.md` | **0 원전** | Rev.3 서사 · 나이트 = 수호자 · **모든 집필 최우선 진리** |
+| 4 | `wiki/design/brainstorm_2026-04-21.md` | **0 원전** | Rev.3 기준 브레인스토밍 · 대표님 발언 22 앵커 |
+| 5 | `wiki/design/brainstorm_2026-04-21_worldview_expansion.md` | **0 원전** | 50 발언 원전 · 세계관 근본 |
+| 6 | `wiki/design/game_setting_complete_2026-04-21.md` | 0 원전 | 통합 스냅샷 |
+| 7 | `wiki/design/political_divisions.md` | 1 | 26 정치단위 확정 |
+| 8 | `wiki/design/brainstorm_2026-04-22_game_second_round.md` | 1 | 게임 구조·MVP·호감도 13 결정 |
+| 9 | `.claude/failures/FAILURES.md` | 규율 | FAIL-001~014 교훈 (특히 FAIL-014 원전 무시 drift) |
 
 ### 읽기 완료 증명 (필수)
 
-산출물 **최상단** 에 `## 원전 인용 증명` 섹션을 두고, 7 파일 각각에서 네 작업 영역과 관련된 구간 **3 줄 이상 원문 인용 + 파일명:줄번호** 를 박제한다. 인용 없는 산출물은 자동 반려 (World-Integrator 가 검증).
+산출물 **최상단** 에 `## 원전 인용 증명` 섹션을 두고, 9 파일 각각에서 네 작업 영역과 관련된 구간 **3 줄 이상 원문 인용 + 파일명:줄번호** 를 박제한다. 인용 없는 산출물은 자동 반려.
 
-예시:
+### 🔐 Canon Anchor GATE (세션 #6 FAIL-014 교훈 · 신설)
+
+Layer 2 (세부 · 챕터·왕국 파일·마을·도시·귀족 등) 집필·박제 시 **반드시** frontmatter 에 `canon_anchors` 3~5건 박제 후 본문 착수.
+
+```yaml
+layer: 2
+canon_tier: detail
+canon_anchors:
+  - src: "[[story_full_narrative]]:89"
+    quote: "이름은 나이트(Knight). 수천 년을 수행한 균형 수호자."
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "{해당 주제 관련 원전 직접 인용 2~3줄}"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
 ```
-## 원전 인용 증명
 
-### [필독 1] brainstorm_2026-04-21_worldview_expansion.md:176-178
-> "이게 내가 그린맵, 내가 보는방향에서 좌측이 서구중세문명, 우측이 이슬람과비슷한 문명 하늘색이 강인데, 보시다시피 좌측은 강이 많고 풍요로움..."
-
-(7 파일 전체 반복)
-```
+**검증 규칙** — 아래 중 하나라도 위반 시 산출물 자동 반려:
+1. `layer` 필드 누락
+2. Layer 2 인데 `canon_anchors` 0건 또는 1건
+3. 본문이 `canon_anchors[].quote` 내용과 모순
+4. Layer 0 원전에 없는 **주인공 속성** (가족·어머니·아버지·태어남·거주 기간 등) 을 자의로 신설
+5. Markdown-link `[text](path.md)` 사용 (Wikilinks 전용 금지 규율)
 
 ---
 

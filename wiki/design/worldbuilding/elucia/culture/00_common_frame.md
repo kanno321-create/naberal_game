@@ -1,14 +1,31 @@
 ---
 title: "Elucia 문화 공통 프레임 — 인덱스"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, culture]
+updated: 2026-04-22
+parent: "[[culture_00_common_frame]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "서쪽 대륙: 서구중세문명 — 왕국·기사·교회·봉건제 구조"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "인간은 악이 아니다. 모든 종족이 나태해진 신과 타락한 교회의 피해자"
+related:
+  - "[[economy_00_overview]]"
+  - "[[political_00_overview]]"
+  - "[[history_00_timeline]]"
+agent_briefing_level: reference
 type: culture
 subject: index
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Culturalist
 wave: 2
 status: COMPLETE — 17파일 전체 작성 완료 (2026-04-22)
-inputs:
-  - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
+inputs:   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
   - wiki/design/game_setting_complete_2026-04-21.md
   - wiki/design/political_divisions.md
   - wiki/design/worldbuilding/elucia/geography/climate_zones_2026-04-22.md
@@ -66,23 +83,23 @@ Elucia (서쪽 대륙) 의 문화는 발언 3 "서구중세문명" 을 기반으
 
 | 파일 | 주제 | 핵심 키워드 |
 |------|------|------------|
-| [`shared_religion_structure_2026-04-22.md`](shared_religion_structure_2026-04-22.md) | 공통 종교 구조 (같은 신) | 7대 신·수직 교계·신앙 기능 |
-| [`religious_schism_orthodox_vs_corrupt_2026-04-22.md`](religious_schism_orthodox_vs_corrupt_2026-04-22.md) | 타락한 교회 vs 양심파 분열 | 교리 분열·지역 분포·양심파 저항 |
-| [`common_language_base_2026-04-22.md`](common_language_base_2026-04-22.md) | 대륙 공용어 Elucian | 문자·기본 문법·라틴 어원 |
-| [`dialects_regional_framework_2026-04-22.md`](dialects_regional_framework_2026-04-22.md) | 지역별 방언 variation 프레임 | 기후·지형별 발음·어휘 차이 |
-| [`medieval_fantasy_conventions_2026-04-22.md`](medieval_fantasy_conventions_2026-04-22.md) | 중세 판타지 공통 설정 | 봉건제·기사도·교단·세금 |
-| [`clothing_framework_2026-04-22.md`](clothing_framework_2026-04-22.md) | 의상 공통 프레임 | 기후·신분별 variation 축 |
-| [`festivals_common_seasonal_2026-04-22.md`](festivals_common_seasonal_2026-04-22.md) | 계절 축제 공통 | 수확제·동지제·봄맞이 |
-| [`festivals_religious_common_2026-04-22.md`](festivals_religious_common_2026-04-22.md) | 종교 축제 공통 | 성인기념일·성지 순례 |
-| [`cuisine_regional_framework_2026-04-22.md`](cuisine_regional_framework_2026-04-22.md) | 기후별 음식 variation 프레임 | 서쪽 축산·동쪽 어업 |
-| [`architecture_styles_framework_2026-04-22.md`](architecture_styles_framework_2026-04-22.md) | 건축 양식 공통 프레임 | 고딕·로마네스크·목조+석조 |
-| [`social_classes_2026-04-22.md`](social_classes_2026-04-22.md) | 신분 계급 | 왕족·귀족·성직·시민·농노·노예 |
-| [`coming_of_age_rite_common_2026-04-22.md`](coming_of_age_rite_common_2026-04-22.md) | 성인식 공통 프레임 | 의지결 목걸이·교회 의식 |
-| [`folklore_nameless_scholar_2026-04-22.md`](folklore_nameless_scholar_2026-04-22.md) | 구전 "이름 없는 학자" 전설 | Q-CORE 2 간접 단서 |
-| [`magic_in_daily_life_2026-04-22.md`](magic_in_daily_life_2026-04-22.md) | 서민 일상 속 마법 | 할배 무료 생활 마법 6종 |
-| [`literacy_and_education_2026-04-22.md`](literacy_and_education_2026-04-22.md) | 문해율·교육 체계 | 교회학교·귀족 가정교사·마법대학 |
-| [`funeral_and_burial_2026-04-22.md`](funeral_and_burial_2026-04-22.md) | 장례·매장 관습 | 지역별 변이·귀족 석관·평민 공동묘지 |
-| [`marriage_and_family_2026-04-22.md`](marriage_and_family_2026-04-22.md) | 결혼·가족 구조 | 교회 혼인 성사·봉건 혼약·대가족 |
+| [[shared_religion_structure_2026-04-22|`shared_religion_structure_2026-04-22.md`]] | 공통 종교 구조 (같은 신) | 7대 신·수직 교계·신앙 기능 |
+| [[religious_schism_orthodox_vs_corrupt_2026-04-22|`religious_schism_orthodox_vs_corrupt_2026-04-22.md`]] | 타락한 교회 vs 양심파 분열 | 교리 분열·지역 분포·양심파 저항 |
+| [[common_language_base_2026-04-22|`common_language_base_2026-04-22.md`]] | 대륙 공용어 Elucian | 문자·기본 문법·라틴 어원 |
+| [[dialects_regional_framework_2026-04-22|`dialects_regional_framework_2026-04-22.md`]] | 지역별 방언 variation 프레임 | 기후·지형별 발음·어휘 차이 |
+| [[medieval_fantasy_conventions_2026-04-22|`medieval_fantasy_conventions_2026-04-22.md`]] | 중세 판타지 공통 설정 | 봉건제·기사도·교단·세금 |
+| [[clothing_framework_2026-04-22|`clothing_framework_2026-04-22.md`]] | 의상 공통 프레임 | 기후·신분별 variation 축 |
+| [[festivals_common_seasonal_2026-04-22|`festivals_common_seasonal_2026-04-22.md`]] | 계절 축제 공통 | 수확제·동지제·봄맞이 |
+| [[festivals_religious_common_2026-04-22|`festivals_religious_common_2026-04-22.md`]] | 종교 축제 공통 | 성인기념일·성지 순례 |
+| [[cuisine_regional_framework_2026-04-22|`cuisine_regional_framework_2026-04-22.md`]] | 기후별 음식 variation 프레임 | 서쪽 축산·동쪽 어업 |
+| [[architecture_styles_framework_2026-04-22|`architecture_styles_framework_2026-04-22.md`]] | 건축 양식 공통 프레임 | 고딕·로마네스크·목조+석조 |
+| [[social_classes_2026-04-22|`social_classes_2026-04-22.md`]] | 신분 계급 | 왕족·귀족·성직·시민·농노·노예 |
+| [[coming_of_age_rite_common_2026-04-22|`coming_of_age_rite_common_2026-04-22.md`]] | 성인식 공통 프레임 | 의지결 목걸이·교회 의식 |
+| [[folklore_nameless_scholar_2026-04-22|`folklore_nameless_scholar_2026-04-22.md`]] | 구전 "이름 없는 학자" 전설 | Q-CORE 2 간접 단서 |
+| [[magic_in_daily_life_2026-04-22|`magic_in_daily_life_2026-04-22.md`]] | 서민 일상 속 마법 | 할배 무료 생활 마법 6종 |
+| [[literacy_and_education_2026-04-22|`literacy_and_education_2026-04-22.md`]] | 문해율·교육 체계 | 교회학교·귀족 가정교사·마법대학 |
+| [[funeral_and_burial_2026-04-22|`funeral_and_burial_2026-04-22.md`]] | 장례·매장 관습 | 지역별 변이·귀족 석관·평민 공동묘지 |
+| [[marriage_and_family_2026-04-22|`marriage_and_family_2026-04-22.md`]] | 결혼·가족 구조 | 교회 혼인 성사·봉건 혼약·대가족 |
 
 ---
 

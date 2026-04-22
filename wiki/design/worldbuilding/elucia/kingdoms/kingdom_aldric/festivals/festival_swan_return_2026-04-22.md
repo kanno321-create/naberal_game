@@ -1,9 +1,27 @@
 ---
 title: "백조 귀환제 (Swan Return Festival)"
-type: festival
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, festivals]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[order_swan_2026-04-22]]"
+    quote: "백조 귀환제 주관: 연 1회 대호의 백조 귀환을 기념하는 의식 담당"
+  - src: "[[heraldry_2026-04-22]]"
+    quote: "백조 = 왕국의 고귀함·순결 / 물결 = 호수·수운 / 진주 = 왕국의 보화"
+related:
+  - "[[order_swan_2026-04-22]]"
+  - "[[king_aldric_iv_2026-04-22]]"
+  - "[[festival_lake_offering_2026-04-22]]"
+agent_briefing_level: reference
+type: festival
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

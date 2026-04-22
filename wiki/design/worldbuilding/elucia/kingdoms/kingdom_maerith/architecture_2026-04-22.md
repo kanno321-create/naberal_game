@@ -1,14 +1,25 @@
 ---
 title: "Maerith 왕국 건축 양식"
-type: architecture
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, architecture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "건축: 돌성·두꺼운 벽·작은 창·지하 저장고"
+  - src: "[[city_maerholt_2026-04-22]]:19–20"
+    quote: "분위기: 차갑고 바람 센 고원. 두꺼운 돌 성벽. 안개가 잦음"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Maerith 왕국 건축 양식
 
 ## 원전 인용 증명

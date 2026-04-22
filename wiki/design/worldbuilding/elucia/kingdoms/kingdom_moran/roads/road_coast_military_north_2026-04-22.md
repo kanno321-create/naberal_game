@@ -1,11 +1,23 @@
 ---
 title: "북부 해안 군사도로"
-type: road
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, road, military]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "요새도시: Greycliff · Morncliff Spine 북단 · Veil Sea 감시"
+related:
+  - "[[city_greycliff_2026-04-22]]"
+  - "[[kingdom_moran_military_2026-04-22]]"
+  - "[[road_mornheld_to_havenport_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # 북부 해안 군사도로 (Northern Coast Road)

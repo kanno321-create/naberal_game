@@ -1,9 +1,27 @@
 ---
 title: "Duke Eryn Mireval — Mirevane 공작"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, noble, duke, maritime]
 type: noble
 kingdom: empire_choir
 role: duke
 domain: Duchy of Mirevane
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]"
+    quote: "교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐"
+related:
+  - "[[houses/house_mireval_2026-04-22]]"
+  - "[[cities/city_irondelta_2026-04-22]]"
+  - "[[empire_choir_00_overview]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

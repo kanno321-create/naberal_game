@@ -1,11 +1,23 @@
 ---
 title: "안개제 — Moran 왕국 가을 안개 신비 축제"
-type: festival
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, festival, culture]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "종교: 교황청 공식 교리 + 해신 신앙 혼재 · 안개와 파도를 신성시하는 고유 신앙"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[festival_departure_2026-04-22]]"
+  - "[[festival_wave_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # 안개제 (Festival of the Mist · Sorvael)

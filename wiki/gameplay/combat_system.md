@@ -1,10 +1,25 @@
 ---
+title: "전투 시스템 — 웨이브 턴제 핵앤슬래시 with 패링"
+layer: 1
+canon_tier: derived
 category: gameplay
-status: draft
-tags: [combat, turn-based, hacknslash, parry, combo, wave]
+status: active
+tags: [combat, turn-based, hacknslash, parry, combo, wave, gameplay]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 revision: 2
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[build_system]]"
+  - "[[endgame]]"
+  - "[[mvp_phase4_scope]]"
+  - "[[../design/world_lore]]"
+  - "[[../design/main_character]]"
+agent_briefing_level: required
 ---
 
 # 전투 시스템 — 웨이브 턴제 핵앤슬래시 with 패링

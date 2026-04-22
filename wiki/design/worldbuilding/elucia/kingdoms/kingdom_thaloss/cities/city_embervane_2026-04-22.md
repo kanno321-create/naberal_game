@@ -1,12 +1,23 @@
 ---
 title: "Embervane — Thaloss 제련 산업 도시"
-type: city
-kingdom: kingdom_thaloss
-tier: major_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Ironcleft / Ironcleft Pass 통제 구역 / 중앙 관문 · 철광 산지 / Embervane"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[city_icehelm_2026-04-22]]"
+  - "[[duke_ironcleft_house_brennar_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Embervane (엠버베인) — Norvend Shadow 기슭 제련 도시

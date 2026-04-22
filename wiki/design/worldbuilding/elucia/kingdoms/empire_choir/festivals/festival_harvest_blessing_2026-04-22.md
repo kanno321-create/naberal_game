@@ -1,7 +1,25 @@
 ---
 title: "수확 감사제 — 교황청 축복 농업 축제"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, festival, agriculture, religion]
 type: festival
 kingdom: empire_choir
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌."
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[cuisine_2026-04-22]]"
+  - "[[festivals/festival_saint_aurel_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

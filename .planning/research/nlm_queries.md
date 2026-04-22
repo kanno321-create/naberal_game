@@ -1,9 +1,20 @@
 ---
+title: "NLM Queries — NotebookLM 딥 리서치 쿼리 설계서"
 date: 2026-04-20
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
 purpose: 초보 1인 인디 게임 개발자 + 나베랄 감마 AI 공동 학습 (Unity 6 + Steam + AI 도구 체인)
 method: NotebookLM source-grounded deep research (6 분할 쿼리, D-6 single-string)
 pacing: 쿼리 timeout 420s (7분), 사이 10s sleep, 총 예상 30-40분
+layer: 1
+canon_tier: derived
+tags: [research, nlm, query-design, notebooklm]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[nlm_summary]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM Deep Research — 초보 1인 게임 개발자 전 영역 온보딩

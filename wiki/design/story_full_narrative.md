@@ -1,12 +1,22 @@
 ---
+title: "Story Full Narrative — naberal_game Rev.3"
 category: design
-status: draft
-tags: [story, narrative, full-outline, writer-review, rev-3]
+layer: 0
+canon_tier: core
+status: active
+tags: [canon, story, narrative, full-outline, writer-review, rev-3]
 created: 2026-04-21
-updated: 2026-04-21
-purpose: 외부 작가 검증용 통합 스토리라인 — 2026-04-21 확정 반영 (Rev.3)
+updated: 2026-04-22
+purpose: "외부 작가 검증용 통합 스토리라인 — Rev.3 · Canon Layer 0 원전"
 revision: 3
-supersedes: Rev.2 (fdf41b1 커밋에 보존)
+supersedes: "Rev.2 (fdf41b1 커밋에 보존)"
+agent_briefing_level: required
+canon_authority: "대표님 직접 승인 없이 수정 금지 · 모든 Layer 1/2 파일이 이 문서를 canon_anchors 기준으로 인용"
+related:
+  - "[[brainstorm_2026-04-21]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[game_setting_complete_2026-04-21]]"
+  - "[[../FRONTMATTER_STANDARD]]"
 ---
 
 # 통합 스토리라인 — 처음부터 끝까지 (Rev.3)

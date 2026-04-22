@@ -1,10 +1,28 @@
 ---
 title: "Westport Aldric — Aldric 서부 해양 항구"
-type: city
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, cities]
+updated: 2026-04-22
 kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Coastfen / 서남 해안·Ceren 접경 / ~15K km² / 해안 어업·소금 / 서해 출구"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[duke_coastfen_selyne_2026-04-22]]"
+  - "[[military_2026-04-22]]"
+  - "[[city_lonwyn_2026-04-22]]"
+agent_briefing_level: reference
+type: city
 tier: port_city
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

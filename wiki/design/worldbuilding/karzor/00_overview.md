@@ -1,14 +1,32 @@
 ---
 title: "Karzor — 동쪽 대륙 개요"
-type: continent-overview
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, karzor, continent, overview]
 continent: karzor
+parent: "[[design/MOC]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "동쪽은 농업 어업, 서쪽은 농업 축산업"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제, 동쪽은 모병제 군대의 차이다."
+related:
+  - "[[geography/geography_overview_2026-04-22]]"
+  - "[[political/political_divisions_karzor_2026-04-22]]"
+  - "[[economy/economy_overview_2026-04-22]]"
+  - "[[culture/culture_overview_2026-04-22]]"
+  - "[[subregions/00_zarahim_capital_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft
-sources:
-  - political_divisions.md
-  - brainstorm_2026-04-21_worldview_expansion.md (발언 5·46·47·50)
-  - project_qcore1/2/3
 ---
 
 # Karzor — 동쪽 대륙
@@ -123,12 +141,12 @@ Karzor는 사막과 험준한 지형이 대부분을 차지하는 동쪽 대륙�
 
 ## 관련 파일
 
-- `geography/geography_overview_2026-04-22.md`
-- `political/political_divisions_karzor_2026-04-22.md`
-- `economy/economy_overview_2026-04-22.md`
-- `culture/culture_overview_2026-04-22.md`
-- `subregions/00_zarahim_capital_2026-04-22.md`
-- `subregions/subregion_*.md` (14개)
+- [[geography/geography_overview_2026-04-22]]
+- [[political/political_divisions_karzor_2026-04-22]]
+- [[economy/economy_overview_2026-04-22]]
+- [[culture/culture_overview_2026-04-22]]
+- [[subregions/00_zarahim_capital_2026-04-22]]
+- [[subregions/subregion_amash_2026-04-22]] · [[subregions/subregion_azim_2026-04-22]] · [[subregions/subregion_izar_2026-04-22]] · [[subregions/subregion_jalim_2026-04-22]] · [[subregions/subregion_morak_2026-04-22]] · [[subregions/subregion_nahir_2026-04-22]] · [[subregions/subregion_omari_2026-04-22]] · [[subregions/subregion_qorath_2026-04-22]] · [[subregions/subregion_rakhel_2026-04-22]] · [[subregions/subregion_sabin_2026-04-22]] · [[subregions/subregion_serak_2026-04-22]] · [[subregions/subregion_thari_2026-04-22]] · [[subregions/subregion_tilnar_2026-04-22]] · [[subregions/subregion_vashir_2026-04-22]] (14개)
 
 ---
 

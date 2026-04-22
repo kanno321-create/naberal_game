@@ -1,14 +1,26 @@
 ---
-title: "Mira Erevorn — Oryn 대비 (선왕비)"
-type: royal
-kingdom: kingdom_oryn
-role: queen_dowager
-created: 2026-04-22
+title: "Mira Erevorn — Oryn 대비 (선왕 왕비)"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_oryn, royal]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-oryn
-wave: 4
+kingdom: "kingdom_oryn"
+parent: "[[kingdom_oryn_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[royals/previous_king_aldwyn_erevorn_2026-04-22]]"
+  - "[[royals/king_erevan_erevorn_2026-04-22]]"
+  - "[[houses/house_erevorn_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: reference
 ---
-
 # Mira Erevorn (미라 에레본) — Oryn 선왕비·대비
 
 ## 원전 인용 증명

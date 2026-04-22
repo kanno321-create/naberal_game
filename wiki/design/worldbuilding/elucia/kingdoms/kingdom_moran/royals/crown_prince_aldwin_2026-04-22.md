@@ -1,12 +1,23 @@
 ---
 title: "Aldwin — Moran 왕태자"
-type: royal
-kingdom: kingdom_moran
-role: crown_prince
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, royal, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "왕태자 Aldwin"
+related:
+  - "[[king_calder_2026-04-22]]"
+  - "[[queen_sorwen_2026-04-22]]"
+  - "[[princess_maren_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Aldwin (알드윈) — Moran 왕태자

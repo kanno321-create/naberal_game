@@ -1,13 +1,23 @@
 ---
 title: "왕도 북방 도로 — Maerholt to Stormcrag"
-type: road
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, roads]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[city_stormcrag_2026-04-22]]"
+    quote: "위치: Auryn 고원 북단 · 폭풍 통로 입구"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # 왕도 북방 도로 — Maerholt ↔ Stormcrag
 
 ## 원전 인용 증명

@@ -1,11 +1,23 @@
 ---
 title: "Morntide — Moran 강 하구 물때 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "수도: Mornheld · Havren 북서 내만 하구 · 최대 항구·왕궁 절벽"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_mornheld_2026-04-22]]"
+  - "[[village_misthollow_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Morntide (모른타이드) — Mornwell 강 하구 교차 마을

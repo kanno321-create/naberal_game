@@ -1,10 +1,20 @@
 ---
+title: "NLM Result 07 — Claude Code 창작 글쓰기 skill/agent/plugin 딥 리서치"
 category: research
-tags: [research, claude-skills, creative-writing, 2026-04-21]
+tags: [research, nlm, claude-skills, creative-writing, 2026-04-21]
 created: 2026-04-21
 source: deep-research-agent
 purpose: Unity 6 HD-2D 다크 판타지 JRPG 서사 작업을 위한 Claude Code 창작 글쓰기 skill/agent/plugin 조사
 status: active
+layer: 1
+canon_tier: derived
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/design/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # Claude Code 창작 글쓰기 skill/agent/plugin 딥 리서치

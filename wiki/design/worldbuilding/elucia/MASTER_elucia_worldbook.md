@@ -1,9 +1,22 @@
 ---
 title: "MASTER Elucia Worldbook — 전체 월드빌딩 논리 인덱스"
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, master]
+updated: 2026-04-22
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측이 서구중세문명 · 서쪽 대륙 전체 구조 원전 (발언 5 지도)"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "Elucia (서쪽): 인간 + 타종족 — 11왕국 + 교황청 성좌국"
+agent_briefing_level: optional
 type: master_index
 scope: elucia_continent_full
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave5-WorldIntegrator
 wave: 5
 version: v1.0

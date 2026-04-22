@@ -1,13 +1,30 @@
 ---
 title: "Elucia 고도 프로필 및 지형 Features"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, geography]
+updated: 2026-04-22
+parent: "[[geography_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움, 우측은 강도별로없고 줄기도 짧아서 물이귀하고 사막이 많음"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "서쪽 대륙 = 강 많음이되 대평원 주력 → 축산 적합 (영국·프랑스·독일 중세 축산업 전통)"
+related:
+  - "[[political_00_overview]]"
+  - "[[economy_00_overview]]"
+  - "[[history_00_timeline]]"
+agent_briefing_level: reference
 type: geography
 subject: elevation_profile
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave1-Geographer
 wave: 1
-inputs:
-  - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
+inputs:   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
   - wiki/design/political_divisions.md
   - wiki/design/game_setting_complete_2026-04-21.md
 qcore_version: v1.0

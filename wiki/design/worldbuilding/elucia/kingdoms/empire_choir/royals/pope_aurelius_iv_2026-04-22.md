@@ -1,8 +1,28 @@
 ---
 title: "Pontifex Aurelius IV — 현 교황"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, royal, pope, antagonist]
 type: royal
 kingdom: empire_choir
 role: pope
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "지성이있는 타 종족 몰살로 오로지 인류를 위한 행성을 목표로한다."
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌."
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌우 대륙은 같은 신을 믿지만 서로 해석을 달리한다. 서로 적대적이긴하나 하나의 목표는 지성이있는 타 종족 몰살로 오로지 인류를 위한 행성을 목표로한다."
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[royals/cardinal_halvenmoor_2026-04-22]]"
+  - "[[history/papal_succession_crisis_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

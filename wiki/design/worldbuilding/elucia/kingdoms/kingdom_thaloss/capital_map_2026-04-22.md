@@ -1,12 +1,23 @@
 ---
 title: "Icehelm 왕도 상세 지도 — Thaloss 왕국 수도"
-type: capital_map
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, city, capital]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "왕도: Icehelm (아이스헬름)"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[city_icehelm_2026-04-22]]"
+  - "[[king_thormund_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Icehelm (아이스헬름) 왕도 상세 지도

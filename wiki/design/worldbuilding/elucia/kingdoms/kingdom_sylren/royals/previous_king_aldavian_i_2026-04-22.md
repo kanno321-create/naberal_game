@@ -1,13 +1,27 @@
 ---
 title: "Aldavian I — Sylren 선왕 (사망)"
-type: royal
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[founding_2026-04-22]]:56–58"
+    quote: "평원 농경 연합: 관개 협력에서 시작된 정치 통합 / 성좌국 조기 복속: 교황청 권위 수용"
+  - src: "[[founding_2026-04-22]]:62–63"
+    quote: "회색 태양 대기근 피해: 평원 농업 왕국으로서 가장 큰 피해 입음"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Aldavian I Varentis — 선왕 (사망)
 
 ## 원전 인용 증명

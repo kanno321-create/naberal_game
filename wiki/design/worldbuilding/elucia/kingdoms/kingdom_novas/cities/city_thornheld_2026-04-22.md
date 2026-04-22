@@ -1,15 +1,26 @@
 ---
 title: "Thornheld — Novas 가시덤불 요새 도시 (북동 방어선)"
-type: city
-kingdom: kingdom_novas
-tier: fortress_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, city]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[military_2026-04-22]]"
+  - "[[roads/road_duskgate_to_thornheld_2026-04-22]]"
+  - "[[nobles/duke_duskwatch_torven_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "하단 주황식은 이어진길이다."
+agent_briefing_level: reference
 ---
-
 # Thornheld (쏜헬드) — Duskmoor 북동 가시 요새
 
 > **Wave 4 심화**

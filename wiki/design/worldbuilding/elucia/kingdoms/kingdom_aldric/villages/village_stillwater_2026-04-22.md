@@ -1,10 +1,27 @@
 ---
 title: "Stillwater — Aldric 고요한 호수 어촌"
-type: village
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, villages]
+updated: 2026-04-22
 kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]"
+    quote: "Aldric | 남서 호수 / Lonwyn | 론윈 — 남서 호수 | 알드릭 왕국"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움"
+related:
+  - "[[city_lonwyn_2026-04-22]]"
+  - "[[duke_lonwynshire_vaeron_2026-04-22]]"
+agent_briefing_level: reference
+type: village
 tier: village
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Toponymist
 wave: 2
 ---

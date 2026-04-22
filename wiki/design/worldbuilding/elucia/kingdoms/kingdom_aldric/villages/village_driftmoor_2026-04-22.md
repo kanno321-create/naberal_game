@@ -1,9 +1,26 @@
 ---
 title: "Driftmoor — 호수 동편 구릉 마을"
-type: village
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, villages]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[city_lakemere_2026-04-22]]"
+    quote: "Lonwyn 대호 동안 · Sylren 경계 방향"
+  - src: "[[political_divisions]]"
+    quote: "실렌 / Sylren / 남중앙"
+related:
+  - "[[city_lakemere_2026-04-22]]"
+  - "[[queen_sylren_mora_2026-04-22]]"
+agent_briefing_level: reference
+type: village
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

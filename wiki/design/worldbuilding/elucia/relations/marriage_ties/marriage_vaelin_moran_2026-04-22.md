@@ -1,10 +1,28 @@
 ---
 title: "Vaelin–Moran 왕조 혼인 동맹"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, relations, marriage]
+updated: 2026-04-22
+parent: "[[relations_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "Elucia (서쪽) 정치: 11 왕국 + 교황청 제국 — 왕가 혼인 동맹 구조"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "왕실이 주인공 눈독 — 왕실 정치 역학 (Phase 1 Act 1)"
+related:
+  - "[[relations_00_overview]]"
+  - "[[political_00_overview]]"
+  - "[[relationship_graph]]"
+agent_briefing_level: reference
 type: relation
 relation_type: marriage_alliance
 parties: [Vaelin, Moran]
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave3-Diplomat
 wave: 3
 qcore_version: v1.0

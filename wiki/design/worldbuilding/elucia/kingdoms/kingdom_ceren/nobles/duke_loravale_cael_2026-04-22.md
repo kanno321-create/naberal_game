@@ -1,9 +1,27 @@
 ---
 title: "오르만드 카엘 — Loravale 공작"
-type: noble
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, nobles]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[house_cael_2026-04-22]]"
+  - "[[king_aedran_sellypha_2026-04-22]]"
+  - "[[count_fenlyn_saltguild_2026-04-22]]"
+agent_briefing_level: reference
+type: noble
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 qcore_version: v1.0

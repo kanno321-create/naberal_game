@@ -1,14 +1,23 @@
 ---
 title: "Draven 백작 — Spineback 수석 백작"
-type: noble
-kingdom: kingdom_moran
-rank: count
-domain: Spineback
-family: Draven
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, noble, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Spineback / 구릉 내측 · 석재·광물"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[house_draven_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Halric Draven (할릭 드레이번) — Spineback 수석 백작

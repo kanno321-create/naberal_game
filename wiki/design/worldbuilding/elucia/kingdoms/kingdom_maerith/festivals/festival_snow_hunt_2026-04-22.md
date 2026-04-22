@@ -1,14 +1,25 @@
 ---
 title: "설원 사냥제 — Snow Hunt Festival"
-type: festival
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, festivals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "축제: 설원 사냥제"
+  - src: "[[order_snowhunters_2026-04-22]]"
+    quote: "설원 사냥꾼단 · 야생 대형 동물 사냥 · 계절별"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Snow Hunt Festival (설원 사냥제)
 
 ## 원전 인용 증명

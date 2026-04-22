@@ -1,8 +1,22 @@
 ---
+title: "Audio — Map of Content"
+layer: 1
+canon_tier: derived
 category: audio
-status: scaffold
+status: active
 tags: [moc, game, audio]
-updated: 2026-04-20
+created: 2026-04-20
+updated: 2026-04-22
+parent: "[[../README]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[../gameplay/MOC]]"
+  - "[[../engine/MOC]]"
+  - "[[../steam/MOC]]"
+agent_briefing_level: required
 ---
 
 # Audio — Map of Content
@@ -28,7 +42,7 @@ updated: 2026-04-20
 
 ## NotebookLM 딥 리서치 (2026-04-20)
 
-**원본 답변**: [../../.planning/research/nlm_result_04_game_audio.md](../../.planning/research/nlm_result_04_game_audio.md) (20.3KB, 9,665자)
+**원본 답변**: [[../../.planning/research/nlm_result_04_game_audio|nlm_result_04_game_audio]] (20.3KB, 9,665자)
 
 ### AI 오디오 2026 (소스 강점)
 - **Soundraw.io** — 반복 가능 BGM 루프, 장르별 프로토타이핑 최적

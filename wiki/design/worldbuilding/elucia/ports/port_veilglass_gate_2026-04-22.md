@@ -1,10 +1,28 @@
 ---
 title: "Veilglass Gate Port — 유일 Veilglass 항로"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, ports]
+updated: 2026-04-22
+parent: "[[ports_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "빨간색 점이 항구 — 북쪽얼음섬으로가는 유일한길. 섬 하단 항구에서 좌우대륙의 교류 및 상업이 발달 (발언 5)"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "저 점 주변은 해적이 판을친다 — 반 무법지대, 자주싸움이 일어남"
+related:
+  - "[[economy_00_overview]]"
+  - "[[geography_coastlines_2026-04-22]]"
+  - "[[roads_00_overview]]"
+agent_briefing_level: reference
 type: port
 tier: C_special
 kingdom: empire_choir
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Toponymist
 wave: 2
 lore_critical: true

@@ -1,12 +1,23 @@
 ---
 title: "겨울 수호단 (Winter Wardens) — 탈로스 북방 경비 기사단"
-type: order
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, order, military]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "기사단: 철의 형제단 · 겨울 수호단 · Greygate 기사단"
+related:
+  - "[[kingdom_thaloss_military_2026-04-22]]"
+  - "[[order_iron_brotherhood_2026-04-22]]"
+  - "[[order_greygate_knights_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # 겨울 수호단 (Winter Wardens)

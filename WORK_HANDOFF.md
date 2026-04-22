@@ -1,9 +1,149 @@
 # WORK HANDOFF — naberal_game
 
 ## 최종 업데이트
-- 날짜: 2026-04-22 (세션 #5 · 대표님 기상 결정 10건 전원 반영 · 완전 마감)
-- 세션: **#5** (Q-FIX 10 + X1·X2·X3·X4 해소 · Wave 5 · Ashenveil · Ch.01 · Karzor MVP · 대표님 post-wake 10 결정)
-- 상태: **Phase 0 Bootstrap 연장 종료** — Elucia 정합성 완전 수술 · Karzor MVP 20파일 대표님 승인 · 소설 Ch.01 주인공 "나이트" 확정 · Ch.02 진입 준비 완료
+- 날짜: 2026-04-22 (세션 #6 · 3축 통합 인프라 원년 · 942 Layer 태깅 · FAIL-014 drift 정정)
+- 세션: **#6** (workspace 브랜치 · 집 환경 · 하네스+AI 위키+옵시디언 3축 통합 인프라 v1.0 구축)
+- 상태: **Phase 0 Bootstrap 최종 확장 완료** — 2차 브레인스토밍 13결정 + 3축 시스템 풀스코프 도입 + Canon Hierarchy + 942 전수 태깅 + FAIL-014 drift 정정 + Ch.01 draft_v1 폐기 → v2 skeleton
+
+---
+
+## 세션 #6 완료 항목 (2026-04-22 전일 · workspace 브랜치)
+
+### ✅ Phase 초입 — 집·회사 경로 이식성 + workspace 브랜치
+
+- 전수 감사 944 파일 (12 병렬 에이전트) · Critical 4 + Portability 1 + High 6 + Medium 12 + Low 8 발견
+- 원격 `origin/workspace` 신설 (main 기준) · 로컬 tracking · 기본 작업 브랜치 전환
+- `CLAUDE.md` Branch Policy 섹션 신설 · `.env` 환경변수로 집·회사 경로 추상화 원칙
+
+### ✅ 2차 브레인스토밍 13결정 (G-A~G-E 5축)
+
+| 축 | 결정 |
+|---|---|
+| **G-A1 구조** | 허브 마을 + 지역 챕터 (Octopath·Chrono Trigger) |
+| **G-A2 마을** | NPC 호감도·사이드 퀘스트 허브 |
+| **G-B1 데스** | 전투 시작점 복귀 (FF7·고전 JRPG) |
+| **G-B2 세이브** | 수동 + 자동 혼합 |
+| **G-C1 서사** | 2D 대화창 + 초상화 + 애니컷 3~5컷 혼용 |
+| **G-C2 튜토리얼** | 서사 통합 |
+| **G-D1 MVP 배경** | Ashenveil 공격 재현 |
+| **G-D2 MVP 범위** | 3인 파티 (주인공+기사+신관) · 12항목 · 3~4개월 압축 유지 |
+| **G-D3 검증** | 대표님 본인 판단 + Steam Next Fest 공개 이중 레이어 |
+| **G-E1 사이드** | 얕은 시드 퀘스트 (Octopath) |
+| **G-E2 호감도** | 특정 이벤트 트리거 (Chrono Trigger) |
+| **Sabin 감지** | C · Nomen 수정 2 파생 (Q-CORE 3 세계관 근본 연결) |
+| **Unity 6 LTS** | Phase 1 종료 직후 조기 설치 · Steamworks 등록 동시 |
+
+관련 파일: `wiki/design/brainstorm_2026-04-22_game_second_round.md` · `wiki/gameplay/mvp_phase4_scope.md` · `wiki/gameplay/MOC.md` Rev.3 · `wiki/design/worldbuilding/karzor/subregions/subregion_sabin_2026-04-22.md`
+
+### 🔴 FAIL-014 발견 — 원전 무시 집필 오염 drift
+
+세션 #5 Ch.01 draft_v1 (7,150자) 이 원전 `story_full_narrative.md` 의 "나이트 = 우주에서 창조된 수호자 · 이 행성 외부인 · 가족 없음" 설정과 완전 모순되는 "마을 토박이 소년 · 어머니·아버지·16년 거주" 서사로 집필된 것 세션 #6 대표님 직접 지적으로 발견. `outline.md` Ch.01 beat · `village_ashenveil` "가족" 섹션 연쇄 오염.
+
+**정정 조치**:
+- ✅ `wiki/design/novel/ch01.md` draft_v1 전면 폐기 → v2 skeleton 교체 (외부인 서사 · 6개월 체류 · 촌장 하밀 집 얹혀살기)
+- ✅ `wiki/design/novel/outline.md` "Ashenveil 소년" 단독 표현 → "Ashenveil 주민 · 외관 16~18세 · 실체 수천 년 수호자" 정정 (L35·L54)
+- ✅ `wiki/design/novel/style_bible.md` 동일 정정 (L16)
+- ⏳ **미완**: `outline.md` Ch.01 beat 재작성 (가족 참조 전량 제거) + `village_ashenveil` 전면 재작성 (후속 세션)
+
+### ✅ 3축 통합 인프라 v1.0 풀스코프 도입 (Phase A~E)
+
+#### Phase A · Obsidian Vault 뼈대
+- `wiki/.obsidian/` 신규 (11 파일): `app.json` (useMarkdownLinks: false · propertiesInDocument: visible) · `appearance.json` · `core-plugins.json` · `community-plugins.json` (breadcrumbs·dataview·juggl) · `graph.json` (Layer 색상 코딩 L0 빨강·L1 주황·L2 파랑) · `hotkeys.json` · `types.json` (frontmatter 필드 타입 선언)
+- 플러그인 3종 이식 (wiki/game/.obsidian 에서 복사)
+
+#### Phase B · FRONTMATTER_STANDARD + CLAUDE.md + Layer 0/1 수동
+- `wiki/FRONTMATTER_STANDARD.md` v1.0 신규 (3축 공통 언어 스펙 10 섹션)
+- `CLAUDE.md` 3축 통합 인프라 섹션 신설 · 금기 §10 (원전 검증 없이 Layer 2 집필 금지) · §11 (Wikilinks 외 금지) · 필수 §9 (Frontmatter Standard 준수) · §10 (Vault 활성 유지)
+- Layer 0 원전 4 수동 태깅: `story_full_narrative` · `brainstorm_2026-04-21` · `brainstorm_2026-04-21_worldview_expansion` · `game_setting_complete_2026-04-21`
+- Layer 1 대표 3 수동: `design/MOC` · `novel/outline` · `novel/style_bible`
+
+#### Phase C · 942 파일 전수 태깅 (10 병렬 에이전트)
+- 총 942 파일 전수 `layer` · `canon_tier` · `tags` · `parent` · `moc` · `derived_from` · `canon_anchors` · `related` · `agent_briefing_level` 필드 부여
+- Layer 분포: **L1 48 · L2 894**
+- Wikilink 전환 62건 (markdown-link → `[[wikilink]]`)
+- Canon_anchors 평균 2건/파일
+- 에이전트 5 보너스: `scripts/tag_kingdoms.py` · `scripts/wikilink_convert.py` 재사용 스크립트 생성
+
+#### Phase D · Hook + Briefing + FAIL
+- `.claude/hooks/session_start.py` Step 6c 추가 — `inject_canon_layer0()` 함수 (매 세션 Canon Layer 0 원전 목록 + 금기 §10·§11 경고 주입)
+- `.claude/agents/worldbuilding/_shared_briefing.md` v1.0 → v3: STEP 0 필독 9 파일 확장 (FRONTMATTER_STANDARD + brainstorm_2026-04-22 추가) · **Canon Anchor GATE** 신설 (Layer 2 집필 전 canon_anchors 박제 검증 5 규칙)
+- `.claude/failures/FAILURES.md` FAIL-014 박제 (원전 무시 drift · 재발 방지 코드·구조 강제)
+
+#### Phase E · 하네스 개선 권고
+- `docs/harness_obsidian_proposal.md` 신규 (하네스 v1.0 → v1.1 업그레이드 5 제안 · shorts 역이식 계획)
+
+### 📋 미처리 drift 목록 (Canon 시스템 하에서 후속 처리)
+
+| # | 드리프트 | 파일 수 | 원전 | 위치 |
+|---|---|---|---|---|
+| 1 | Ilaris X1 `Aldric Maeran` → `Aerric` | 13 | Q-FIX-X1 세션 #5 | royals/houses/nobles/military/festivals |
+| 2 | Ilaris 00_overview dead link `king_aldric_maeran` | 1 | X1 | kingdom_ilaris/00_overview |
+| 3 | Ceren X2 `Aldren Sellypha` 영문 4 + 한글 13 | 17건 | Q-FIX-X2 | 00_overview·houses·royals·festivals |
+| 4 | Thaloss `House Varn` 가문명 | 7 | Q-FIX-B-1 | heraldry·orders·roads·village·king_thormund |
+| 5 | Oryn `festival_hunting_day:31` aldric_erevorn 참조 | 1 | Q-FIX-X3 | oryn/festivals |
+| 6 | Sylren House Mervaine + Southvale 공작 파일 누락 | 2 파일 | 세션 #6 발견 | sylren houses·nobles |
+| 7 | Karzor 헤딩 불일치 2건 | 2 | 세션 #6 발견 | political_divisions·00_zarahim |
+| 8 | outline.md Ch.01 beat 가족 참조 | 1 | FAIL-014 | novel/outline |
+| 9 | village_ashenveil 가족 섹션 + 주인공의 고향 | 1 | FAIL-014 | ilaris/villages |
+
+### ⚠️ Obsidian 그래프 비어 있음 (대표님 지적)
+
+현상: vault 열었으나 그래프 edge 없음.
+원인: Obsidian 그래프는 frontmatter link 기본 표시 안 함 (본문 `[[link]]` 만 표시).
+해결안:
+- A 방법 (즉시): `app.json propertiesInDocument: visible` 추가 (완료) + Obsidian 재시작 테스트
+- B 방법 (근본): 942 파일 본문 하단 `## Related` 섹션에 wikilink 대량 추가 (10 병렬 에이전트 후속)
+
+후속 세션 결정 필요.
+
+---
+
+## 다음 세션 (#7) 진입 준비
+
+### 🎯 1순위 — drift 9건 일괄 정정 (Canon 시스템 적용)
+
+Canon Anchor GATE 하에서 에이전트 위임:
+- Ilaris X1 13 파일 + dead link 1 (총 14건)
+- Ceren X2 17건
+- Thaloss Varn 7건
+- Oryn 1건
+- outline.md Ch.01 beat 재작성
+- village_ashenveil 전면 재작성
+- Sylren House Mervaine + Southvale 신규 생성
+- Karzor 헤딩 2건
+
+### 🎯 2순위 — Obsidian 그래프 edge 확보
+
+B 방법 선택 시: 10 병렬 에이전트로 942 파일 본문 `## Related` 섹션 대량 추가.
+
+### 🎯 3순위 — 3차 브레인스토밍 T-A~T-E 재개
+
+Canon GATE 적용 후 서사·캐릭터·시각 디테일 5축 재개:
+- T-A 주인공 외관 (은발/흑발 · 파란색/회색 · 체형) · 호칭
+- T-B Ashenveil 5컷 CG 장면 설계
+- T-C Ch.02 Misthollow 진입 구조
+- T-D 소설 ↔ 게임 번역 전략
+- T-E 첫 30분 완성 시나리오
+
+**주의**: 대표님 세션 #6 결정 "우주적 존재 나이트 · 가족 없음 · 6개월 Ashenveil 체류" 전제 하에 T-A 재설계 필요.
+
+### 🎯 4순위 — Ch.01 draft_v2 집필 착수
+
+전제 조건:
+- T-A 결정 완료 (외관·호칭)
+- `light-novel-master` skill 능동 호출
+- Canon Anchor frontmatter 검증 GATE 통과
+- 외부인 서사 · 6개월 체류 · 촌장 하밀 집 얹혀살기 기조
+
+### 🎯 5순위 — Unity 6 LTS 조기 설치·연습
+
+Phase 1 종료 직후 즉시. 대표님 "미리미리" 지시.
+
+### 🎯 6순위 — FAIL-011 Hook 절대경로 재설계 (미해결 이월)
+
+CLAUDE_PROJECT_DIR 기반 + cd 차단 regex. 집·회사 경로 이식성과 연계.
+
+---
 
 ---
 
@@ -101,6 +241,12 @@
 10. **Sabin Azim Pass 마법 감지** 확정 · 의지결 각성 주인공 위장 난이도 극대화 · Act 2+ 동료 합류 동기 구조화 · sabin 파일 반영
 
 ---
+
+## 세션 #5 후반 추가 결정 (2026-04-22 · 전수 감사 후)
+
+- **전수 감사 실시**: 944 파일 전량 Read (12 병렬 sonnet 에이전트 + 루트 직접) — Critical 4건 (C-1 Hook 절대경로·C-2 MEMORY drift·C-3 Ilaris X1 19건·C-4 Ceren X2 17건) + Portability 1건 (C-5 스크립트 경로 집·회사 차이) + High 6건 + Medium 약 12건 확인
+- **Branch Policy 확정**: 원격 `origin/workspace` 신설 (main 기준) · 로컬 tracking 설정 완료 · 앞으로 모든 작업은 `workspace` 에서 수행 · main 은 안정화 결과물 병합 전용
+- **경로 이식성 원칙**: 집 `C:\Users\PC\바탕 화면\naberal_group\naberal_game-main\` ↔ 회사 `C:\Users\PC\Desktop\naberal_group\studios\game\` 양 환경 공유. 스크립트 하드코딩 → `Path(__file__).resolve()` 또는 `.env` 환경변수로 전환 예정
 
 ## 다음 세션 (#6) 진입 준비
 

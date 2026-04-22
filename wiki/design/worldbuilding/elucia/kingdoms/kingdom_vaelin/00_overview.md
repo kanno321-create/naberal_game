@@ -1,9 +1,29 @@
 ---
 title: "Vaelin 왕국 — 전체 개요 인덱스"
-type: overview
-kingdom: kingdom_vaelin
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_vaelin, overview]
 updated: 2026-04-22
+kingdom: kingdom_vaelin
+parent: "[[../../../../design/MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:53"
+    quote: "바엘린 / Vaelin / 북부 평원"
+  - src: "[[political_divisions]]:109"
+    quote: "Havren / 하브렌 / 북서 해안 / 모란·바엘린 왕국"
+  - src: "[[kingdom_vaelin/history/founding_2026-04-22]]:37"
+    quote: "초원의 늑대가 한 전사를 왕으로 인정했을 때, 그의 이름이 바엘린이 되었다."
+related:
+  - "[[kingdom_ilaris/00_overview]]"
+  - "[[political_divisions]]"
+  - "[[kingdom_vaelin/history/war_northern_vaelin_thaloss_2026-04-22]]"
+agent_briefing_level: reference
+type: overview
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-vaelin
 wave: 4
 ---
@@ -88,46 +108,46 @@ wave: 4
 ## 3. 파일 인덱스
 
 ### 개요 & 지도
-- `00_overview.md` (이 파일)
-- `capital_map_2026-04-22.md`
+- [[00_overview]] (이 파일)
+- [[capital_map_2026-04-22]]
 
 ### 왕족 `royals/`
 | 파일 | 인물 |
 |------|------|
-| `king_aldric_vaen_2026-04-22.md` | 현 왕 알드릭 바엔 |
-| `queen_selene_vaen_2026-04-22.md` | 왕비 셀렌 바엔 |
-| `crown_prince_edric_vaen_2026-04-22.md` | 왕세자 에드릭 바엔 |
-| `prince_corvin_vaen_2026-04-22.md` | 왕자 코르빈 바엔 |
-| `princess_lyra_vaen_2026-04-22.md` | 공주 리라 바엔 |
-| `previous_king_halvard_vaen_2026-04-22.md` | 선왕 할바르드 바엔 |
+| [[king_aldric_vaen_2026-04-22]] | 현 왕 알드릭 바엔 |
+| [[queen_selene_vaen_2026-04-22]] | 왕비 셀렌 바엔 |
+| [[crown_prince_edric_vaen_2026-04-22]] | 왕세자 에드릭 바엔 |
+| [[prince_corvin_vaen_2026-04-22]] | 왕자 코르빈 바엔 |
+| [[princess_lyra_vaen_2026-04-22]] | 공주 리라 바엔 |
+| [[previous_king_halvard_vaen_2026-04-22]] | 선왕 할바르드 바엔 |
 
 ### 고위 귀족 `nobles/`
 | 파일 | 인물 |
 |------|------|
-| `duke_greyford_greyfen_2026-04-22.md` | Greyford 공작 |
-| `duke_plainwatch_brann_2026-04-22.md` | Plainwatch 공작 |
-| `duke_mornhaven_mornael_2026-04-22.md` | Mornhaven 공작 |
-| `count_elorfeld_eloryn_2026-04-22.md` | Elorfeld 백작 |
-| `count_vaelmark_vethric_2026-04-22.md` | Vaelmark 백작 |
+| [[duke_greyford_greyfen_2026-04-22]] | Greyford 공작 |
+| [[duke_plainwatch_brann_2026-04-22]] | Plainwatch 공작 |
+| [[duke_mornhaven_mornael_2026-04-22]] | Mornhaven 공작 |
+| [[count_elorfeld_eloryn_2026-04-22]] | Elorfeld 백작 |
+| [[count_vaelmark_vethric_2026-04-22]] | Vaelmark 백작 |
 
 ### 가문 `houses/`
 | 파일 | 가문 |
 |------|------|
-| `house_vaen_2026-04-22.md` | 바엔 왕가 |
-| `house_greyfen_2026-04-22.md` | 그레이펜 공작 가문 |
-| `house_brann_2026-04-22.md` | 브란 공작 가문 |
-| `house_mornael_2026-04-22.md` | 모른아엘 공작 가문 |
+| [[house_vaen_2026-04-22]] | 바엔 왕가 |
+| [[house_greyfen_2026-04-22]] | 그레이펜 공작 가문 |
+| [[house_brann_2026-04-22]] | 브란 공작 가문 |
+| [[house_mornael_2026-04-22]] | 모른아엘 공작 가문 |
 
 ### 기사단 `orders/`
 | 파일 | 기사단 |
 |------|--------|
-| `order_silver_steed_2026-04-22.md` | 은빛 군마단 |
-| `order_northwind_2026-04-22.md` | 북풍 기사단 |
-| `order_ironlance_2026-04-22.md` | 철창 기사단 |
+| [[order_silver_steed_2026-04-22]] | 은빛 군마단 |
+| [[order_northwind_2026-04-22]] | 북풍 기사단 |
+| [[order_ironlance_2026-04-22]] | 철창 기사단 |
 
 ### 문화·체제
-- `heraldry_2026-04-22.md` · `military_2026-04-22.md` · `clothing_2026-04-22.md`
-- `cuisine_2026-04-22.md` · `architecture_2026-04-22.md` · `dialect_2026-04-22.md`
+- [[heraldry_2026-04-22]] · [[military_2026-04-22]] · [[clothing_2026-04-22]]
+- [[cuisine_2026-04-22]] · [[architecture_2026-04-22]] · [[dialect_2026-04-22]]
 
 ### 축제 `festivals/`
 - 춘계 군마 점검제 · 북풍제 · 수확 감사제 · 초대 왕 기념일

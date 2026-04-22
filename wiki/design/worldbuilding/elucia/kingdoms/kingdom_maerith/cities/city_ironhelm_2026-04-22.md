@@ -1,14 +1,23 @@
 ---
 title: "Ironhelm — Maerith 광산 도시"
-type: city
-kingdom: kingdom_maerith
-tier: major_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, cities]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:59"
+    quote: "마에리스 / Maerith / 북동 고지"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Ironhelm (아이언헬름) — Auryn 광산 중심 도시
 
 | 항목 | 내용 |

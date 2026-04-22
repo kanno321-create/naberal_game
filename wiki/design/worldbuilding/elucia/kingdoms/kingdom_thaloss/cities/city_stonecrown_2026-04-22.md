@@ -1,12 +1,23 @@
 ---
 title: "Stonecrown — Thaloss 동부 고원 도시"
-type: city
-kingdom: kingdom_thaloss
-tier: major_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Whitecrest / Whitecrest Saddle · 동부 / 동쪽 관문 · Maerith 접경 / Stonecrown"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[city_icehelm_2026-04-22]]"
+  - "[[count_whitecrest_house_solden_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Stonecrown (스톤크라운) — Whitecrest Saddle 서쪽 고원 도시

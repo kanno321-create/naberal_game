@@ -1,13 +1,30 @@
 ---
 title: "Nomen 중간 섬 자치 상태"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, political]
+updated: 2026-04-22
+parent: "[[political_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "Elucia (서쪽) 정치: 11 왕국 + 교황청 제국 (발언 5 지도)"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐 (발언 5)"
+related:
+  - "[[geography_00_overview]]"
+  - "[[economy_00_overview]]"
+  - "[[relations_00_overview]]"
+agent_briefing_level: reference
 type: political
 subject: autonomous_nomen
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Political-Cartographer
 wave: 2
-inputs:
-  - wiki/design/political_divisions.md
+inputs:   - wiki/design/political_divisions.md
   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
   - wiki/design/worldbuilding/elucia/geography/coastlines_2026-04-22.md
 qcore_version: v1.0

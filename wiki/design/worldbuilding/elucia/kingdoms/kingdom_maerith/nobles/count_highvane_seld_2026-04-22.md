@@ -1,17 +1,25 @@
 ---
 title: "Seld 백작 — Highvane 백작령"
-type: noble
-kingdom: kingdom_maerith
-role: count
-domain: Highvane County
-family: Seld
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[city_highvane_2026-04-22]]:14–21"
+    quote: "위치: Auryn 고원 남쪽 사면 · Oryn 경계 근처 / 기능: 고지-저지 물자 교환 무역 허브"
+  - src: "[[economic_clusters_2026-04-22]]:82"
+    quote: "교역 파트너: Thaloss (대형 철로 교환) · Oryn (목재)"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Count Wrenath Seld — Highvane 백작
 
 ## 원전 인용 증명

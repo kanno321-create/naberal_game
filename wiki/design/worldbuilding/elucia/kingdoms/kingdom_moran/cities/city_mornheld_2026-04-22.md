@@ -1,12 +1,25 @@
 ---
 title: "Mornheld — Moran 왕국 수도"
-type: city
-kingdom: kingdom_moran
-tier: capital
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, city, capital]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "수도: Mornheld · Havren 북서 내만 하구 · 최대 항구·왕궁 절벽"
+  - src: "[[political_divisions]]:54"
+    quote: "모란 / Moran / 북서 · Havren / 하브렌 / 북서 해안 / 모란·바엘린 왕국"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[kingdom_moran_capital_map_2026-04-22]]"
+  - "[[city_greycliff_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Mornheld (모른헬드) — Moran 왕국 수도·북서 항구 거점

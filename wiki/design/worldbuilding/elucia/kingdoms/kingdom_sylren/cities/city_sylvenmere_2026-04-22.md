@@ -1,14 +1,23 @@
 ---
 title: "Sylvenmere — Sylren 수도 호수 도시"
-type: city
-kingdom: kingdom_sylren
-tier: capital
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, cities]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:60"
+    quote: "실렌 / Sylren / 남중앙"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Sylvenmere (실벤미어) — Soranth 중류 호수 수도
 
 ## Wave 4 심화 정보

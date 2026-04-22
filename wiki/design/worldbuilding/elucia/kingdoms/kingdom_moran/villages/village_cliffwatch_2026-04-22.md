@@ -1,11 +1,23 @@
 ---
 title: "Cliffwatch — Moran 절벽 감시 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "요새도시: Greycliff · Morncliff Spine 북단 · Veil Sea 감시"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_greycliff_2026-04-22]]"
+  - "[[kingdom_moran_military_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Cliffwatch (클리프워치) — 절벽 감시 초소 마을

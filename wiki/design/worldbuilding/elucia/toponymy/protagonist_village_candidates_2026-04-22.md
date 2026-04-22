@@ -1,9 +1,27 @@
 ---
 title: "주인공 출신 마을 후보 — Silvan 서부 변경 (20개)"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, toponymy]
+updated: 2026-04-22
+parent: "[[toponymy_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "서쪽 대륙: 서구중세문명 — 지명 작명은 서구 중세 어감 기반"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "Elucia (서쪽) 징병제 엘리트 기사도대학 출신 장교 — 서구 중세 어휘 정합"
+related:
+  - "[[geography_00_overview]]"
+  - "[[culture_00_common_frame]]"
+  - "[[MASTER_elucia_worldbook]]"
+agent_briefing_level: reference
 type: candidate_list
 region: silvan_frontier
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Toponymist
 wave: 2
 decision_required: false

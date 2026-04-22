@@ -1,12 +1,25 @@
 ---
 title: "Icehelm — Thaloss 왕국 수도"
-type: city
-kingdom: kingdom_thaloss
-tier: capital
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, city, capital]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "왕도: Icehelm (아이스헬름)"
+  - src: "[[political_divisions]]:57"
+    quote: "탈로스 / Thaloss / 북부 산맥"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[kingdom_thaloss_capital_map_2026-04-22]]"
+  - "[[king_thormund_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Icehelm (아이스헬름) — Thaloss 왕국 수도·산악 요새

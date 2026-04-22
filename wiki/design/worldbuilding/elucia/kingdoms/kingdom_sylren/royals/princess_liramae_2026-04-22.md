@@ -1,13 +1,27 @@
 ---
 title: "Liramae — Sylren 공주"
-type: royal
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[political_divisions]]:60"
+    quote: "실렌 / Sylren / 남중앙"
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:66–67"
+    quote: "접경: 북 성좌국 / 동 Oryn / 남 Novas / 서 Ceren"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Liramae Varentis — 공주
 
 ## 원전 인용 증명

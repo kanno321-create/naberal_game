@@ -1,9 +1,24 @@
 ---
+title: "세계관 — 균형 수호자 체계"
+layer: 1
+canon_tier: derived
 category: design
-status: draft
-tags: [world, lore, setting, balance, god, cosmic]
+status: active
+tags: [world, lore, setting, balance, god, cosmic, design]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[story_outline]]"
+  - "[[main_character]]"
+  - "[[../gameplay/combat_system]]"
+  - "[[../gameplay/endgame]]"
+agent_briefing_level: required
 ---
 
 # 세계관 — 균형 수호자 체계

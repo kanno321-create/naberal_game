@@ -45,6 +45,36 @@ def count_long_skills(studio_root: Path, threshold: int = 500) -> list[tuple[str
     return long_files
 
 
+def inject_canon_layer0(studio_root: Path) -> str:
+    """Canon Layer 0 원전 주입 — 세션 #6 FAIL-014 재발 방지.
+
+    3축 통합 인프라 (하네스 + AI 위키 + 옵시디언) 에서 하네스의 역할.
+    매 세션 시작 시 Layer 0 원전 목록 + Canon Anchor GATE 경고 주입.
+    """
+    canon_files = [
+        ("story_full_narrative", "wiki/design/story_full_narrative.md"),
+        ("brainstorm_2026-04-21", "wiki/design/brainstorm_2026-04-21.md"),
+        ("brainstorm_worldview_expansion", "wiki/design/brainstorm_2026-04-21_worldview_expansion.md"),
+        ("game_setting_complete", "wiki/design/game_setting_complete_2026-04-21.md"),
+    ]
+    lines = []
+    lines.append("### 🔴 Canon Layer 0 원전 (집필·박제 최우선 진리 · FAIL-014 재발 방지)")
+    lines.append("")
+    lines.append("Layer 2 파일 (chapter·village·city·kingdom 세부) 집필·박제 시 **반드시** 아래 원전 `canon_anchors` 2~5건 frontmatter 박제 후 본문 착수.")
+    lines.append("")
+    for name, rel in canon_files:
+        p = studio_root / rel
+        if p.exists():
+            lines.append(f"- ✅ `[[{name}]]` → `{rel}` (layer: 0 · 변경 불가)")
+        else:
+            lines.append(f"- ⚠️ `[[{name}]]` → `{rel}` (파일 없음)")
+    lines.append("")
+    lines.append("**표준**: `wiki/FRONTMATTER_STANDARD.md` v1.0 · **에이전트 규율**: `.claude/agents/worldbuilding/_shared_briefing.md` v3 STEP 0 필독 9 파일")
+    lines.append("")
+    lines.append("**금기 §10**: Layer 0 검증 없이 Layer 2 집필·박제 금지 · **금기 §11**: Wikilinks 외 링크 형식 금지")
+    return "\n".join(lines)
+
+
 def check_conflict_map(studio_root: Path) -> dict:
     """CONFLICT_MAP.md 존재 여부 + A급 미해결 카운트."""
     cm = studio_root / ".planning" / "codebase" / "CONFLICT_MAP.md"
@@ -302,6 +332,10 @@ def main() -> int:
             for line in (stdout + "\n" + stderr).splitlines():
                 if line.strip() and not line.startswith("[navigator-coverage]"):
                     lines.append(f"   {line}")
+
+    # 6c. Canon Layer 0 원전 주입 (세션 #6 FAIL-014 교훈 · 3축 통합 인프라)
+    lines.append("")
+    lines.append(inject_canon_layer0(studio_root))
 
     context_text = "\n".join(lines)
 

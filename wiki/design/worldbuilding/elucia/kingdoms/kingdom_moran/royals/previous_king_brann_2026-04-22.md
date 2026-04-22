@@ -1,12 +1,23 @@
 ---
 title: "Brann II — Moran 선왕"
-type: royal
-kingdom: kingdom_moran
-role: previous_king
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, royal, character, history]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "선왕 Brann II"
+related:
+  - "[[king_calder_2026-04-22]]"
+  - "[[kingdom_moran_history_founding_2026-04-22]]"
+  - "[[house_moran_royal_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Brann II (브란 2세) — Moran 선왕 (사망)

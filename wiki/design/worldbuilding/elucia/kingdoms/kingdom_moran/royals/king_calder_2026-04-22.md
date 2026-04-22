@@ -1,12 +1,25 @@
 ---
 title: "Calder III — Moran 현 국왕"
-type: royal
-kingdom: kingdom_moran
-role: king
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, royal, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "왕족: 해양 왕·파도의 혈통·왕비 Ilaris 혼인 전통 (서해안 동맹)"
+  - src: "[[political_divisions]]:54"
+    quote: "모란 / Moran / 북서"
+related:
+  - "[[queen_sorwen_2026-04-22]]"
+  - "[[crown_prince_aldwin_2026-04-22]]"
+  - "[[house_moran_royal_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Calder III (칼더 3세) — Moran 현 국왕 · 파도의 혈통

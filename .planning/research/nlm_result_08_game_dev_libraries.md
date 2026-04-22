@@ -1,11 +1,21 @@
 ---
+title: "NLM Result 08 — Unity 6 HD-2D JRPG 1인 개발 라이브러리 딥 리서치"
 category: research
-tags: [research, unity6, hd-2d, jrpg, solo-dev, 2026-04-21]
+tags: [research, nlm, unity6, hd-2d, jrpg, solo-dev, 2026-04-21]
 created: 2026-04-21
 source: deep-research-agent
 purpose: Unity 6 HD-2D 다크 판타지 JRPG 1인 24개월 개발용 제작 가이드·스타터 킷·라이브러리 조사
 verification: 80+ URL 교차검증
 status: active
+layer: 1
+canon_tier: derived
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/engine/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # Unity 6 HD-2D JRPG 1인 개발 24개월 딥 리서치

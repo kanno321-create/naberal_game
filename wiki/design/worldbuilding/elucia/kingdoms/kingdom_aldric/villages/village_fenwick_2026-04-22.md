@@ -1,9 +1,27 @@
 ---
 title: "Fenwick — Ceren 접경 습지 마을"
-type: village
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, villages]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:54"
+    quote: "세렌 / Ceren / 서남 습지"
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Coastfen / 서남 해안·Ceren 접경"
+related:
+  - "[[duke_coastfen_selyne_2026-04-22]]"
+  - "[[kingdom_ceren_00_overview]]"
+  - "[[road_lonwyn_to_coastfen_2026-04-22]]"
+agent_briefing_level: reference
+type: village
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

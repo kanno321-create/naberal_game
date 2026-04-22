@@ -1,15 +1,23 @@
 ---
 title: "Greygate 공작 — House Kaerv (탈로스 최강 봉건 세력)"
-type: noble
-role: duke
-domain: Duchy of Greygate
-family: House Kaerv
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, noble, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Greygate / Greygate Pass 통제 구역 / 서쪽 관문 · 대륙 교통 독점"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[house_kaerv_2026-04-22]]"
+  - "[[king_thormund_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Edric Kaerv (에드리크 바른) — Greygate 공작

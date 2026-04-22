@@ -1,11 +1,23 @@
 ---
 title: "House Draven — Spineback 석재 백작 가문"
-type: house
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, house]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Spineback / 구릉 내측 · 석재·광물"
+related:
+  - "[[count_spineback_draven_2026-04-22]]"
+  - "[[kingdom_moran_heraldry_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # House Draven (드레이번 가문) — 석재·광물 백작 가문

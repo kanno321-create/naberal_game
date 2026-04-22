@@ -1,9 +1,27 @@
 ---
 title: "Cardinal Lyra Vesenne — 재정 추기경"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, royal, cardinal, finance]
 type: royal
 kingdom: empire_choir
 role: cardinal
 rank: finance_cardinal
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]"
+    quote: "교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌."
+related:
+  - "[[royals/pope_aurelius_iv_2026-04-22]]"
+  - "[[capital_map_2026-04-22]]"
+  - "[[empire_choir_00_overview]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

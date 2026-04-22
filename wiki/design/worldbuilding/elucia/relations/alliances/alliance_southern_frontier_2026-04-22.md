@@ -1,10 +1,28 @@
 ---
 title: "남부 국경 방어 협약 — Novas·Sylren"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, relations, alliances]
+updated: 2026-04-22
+parent: "[[relations_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "Elucia (서쪽) 정치: 11 왕국 + 교황청 제국 — 왕국 간 동맹 구조 (발언 5)"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "Elucia = 질서 있는 악 (교회·법·제도로 포장된 박해)"
+related:
+  - "[[relations_00_overview]]"
+  - "[[political_00_overview]]"
+  - "[[relationship_graph]]"
+agent_briefing_level: reference
 type: relation
 relation_type: alliance
 parties: [Novas, Sylren]
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave3-Diplomat
 wave: 3
 qcore_version: v1.0

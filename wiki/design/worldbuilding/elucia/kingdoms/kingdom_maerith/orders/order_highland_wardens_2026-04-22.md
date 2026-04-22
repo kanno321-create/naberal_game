@@ -1,14 +1,25 @@
 ---
 title: "고지 수호단 — Order of the Highland Wardens"
-type: order
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, orders]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[에이전트 지침]]"
+    quote: "기사단: 설원 사냥꾼·고지 수호단 / 군제: 모병제 · 고산 궁수·척후·설원 기병"
+  - src: "[[founding_2026-04-22]]:57–59"
+    quote: "성좌국 복속: 교황청 권위 인정 — 이후 세금 부담이 주요 내정 과제"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Order of the Highland Wardens (고지 수호단)
 
 ## 원전 인용 증명

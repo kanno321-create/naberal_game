@@ -1,0 +1,22 @@
+{
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showLineNumber": true,
+  "showInlineTitle": true,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "showUnsupportedFiles": false,
+  "showFrontmatter": true,
+  "propertiesInDocument": "visible",
+  "attachmentFolderPath": "./_attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "useTab": false,
+  "tabSize": 2,
+  "promptDelete": true,
+  "trashOption": "local"
+}

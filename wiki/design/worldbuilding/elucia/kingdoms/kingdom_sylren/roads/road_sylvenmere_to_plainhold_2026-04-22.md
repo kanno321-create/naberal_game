@@ -1,13 +1,27 @@
 ---
 title: "왕도 → 곡창 도로 (Sylvenmere–Plainhold)"
-type: road
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, roads]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[city_plainhold_2026-04-22]]"
+    quote: "Sylren 중앙 평원 · 곡창지대 중심 / Elucia 서부 최대 곡창지대 관리 도시"
+  - src: "[[agriculture_2026-04-22]]:92–95"
+    quote: "Soranth Plain 남중앙 ... 전략 | Azim Pass 방면 군량 집결 기지"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # 왕도 서부 도로 — Sylvenmere → Plainhold
 
 ## 원전 인용 증명

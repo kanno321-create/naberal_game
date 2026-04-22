@@ -1,9 +1,29 @@
 ---
 title: "은빛 군마단 — Order of the Silver Steed"
-type: order
-kingdom: kingdom_vaelin
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_vaelin, orders]
 updated: 2026-04-22
+kingdom: "kingdom_vaelin"
+parent: "[[kingdom_vaelin/00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]] 발언 5"
+    quote: "서쪽은 징병제가 발달한 중세 유럽 스타일 봉건국가들"
+  - src: "[[political_divisions]]:53"
+    quote: "바엘린 / Vaelin / 북부 평원"
+  - src: "[[story_full_narrative]]"
+    quote: "세계관 철학 3조 — 불완전성·한결같음·영혼 평등"
+related:
+  - "[[kingdom_vaelin/00_overview]]"
+  - "[[kingdom_vaelin/military_2026-04-22]]"
+  - "[[kingdom_vaelin/royals/king_aldric_vaen_2026-04-22]]"
+agent_briefing_level: reference
+type: order
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-vaelin
 wave: 4
 ---

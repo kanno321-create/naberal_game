@@ -1,13 +1,23 @@
 ---
 title: "Ragnar — 탈로스 왕자"
-type: royal
-role: prince
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, royal, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "왕자 Ragnar"
+related:
+  - "[[king_thormund_2026-04-22]]"
+  - "[[crown_prince_aldren_2026-04-22]]"
+  - "[[princess_solvane_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Ragnar (라그나르) — 탈로스 왕자

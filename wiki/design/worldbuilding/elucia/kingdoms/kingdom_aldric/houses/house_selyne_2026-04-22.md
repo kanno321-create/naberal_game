@@ -1,9 +1,27 @@
 ---
 title: "House Selyne — Coastfen 공작가"
-type: house
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, houses]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Duchy of Coastfen / 서남 해안·Ceren 접경 / ~15K km² / 해안 어업·소금 / 서해 출구"
+  - src: "[[political_divisions]]:54"
+    quote: "세렌 / Ceren / 서남 습지"
+related:
+  - "[[duke_coastfen_selyne_2026-04-22]]"
+  - "[[house_aldric_2026-04-22]]"
+  - "[[kingdom_ceren_00_overview]]"
+agent_briefing_level: reference
+type: house
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

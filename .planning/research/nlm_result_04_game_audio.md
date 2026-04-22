@@ -1,4 +1,5 @@
 ---
+title: "NLM Result 04 — 게임 오디오 종합 (음악·SFX·보이스·미들웨어·LUFS)"
 query_idx: 4
 label: 영역 게임 오디오 종합 (음악 + SFX + 보이스 + 미들웨어 + LUFS)
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
@@ -6,6 +7,16 @@ question_chars: 960
 answer_chars: 9665
 duration_s: 167.7
 date: 2026-04-20
+layer: 1
+canon_tier: derived
+tags: [research, nlm, audio, music, sfx, voice]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/audio/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM 응답 — 영역 게임 오디오 종합 (음악 + SFX + 보이스 + 미들웨어 + LUFS)

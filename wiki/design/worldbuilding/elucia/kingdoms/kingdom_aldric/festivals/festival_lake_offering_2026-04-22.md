@@ -1,9 +1,27 @@
 ---
 title: "호수 축제 — 배 띄우기 (Lake Offering Festival)"
-type: festival
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, festivals]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[capital_map_2026-04-22]]"
+    quote: "수상 정원 구역 / 봄 진주 수확제 행사 중심지"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[order_swan_2026-04-22]]"
+  - "[[festival_pearl_harvest_2026-04-22]]"
+  - "[[city_lonwyn_2026-04-22]]"
+agent_briefing_level: reference
+type: festival
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

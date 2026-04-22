@@ -1,14 +1,27 @@
 ---
+title: "Game Setting Complete — naberal_game 종합본 2026-04-21"
 category: design
+layer: 0
+canon_tier: core
 status: active
-tags: [game-bible, consolidated, nlm-briefing, 2026-04-21]
+tags: [canon, game-bible, consolidated, nlm-briefing, 2026-04-21]
 created: 2026-04-21
-purpose: NotebookLM 업로드·외부 작가 공유용 통합 설정 스냅샷
-revision: 3 draft (current state snapshot)
+updated: 2026-04-22
+purpose: "NotebookLM 업로드·외부 작가 공유용 통합 설정 스냅샷 · Canon Layer 0 종합 바이블"
+revision: "3 draft (current state snapshot)"
+agent_briefing_level: required
+canon_authority: "대표님 승인 종합본 · 외부 공유용 정본 · Layer 1/2 참조 기준"
 source_documents:
-  - brainstorm_2026-04-21.md (원전, 903줄)
-  - world_lore.md · story_outline.md · main_character.md · story_full_narrative.md (Rev.2 + 정정 반영)
-  - combat_system.md · build_system.md · endgame.md (Rev.2)
+  - "[[brainstorm_2026-04-21]]"
+  - "[[world_lore]]"
+  - "[[story_outline]]"
+  - "[[main_character]]"
+  - "[[story_full_narrative]]"
+  - "[[../gameplay/combat_system]]"
+  - "[[../gameplay/build_system]]"
+  - "[[../gameplay/endgame]]"
+related:
+  - "[[../FRONTMATTER_STANDARD]]"
 ---
 
 # 게임 설정 종합본 — naberal_game (가제)

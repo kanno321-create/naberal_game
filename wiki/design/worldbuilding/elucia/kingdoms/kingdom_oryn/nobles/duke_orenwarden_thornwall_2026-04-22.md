@@ -1,15 +1,26 @@
 ---
-title: "Edric Thornwall — Orenwarden 公爵"
-type: noble
-kingdom: kingdom_oryn
-role: duke
-domain: Duchy of Orenwarden
-created: 2026-04-22
+title: "Thornwall — Orenwarden 공작"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_oryn, noble]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-oryn
-wave: 4
+kingdom: "kingdom_oryn"
+parent: "[[kingdom_oryn_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[cities/city_waldmere_2026-04-22]]"
+  - "[[houses/house_ashwood_2026-04-22]]"
+  - "[[nobles/duke_deepwald_varen_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: reference
 ---
-
 # Edric Thornwall (에드릭 손월) — Duchy of Orenwarden 공작
 
 ## 원전 인용 증명

@@ -1,13 +1,30 @@
 ---
 title: "신분 계급 프레임 — 왕족·귀족·성직·시민·농노·노예·타종족"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, culture]
+updated: 2026-04-22
+parent: "[[culture_00_common_frame]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "서쪽 대륙: 서구중세문명 — 왕국·기사·교회·봉건제 구조"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "인간은 악이 아니다. 모든 종족이 나태해진 신과 타락한 교회의 피해자"
+related:
+  - "[[economy_00_overview]]"
+  - "[[political_00_overview]]"
+  - "[[history_00_timeline]]"
+agent_briefing_level: reference
 type: culture
 subject: social_classes
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Culturalist
 wave: 2
-inputs:
-  - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
+inputs:   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
   - wiki/design/game_setting_complete_2026-04-21.md
   - wiki/design/political_divisions.md
 qcore_version: v1.0

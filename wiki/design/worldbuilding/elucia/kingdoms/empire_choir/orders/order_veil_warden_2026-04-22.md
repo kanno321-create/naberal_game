@@ -1,7 +1,25 @@
 ---
 title: "Order of the Veil Warden — 수도원 수호 기사단"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, order, military, monastery]
 type: order
 kingdom: empire_choir
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다."
+  - src: "[[political_divisions]]"
+    quote: "교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+related:
+  - "[[military_2026-04-22]]"
+  - "[[architecture_2026-04-22]]"
+  - "[[empire_choir_00_overview]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

@@ -1,7 +1,25 @@
 ---
 title: "광명 철야 축제 — 부활·재생 기념"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, festival, religion, light]
 type: festival
 kingdom: empire_choir
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌."
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐"
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[festivals/festival_ascension_2026-04-22]]"
+  - "[[architecture_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave4-Kingdom-Detailer-empire_choir

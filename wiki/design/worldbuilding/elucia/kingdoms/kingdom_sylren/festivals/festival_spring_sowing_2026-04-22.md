@@ -1,13 +1,27 @@
 ---
 title: "봄 씨뿌리기 축제 — Sylren 봄 농업 의례"
-type: festival
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, festivals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[Wave 4 에이전트 지시문 — 축제 항목]]"
+    quote: "봄 씨뿌리기"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[agriculture_2026-04-22]]:93"
+    quote: "Soranth Plain ... 특성 | 남부 온난 기후 → 다작물 재배 가능"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # 봄 씨뿌리기 축제 (Festa della Semina)
 
 ## 원전 인용 증명

@@ -1,15 +1,23 @@
 ---
 title: "Southveld 백작 — House Ergal (유일 농업 영지)"
-type: noble
-role: count
-domain: Duchy of Southveld
-family: House Ergal
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, noble, character]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Southveld / Norvend 남쪽 기슭 / 유일 농업 지대 · 식량 비축"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[king_thormund_2026-04-22]]"
+  - "[[count_whitecrest_house_solden_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Breta Ergal (브레타 에르갈) — Southveld 백작

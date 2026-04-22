@@ -1,13 +1,27 @@
 ---
 title: "Aldavian II — Sylren 현 왕"
-type: royal
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[kingdom_sylren_territories_2026-04-22]]:62–66"
+    quote: "접경: 북 성좌국 / 동 Oryn / 남 Novas / 서 Ceren ... 성좌국 남부 완충국으로서의 역사"
+  - src: "[[founding_2026-04-22]]:68–70"
+    quote: "왕권 vs 교황 대리인 권한 충돌이 내정 주요 갈등"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Aldavian II (알다비안 2세) — Sylren 현 왕
 
 ## 원전 인용 증명

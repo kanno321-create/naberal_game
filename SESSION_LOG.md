@@ -1,5 +1,81 @@
 # SESSION LOG — naberal_game
 
+## Session #6 — 2026-04-22 (3축 통합 인프라 v1.0 원년 · 942 Layer 태깅 · FAIL-014 drift 정정 · workspace 브랜치)
+
+### 핵심 결정 (대표님 직접)
+
+1. **workspace 브랜치 신설** — 집·회사 양 환경 공유. 기본 작업 브랜치. main 은 안정화 결과물 전용
+2. **2차 브레인스토밍 13건** — 월드 구조 · 데스 · 세이브 · 서사 전달 · 튜토리얼 · MVP 범위 · 사이드 · 호감도 · Sabin C · MVP 3~4개월 · Unity 조기 설치
+3. **FAIL-014 지적** — "우주적 존재 나이트 · 가족 없음 · 창조됨" 원전 설정 vs 세션 #5 "마을 토박이 소년 · 어머니 아버지" 집필 오염 발견
+4. **3축 통합 인프라 풀스코프 도입** — "하네스 + AI 위키 + 옵시디언 이 최강의 조합" · "반드시 3축 시스템에서 벗어나지 말고 체계적으로"
+5. **전수 커밋 요청** — "뭐하나 남기면 집에서 바로 막힌다. 모든 파일 커밋"
+
+### 수행 작업
+
+**Phase 초입 — 집·회사 경로 이식성 + workspace 브랜치**
+- 944 파일 전수 감사 (12 병렬 에이전트) — Critical 4 + Portability 1 + High 6 + Medium 12 + Low 8
+- `git push origin main:refs/heads/workspace` · 로컬 tracking 설정
+- CLAUDE.md Branch Policy 섹션 신설
+
+**2차 브레인스토밍**
+- 5축 × 2~3 질문 = 13 결정 일괄 수신·박제
+- `wiki/design/brainstorm_2026-04-22_game_second_round.md` 원전 · `wiki/gameplay/mvp_phase4_scope.md` Rev.3
+- Sabin 마법 감지 = C Nomen 수정 2 파생 · Q-CORE 3 세계관 근본 연결 · Act 3 Nomen 섬 회수 플롯 신설
+
+**FAIL-014 정정 대응**
+- 대표님 지적: "나이트는 소년시대가 없었는데?" → 원전 재확인 (수천 년 수호자 · 봉인·기억 박탈 · 16~18세 외관 위장)
+- `outline.md` L35·L54 + `style_bible.md` L16 "소년" 단독 표현 → "주민 · 외관 16~18 · 실체 수호자" 정정
+- `ch01.md` draft_v1 전면 폐기 → v2 skeleton 교체 (외부인 서사 · 6개월 체류 · 촌장 하밀 집)
+
+**3축 통합 인프라 풀스코프 (Phase A~E)**
+- A · Obsidian Vault 11 파일 + 플러그인 3종 (breadcrumbs·dataview·juggl) 이식
+- B · FRONTMATTER_STANDARD v1.0 + CLAUDE.md 3축 섹션 · 금기 §10·§11 · 필수 §9·§10 + Layer 0 원전 4 + Layer 1 대표 3 수동 태깅
+- C · 10 병렬 에이전트 → 942 파일 전수 Layer 태깅 (L1 48 · L2 894) + wikilink 62건 전환 + canon_anchors 평균 2건
+- D · session_start.py Step 6c Canon 주입 · `_shared_briefing.md` v3 Canon Anchor GATE · FAIL-014 박제
+- E · `docs/harness_obsidian_proposal.md` 하네스 v1.0 → v1.1 업그레이드 5 제안
+
+### 산출 파일 총계
+
+- 수정: 860 파일
+- 신규: ~30 파일 (wiki/.obsidian/ 11 + FRONTMATTER_STANDARD + brainstorm_2026-04-22 + mvp_phase4_scope + harness_obsidian_proposal + tag_kingdoms.py + wikilink_convert.py + 기타)
+- 총 작업: ~890 파일 · 1 세션 · workspace 브랜치
+
+### 자기 정정·학습 전이
+
+- **FAIL-002 4회차 재발 (#2→#3→#5→#6)** — 교훈 박제만으로 불가 확인. Canon Hierarchy + Anchor GATE 코드 강제 도입으로 원천 차단 시도
+- shorts 에서 검증됐다던 3축 조합이 실제로 구현된 적 없음 확인 (하네스 templates/ 에 Obsidian 템플릿 없음, shorts/.obsidian 없음). naberal_game 세션 #6 이 3축 조합 **실질적 원년**
+- 세션 #5 "6 NPC 전원 생존" 결정을 "주인공의 가족 6명"으로 오독한 것이 FAIL-014 의 주요 원인. 대표님 실제 의도: "나이트를 보살펴 준 마을 사람 6명 (가족 아님)"
+
+### 철학적 의미
+
+naberal_group Layer 2 스튜디오 중 **첫 번째 3축 통합 인프라 스튜디오** 탄생. 앞으로 shorts 역이식 + 향후 3번째 스튜디오 생성 시 자동 완성 예정. 이번 세션에 **FAIL-014 가 대표님 직접 발견하지 않았다면** Ch.02~Ch.30 집필 과정에서 드리프트가 연쇄 증식하여 30만자 라이트노벨 전체 원전과 괴리되는 참사로 이어질 수 있었음. 대표님의 "소년 시대 없었는데?" 한 마디가 프로젝트를 구함.
+
+### Git commits (세션 #6)
+
+```
+(커밋 해시는 커밋 후 채워짐)
+feat(session-6): 3축 통합 인프라 v1.0 + 942 Layer 태깅 + 2차 브레인스토밍 13결정 + FAIL-014 drift 정정
+docs(handoff): 세션 #6 완결 핸드오프 3종
+```
+
+### 다음 세션 (#7) 할 일
+
+#### 즉시
+- [ ] Obsidian 그래프 edge 확보 — app.json propertiesInDocument 검증 + 필요 시 본문 `## Related` 섹션 942 파일 대량 추가 (10 병렬)
+- [ ] drift 9건 일괄 정정 — Ilaris X1 14 + Ceren X2 17 + Thaloss Varn 7 + Oryn 1 + outline + village_ashenveil + Sylren 2 + Karzor 2
+
+#### 중기
+- [ ] 3차 브레인스토밍 T-A~T-E 재개 (Canon GATE 적용 · "우주적 존재 · 가족 없음 · 6개월 체류" 전제)
+- [ ] Ch.01 draft_v2 본격 집필 (light-novel-master skill 활용)
+- [ ] Unity 6 LTS 조기 설치·연습 (대표님 "미리미리")
+- [ ] FAIL-011 Hook 절대경로 재설계 (이월 미해결)
+
+#### 장기
+- [ ] 하네스 저장소 v1.0 → v1.1 PR (Obsidian 템플릿 이관)
+- [ ] shorts 스튜디오 3축 역이식
+
+---
+
 ## Session #5 — 2026-04-22 (Q-FIX 전수 해소 + Wave 5 + Ashenveil + Ch.01 + Karzor MVP · 욜로모드 완주)
 
 ### 핵심 결정 (대표님 직접)

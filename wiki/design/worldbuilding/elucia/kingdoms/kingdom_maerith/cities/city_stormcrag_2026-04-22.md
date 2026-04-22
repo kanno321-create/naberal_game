@@ -1,15 +1,23 @@
 ---
 title: "Stormcrag — Maerith 북부 폭풍 관문"
-type: city
-kingdom: kingdom_maerith
-tier: fortress_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, cities]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
-updated_by: Wave4-Kingdom-Detailer-maerith
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:59"
+    quote: "마에리스 / Maerith / 북동 고지"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Stormcrag (스톰크래그) — Auryn 북부 관문 요새
 
 | 항목 | 내용 |

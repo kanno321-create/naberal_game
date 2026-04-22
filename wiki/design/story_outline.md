@@ -1,9 +1,23 @@
 ---
+title: "스토리 구조 — 3막 + 이중 엔딩"
+layer: 1
+canon_tier: derived
 category: design
-status: draft
-tags: [story, narrative, act, ending, cutscene]
+status: active
+tags: [story, narrative, act, ending, cutscene, design]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
+parent: "[[MOC]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[world_lore]]"
+  - "[[main_character]]"
+  - "[[../gameplay/combat_system]]"
+  - "[[../gameplay/endgame]]"
+agent_briefing_level: required
 ---
 
 # 스토리 구조 — 3막 + 이중 엔딩

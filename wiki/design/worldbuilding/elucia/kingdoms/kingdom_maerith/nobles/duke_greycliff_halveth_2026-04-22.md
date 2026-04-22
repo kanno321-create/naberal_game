@@ -1,17 +1,25 @@
 ---
 title: "Halveth 공작 — Greycliff 공작령"
-type: noble
-kingdom: kingdom_maerith
-role: duke
-domain: Duchy of Greycliff
-family: Halveth
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, nobles]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_maerith_territories_2026-04-22]]:77–78"
+    quote: "Duchy of Greycliff / 고지 동쪽 · Oryn 방향 / ~28K km² / 목재·수렵 / 동부 삼림 접경 (추정)"
+  - src: "[[alliance_maerith_oryn_highland_2026-04-22]]:66–68"
+    quote: "Maerith 고지 → 남으로 Orenwald 삼림 → Oryn 영토 / 삼림 벌목권 경계 · 타종족 관할권"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Duke Brennan Halveth — Greycliff 공작
 
 ## 원전 인용 증명

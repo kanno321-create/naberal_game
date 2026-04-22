@@ -1,9 +1,27 @@
 ---
 title: "Lochvane — 호수 소도 인근 어촌"
-type: village
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, villages]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "Lonwyn Basin 내 소도(小島)들. 접근이 어려워 타종족 은신 지형으로 언급 가능"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+related:
+  - "[[order_swan_2026-04-22]]"
+  - "[[city_lakemere_2026-04-22]]"
+  - "[[prince_loryn_2026-04-22]]"
+agent_briefing_level: reference
+type: village
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

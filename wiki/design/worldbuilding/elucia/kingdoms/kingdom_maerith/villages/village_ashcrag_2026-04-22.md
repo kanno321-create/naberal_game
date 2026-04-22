@@ -1,14 +1,23 @@
 ---
 title: "Ashcrag — Maerith 화산재 바위 마을"
-type: village
-kingdom: kingdom_maerith
-tier: village
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, villages]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:59"
+    quote: "마에리스 / Maerith / 북동 고지"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Ashcrag (애시크래그) — Auryn 서부 화산재 취락
 
 | 항목 | 내용 |

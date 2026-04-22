@@ -1,13 +1,30 @@
 ---
 title: "Elucia 서해안 어업"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, economy]
+updated: 2026-04-22
+parent: "[[economy_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "Elucia (서쪽) = 농업 + 축산업 · 대평원 목축 중심 (발언 48)"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "엘프는 이쁘장한 외모로 노예시장에서 많이 팔리고, 드워프는 뛰어난 손기술로 노예로 많이 팔린다 (발언 9)"
+related:
+  - "[[political_00_overview]]"
+  - "[[culture_00_common_frame]]"
+  - "[[geography_00_overview]]"
+agent_briefing_level: reference
 type: economy
 subject: fishery_coastal
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Economist
 wave: 2
-inputs:
-  - wiki/design/worldbuilding/elucia/geography/coastlines_2026-04-22.md
+inputs:   - wiki/design/worldbuilding/elucia/geography/coastlines_2026-04-22.md
   - wiki/design/worldbuilding/elucia/geography/wetlands_and_swamps_2026-04-22.md
   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
   - wiki/design/political_divisions.md

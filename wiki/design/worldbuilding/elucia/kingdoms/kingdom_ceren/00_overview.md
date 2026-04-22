@@ -1,9 +1,24 @@
 ---
 title: "세렌 왕국 (Kingdom of Ceren) — 전체 개요 인덱스"
-type: overview
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_ceren, overview]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[design_MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[political_divisions]]"
+related:
+  - "[[kingdom_aldric_00_overview]]"
+  - "[[world_lore]]"
+  - "[[political_divisions]]"
+agent_briefing_level: required
+type: overview
+kingdom_slug: kingdom_ceren
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 qcore_version: v1.0

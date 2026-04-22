@@ -1,15 +1,28 @@
 ---
 title: "Novas 왕국 — 전체 개요 · 인덱스"
-type: overview
-kingdom: kingdom_novas
-created: 2026-04-22
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, kingdom_novas, overview]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
-qfix7_applied: 2026-04-22
+kingdom: "kingdom_novas"
+parent: "[[elucia_kingdoms_MOC]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[political_divisions]]"
+  - "[[kingdom_oryn/00_overview]]"
+  - "[[game_setting_complete_2026-04-21]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[political_divisions]]:115"
+    quote: "Duskmoor / 더스크무어 / 남동 국경 구릉 / 노바스 왕국"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "하단 주황식은 이어진길이다."
+agent_briefing_level: required
 ---
-
 # Kingdom of Novas — 관문 왕국 전체 개요
 
 ## 원전 인용 증명

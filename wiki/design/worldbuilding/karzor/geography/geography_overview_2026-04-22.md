@@ -1,13 +1,30 @@
 ---
 title: "Karzor — 지리 개요"
-type: geography
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, geography]
 continent: karzor
+parent: "[[../00_overview]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "이게 내가 그린맵, 내가 보는방향에서 좌측이 서구중세문명, 우측이 이슬람과비슷한 문명 하늘색이 강인데, 보시다시피 좌측은 강이 많고 풍요로움, 우측은 강도별로없고 줄기도 짧아서 물이귀하고 사막이 많음"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "동쪽은 농업 어업, 서쪽은 농업 축산업"
+related:
+  - "[[../00_overview]]"
+  - "[[../political/political_divisions_karzor_2026-04-22]]"
+  - "[[../subregions/00_zarahim_capital_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft
-sources:
-  - political_divisions.md (Karzor 10 권역)
-  - brainstorm_2026-04-21_worldview_expansion.md (발언 5·47·50)
 ---
 
 # Karzor 지리 개요
@@ -104,9 +121,9 @@ Jalim 자치구가 관할하는 광물 산지. 구리·철·희귀 광물 매장
 
 ## 관련 파일
 
-- `../00_overview.md`
-- `../political/political_divisions_karzor_2026-04-22.md`
-- `../subregions/` (각 자치구 상세)
+- [[00_overview]]
+- [[../political/political_divisions_karzor_2026-04-22]]
+- [[../subregions/00_zarahim_capital_2026-04-22]] (각 자치구 상세)
 
 ---
 

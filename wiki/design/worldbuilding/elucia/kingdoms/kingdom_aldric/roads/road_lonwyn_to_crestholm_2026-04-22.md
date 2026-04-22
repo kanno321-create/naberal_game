@@ -1,9 +1,27 @@
 ---
 title: "왕도 Lonwyn → Crestholm 북부 구릉 도로"
-type: road
-kingdom: kingdom_aldric
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_aldric, roads]
 updated: 2026-04-22
+kingdom: kingdom_aldric
+parent: "[[kingdom_aldric_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[city_crestholm_2026-04-22]]"
+    quote: "Aldric 북부 · Ilaris 경계 근처 구릉 / 북부 경계 감시 · 구릉지 목축"
+  - src: "[[kingdom_aldric_territories_2026-04-22]]"
+    quote: "접경: 북 성좌국·Ceren"
+related:
+  - "[[city_crestholm_2026-04-22]]"
+  - "[[military_2026-04-22]]"
+  - "[[city_lonwyn_2026-04-22]]"
+agent_briefing_level: reference
+type: road
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-kingdom_aldric
 wave: 4
 qcore_version: v1.0

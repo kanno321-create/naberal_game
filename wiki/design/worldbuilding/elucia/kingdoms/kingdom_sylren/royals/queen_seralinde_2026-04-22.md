@@ -1,13 +1,27 @@
 ---
 title: "Seralinde — Sylren 왕비 (Aldric 출신)"
-type: royal
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[Wave 4 에이전트 지시문 — 왕비 Aldric 혼인 전통]]"
+    quote: "왕비 Aldric 혼인 전통 (소왕국 생존 연대)"
+  - src: "[[political_divisions]]:62"
+    quote: "알드릭 / Aldric / 남서 호수"
+  - src: "[[economic_clusters_2026-04-22]]:165"
+    quote: "Lonwyn 어업권 | Aldric vs Sylren | 호수 경계 어업 구역 분쟁"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Seralinde Varentis (née Aldric) — 왕비
 
 ## 원전 인용 증명

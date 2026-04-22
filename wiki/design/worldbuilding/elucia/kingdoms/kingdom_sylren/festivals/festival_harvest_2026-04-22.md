@@ -1,13 +1,27 @@
 ---
 title: "수확 대축제 — Sylren 대륙 최대 축제"
-type: festival
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, festivals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[Wave 4 에이전트 지시문 — 축제 항목]]"
+    quote: "축제: 수확 축제 (대륙 최대) · 포도 수확제·봄 씨뿌리기·여름 태양제"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176 (발언 5)"
+    quote: "좌측은 강이 많고 풍요로움"
+  - src: "[[agriculture_2026-04-22]]:62–63"
+    quote: "Soranth Plain | 남중앙 | ~160,000 km² | Sylren 왕국 | 대륙 공급 비중 25–30%"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # 수확 대축제 (Gran Festa della Messe)
 
 ## 원전 인용 증명

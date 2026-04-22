@@ -1,7 +1,25 @@
 ---
 title: "Omari — 중동부 산악 소수종족 자치구"
-type: subregion
-parent: karzor
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, subregions, omari, mountain]
+continent: karzor
+parent: "[[00_zarahim_capital_2026-04-22]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "엘프는 이쁘장한 외모로 노예시장에서 많이 팔리고, 드워프는 뛰어난 손기술로 노예로 많이 팔린다."
+related:
+  - "[[../00_overview]]"
+  - "[[subregion_jalim_2026-04-22]]"
+  - "[[subregion_nahir_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft

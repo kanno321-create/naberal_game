@@ -1,11 +1,23 @@
 ---
 title: "House Vael — Havenport 공작 가문"
-type: house
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, house]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Havenport / 왕도 해안 · 해운·무역"
+related:
+  - "[[duke_havenport_vael_2026-04-22]]"
+  - "[[kingdom_moran_heraldry_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # House Vael (바엘 가문) — Havenport 항구 지배 가문

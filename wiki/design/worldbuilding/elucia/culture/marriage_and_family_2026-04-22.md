@@ -1,13 +1,30 @@
 ---
 title: "결혼·가족 구조 공통 프레임 — 교회 인증 혼인·봉건 가족 단위"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, culture]
+updated: 2026-04-22
+parent: "[[culture_00_common_frame]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "서쪽 대륙: 서구중세문명 — 왕국·기사·교회·봉건제 구조"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "인간은 악이 아니다. 모든 종족이 나태해진 신과 타락한 교회의 피해자"
+related:
+  - "[[economy_00_overview]]"
+  - "[[political_00_overview]]"
+  - "[[history_00_timeline]]"
+agent_briefing_level: reference
 type: culture
 subject: marriage_family
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave2-Culturalist
 wave: 2
-inputs:
-  - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
+inputs:   - wiki/design/brainstorm_2026-04-21_worldview_expansion.md
   - wiki/design/game_setting_complete_2026-04-21.md
   - culture/shared_religion_structure_2026-04-22.md
   - culture/social_classes_2026-04-22.md

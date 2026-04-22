@@ -1,11 +1,23 @@
 ---
 title: "House Sorn — Morncliff 공작 가문"
-type: house
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, house]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Morncliff / 절벽 해안 북부 · 어업·방어"
+related:
+  - "[[duke_morncliff_sorn_2026-04-22]]"
+  - "[[kingdom_moran_heraldry_2026-04-22]]"
+  - "[[king_calder_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # House Sorn (소른 가문) — 해안 방위 군인 귀족 가문

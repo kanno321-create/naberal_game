@@ -1,11 +1,23 @@
 ---
 title: "Wellford — Moran 강변 농업 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Wellmere / Mornwell 강 중류 · 농업"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[duke_wellmere_ashfen_2026-04-22]]"
+  - "[[village_fernwick_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Wellford (웰포드) — Mornwell 강 중류 농업 마을

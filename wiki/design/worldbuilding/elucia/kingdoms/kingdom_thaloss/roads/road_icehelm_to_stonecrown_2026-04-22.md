@@ -1,11 +1,23 @@
 ---
 title: "Icehelm — Stonecrown 동부 고원 도로"
-type: road
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, road]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Whitecrest / Whitecrest Saddle · 동부 / 동쪽 관문 · Maerith 접경 / Stonecrown"
+related:
+  - "[[city_icehelm_2026-04-22]]"
+  - "[[city_stonecrown_2026-04-22]]"
+  - "[[road_icehelm_to_embervane_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Icehelm → Stonecrown 고원 도로 (Highland Road)

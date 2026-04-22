@@ -1,8 +1,22 @@
 ---
+title: "Steam — Map of Content"
+layer: 1
+canon_tier: derived
 category: steam
-status: scaffold
+status: active
 tags: [moc, game, steam, publishing]
-updated: 2026-04-20
+created: 2026-04-20
+updated: 2026-04-22
+parent: "[[../README]]"
+moc: "[[MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21]]"
+related:
+  - "[[../design/MOC]]"
+  - "[[../gameplay/MOC]]"
+  - "[[../engine/MOC]]"
+agent_briefing_level: required
 ---
 
 # Steam — Map of Content
@@ -29,7 +43,7 @@ Steamworks API 통합 (Achievements, Cloud Save, Workshop), Steam 페이지 최�
 
 ## NotebookLM 딥 리서치 (2026-04-20)
 
-**원본 답변**: [../../.planning/research/nlm_result_05_steam_marketing.md](../../.planning/research/nlm_result_05_steam_marketing.md) (26.6KB, 12,182자 — 두 번째로 풍부)
+**원본 답변**: [[../../.planning/research/nlm_result_05_steam_marketing|nlm_result_05_steam_marketing]] (26.6KB, 12,182자 — 두 번째로 풍부)
 
 ### Steamworks Partner 등록 (한국 개발자)
 - $100 앱 크레딧 (게임 매출 $1,000 돌파 시 환급)

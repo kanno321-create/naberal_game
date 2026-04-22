@@ -1,14 +1,26 @@
 ---
 title: "Moorend — Novas 황야 끝자락 마을"
-type: village
-kingdom: kingdom_novas
-tier: village
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, village]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[nobles/duke_moorfield_calris_2026-04-22]]"
+  - "[[festivals/festival_harvest_duskgate_2026-04-22]]"
+  - "[[villages/village_ashridge_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:176"
+    quote: "하단 주황식은 이어진길이다."
+agent_briefing_level: reference
 ---
-
 # Moorend (무어엔드) — Duskmoor 서쪽 끝 취락
 
 | 항목 | 내용 |

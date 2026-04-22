@@ -1,14 +1,25 @@
 ---
-title: 탈로스 왕국 시각 — 바엘린-탈로스 국경 전쟁
-type: history
-scope: kingdom
-kingdom: kingdom_thaloss
-era: human_early
-created: 2026-04-22
+title: "탈로스 왕국 시각 — 바엘린-탈로스 국경 전쟁"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, history, war]
 updated: 2026-04-22
-agent: Wave3-Historian
-wave: 3
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "바엘린과의 15년 전쟁은 세대 원한을 남겼다"
+  - src: "[[war_thaloss_vaelin_perspective_2026-04-22]]:29-31"
+    quote: "탈로스 입장에서 이 전쟁은 '침략에 대한 정당한 방어'이며, 광산로 통행세 인상은 주권적 경제 행위였다"
+related:
+  - "[[kingdom_thaloss_00_overview]]"
+  - "[[history_founding_2026-04-22]]"
+  - "[[king_thormund_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 ## 원전 인용 증명

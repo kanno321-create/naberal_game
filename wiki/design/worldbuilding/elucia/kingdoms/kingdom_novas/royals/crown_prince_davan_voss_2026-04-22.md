@@ -1,14 +1,26 @@
 ---
 title: "Davan Voss — Novas 왕세자"
-type: royal
-kingdom: kingdom_novas
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_novas, royal]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-novas
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_novas"
+parent: "[[kingdom_novas_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[royals/king_aldaron_voss_2026-04-22]]"
+  - "[[royals/queen_ilena_sabin_voss_2026-04-22]]"
+  - "[[dialect_2026-04-22]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:261"
+    quote: "좌우 대륙은 같은 신을 믿지만 서로 해석을 달리한다."
+  - src: "[[political_divisions]]:61"
+    quote: "노바스 / Novas / 남동 국경"
+agent_briefing_level: reference
 ---
-
 # Davan Voss — 동서 혼혈 왕세자
 
 ## 원전 인용 증명

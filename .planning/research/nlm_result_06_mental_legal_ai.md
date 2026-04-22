@@ -1,4 +1,5 @@
 ---
+title: "NLM Result 06 — 프로젝트 관리·멘털·법률(한국)·AI 시대 2026"
 query_idx: 6
 label: 영역 프로젝트 관리/멘털 + 법률(한국) + AI 시대 2026
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
@@ -6,6 +7,16 @@ question_chars: 938
 answer_chars: 7044
 duration_s: 156.1
 date: 2026-04-20
+layer: 1
+canon_tier: derived
+tags: [research, nlm, mental, legal, project-management]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/design/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM 응답 — 영역 프로젝트 관리/멘털 + 법률(한국) + AI 시대 2026

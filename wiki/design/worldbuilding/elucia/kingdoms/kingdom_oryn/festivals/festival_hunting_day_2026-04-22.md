@@ -1,13 +1,26 @@
 ---
 title: "사냥 축일 — Oryn 왕국 제3 축제"
-type: festival
-kingdom: kingdom_oryn
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_oryn, festival]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-oryn
-wave: 4
+kingdom: "kingdom_oryn"
+parent: "[[kingdom_oryn_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[royals/crown_prince_aldryk_erevorn_2026-04-22]]"
+  - "[[orders/order_green_stag_2026-04-22]]"
+  - "[[cuisine_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: reference
 ---
-
 # 사냥 축일 (Hart's Day)
 
 ## 원전 인용 증명

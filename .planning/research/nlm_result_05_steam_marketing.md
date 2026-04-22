@@ -1,4 +1,5 @@
 ---
+title: "NLM Result 05 — Steam 출시·마케팅·한국 인디 씬"
 query_idx: 5
 label: 영역 Steam 출시 + 마케팅 + 한국 인디 씬
 notebook_id: a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb
@@ -6,6 +7,16 @@ question_chars: 1062
 answer_chars: 12182
 duration_s: 192.1
 date: 2026-04-20
+layer: 1
+canon_tier: derived
+tags: [research, nlm, steam, marketing, wishlist]
+updated: 2026-04-22
+related:
+  - "[[../../wiki/FRONTMATTER_STANDARD]]"
+  - "[[../../wiki/steam/MOC]]"
+agent_briefing_level: reference
+derived_from:
+  - "[[../../wiki/design/brainstorm_2026-04-21]]"
 ---
 
 # NotebookLM 응답 — 영역 Steam 출시 + 마케팅 + 한국 인디 씬

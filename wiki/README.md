@@ -1,5 +1,19 @@
 ---
+title: "naberal_game Wiki — Tier 2 루트"
+layer: 2
+canon_tier: detail
 tags: [readme, wiki-home, tier-2, game]
+created: 2026-04-20
+updated: 2026-04-22
+status: active
+parent: "[[../CLAUDE]]"
+derived_from:
+  - "[[story_full_narrative]]"
+related:
+  - "[[design/MOC]]"
+  - "[[gameplay/MOC]]"
+  - "[[engine/MOC]]"
+agent_briefing_level: optional
 ---
 
 # 📚 naberal_game — Tier 2 Wiki

@@ -1,16 +1,25 @@
 ---
 title: "Gareth Maern — 마에리스 선왕 (故)"
-type: royal
-kingdom: kingdom_maerith
-role: previous_king
-status: deceased
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, royals]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[founding_2026-04-22]]:56–57"
+    quote: "바엘린-탈로스 전쟁 중재 시도: 3년차 실패 → 중립 외교 전통 확립"
+  - src: "[[founding_2026-04-22]]:62–64"
+    quote: "중립 외교 성향으로 주변 강국들의 완충지대 역할"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Gareth Maern — 선왕 (故)
 
 ## 원전 인용 증명

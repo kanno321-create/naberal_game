@@ -1,8 +1,26 @@
 ---
 title: "Auronheld — 성좌국 제2도시"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, city, military]
 type: city
 kingdom: empire_choir
 tier: major_city
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "보라색점은 좌측대륙에서 가장큰 제국이고, 나머지는 작은 왕국으로 이루어짐"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "나태해진신은 교회를 타락시켜 절대적인 권력을 손에 쥐게해줌."
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[nobles/duke_solanthen_soltharr_2026-04-22]]"
+  - "[[orders/order_aurelian_light_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave2-Toponymist

@@ -1,5 +1,19 @@
 ---
 title: "World-Integrator 전수 검사 보고서 — Wave 5"
+layer: 1
+canon_tier: derived
+tags: [worldbuilding, elucia, master]
+updated: 2026-04-22
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측이 서구중세문명 · 서쪽 대륙 전체 구조 원전 (발언 5 지도)"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "Elucia (서쪽): 인간 + 타종족 — 11왕국 + 교황청 성좌국"
+agent_briefing_level: optional
 type: integrator_report
 scope: elucia_full_scan
 created: 2026-04-22

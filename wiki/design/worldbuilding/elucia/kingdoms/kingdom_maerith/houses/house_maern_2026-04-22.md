@@ -1,14 +1,27 @@
 ---
 title: "House Maern — 마에리스 왕가"
-type: house
-kingdom: kingdom_maerith
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_maerith, houses]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-maerith
-wave: 4
-qcore_version: v1.0
+kingdom: "kingdom_maerith"
+parent: "[[kingdom_maerith_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[founding_2026-04-22]]:35–37"
+    quote: "Auryn 고지 목축 부족들이 공동 방목지 관리와 몬스터 방어를 위해 연합을 형성한 것이 기원."
+  - src: "[[에이전트 지침]]"
+    quote: "왕족: 고지 왕조 · 폐쇄적 전통 · 왕비 Thaloss 또는 Vaelin 방계 혼인"
+  - src: "[[_shared_briefing]]:85"
+    quote: "불완전성 — 모든 것은 불완전하다 · 신조차"
+related:
+  - "[[kingdom_maerith_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # House Maern — 왕가
 
 ## 원전 인용 증명

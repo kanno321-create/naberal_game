@@ -1,14 +1,26 @@
 ---
-title: "Orynthil — Oryn 왕국 수도"
-type: city
-kingdom: kingdom_oryn
-tier: capital
-created: 2026-04-22
+title: "Orynthil — Oryn 왕도 · Orenwald 서쪽 분지 도시"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_oryn, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: "kingdom_oryn"
+parent: "[[kingdom_oryn_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+related:
+  - "[[capital_map_2026-04-22]]"
+  - "[[royals/king_erevan_erevorn_2026-04-22]]"
+  - "[[orders/order_green_stag_2026-04-22]]"
+canon_anchors:
+  - src: "[[political_divisions]]:58"
+    quote: "오린 / Oryn / 동부 숲"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]:304"
+    quote: "타종족은 주변 작은 섬들이나 대륙의 가장자리의 밀림이나 숲, 사막한가운데서 숨어서 생활한다."
+agent_briefing_level: reference
 ---
-
 # Orynthil (오린실) — Oryn 왕국 수도·숲의 도시
 
 ## 요약

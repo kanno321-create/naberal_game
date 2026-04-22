@@ -1,11 +1,23 @@
 ---
 title: "Ironmere — Moran 내륙 광물 채굴 마을"
-type: village
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, village]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "Duchy of Spineback / 구릉 내측 · 석재·광물"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_stoneheld_2026-04-22]]"
+  - "[[count_spineback_draven_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Ironmere (아이언미어) — Spineback 구릉 광물 채굴 마을

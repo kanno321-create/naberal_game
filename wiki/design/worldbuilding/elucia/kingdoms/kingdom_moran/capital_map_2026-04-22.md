@@ -1,11 +1,23 @@
 ---
 title: "Mornheld — 왕도 상세 지도"
-type: capital_map
-kingdom: kingdom_moran
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, city, capital]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-moran
-wave: 4
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:54"
+    quote: "모란 / Moran / 북서 · Havren / 하브렌 / 북서 해안 / 모란·바엘린 왕국"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_mornheld_2026-04-22]]"
+  - "[[kingdom_moran_military_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Mornheld (모른헬드) — 왕도 상세 지도

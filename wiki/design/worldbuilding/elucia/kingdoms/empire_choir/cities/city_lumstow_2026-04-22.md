@@ -1,8 +1,26 @@
 ---
 title: "Lumstow — 성좌국 순례 교역 도시"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, empire_choir, city, pilgrimage]
 type: city
 kingdom: empire_choir
 tier: major_city
+parent: "[[empire_choir_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "어느마을이나 교회가있다. 농업위주의 삶 ,서쪽은 징병제"
+  - src: "[[political_divisions]]"
+    quote: "교황청 보유 · 대륙 최대 권력 · 보라 심볼"
+related:
+  - "[[empire_choir_00_overview]]"
+  - "[[nobles/duke_loranthas_lorven_2026-04-22]]"
+  - "[[roads/road_solaris_to_aurewatch_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave2-Toponymist

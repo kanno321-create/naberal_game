@@ -1,12 +1,23 @@
 ---
 title: "Stoneheld — Moran 내륙 광물 도시"
-type: city
-kingdom: kingdom_moran
-tier: major_city
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_moran, city]
 updated: 2026-04-22
-agent: Wave2-Toponymist
-wave: 2
+kingdom: kingdom_moran
+parent: "[[kingdom_moran_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_moran_00_overview]]"
+    quote: "광물도시: Stoneheld · Morncliff Spine 기슭 · 석재 채굴"
+related:
+  - "[[kingdom_moran_00_overview]]"
+  - "[[city_mornheld_2026-04-22]]"
+  - "[[city_keldhaven_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # Stoneheld (스톤헬드) — Morncliff Spine 석재 채굴 도시

@@ -1,7 +1,25 @@
 ---
 title: "Rakhel — 북부 교역 오아시스 자치구"
-type: subregion
-parent: karzor
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, karzor, subregions, rakhel, oasis]
+continent: karzor
+parent: "[[00_zarahim_capital_2026-04-22]]"
+moc: "[[../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+  - "[[../../design/political_divisions]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "노예시장이 활발한 이유는 지형이 험하고 혹독한 지역이 많아 인적이 없는 지역이 많아서 타종족이 숨어살고있는경우가 많은 타종족비율이 서쪽 25%동쪽75%임"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "동쪽은 농업 어업, 서쪽은 농업 축산업"
+related:
+  - "[[../00_overview]]"
+  - "[[subregion_amash_2026-04-22]]"
+  - "[[subregion_qorath_2026-04-22]]"
+agent_briefing_level: reference
 created: 2026-04-22
 updated: 2026-04-22
 status: mvp-draft

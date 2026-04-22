@@ -1,13 +1,23 @@
 ---
 title: "Fordgate — Sylren Azim Pass 전방 마을"
-type: village
-kingdom: kingdom_sylren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_sylren, villages]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-sylren
-wave: 4
+kingdom: "kingdom_sylren"
+parent: "[[kingdom_sylren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[economic_clusters_2026-04-22]]:130–131"
+    quote: "C6 클러스터 ... 다양한 산업 포트폴리오 · Azim Pass 접근"
+related:
+  - "[[kingdom_sylren_00_overview]]"
+  - "[[political_divisions]]"
+agent_briefing_level: reference
 ---
-
 # Fordgate (포드게이트) — Azim Pass 전방 교역 취락
 
 | 항목 | 내용 |

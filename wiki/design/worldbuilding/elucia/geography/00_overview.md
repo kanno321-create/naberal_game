@@ -1,9 +1,27 @@
 ---
 title: "Elucia Geography — 인덱스 (날짜 없음)"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, geography]
+updated: 2026-04-22
+parent: "[[geography_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "좌측은 강이 많고 풍요로움, 우측은 강도별로없고 줄기도 짧아서 물이귀하고 사막이 많음"
+  - src: "[[game_setting_complete_2026-04-21]]"
+    quote: "서쪽 대륙 = 강 많음이되 대평원 주력 → 축산 적합 (영국·프랑스·독일 중세 축산업 전통)"
+related:
+  - "[[political_00_overview]]"
+  - "[[economy_00_overview]]"
+  - "[[history_00_timeline]]"
+agent_briefing_level: reference
 type: geography
 subject: index
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave1-Geographer
 wave: 1
 ---
@@ -19,15 +37,15 @@ wave: 1
 
 | 파일 | 주제 | 키 포인트 |
 |------|------|---------|
-| [`elevation_profile_2026-04-22.md`](elevation_profile_2026-04-22.md) | 고도 프로필·지형 Features | 5개 고도 지대·Aurion Basin·은신 지형 5곳 |
-| [`mountain_ranges_2026-04-22.md`](mountain_ranges_2026-04-22.md) | 산맥 체계 | Norvend Range(주맥1)·Veilorn Ridge(주맥2)·부맥 5개·고개 3개 |
-| [`coastlines_2026-04-22.md`](coastlines_2026-04-22.md) | 해안선 | 서·북·남 3구역·Veil Sea 접근불가·Azim Narrows |
-| [`rivers_major_2026-04-22.md`](rivers_major_2026-04-22.md) | 대하천 6개 | Eloryn·Auravel·Lowen·Mornwell·Soranth·Duskway |
-| [`rivers_tributaries_2026-04-22.md`](rivers_tributaries_2026-04-22.md) | 지류·수계 네트워크 | 27개 지류·수계 위계 4단계·국경 후보 5개 |
-| [`forests_2026-04-22.md`](forests_2026-04-22.md) | 숲 8개 | Silvan(확정)·Orenwald(확정)·부속숲 6개·타종족 은신 지형 |
-| [`plains_and_grasslands_2026-04-22.md`](plains_and_grasslands_2026-04-22.md) | 초원·평원 | Aurion Plain(300K km²)·Soranth·Vaelin·초원 4지대 |
-| [`wetlands_and_swamps_2026-04-22.md`](wetlands_and_swamps_2026-04-22.md) | 습지·늪 | Loravel Wetlands·Lonwyn Lakelands·삼각주 습지 |
-| [`climate_zones_2026-04-22.md`](climate_zones_2026-04-22.md) | 기후대 6개 | 해양성온대·대륙성온대·고산·한대전이·반건조·습지 |
+| [[elevation_profile_2026-04-22|`elevation_profile_2026-04-22.md`]] | 고도 프로필·지형 Features | 5개 고도 지대·Aurion Basin·은신 지형 5곳 |
+| [[mountain_ranges_2026-04-22|`mountain_ranges_2026-04-22.md`]] | 산맥 체계 | Norvend Range(주맥1)·Veilorn Ridge(주맥2)·부맥 5개·고개 3개 |
+| [[coastlines_2026-04-22|`coastlines_2026-04-22.md`]] | 해안선 | 서·북·남 3구역·Veil Sea 접근불가·Azim Narrows |
+| [[rivers_major_2026-04-22|`rivers_major_2026-04-22.md`]] | 대하천 6개 | Eloryn·Auravel·Lowen·Mornwell·Soranth·Duskway |
+| [[rivers_tributaries_2026-04-22|`rivers_tributaries_2026-04-22.md`]] | 지류·수계 네트워크 | 27개 지류·수계 위계 4단계·국경 후보 5개 |
+| [[forests_2026-04-22|`forests_2026-04-22.md`]] | 숲 8개 | Silvan(확정)·Orenwald(확정)·부속숲 6개·타종족 은신 지형 |
+| [[plains_and_grasslands_2026-04-22|`plains_and_grasslands_2026-04-22.md`]] | 초원·평원 | Aurion Plain(300K km²)·Soranth·Vaelin·초원 4지대 |
+| [[wetlands_and_swamps_2026-04-22|`wetlands_and_swamps_2026-04-22.md`]] | 습지·늪 | Loravel Wetlands·Lonwyn Lakelands·삼각주 습지 |
+| [[climate_zones_2026-04-22|`climate_zones_2026-04-22.md`]] | 기후대 6개 | 해양성온대·대륙성온대·고산·한대전이·반건조·습지 |
 
 ---
 

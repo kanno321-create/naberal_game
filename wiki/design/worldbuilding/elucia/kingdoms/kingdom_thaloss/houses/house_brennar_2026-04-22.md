@@ -1,12 +1,23 @@
 ---
 title: "House Brennar — Ironcleft 제련소 공작 가문"
-type: house
-kingdom: kingdom_thaloss
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_thaloss, house]
 updated: 2026-04-22
-agent: Wave4-Kingdom-Detailer-thaloss
-wave: 4
-qcore_version: v1.0
+kingdom: kingdom_thaloss
+parent: "[[kingdom_thaloss_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[kingdom_thaloss_00_overview]]"
+    quote: "Duchy of Ironcleft / Ironcleft Pass 통제 구역 / 중앙 관문 · 철광 산지"
+related:
+  - "[[duke_ironcleft_house_brennar_2026-04-22]]"
+  - "[[kingdom_thaloss_heraldry_2026-04-22]]"
+  - "[[king_thormund_2026-04-22]]"
+agent_briefing_level: reference
 ---
 
 # House Brennar (브레나르 가문) — 제련소 공작가

@@ -1,10 +1,28 @@
 ---
 title: "Nomen 섬 중립 지대 — 동서 대륙 간 반공식 공존 체계"
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, relations, intercontinental]
+updated: 2026-04-22
+parent: "[[relations_00_overview]]"
+moc: "[[elucia_MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "동쪽 대륙: 이슬람류문명 사막이 대부분이다 — 서동 대륙 이질적 문명 충돌 (발언 4)"
+  - src: "[[brainstorm_2026-04-21_worldview_expansion]]"
+    quote: "섬 하단의 항구에서 좌우대륙의 교류 및 상업이 발달, 하지만 반 무법지대 (발언 5)"
+related:
+  - "[[relations_00_overview]]"
+  - "[[relationship_graph]]"
+  - "[[political_00_overview]]"
+agent_briefing_level: reference
 type: relation
 relation_type: intercontinental_neutral_zone
 parties: [Choir_of_Elucia, Karzor_Dynasty, Nomen_Island]
 created: 2026-04-22
-updated: 2026-04-22
 agent: Wave3-Diplomat
 wave: 3
 qcore_version: v1.0

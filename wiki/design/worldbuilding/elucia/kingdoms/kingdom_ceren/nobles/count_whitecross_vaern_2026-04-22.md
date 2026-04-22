@@ -1,9 +1,27 @@
 ---
 title: "오린 바에른 — Whitecross 변경 백작"
-type: noble
-kingdom: kingdom_ceren
-created: 2026-04-22
+layer: 2
+canon_tier: detail
+tags: [worldbuilding, elucia, kingdom_ceren, nobles]
 updated: 2026-04-22
+kingdom: kingdom_ceren
+parent: "[[kingdom_ceren_00_overview]]"
+moc: "[[../../../../design/MOC]]"
+derived_from:
+  - "[[story_full_narrative]]"
+  - "[[brainstorm_2026-04-21_worldview_expansion]]"
+canon_anchors:
+  - src: "[[political_divisions]]:55"
+    quote: "일라리스 / Ilaris / 서해안"
+  - src: "[[story_full_narrative]]"
+    quote: "불완전성 — 모든 존재는 완벽하지 않다"
+related:
+  - "[[city_whitecross_2026-04-22]]"
+  - "[[queen_mireth_sellypha_2026-04-22]]"
+  - "[[duke_deltawatch_mossway_2026-04-22]]"
+agent_briefing_level: reference
+type: noble
+created: 2026-04-22
 agent: Wave4-Kingdom-Detailer-ceren
 wave: 4
 qcore_version: v1.0
