@@ -131,3 +131,22 @@ Nomen 은 게임 내 다음 서사 기능을 가진다.
 - **Diplomat (Wave 3)**: Elucia–Karzor 의 Nomen 쟁탈 외교·전쟁 협약
 - **Economist (Wave 2)**: Nomen 항구 무역 체계·해적 경제
 - **Kingdom-Detailer (empire_papal & Karzor, Wave 4)**: 양 대륙의 Nomen 점령 역사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+- [[empire_papal_territories_2026-04-22]]
+
+<!-- auto-generated-related:end -->

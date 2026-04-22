@@ -154,3 +154,25 @@ graph TD
 - **Wave 3 Historian**: 십일조 제도의 역사적 기원 — 어느 시대 성좌국이 도입했는지
 - **Wave 3 Diplomat**: 왕국들의 십일조 상납 거부 사례 · 성좌국의 대응 외교 압박
 - **Wave 4 Kingdom-Detailer (전 왕국)**: 왕국별 세리 제도·세관·과세 갈등 사건
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[agriculture_2026-04-22]]
+- [[crafts_guilds_2026-04-22]]
+- [[currency_and_banking_2026-04-22]]
+
+<!-- auto-generated-related:end -->

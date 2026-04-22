@@ -114,3 +114,21 @@ qcore_seal: v1.0 — Q-CORE 1·2·3 봉인 준수
 *편찬 완료: Solaris 교황청 기록원 제437 년차*
 *승인: Cardian Osbert Halvenmoor, 선임 추기경*
 *열람 허가 등급: 공개 (Tier I)*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[annals_of_elucia_book_II_2026-04-22]]
+- [[chronicles_of_silvan_2026-04-22]]
+- [[mining_guilds_testimony_2026-04-22]]
+
+<!-- auto-generated-related:end -->

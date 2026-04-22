@@ -50,3 +50,14 @@ sources:
 - 현재 성좌(Hierarch) 의 이름·성격
 - 왕조 원로원의 실질 권한 비율
 - 노예시장 규모 (하루 거래량·종족 비율)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

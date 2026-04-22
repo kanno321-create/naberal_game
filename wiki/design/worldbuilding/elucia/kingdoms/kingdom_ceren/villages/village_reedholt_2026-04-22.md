@@ -19,3 +19,29 @@ wave: 4
 | 특징 | 카엘 공작 직할 이탄 채취 마을 · 마을 전체가 이탄 냄새 |
 | 분위기 | 새벽부터 이탄 절단 소리. 갈색 흙 언덕들. 훈연 냄새 가득 |
 | 행정 | Saltfen 백작령 소속 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ceren_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_cernfield_2026-04-22]]
+- [[village_drenfold_2026-04-22]]
+- [[village_fenwater_2026-04-22]]
+
+<!-- auto-generated-related:end -->

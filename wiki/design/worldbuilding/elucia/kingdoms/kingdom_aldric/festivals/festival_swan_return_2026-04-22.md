@@ -64,3 +64,15 @@ Lonwyn 대호에서 겨울을 나고 봄에 돌아오는 철새 백조의 귀환
 
 ## 다음 Wave 의존
 - Wave 5 Chronicler: 백조와 왕국 기원 전설
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

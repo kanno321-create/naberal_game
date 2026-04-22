@@ -134,3 +134,21 @@ qcore_version: v1.0
 - Wave 5 Chronicler: 이단 심판 기록·양심파 비밀 필사본 인-월드 문헌 작성
 - Wave 4 Kingdom-Detailer: 각 왕국 내 양심파·타락 교회 세력 비율 설정
 - Wave 3 Diplomat: 교황청 vs 양심파 권력 지형 외교 영향 반영
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

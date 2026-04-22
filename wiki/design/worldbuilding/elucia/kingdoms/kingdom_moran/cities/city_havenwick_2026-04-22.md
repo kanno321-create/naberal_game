@@ -28,3 +28,29 @@ wave: 2
 - **Saltwick 연계**: 인근 Saltwick 마을이 실제 염장 처리 담당
 - **수출 루트**: Mornheld 항구 경유 → Nomen 섬 상단 납품
 - **Rev.3 접점**: 어시장 씬·청어 수출 의뢰·조선소 정보 수집
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_moran_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_greycliff_2026-04-22]]
+- [[city_keldhaven_2026-04-22]]
+- [[city_mornheld_2026-04-22]]
+
+<!-- auto-generated-related:end -->

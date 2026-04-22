@@ -180,3 +180,15 @@ graph LR
 *관계도 생성: 2026-04-22 · Wave5-WorldIntegrator*
 *Q-FIX 1~9 + X1·X2 전반 반영 완료*
 *다음 갱신 기준: 서부 대륙 세력 추가 확정 시*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../MOC]] — wiki 루트
+- [[MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

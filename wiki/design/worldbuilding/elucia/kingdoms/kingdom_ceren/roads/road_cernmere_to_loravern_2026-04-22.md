@@ -22,3 +22,21 @@ wave: 4
 | 경유 | Fenwater (환적 기지) |
 | 위험 요소 | 안개 짙은 날 수로 미아 · 습지 깊은 곳 야생 생물 |
 | 수문 통제 | Cernmere 남수문 · Loravern 입구 수문 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_cernmere_to_fenlyn_2026-04-22]]
+- [[road_cernmere_to_lorenfen_castle_2026-04-22]]
+- [[road_cernmere_to_whitecross_2026-04-22]]
+
+<!-- auto-generated-related:end -->

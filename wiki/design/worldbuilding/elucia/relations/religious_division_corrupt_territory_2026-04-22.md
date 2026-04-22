@@ -139,3 +139,25 @@ graph TD
 
 - **Wave 4 Kingdom-Detailer (Solaris·Vaelin·Moran)**: 이단 심문청 건물·인원 상세
 - **Wave 5 Chronicler**: 이단 재판 기록·교리 선언문 인-월드 문헌
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[power_hierarchy_2026-04-22]]
+- [[religious_division_orthodox_territory_2026-04-22]]
+- [[sphere_of_influence_solaris_2026-04-22]]
+
+<!-- auto-generated-related:end -->

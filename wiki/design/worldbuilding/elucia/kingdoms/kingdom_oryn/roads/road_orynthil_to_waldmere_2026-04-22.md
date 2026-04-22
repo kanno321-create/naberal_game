@@ -36,3 +36,21 @@ Orynthil ──40km── Thorngate ──20km── Ironwood ──20km── W
 - Orenwald 목재 경제 핵심 도로
 - 이단 심문관 Waldmere 상주 접근로 — 왕국과 교황청 긴장 축선
 - Waldmere 이후 계속 이어지면 中林→深林으로 연결 (공식 이후 구간 없음)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_orynthil_to_darkwyn_2026-04-22]]
+- [[road_orynthil_to_orenwarden_2026-04-22]]
+- [[road_orynthil_to_soranwatch_2026-04-22]]
+
+<!-- auto-generated-related:end -->

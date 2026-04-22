@@ -71,3 +71,15 @@ Aldric 왕국 왕녀 출신 Sylren 왕비. Sylren-Aldric 혼인 동맹 전통의
 
 - Wave 5 Chronicler: Aldric-Sylren 동맹 혼인 역사 계보
 - Wave 5 World-Integrator: 왕비 출신 Aldric 왕국과의 관계 그래프
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

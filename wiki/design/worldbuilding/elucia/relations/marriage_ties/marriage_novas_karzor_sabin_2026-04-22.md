@@ -117,3 +117,15 @@ graph LR
 - `intercontinental/azim_pass_diplomacy_2026-04-22.md`: Azim Pass 외교 상세
 - `trade_treaties/treaty_azim_pass_transit_2026-04-22.md`: 통행 조약 연동
 - **Wave 4 Kingdom-Detailer (Novas)**: 왕가 계보·남부 국경 정치 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

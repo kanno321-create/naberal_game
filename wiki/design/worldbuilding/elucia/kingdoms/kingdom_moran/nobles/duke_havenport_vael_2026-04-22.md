@@ -66,3 +66,15 @@ Havenport 공작령 지배자. 55세. Moran 최대 항구 무역을 통제하며
 ## 다음 Wave 의존
 
 - **Chronicler**: Vael 가문 항구 지배권 역사 문헌
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

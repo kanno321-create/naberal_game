@@ -91,3 +91,21 @@ Ilaris 왕국은 Silvan 숲과 인접하여
 
 - Wave 4 Kingdom-Detailer (kingdom_ilaris): 이 반란이 일라리스 왕국 역사에 어떻게 기록되는가
 - Wave 5 Chronicler: 인-월드 관점 — 왕국 공식 기록 vs 엘프 구전 비교
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

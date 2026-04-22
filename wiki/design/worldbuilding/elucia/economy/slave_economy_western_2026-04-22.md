@@ -148,3 +148,25 @@ Act 1 나이트의 서쪽 여정에서:
 - **Wave 3 Historian**: 서쪽 "봉공 제도" 의 역사적 기원 — 처음부터 있었는지, 어느 왕조 때 제도화됐는지
 - **Wave 3 Diplomat**: Elucia ↔ Karzor 노예 교역 조약 — Azim Pass 경유 인력 이동 규정
 - **Wave 4 Kingdom-Detailer (Thaloss·성좌국)**: 광산·농장 봉공 노예 배치 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[agriculture_2026-04-22]]
+- [[crafts_guilds_2026-04-22]]
+- [[currency_and_banking_2026-04-22]]
+
+<!-- auto-generated-related:end -->

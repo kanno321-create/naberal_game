@@ -22,3 +22,25 @@ wave: 2
 ## 특징
 
 서부 해역 원거리 항로의 출발점. 천연 방파제가 있는 양항으로 계절풍 영향을 최소화. 이국적 선박 양식의 배들이 상시 정박. 선원 문화와 호수 문화가 혼합된 독특한 항구 도시.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[port_caerveld_2026-04-22]]
+- [[port_fenlyn_2026-04-22]]
+- [[port_ghost_cove_2026-04-22]]
+
+<!-- auto-generated-related:end -->

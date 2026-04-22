@@ -38,3 +38,21 @@ qcore_version: v1.0
 | **Redmere 마을 (km 35)** | 북동 군사 보급 중간 기착지 |
 | **Thornheld 가시덤불 방어선** | 접근로 자체가 방어 시설화 |
 | **Thornheld 요새** | 종점 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_duskgate_to_azimfront_2026-04-22]]
+- [[road_duskgate_to_duskwatch_2026-04-22]]
+- [[road_duskgate_to_moorfield_2026-04-22]]
+
+<!-- auto-generated-related:end -->

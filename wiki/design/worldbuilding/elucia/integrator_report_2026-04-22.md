@@ -168,3 +168,15 @@ Q-FIX + X1·X2 이후 `Ald-` 계열 이름 전수 정리:
 
 *통합 보고서 생성: 2026-04-22 · Wave5-WorldIntegrator*
 *다음 갱신 기준: 즉시 조치 3건 완료 후 재검증*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../MOC]] — wiki 루트
+- [[MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

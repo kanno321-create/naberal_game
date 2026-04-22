@@ -162,3 +162,21 @@ qcore_version: v1.0
 - Wave 5 Chronicler: 양심파 교회 비밀 필사본에서 이 시기의 파편적 비판 삽입
 - Wave 4 Kingdom-Detailer: 각 왕국 교회 교리의 "은총 시대" 기술 방식 반영
 - Wave 5 World-Integrator: 첫 번째 신 행적 타임라인 정합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_late_2026-04-22]]
+- [[era_human_age_early_2026-04-22]]
+
+<!-- auto-generated-related:end -->

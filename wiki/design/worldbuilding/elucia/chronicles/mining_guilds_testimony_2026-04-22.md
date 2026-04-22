@@ -115,3 +115,21 @@ Jorvald 는 Norvend 전투에서 보조 병사로 전사했다. 그의 나이 51
 *편찬 완료: Thaloss 광부 조합 기록실*
 *승인: 조합 장로회 6인 연서*
 *보관 위치: Icehelm 조합 본부 제3 문서함 · 사본 2부 지부 보관*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[annals_of_elucia_book_I_2026-04-22]]
+- [[annals_of_elucia_book_II_2026-04-22]]
+- [[chronicles_of_silvan_2026-04-22]]
+
+<!-- auto-generated-related:end -->

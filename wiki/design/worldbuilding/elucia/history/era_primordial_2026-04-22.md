@@ -123,3 +123,21 @@ qcore_version: v1.0
 - Wave 5 Chronicler: 엘프 구전 「첫 세대의 목격」 · 용족 벽화 판독문 인-월드 문헌 작성
 - Wave 4 Kingdom-Detailer: 각 왕국 신학서에서 이 시기를 어떻게 왜곡 기술하는지 반영
 - Wave 5 World-Integrator: 수정 2 물리 위치가 확정되면 지식 그래프 갱신
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

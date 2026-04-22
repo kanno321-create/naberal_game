@@ -89,3 +89,15 @@ Fenlyn 백작. 38세. 가문 성씨 "솔트길드(Saltguild)"에서 드러나듯
 ## 다음 Wave 의존
 
 - **Chronicler (Wave 5)**: 소금 길드 가문의 귀족화 과정 기록
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

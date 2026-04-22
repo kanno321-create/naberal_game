@@ -175,3 +175,25 @@ Azim Pass 는 두 대륙이 육로로 연결되는 **남부 지협** 이다. 이
 - **Economist (Wave 2)**: 서해안 어업·무역항이 Elucia 풍요의 해양 기반. Silvan Cape 항구 = 제국 외항 후보
 - **Culturalist (Wave 2)**: 서해안 해양 문화(Ilaris·Ceren)와 내륙 문화(Vaelin·Thaloss) 대비
 - **Toponymist (Wave 2)**: 서방 대해 이름, 만·곶·반도 지명 체계 수립 필요
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+- [[forests_2026-04-22]]
+
+<!-- auto-generated-related:end -->

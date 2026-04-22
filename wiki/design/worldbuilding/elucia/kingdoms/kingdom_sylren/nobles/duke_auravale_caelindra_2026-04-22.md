@@ -73,3 +73,15 @@ Auravale 공작령을 다스리는 여성 공작. Sylren 내에서 포도주 산
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: Auravale 포도주 수출 역사·성좌국 교역 협정
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

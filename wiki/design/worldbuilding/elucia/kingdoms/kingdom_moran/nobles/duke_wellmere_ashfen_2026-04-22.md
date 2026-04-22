@@ -67,3 +67,15 @@ Wellmere 공작령 지배자. 61세 여공작. Mornwell 강 중류 농업 지대
 ## 다음 Wave 의존
 
 - **Chronicler**: Wellmere 강 수운 발전사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

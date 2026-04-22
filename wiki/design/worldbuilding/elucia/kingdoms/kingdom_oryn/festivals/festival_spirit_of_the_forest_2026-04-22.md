@@ -78,3 +78,15 @@ wave: 4
 ## 다음 Wave 의존 포인트
 
 - **Wave 5 Chronicler**: 정령제 창시 전설 · 첫 거행 연대기 문헌
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

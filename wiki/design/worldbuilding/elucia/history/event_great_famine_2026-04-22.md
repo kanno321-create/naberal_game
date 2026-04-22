@@ -120,3 +120,21 @@ qcore_version: v1.0
 - Wave 5 Chronicler: 기근 시기 민중 일기·구호 기록 인-월드 문헌화
 - Wave 4 Kingdom-Detailer: 각 왕국이 기근에 어떻게 대응했는가 (지원·착취·봉쇄)
 - Wave 3 Economist 결과물 참조: 기근 이전·이후 경제 구조 변화
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

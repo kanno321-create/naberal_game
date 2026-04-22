@@ -172,3 +172,21 @@ Elucia 의 교육은 교회가 독점한다. 문자(Elucian Script)를 교회가
 |------|---------|---------|
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 교육 기관·문해율 차이·길드 교육 |
 | Wave 5 | Chronicler | 교육 역사·금서 목록·인-월드 교재 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

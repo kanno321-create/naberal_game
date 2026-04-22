@@ -189,3 +189,25 @@ graph TD
 - **Wave 3 Historian**: Azim Pass 가 역사상 봉쇄된 사건 (전쟁 원인·결과)
 - **Wave 3 Diplomat**: 현재 Azim Pass 통행 조약 상태 (개방·제한·협상 중)
 - **highway_via_imperialis**: VI-S 남간선이 이 파일의 Elucia 측 접근로와 연결됨
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[bridges_and_fords_2026-04-22]]
+- [[highway_kings_road_2026-04-22]]
+- [[highway_via_imperialis_2026-04-22]]
+
+<!-- auto-generated-related:end -->

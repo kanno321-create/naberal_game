@@ -44,3 +44,29 @@ wave: 2
 
 - 소금 분쟁 3차 국면 밀수 루트 배경 (추정)
 - Cailean 백작 협상 거점
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ilaris_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_caerveld_2026-04-22]]
+- [[city_ilarien_2026-04-22]]
+- [[city_mirvane_2026-04-22]]
+
+<!-- auto-generated-related:end -->

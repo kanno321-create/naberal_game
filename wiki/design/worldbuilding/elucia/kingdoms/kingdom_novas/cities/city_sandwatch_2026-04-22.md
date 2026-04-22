@@ -24,3 +24,29 @@ qcore_version: v1.0
 | **경제** | 군사 보급 소비 경제. 자체 생산 거의 없음 |
 | **특이점** | 모래폭풍 시 도시 전체 폐쇄 훈련 연 4회. 성벽에 모래 제거 전담 부대 존재 |
 | **Rev.3 접점** | 사막 척후단 정보 획득 거점 · Act 1 동쪽 이동 기점 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_novas_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_duskgate_2026-04-22]]
+- [[city_dusthaven_2026-04-22]]
+- [[city_redstone_2026-04-22]]
+
+<!-- auto-generated-related:end -->

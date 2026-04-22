@@ -157,3 +157,25 @@ graph TD
 - **Kingdom-Detailer (Wave 4)**: 각 왕국 마을 12~25개 생성 시 이 접미사 체계 의무 준수
 - **Road-Engineer (Wave 2)**: 교차로(-cross)·교량(-bridge)·관문(-gate) 도시가 도로망 절점
 - **Historian (Wave 3)**: 고대 접미사 지명이 실존하는 전설·폐허의 위치 마커
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[etymology_roots_2026-04-22]]
+- [[naming_conventions_2026-04-22]]
+- [[phoneme_patterns_2026-04-22]]
+
+<!-- auto-generated-related:end -->

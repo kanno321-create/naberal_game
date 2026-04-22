@@ -111,3 +111,14 @@ Jalim 자치구가 관할하는 광물 산지. 구리·철·희귀 광물 매장
 ---
 
 *나베랄 감마 · 2026-04-22 · MVP 초안*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

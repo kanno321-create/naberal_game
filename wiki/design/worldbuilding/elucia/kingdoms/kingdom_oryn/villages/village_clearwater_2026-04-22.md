@@ -19,3 +19,29 @@ wave: 4
 | **분위기** | 유리처럼 맑은 강 발원지 · 고요 · 안개 없음 · 수정처럼 투명한 물 |
 | **특이점** | Soranth 강 전체 수질을 좌우하는 마을 · 오염 시 하류 전체 피해 → 왕국이 특별 보호구 지정 |
 | **서사 접점** | 수원 오염 사건 발생 시 Oryn 사건 시작점 가능 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_oryn_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ambervale_2026-04-22]]
+- [[village_ashbrook_2026-04-22]]
+- [[village_barkmill_2026-04-22]]
+
+<!-- auto-generated-related:end -->

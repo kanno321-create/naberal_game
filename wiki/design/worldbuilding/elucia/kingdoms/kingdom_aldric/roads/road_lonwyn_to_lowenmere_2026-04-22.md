@@ -42,3 +42,21 @@ qcore_version: v1.0
 
 ## 다음 Wave 의존
 - Wave 5 World-Integrator: 수운-육로 경제 연결
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_lonwyn_to_coastfen_2026-04-22]]
+- [[road_lonwyn_to_crestholm_2026-04-22]]
+- [[road_lonwyn_to_lonwynshire_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -59,3 +59,15 @@ Aldenmere 수석 백작. 52세. Moran 남부 Vaelin·Ilaris 접경 완충 지대
 ## 다음 Wave 의존
 
 - **World-Integrator**: Moran–Vaelin–Ilaris 접경 관계도
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

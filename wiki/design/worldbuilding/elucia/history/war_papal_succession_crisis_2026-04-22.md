@@ -100,3 +100,21 @@ qfix4_applied: 2026-04-22
 
 - Wave 4 Kingdom-Detailer (empire_choir · kingdom_vaelin · kingdom_moran): 각 왕국 역사에 이 전쟁 반영
 - Wave 5 Chronicler: 교황 계승 위기 공식 기록 vs 양심파 비밀 기록 비교 문헌 작성
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

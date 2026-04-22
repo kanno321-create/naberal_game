@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:MOC",
+      "color": {
+        "a": 1,
+        "rgb": 16738740
+      }
+    },
+    {
+      "query": "path:kingdoms",
+      "color": {
+        "a": 1,
+        "rgb": 5752575
+      }
+    },
+    {
+      "query": "path:political",
+      "color": {
+        "a": 1,
+        "rgb": 14120960
+      }
+    },
+    {
+      "query": "path:geography",
+      "color": {
+        "a": 1,
+        "rgb": 4431943
+      }
+    },
+    {
+      "query": "path:economy",
+      "color": {
+        "a": 1,
+        "rgb": 16766720
+      }
+    },
+    {
+      "query": "path:culture",
+      "color": {
+        "a": 1,
+        "rgb": 15631086
+      }
+    },
+    {
+      "query": "path:roads",
+      "color": {
+        "a": 1,
+        "rgb": 9211020
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 0.7,
+  "linkDistance": 220,
+  "scale": 0.2726859917360056,
+  "close": false
+}

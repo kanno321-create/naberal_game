@@ -146,3 +146,22 @@ graph TD
 - **Historian (Wave 3)**: 현재 자연 국경이 역사적으로 어떻게 확정됐는지
 - **Road-Engineer (Wave 2)**: 고개·강 국경을 활용한 도로망 설계
 - `borders_disputed_2026-04-22.md` 와 함께 읽을 것
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+- [[empire_papal_territories_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -153,3 +153,21 @@ qcore_version: v1.0
 - Wave 5 Chronicler: 이 사건을 엘프·용족 시각에서 인-월드 문헌화
 - Wave 5 Chronicler: 양심파 교회 비밀 필사본에 이 사건의 암시 삽입
 - Wave 4 Kingdom-Detailer: 마족 관련 왕국 역사에서 이 사건 후 시대 반영
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

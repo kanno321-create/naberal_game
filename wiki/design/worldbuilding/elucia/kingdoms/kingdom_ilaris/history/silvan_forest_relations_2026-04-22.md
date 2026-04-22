@@ -75,3 +75,19 @@ Silvan 숲은 일라리스 왕국 서쪽에 위치한 대형 삼림 지대.
 
 - Wave 4 Kingdom-Detailer (kingdom_ilaris): 숲 감시 체계 지도·변경군 구성
 - Wave 5 Chronicler: 엘프 구전 — 일라리스 노예 반란 이후의 숲 이야기
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[founding_2026-04-22]]
+
+<!-- auto-generated-related:end -->

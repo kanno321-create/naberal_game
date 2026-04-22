@@ -96,3 +96,15 @@ qcore_version: v1.0
 - `conflict_via_imperialis_toll_2026-04-22.md`: 통행세 분쟁 상세
 - `sphere_of_influence_solaris_2026-04-22.md`: 4중 헤게모니 도로 층 연동
 - **Wave 4 Kingdom-Detailer**: 각 왕국 관문 도시·통행세 실태
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

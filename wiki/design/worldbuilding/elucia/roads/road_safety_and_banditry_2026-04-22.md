@@ -187,3 +187,25 @@ Elucia 대륙의 도로 치안은 도로 등급과 지형에 따라 극단적으
 - **Wave 4 Kingdom-Detailer (Thaloss·Oryn·Novas)**: 각 위험 지역 상세 지형과 퀘스트 설계
 - **Wave 3 Culturalist**: 타종족 은신 집단과 인간 마을 간의 비공식 관계
 - **Wave 3 Historian**: 산적 집단의 역사적 기원 (전쟁 난민·몰락 귀족 등)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[bridges_and_fords_2026-04-22]]
+- [[highway_azim_pass_2026-04-22]]
+- [[highway_kings_road_2026-04-22]]
+
+<!-- auto-generated-related:end -->

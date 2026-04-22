@@ -148,3 +148,21 @@ Elucia 연간 최대 축제. 교회 십일조 납부와 연동.
 |------|---------|---------|
 | Wave 4 | Kingdom-Detailer × 12 | 왕국 고유 축제명·행사·음식·의상 |
 | Wave 5 | Chronicler | 축제 기록·유래 전설 인-월드 문헌 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

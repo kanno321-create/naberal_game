@@ -378,3 +378,21 @@ session: session-3
 *검사 완료 일시: 2026-04-22*  
 *검사관: Inspector-G (나베랄 감마)*  
 *전수검사 파일 수: Moran 51 + Ilaris 62 = 총 113파일*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[audit_economy_culture_2026-04-22]]
+- [[audit_geography_political_2026-04-22]]
+- [[audit_kingdom_empire_choir_2026-04-22]]
+
+<!-- auto-generated-related:end -->

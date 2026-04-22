@@ -33,3 +33,29 @@ wave: 2
 | 소금 수확제 | 축제 1일차 주행사 장소 |
 | 갈등 구조 | 왕실 검인관 vs 소금 길드 본부 권한 분쟁 만성화 |
 | Rev.3 접점 | 소금 가격 분쟁 퀘스트 시작점 · 벨리스 백작 의뢰 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ceren_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_cernmere_2026-04-22]]
+- [[city_irondelta_south_2026-04-22]]
+- [[city_loravern_2026-04-22]]
+
+<!-- auto-generated-related:end -->

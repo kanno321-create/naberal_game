@@ -154,3 +154,21 @@ Wave 5 Chronicler 가 인-월드 연대기에서 구체화한다.
 - `event_empire_founding_2026-04-22.md`: 성좌국 형성사 상세
 - Wave 5 Chronicler: 각 신의 재위 연대기 인-월드 문헌화
 - Wave 4 Kingdom-Detailer: 각 왕국이 이 시기 신 교체를 어떻게 기억하는지
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_human_age_early_2026-04-22]]
+
+<!-- auto-generated-related:end -->

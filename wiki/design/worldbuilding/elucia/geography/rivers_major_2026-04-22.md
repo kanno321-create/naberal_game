@@ -154,3 +154,25 @@ graph TD
 - **Road-Engineer (Wave 2)**: 중·하류 수운 구간이 도로 대체 교통축. 하구 항구가 도로 기점
 - **Economist (Wave 2)**: Eloryn·Auravel 유역 = 제국 곡창 경제 기반. 수운 = 무역 고속도로
 - **Culturalist (Wave 2)**: 강 유역 농업 문화(성좌국·Sylren)와 강 부재 문화(Thaloss 산악·Maerith 고원) 대비
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+
+<!-- auto-generated-related:end -->

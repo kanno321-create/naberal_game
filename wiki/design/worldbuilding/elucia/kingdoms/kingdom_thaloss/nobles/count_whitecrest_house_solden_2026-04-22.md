@@ -53,3 +53,15 @@ Herik Solden 은 Whitecrest 백작. Whitecrest Saddle 동쪽 관문 통제권을
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: Whitecrest 고개 역사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

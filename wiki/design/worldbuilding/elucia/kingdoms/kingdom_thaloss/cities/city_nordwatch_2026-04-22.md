@@ -29,3 +29,29 @@ wave: 2
 | **북방 전설** | "노르벤드 너머에 무언가 있다" · Veilglass 이상 징후 주기적 보고 |
 | **Rev.3 접점** | Veilglass·초고대문명 관련 정보 수집 거점 |
 | **Q-CORE** | "어느 겨울 행군 중 동사 직전 병사들에게 이름 없는 영감이 나타나 생환 주문을 알려줬다"는 수호단 구전 (간접 단서) |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_thaloss_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_embervane_2026-04-22]]
+- [[city_icehelm_2026-04-22]]
+- [[city_irongate_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -226,3 +226,15 @@ Solaris 는 Eloryn 강 중류 좌안의 완만한 구릉 위에 건설된 계획
 
 - **Wave 5 Chronicler**: 수도 창건 연대기 · 대성당 완공 기념 행사 기록
 - **Wave 5 World-Integrator**: 수도 내 세력 지도 (교황파·개혁파·반교황 상인 세력)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

@@ -129,3 +129,15 @@ graph TD
 - `alliance_northern_league_2026-04-22.md`: 동맹 균열과 직접 연동
 - `border_dispute_greygate_pass_2026-04-22.md`: 현재 분쟁 표현 파일
 - **Wave 4 Kingdom-Detailer (Thaloss·Vaelin)**: 왕조 기억·요새 도시 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

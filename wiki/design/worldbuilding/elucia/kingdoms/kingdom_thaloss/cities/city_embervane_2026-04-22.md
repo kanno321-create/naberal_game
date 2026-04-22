@@ -29,3 +29,29 @@ wave: 2
 | **생산량** | 탈로스 전체 무기 60% 이상 생산 |
 | **Rev.3 접점** | 무기 구매 퀘스트 · Brennar 공작과의 거래 분기 |
 | **Q-CORE** | 제련소 화재 사고 때 "이름 없는 영감이 화상 치료 주문을 가르쳤다"는 작업장 구전 (간접 단서) |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_thaloss_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_icehelm_2026-04-22]]
+- [[city_irongate_2026-04-22]]
+- [[city_nordwatch_2026-04-22]]
+
+<!-- auto-generated-related:end -->

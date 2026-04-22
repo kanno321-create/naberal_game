@@ -59,3 +59,21 @@ Deepsilvan 공작 본거
 
 - 허가증 발급 절차·비용
 - 탐험대 실종 기록 정확한 위치
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_ilarien_to_mirevane_2026-04-22]]
+- [[road_ilarien_to_silvanreach_2026-04-22]]
+- [[road_ilarien_to_westshore_2026-04-22]]
+
+<!-- auto-generated-related:end -->

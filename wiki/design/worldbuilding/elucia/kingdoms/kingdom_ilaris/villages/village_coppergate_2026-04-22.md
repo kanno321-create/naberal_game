@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *copper* (구리) + *gate* (관문·거리) |
 | **분위기** | 망치 소리 종일 울림 · 대장간 열기 · 금속 먼지 |
 | **특이점** | Ilarien 조선소에 닻과 금속 부품 납품하는 장인 집단 취락 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ilaris_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashenveil_2026-04-22]]
+- [[village_ashwood_2026-04-22]]
+- [[village_birkenmoor_2026-04-22]]
+
+<!-- auto-generated-related:end -->

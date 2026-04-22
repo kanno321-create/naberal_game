@@ -142,3 +142,29 @@ graph TD
 
 - **Wave 5 Chronicler**: 왕도 건국 연대기 · 도시 성장 역사
 - **Wave 5 World-Integrator**: 대륙 교역망 지도에서 Vaelthorn 허브 기능 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../political/kingdom_vaelin_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[architecture_2026-04-22]]
+- [[clothing_2026-04-22]]
+- [[cuisine_2026-04-22]]
+
+<!-- auto-generated-related:end -->

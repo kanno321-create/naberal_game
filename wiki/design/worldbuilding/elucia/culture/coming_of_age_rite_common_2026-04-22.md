@@ -165,3 +165,21 @@ Elucia 의 성인식은 교회 주관 하에 의지결 목걸이 장착·신앙 
 |------|---------|---------|
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 성인 나이·의식 고유 요소·목걸이 문양 |
 | Wave 5 | Chronicler | 성인식 역사 기원·의지결 전설 인-월드 문헌 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

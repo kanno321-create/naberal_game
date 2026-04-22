@@ -525,3 +525,14 @@ Path of Exile 방식. 출시 후 6개월 내 추가.
 
 *박제: 2026-04-21 Rev.2 · 원안: 대표님 · 구조화: 나베랄 감마*
 *주요 수정 (Rev.2): 동료 5→8명 · 스킬 시스템 3층 구조 (FF10 + D4 정복자 + 스킬트리) · 장비 랜덤 속성 확장 · 콤보 × 재료 드랍 연동*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

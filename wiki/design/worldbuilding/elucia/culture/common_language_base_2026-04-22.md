@@ -157,3 +157,21 @@ Elucian Script 는 표음 문자 체계로, 교황청 서기관이 교회 공문
 | Wave 2 | Toponymist | 지명 네이밍이 Elucian 원칙 준수하는지 교차 확인 |
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 방언·독자 어휘 목록 |
 | Wave 5 | Chronicler | 인-월드 문헌 작성 시 Elucian 표기 기준 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

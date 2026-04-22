@@ -51,3 +51,21 @@ qcore_version: v1.0
 
 ## 서사 접점
 - 주인공이 왕도 출발 후 처음 만나는 왕국 내부 도로
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_duskgate_to_azimfront_2026-04-22]]
+- [[road_duskgate_to_moorfield_2026-04-22]]
+- [[road_duskgate_to_thornheld_2026-04-22]]
+
+<!-- auto-generated-related:end -->

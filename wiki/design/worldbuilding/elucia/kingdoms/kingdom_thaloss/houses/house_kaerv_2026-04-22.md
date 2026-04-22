@@ -56,3 +56,15 @@ Kaerv 가문은 Greygate Pass 통행세 독점권을 보유한 탈로스 최강 
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: Kaerv 가문 역사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

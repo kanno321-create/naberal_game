@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *ash* (재·광재) + *-vein* (광맥·흐름) = "재의 흐름" |
 | **분위기** | 재와 연기가 항상 덮임 · 주민들 피부 검음 · 외지인이 가장 꺼리는 마을 |
 | **특징** | Embervane 제련소 쓰레기 처리 담당 — "탈로스의 밑바닥" 취급받으나 주민들은 자부심 강함 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_thaloss_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashgate_2026-04-22]]
+- [[village_coldthorn_2026-04-22]]
+- [[village_copperholt_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -27,3 +27,29 @@ qcore_version: v1.0
 | **Rev.3 접점** | 나이트 왕도 통과 시 — 왕실·귀족 구조 조우 가능. 길드가에서 서민 장인 층 만남 |
 
 상세 지도: `capital_map_2026-04-22.md` 참조 (8구역 상세 포함)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_aldric_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_crestholm_2026-04-22]]
+- [[city_greenvale_2026-04-22]]
+- [[city_lakemere_2026-04-22]]
+
+<!-- auto-generated-related:end -->

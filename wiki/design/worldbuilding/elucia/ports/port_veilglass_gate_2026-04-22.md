@@ -40,3 +40,25 @@ lore_critical: true
 ## 스토리 포인트
 
 주인공이 Veilglass 로 가려면 반드시 이 항구를 통해야 함. 허가증 획득 또는 밀항이 스토리 분기점이 될 수 있음.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[port_aldricport_2026-04-22]]
+- [[port_caerveld_2026-04-22]]
+- [[port_fenlyn_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -142,3 +142,22 @@ graph LR
 - **Historian (Wave 3)**: Silvan 숲 관리 역사·타종족 박해 전선
 - **Diplomat (Wave 3)**: 성좌국 대교구 Mirevane 공작령과의 관할권 중첩 분쟁 (추정)
 - **Kingdom-Detailer (ilaris, Wave 4)**: 삼림 공작령·항구 도시·타종족 은신 지형 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+
+<!-- auto-generated-related:end -->

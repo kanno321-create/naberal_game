@@ -18,3 +18,29 @@ wave: 4
 | 어원 | Ash(재 → 강가 재빛 모래) + Ford(여울) |
 | 분위기 | 교역 거점 특유의 분주함 · 여러 출신 혼재 |
 | 특징 | Elorfeld 백작 수운 통행세 징수 지점. 성좌국 물자 유입 거점 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_vaelin_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_coldpass_2026-04-22]]
+- [[village_dawnwell_2026-04-22]]
+- [[village_elorbrook_2026-04-22]]
+
+<!-- auto-generated-related:end -->

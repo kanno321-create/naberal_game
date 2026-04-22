@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *cliff* (절벽) + *-mere* (호수·해변 마을) |
 | **분위기** | 소금 결정이 햇빛에 반짝이는 증발 연못 · 소금 관련 모든 것 |
 | **특이점** | Ilaris 자체 소금 생산 거점 · Ceren 소금과 품질 비교 논쟁 상습지 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ilaris_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashenveil_2026-04-22]]
+- [[village_ashwood_2026-04-22]]
+- [[village_birkenmoor_2026-04-22]]
+
+<!-- auto-generated-related:end -->

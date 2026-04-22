@@ -21,3 +21,21 @@ wave: 4
 | 중요성 | Ceren-Aldric 접경 관리 루트 · 드라엔 가문 공납 경로 |
 | 위험 요소 | 우기 남부 구릉 홍수 |
 | 초소 | Cernmere 동문 · Greenmoor 중간 초소 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_cernmere_to_fenlyn_2026-04-22]]
+- [[road_cernmere_to_loravern_2026-04-22]]
+- [[road_cernmere_to_whitecross_2026-04-22]]
+
+<!-- auto-generated-related:end -->

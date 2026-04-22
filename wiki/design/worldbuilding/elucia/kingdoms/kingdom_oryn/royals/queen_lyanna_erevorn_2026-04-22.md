@@ -75,3 +75,15 @@ Lyanna 는 Aldric 왕국 공주 출신으로, 오린-알드릭 혼인 동맹의 
 ## 다음 Wave 의존 포인트
 
 - **Wave 4 Kingdom-Detailer (aldric)**: Aldric 왕국 가문·혼인 조약 연결
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

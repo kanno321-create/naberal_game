@@ -55,3 +55,21 @@ Vaelin 왕국 내부 최중요 군사 도로. 왕도에서 북방 요새 Norngar
 
 ## 다음 Wave 의존 포인트
 - **Wave 5 Chronicler**: 15년 전쟁 기사단 북상 기록
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_norngard_patrol_circuit_2026-04-22]]
+- [[road_vaelthorn_to_elorfield_2026-04-22]]
+- [[road_vaelthorn_to_mornbridge_2026-04-22]]
+
+<!-- auto-generated-related:end -->

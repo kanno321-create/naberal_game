@@ -33,3 +33,21 @@ wave: 4
 ## 서사 접점
 - 성좌국 방면 이동 시 이 도로 이용
 - Moorgate 접경 전 마지막 Vaelin 도시
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_norngard_patrol_circuit_2026-04-22]]
+- [[road_vaelthorn_to_mornbridge_2026-04-22]]
+- [[road_vaelthorn_to_norngard_2026-04-22]]
+
+<!-- auto-generated-related:end -->

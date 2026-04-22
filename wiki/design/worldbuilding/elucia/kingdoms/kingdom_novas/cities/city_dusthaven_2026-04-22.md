@@ -25,3 +25,29 @@ qcore_version: v1.0
 | **특이점** | Karzor Sabin 출신 Ilena 왕비의 친족 상인이 이 도시 거점 사용. 비공식 외교 채널 |
 | **갈등** | 성좌국 감독관이 이 도시의 Karzor 체류자를 종교적으로 감시. 민간 마찰 |
 | **Rev.3 접점** | Act 1 주인공이 Karzor 측 정보 얻을 수 있는 첫 접촉 도시 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_novas_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_duskgate_2026-04-22]]
+- [[city_redstone_2026-04-22]]
+- [[city_sandwatch_2026-04-22]]
+
+<!-- auto-generated-related:end -->

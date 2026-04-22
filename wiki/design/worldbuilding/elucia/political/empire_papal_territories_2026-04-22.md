@@ -1,7 +1,7 @@
 ---
 title: "Choir of Elucia 성좌국 — 내부 공작령·백작령·직할령"
 type: political
-kingdom: empire_papal
+kingdom: empire_choir
 created: 2026-04-22
 updated: 2026-04-22
 agent: Wave2-Political-Cartographer
@@ -153,3 +153,22 @@ qcore_version: v1.0
 - **Historian (Wave 3)**: Choir of Elucia 창건 역사·교황청 권력 공고화 과정
 - **Diplomat (Wave 3)**: 10 왕국과의 종교적 종속 관계 (성좌세·대교구 파견 신관)
 - **Kingdom-Detailer (empire_papal, Wave 4)**: 공작령 6개 상세·공작 가문·백작령·남작령·도시·마을·기사단
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -36,3 +36,21 @@ Orynthil ──40km── Thorngate (채취 구역 검문) ──50km── Ston
 - Oryn 왕국의 가장 중요한 군사·교역 도로
 - 동부 Karzor 방면 위협 시 왕실 증원군 신속 이동 경로
 - Karzor 상인들이 이 도로를 통해 Orynthil 까지 진입 가능 (Veilorngate 검문 통과 시)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_orynthil_to_darkwyn_2026-04-22]]
+- [[road_orynthil_to_orenwarden_2026-04-22]]
+- [[road_orynthil_to_soranwatch_2026-04-22]]
+
+<!-- auto-generated-related:end -->

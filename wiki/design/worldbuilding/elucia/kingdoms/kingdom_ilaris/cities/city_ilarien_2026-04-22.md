@@ -80,3 +80,29 @@ Silvan 권역 서해안 Silvan Cape 안쪽 Mirevane Bay 에 위치한 항구 수
 - **Economist (Wave 2)**: 서방 무역 경제의 핵심 거점
 - **Chronicler (Wave 5)**: Ilarien 역사 기록
 - **World-Integrator (Wave 5)**: 대륙 무역 지도 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ilaris_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_caerveld_2026-04-22]]
+- [[city_mirvane_2026-04-22]]
+- [[city_silvenmere_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -33,3 +33,25 @@ wave: 2
 - 상위 도시: `kingdoms/kingdom_ilaris/cities/city_mirvane_2026-04-22.md`
 - 연계 마을: `kingdoms/kingdom_ilaris/villages/village_mirevane_landing_2026-04-22.md`
 - 연결 도로: `kingdoms/kingdom_ilaris/roads/road_ilarien_to_mirevane_2026-04-22.md`
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[port_aldricport_2026-04-22]]
+- [[port_caerveld_2026-04-22]]
+- [[port_fenlyn_2026-04-22]]
+
+<!-- auto-generated-related:end -->

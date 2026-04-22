@@ -83,3 +83,25 @@ Vaelin 건축은 방어와 실용성 우선. 두꺼운 석조 성벽·목조 내
 ## 다음 Wave 의존 포인트
 
 - **Wave 5 World-Integrator**: Elucia 건축 문화권 비교
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[capital_map_2026-04-22]]
+- [[clothing_2026-04-22]]
+- [[cuisine_2026-04-22]]
+
+<!-- auto-generated-related:end -->

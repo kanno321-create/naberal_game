@@ -41,3 +41,14 @@ status: mvp-draft
 
 - 엘프 공동체 규모·역사 (얼마나 오래 이 산에 은신?)
 - "희귀 종족" 포함 여부 (대표님 미지정 종족)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

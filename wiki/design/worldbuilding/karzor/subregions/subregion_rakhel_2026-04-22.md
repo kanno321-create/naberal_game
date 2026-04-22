@@ -42,3 +42,14 @@ status: mvp-draft
 
 - Amash 와의 경쟁·협력 구체 사례
 - 환전 화폐 체계 (Karzor vs Elucia 화폐 교환율)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

@@ -172,3 +172,21 @@ Elucia 주류는 **매장**이다.
 |------|---------|---------|
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 장례 관습·고유 의식·화장·수장 비율 |
 | Wave 5 | Chronicler | 장례 역사 변천·순교자 성지화 기록 인-월드 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

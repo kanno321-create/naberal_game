@@ -110,3 +110,15 @@ qcore_version: v1.0
 
 - **Wave 4 Kingdom-Detailer (Novas·Sylren)**: 협약 군사 조항 상세
 - `conflict_azim_pass_toll_2026-04-22.md`: Azim Pass 분쟁과 연계
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

@@ -95,3 +95,15 @@ Novas 건축의 핵심 재료는 **붉은 사암 (Redstone)** 이다. Elucia 서
 
 ## 다음 Wave 의존
 - **World-Integrator**: 대륙 건축 양식 비교
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

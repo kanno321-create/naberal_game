@@ -141,3 +141,22 @@ graph LR
 - **Diplomat (Wave 3)**: Karzor 와의 통행 협약·전쟁 위협
 - **Historian (Wave 3)**: Azim Pass 지배권 분쟁사
 - **Kingdom-Detailer (novas, Wave 4)**: 관문 도시·통행세 체계·수비대 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -36,3 +36,21 @@ Orynthil ──15km── Willowrun ──20km── Mossford ──30km── R
 - Sylren 왕국 접경 관리 도로
 - Soranth 강 수운 육로 보조선
 - Soranwatch 도시 관세 수입 → 성좌국·Sylren 방면 교역 통제
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_orynthil_to_darkwyn_2026-04-22]]
+- [[road_orynthil_to_orenwarden_2026-04-22]]
+- [[road_orynthil_to_veilorngate_2026-04-22]]
+
+<!-- auto-generated-related:end -->

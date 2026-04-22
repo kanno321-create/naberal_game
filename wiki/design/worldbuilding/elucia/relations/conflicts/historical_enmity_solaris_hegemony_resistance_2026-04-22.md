@@ -147,3 +147,15 @@ graph TD
 - `religious_division_orthodox_territory_2026-04-22.md`: 양심 교단 분포 연동
 - `sphere_of_influence_solaris_2026-04-22.md`: 4중 헤게모니 상세
 - **Wave 4 Kingdom-Detailer (Thaloss·Novas·Maerith)**: 저항 왕국 내부 정치 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

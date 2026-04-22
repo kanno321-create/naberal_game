@@ -110,3 +110,21 @@ qcore_version: v1.0
 - Wave 5 Chronicler: 역병 시기 인-월드 문헌 · 마을 기록 작성
 - Wave 4 Kingdom-Detailer: 각 왕국이 역병에 어떻게 대응했는가 (왕국별 특색)
 - Wave 5 Chronicler: 할배의 개입 에피소드 인-월드 삽화 작성
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

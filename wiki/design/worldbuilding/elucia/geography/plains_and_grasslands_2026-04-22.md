@@ -157,3 +157,25 @@ Elucia 25% 타종족 중 평원은 은신 지형으로 부적합하나, 평원 *
 - **Culturalist (Wave 2)**: 평원 문화(개방·기마·귀족 사냥) vs 산악 문화(Thaloss) vs 해안 문화(Ilaris) 3분 대비
 - **Kingdom-Detailer (Vaelin·Sylren·성좌국, Wave 4)**: 평원 내 도시·마을 배치, 관개 시스템 상세
 - **Road-Engineer (Wave 2)**: 평원은 도로 건설 최적 지형 — 대동맥 도로(Via Imperialis 등)의 기간 구간
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+
+<!-- auto-generated-related:end -->

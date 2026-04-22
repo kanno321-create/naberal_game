@@ -210,3 +210,25 @@ graph LR
 - **Wave 3 Diplomat**: 왕국 간 도로 사용 조약·통행세 분쟁 현황
 - **Wave 3 Economist**: King's Road 각 노선의 주력 교역 품목·경제 규모
 - `regional_roads_western_coast_2026-04-22.md`: KR-3 상세 분기
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[bridges_and_fords_2026-04-22]]
+- [[highway_azim_pass_2026-04-22]]
+- [[highway_via_imperialis_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -70,3 +70,15 @@ Eloryn 강 하구와 주요 항구 지구를 관할하는 항구 공작. Lorcas 
 
 - **house_lorcas**: 가문 상세
 - **World-Integrator**: 항구 경제 통합 문서
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

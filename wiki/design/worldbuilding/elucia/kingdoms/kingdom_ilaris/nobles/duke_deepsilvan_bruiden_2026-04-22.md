@@ -78,3 +78,15 @@ Silvan 숲 내부를 관할하는 삼림 공작. Bruiden 가문은 대대로 숲
 
 - **Chronicler**: 노예 반란 공식 기록에서 Bruiden 가문 언급
 - **house_bruiden**: 가문 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

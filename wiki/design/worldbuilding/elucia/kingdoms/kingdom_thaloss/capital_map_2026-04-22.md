@@ -217,3 +217,15 @@ graph TD
 
 - Wave 5 Chronicler: Icehelm 정복 시도 기록 (15년 전쟁 중 미시도 여부)
 - Wave 5 World-Integrator: 왕도 경제 허브 그래프 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

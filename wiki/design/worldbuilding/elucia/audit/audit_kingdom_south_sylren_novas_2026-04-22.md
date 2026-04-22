@@ -500,3 +500,21 @@ Kingdom Sylren ~58 파일 · Kingdom Novas ~55 파일 · 원전 기준 파일 13
 
 *Audit 생성: 2026-04-22 · Wave-Auditor-J · naberal_game*
 *검사 기준: FAILURES.md FAIL-001~007 + Q-CORE v1.0 + 세계관 철학 3조 + 특화 검사 기준 6항목*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[audit_economy_culture_2026-04-22]]
+- [[audit_geography_political_2026-04-22]]
+- [[audit_kingdom_coast_moran_ilaris_2026-04-22]]
+
+<!-- auto-generated-related:end -->

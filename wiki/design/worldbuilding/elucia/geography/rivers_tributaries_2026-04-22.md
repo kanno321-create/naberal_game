@@ -186,3 +186,25 @@ Tier 4 — 용천수·샘물 (마을 단위 — 미확정)
 - **Road-Engineer (Wave 2)**: 지류 합류점이 교량·나루터 위치 → 도로망 결절점
 - **Kingdom-Detailer × 12 (Wave 4)**: 각 왕국 내 Tier 3 소지류·시냇물·용천수 세부 설계
 - **Culturalist (Wave 2)**: 강변 마을 문화(세탁·축제·물의 신) vs 내륙 건천 지역 문화 대비
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+
+<!-- auto-generated-related:end -->

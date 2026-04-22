@@ -76,3 +76,15 @@ Soltharr 는 성좌국 최대 곡창 지대인 Solanthen 공작령의 지배자.
 ## 다음 Wave 의존
 
 - **Wave 5 Chronicler**: Solanthen 곡물 납품 계약 인-월드 기록
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

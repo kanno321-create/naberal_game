@@ -80,3 +80,15 @@ Maerith 왕국 최대 전통 축제. 동지 무렵 3일간 진행된다. 고지 
 ## 다음 Wave 의존
 
 - **Chronicler**: 별 축제 기원 역사 · 이름 모를 학자 구전 기록
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

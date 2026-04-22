@@ -109,3 +109,21 @@ qcore_seal: v1.0 — Q-CORE 1·2·3 봉인 준수 · 정체 추정은 독자의 
 
 *저자 코드명 "V" · 필사본 배포 담당자: 양심파 지하 서적상 네트워크*
 *"이것을 읽었다면 다음 사람에게 전해라. 불태우지 마라."*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[annals_of_elucia_book_I_2026-04-22]]
+- [[annals_of_elucia_book_II_2026-04-22]]
+- [[chronicles_of_silvan_2026-04-22]]
+
+<!-- auto-generated-related:end -->

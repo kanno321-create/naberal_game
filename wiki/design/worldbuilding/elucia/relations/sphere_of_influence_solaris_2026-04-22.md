@@ -136,3 +136,25 @@ graph TD
 - **Wave 4 Kingdom-Detailer (Solaris)**: 성좌국 내부 통치 구조 상세
 - **Wave 4 Kingdom-Detailer (Thaloss·Ceren·Novas)**: 각 왕국의 저항 서사 상세
 - **Wave 5 World-Integrator**: 영향권 붕괴 시 전체 지정학 재편 시뮬레이션
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[power_hierarchy_2026-04-22]]
+- [[religious_division_corrupt_territory_2026-04-22]]
+- [[religious_division_orthodox_territory_2026-04-22]]
+
+<!-- auto-generated-related:end -->

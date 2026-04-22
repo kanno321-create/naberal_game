@@ -198,3 +198,25 @@ graph TD
 - **Wave 3 Diplomat**: 6개 클러스터 간 교역 갈등 4번 항목을 외교 시나리오 설계 기준으로 활용
 - **Wave 4 Kingdom-Detailer (전 왕국)**: 5번 항목 왕국별 경제 특화 포인트를 도시·마을 배치 설계 기준으로 활용
 - **Wave 5 World-Integrator**: 경제 클러스터 지도를 전체 관계 그래프의 경제 레이어로 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[agriculture_2026-04-22]]
+- [[crafts_guilds_2026-04-22]]
+- [[currency_and_banking_2026-04-22]]
+
+<!-- auto-generated-related:end -->

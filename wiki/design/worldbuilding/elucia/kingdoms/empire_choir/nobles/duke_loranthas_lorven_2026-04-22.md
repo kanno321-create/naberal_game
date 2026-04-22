@@ -66,3 +66,15 @@ Lorven 은 남서부 완충 지역 Loranthas 공작령의 지배자. Lumstow 순
 ## 다음 Wave 의존
 
 - **Wave 5 Chronicler**: Lumstow 순례 도시 연감
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

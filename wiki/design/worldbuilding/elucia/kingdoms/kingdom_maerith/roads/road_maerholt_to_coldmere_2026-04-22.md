@@ -43,3 +43,21 @@ wave: 4
 ## 대표님 미확정
 
 - 동절기 결빙 후 대체 경로 유무
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_maerholt_to_highvane_2026-04-22]]
+- [[road_maerholt_to_ironhelm_2026-04-22]]
+- [[road_maerholt_to_stormcrag_2026-04-22]]
+
+<!-- auto-generated-related:end -->

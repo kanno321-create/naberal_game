@@ -19,3 +19,29 @@ wave: 4
 | 어원 | *salt* + *-wick* (집락·작은 마을) = "소금 마을" |
 | 교회 | 염전 인부 거주 구역 내 소교회 |
 | 경제 | Ceren 소금 대비 품질 낮으나 성좌국 내수 공급 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/empire_papal_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashford_2026-04-22]]
+- [[village_aulmere_2026-04-22]]
+- [[village_caldenmere_2026-04-22]]
+
+<!-- auto-generated-related:end -->

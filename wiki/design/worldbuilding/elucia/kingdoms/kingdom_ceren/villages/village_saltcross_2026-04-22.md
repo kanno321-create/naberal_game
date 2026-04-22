@@ -19,3 +19,29 @@ wave: 4
 | 특징 | Fenlyn 소금이 Cernmere 로 가기 전 최대 중간 창고 기지 |
 | 분위기 | 항상 소금 자루 더미. 검인관 순찰. 상인들의 흥정 |
 | 행정 | Saltcross 백작령 소속 · 소금 수호단 분대 주둔 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ceren_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_cernfield_2026-04-22]]
+- [[village_drenfold_2026-04-22]]
+- [[village_fenwater_2026-04-22]]
+
+<!-- auto-generated-related:end -->

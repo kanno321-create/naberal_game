@@ -50,3 +50,21 @@ Mornheld → Wellmere 공작령 → Keldhaven
 ## 다음 Wave 의존
 
 - **Chronicler**: 순례자 여행기 단편
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_coast_military_north_2026-04-22]]
+- [[road_mornheld_to_havenport_2026-04-22]]
+- [[road_mornheld_to_stoneheld_2026-04-22]]
+
+<!-- auto-generated-related:end -->

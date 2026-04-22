@@ -66,3 +66,15 @@ Soranth 강은 Oryn 동부 숲에서 발원하여 Sylren 남중앙 평원을 통
 ## 다음 Wave 의존
 
 - **Wave 4 Kingdom-Detailer (Oryn·Sylren)**: 강변 수운 도시·벌목 경제 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

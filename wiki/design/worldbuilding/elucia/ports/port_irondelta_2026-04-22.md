@@ -28,3 +28,25 @@ wave: 2
 ## 특징
 
 Elucia 최대 곡물 수출항. 제국의 경제력을 상징하는 항구. 수확기에는 선박 200척 이상이 동시 정박. 삼각주 특유의 복잡한 수로를 아는 현지 도선사 없이는 접근 불가.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[port_aldricport_2026-04-22]]
+- [[port_caerveld_2026-04-22]]
+- [[port_fenlyn_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -65,3 +65,15 @@ Caelwyn Erevorn 은 Oryn 왕국 제2 왕자로, 12세이다. 총명하고 관찰
 ## 다음 Wave 의존 포인트
 
 - 해당 없음 (배경 인물 수준)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

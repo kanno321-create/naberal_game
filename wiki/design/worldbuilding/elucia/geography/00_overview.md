@@ -82,3 +82,21 @@ wave: 1
 ---
 
 *인덱스 생성: 2026-04-22 · Wave1-Geographer · naberal_game*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+
+<!-- auto-generated-related:end -->

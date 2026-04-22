@@ -28,3 +28,29 @@ wave: 2
 - **치유사 집단**: 성직자 치유사 vs 서민 허브 치유사 공존·경쟁
 - **Q-CORE 2 간접**: "이름 없는 노인 의사가 수십 년 전 이 온천의 진짜 효능을 알려줬다"는 치유사 비밀 전승 존재 (추정)
 - **Rev.3 접점**: 부상 치유·희귀 정보 수집·귀족 접선 장소
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_moran_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_greycliff_2026-04-22]]
+- [[city_havenwick_2026-04-22]]
+- [[city_mornheld_2026-04-22]]
+
+<!-- auto-generated-related:end -->

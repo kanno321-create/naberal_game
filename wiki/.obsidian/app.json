@@ -1,0 +1,12 @@
+{
+  "livePreview": true,
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "defaultViewMode": "source",
+  "showLineNumber": true,
+  "promptDelete": true,
+  "trashOption": "local",
+  "uriCallbacks": false
+}

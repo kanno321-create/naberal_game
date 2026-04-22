@@ -160,3 +160,15 @@ graph TD
 
 - **Chronicler**: 왕도 창건 일화 · "최초 등대" 전설 문헌화
 - **World-Integrator**: 대항구 ↔ Nomen 섬 교역로 지도 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

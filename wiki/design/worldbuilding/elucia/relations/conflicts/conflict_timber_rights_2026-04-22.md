@@ -96,3 +96,15 @@ Elucia 의 두 주요 삼림 지대 — Ilaris 의 Silvan 서해안 숲 과 Oryn
 
 - **Wave 4 Kingdom-Detailer (Ilaris·Oryn)**: 삼림 벌목 경제 상세
 - `alliance_maerith_oryn_highland_2026-04-22.md`: Maerith·Oryn 협력 연계
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

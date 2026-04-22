@@ -24,3 +24,21 @@ wave: 4
 ## 도로 의의
 
 탈로스에서 Maerith 왕국으로 향하는 주요 교역로. Whitecrest Saddle 고개를 넘는 마지막 경로. Solden 백작 관할.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_icehelm_to_embervane_2026-04-22]]
+- [[road_icehelm_to_irongate_2026-04-22]]
+- [[road_icehelm_to_veldmoor_2026-04-22]]
+
+<!-- auto-generated-related:end -->

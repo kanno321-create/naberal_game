@@ -134,3 +134,15 @@ graph TD
 - `azim_pass_diplomacy_2026-04-22.md`: Azim Pass 외교 상세
 - `nomen_neutral_zone_2026-04-22.md`: Nomen 중립화 상세
 - **Wave 4 Karzor-Detailer**: 동쪽 대륙 15 자치구 내부 정치
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

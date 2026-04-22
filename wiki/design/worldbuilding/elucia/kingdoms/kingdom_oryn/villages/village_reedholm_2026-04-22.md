@@ -19,3 +19,29 @@ wave: 4
 | **분위기** | 갈대 바람 소리 · 개구리 울음 · 안개 자욱 |
 | **특이점** | 소형 어선 건조 기술 보유 — Oryn 내 어선 30% 이 마을 생산 (추정) |
 | **서사 접점** | 강 수운 이용 · 어부 정보원 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_oryn_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ambervale_2026-04-22]]
+- [[village_ashbrook_2026-04-22]]
+- [[village_barkmill_2026-04-22]]
+
+<!-- auto-generated-related:end -->

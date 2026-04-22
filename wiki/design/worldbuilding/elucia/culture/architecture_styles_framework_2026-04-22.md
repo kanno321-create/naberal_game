@@ -163,3 +163,21 @@ Elucia 건축은 발언 3 "서구중세문명" 을 판타지 번역한 것으로
 |------|---------|---------|
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 수도 건축·랜드마크·마을 배치 |
 | Wave 5 | Chronicler | 건축 역사·건축가 기록 인-월드 문헌 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[clothing_framework_2026-04-22]]
+- [[coming_of_age_rite_common_2026-04-22]]
+
+<!-- auto-generated-related:end -->

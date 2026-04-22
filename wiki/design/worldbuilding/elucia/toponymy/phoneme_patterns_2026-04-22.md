@@ -173,3 +173,25 @@ Nier Automata 지명 분석 (Bunker, Desert Zone, Amusement Park):
 
 - **Kingdom-Detailer (Wave 4)**: 각 왕국 마을명 생성 시 해당 왕국 음운 개성 준수
 - **Culturalist (Wave 2)**: 지역별 발음 차이·방언이 문화 특색과 연계
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[etymology_roots_2026-04-22]]
+- [[naming_conventions_2026-04-22]]
+- [[protagonist_village_candidates_2026-04-22]]
+
+<!-- auto-generated-related:end -->

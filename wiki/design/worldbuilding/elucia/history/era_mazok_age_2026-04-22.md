@@ -138,3 +138,21 @@ graph TD
 - Wave 5 Chronicler: 엘프 구전 「황금기의 증언」 · 용족 벽화 하단부 번역문 작성
 - Wave 4 Kingdom-Detailer: 엘프·용족 왕국 고유 역사에서 황금기 기억 파편 반영
 - Wave 3 Diplomat (병행): 황금기 종족 관계가 현재 외교 구조의 역사적 배경
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -81,3 +81,19 @@ qcore_version: v1.0
 
 - Wave 4 Kingdom-Detailer (empire_choir): 현재 교황 인물 파일 — 계승 위기와의 연결
 - Wave 5 Chronicler: 교황청 공식 위기 기록 vs 패배 측 왕국 기록 비교
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[founding_2026-04-22]]
+
+<!-- auto-generated-related:end -->

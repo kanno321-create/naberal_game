@@ -48,3 +48,14 @@ status: mvp-draft
 
 - 타종족 40% 의 종류 (사막 적응 엘프? 수인족?)
 - 묵인 공존의 구체 형태 (혼인 허용? 지역 직책 공유?)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

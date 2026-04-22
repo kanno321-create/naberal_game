@@ -54,3 +54,14 @@ status: mvp-draft
 
 - 마법 감지 장치의 기술적 근거 (교황청 성물? Karzor 고유 마법? Nomen 의 수정 2 파생?)
 - 밀수 조직의 Zarahim 와의 암묵 협력 관계 여부
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

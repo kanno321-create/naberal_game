@@ -115,3 +115,22 @@ graph TD
 - **Historian (Wave 3)**: 분쟁의 역사적 경과·주요 전쟁 사건
 - **Kingdom-Detailer × 해당 왕국 (Wave 4)**: 각 왕국 시각의 분쟁 서술
 - `borders_natural_2026-04-22.md` 와 함께 읽을 것
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+- [[empire_papal_territories_2026-04-22]]
+
+<!-- auto-generated-related:end -->

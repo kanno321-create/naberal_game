@@ -129,3 +129,15 @@ graph TD
 ## 다음 Wave 의존
 - Wave 5 Chronicler: 호수 성당 내 인-월드 신화 문헌 작성
 - Wave 5 World-Integrator: 관광지로서의 타 왕국 인식 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

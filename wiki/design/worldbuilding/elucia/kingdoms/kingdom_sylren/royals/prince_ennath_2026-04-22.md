@@ -61,3 +61,15 @@ Sylren 왕실 막내. 형 Corvin 과 달리 정치에 무관심하며 Herdsland 
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: 왕자 Ennath 의 성장 기록 (후반부 서사 활용 가능)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

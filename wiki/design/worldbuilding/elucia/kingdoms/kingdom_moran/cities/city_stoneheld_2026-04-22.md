@@ -27,3 +27,29 @@ wave: 2
 - **드워프 갈등**: 비공개 경계 협상 진행 중 (대표님 미확정)
 - **석공 길드**: 마을 실권 장악 — 채굴·가공·운반 독점
 - **Rev.3 접점**: 채굴권 분쟁·드워프 관련 시나리오 거점
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_moran_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_greycliff_2026-04-22]]
+- [[city_havenwick_2026-04-22]]
+- [[city_keldhaven_2026-04-22]]
+
+<!-- auto-generated-related:end -->

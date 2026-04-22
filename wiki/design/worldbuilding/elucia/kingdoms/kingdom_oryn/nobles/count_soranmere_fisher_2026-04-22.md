@@ -69,3 +69,15 @@ Oswin Fisher 는 Soranmere 공작령 내 Soranford 백작령을 다스리는 백
 ## 다음 Wave 의존 포인트
 
 - **Wave 5 World-Integrator**: Soranth 강 수운 경제 레이어
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

@@ -167,3 +167,25 @@ Elucia 의 도로 건설은 **제국 석판 공법**(Via Imperialis)과 **왕국
 - **Wave 3 Historian**: 제국 석판 공법의 발명·도입 역사
 - **Wave 3 Economist**: 도로 건설 비용·유지보수 예산이 왕국 재정에 미치는 영향
 - **Wave 4 Kingdom-Detailer (Thaloss)**: 최고급 자재 공급지 Norvend 채석장 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[bridges_and_fords_2026-04-22]]
+- [[highway_azim_pass_2026-04-22]]
+- [[highway_kings_road_2026-04-22]]
+
+<!-- auto-generated-related:end -->

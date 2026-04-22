@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *salt* (소금) + *moss* (이끼) |
 | **분위기** | 녹색 이끼가 돌을 뒤덮음. 짭조름한 공기. |
 | **특이사항** | Maerith 유일의 소규모 소금 생산지. Ceren 소금 가격 대안으로 왕실이 보조. |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_maerith_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashcrag_2026-04-22]]
+- [[village_copperholt_2026-04-22]]
+- [[village_deepvein_2026-04-22]]
+
+<!-- auto-generated-related:end -->

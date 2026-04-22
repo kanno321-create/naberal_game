@@ -138,3 +138,21 @@ qfix4_applied: 2026-04-22
 - Wave 4 Kingdom-Detailer (empire_choir): 성좌국 상세 역사·현재 왕조
 - Wave 5 Chronicler: 성좌국 건국 신화 인-월드 문헌화
 - Wave 3 Diplomat: 성좌국 vs 10 왕국 현재 권력 관계
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -149,3 +149,21 @@ qcore_version: v1.0
 | Wave 3 | Historian | 종교 축제 역사적 기원·변천 |
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 성지·지역 종교 축제 고유 행사 |
 | Wave 5 | Chronicler | 신성마법 기적 기록·순교 전설 인-월드 문헌 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

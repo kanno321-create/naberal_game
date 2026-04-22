@@ -24,3 +24,21 @@ wave: 4
 ## 도로 의의
 
 광산 채굴 원석이 왕도를 경유하지 않고 직접 Embervane 제련소로 이동하는 산업 전용 도로. 광석 운반 마차가 24시간 오간다. Brennar 공작가 관할.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_icehelm_to_irongate_2026-04-22]]
+- [[road_icehelm_to_stonecrown_2026-04-22]]
+- [[road_icehelm_to_veldmoor_2026-04-22]]
+
+<!-- auto-generated-related:end -->

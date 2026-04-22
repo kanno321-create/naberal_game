@@ -98,3 +98,15 @@ qcore_version: v1.0
 
 - **Wave 4 Kingdom-Detailer (Maerith·Oryn)**: 각 왕국 관점에서 협력 서술
 - `conflict_timber_rights_2026-04-22.md`: 목재권 분쟁 파일과 연계
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

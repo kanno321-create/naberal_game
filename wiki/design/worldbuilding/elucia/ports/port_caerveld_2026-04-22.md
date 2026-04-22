@@ -21,3 +21,25 @@ wave: 2
 ## 특징
 
 Ilaris 왕국의 마법 관련 수출품이 이곳을 통해 해외로 나감. 마법사 길드 출장소가 항구 내 상주. 이국적인 재료 상인들이 많이 거래.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[port_aldricport_2026-04-22]]
+- [[port_fenlyn_2026-04-22]]
+- [[port_ghost_cove_2026-04-22]]
+
+<!-- auto-generated-related:end -->

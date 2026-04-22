@@ -80,3 +80,15 @@ Sylren 왕국 남부·Azim Pass 방면 전문 기사단. 금빛 보리단이 왕
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: 남풍 기사단 Azim Pass 전투 기록
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

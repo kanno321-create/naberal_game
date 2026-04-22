@@ -151,3 +151,25 @@ graph LR
 - **Wave 3 Diplomat**: Nomen 쟁탈전의 외교 구조 — 현재 어느 측이 우세한지, 조약 협상 현황
 - **Wave 3 Diplomat**: Azim Pass 통행세 협상·노예 교역 조약·전시 중립 조약
 - **Wave 4 Kingdom-Detailer (Novas)**: Azim Pass 북단 요새 도시·통관 검문소
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[agriculture_2026-04-22]]
+- [[crafts_guilds_2026-04-22]]
+- [[currency_and_banking_2026-04-22]]
+
+<!-- auto-generated-related:end -->

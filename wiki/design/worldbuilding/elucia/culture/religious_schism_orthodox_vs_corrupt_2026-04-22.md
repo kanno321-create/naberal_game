@@ -165,3 +165,21 @@ qfix4_applied: 2026-04-22
 | Wave 3 | Historian | 교회 타락 역사·분열 역사 기술 |
 | Wave 4 | Kingdom-Detailer × 12 | 왕국별 타락 교회 vs 양심파 비율·사건 |
 | Wave 5 | Chronicler | 이단 재판 기록·양심파 비밀 문서 인-월드 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_common_frame]]
+- [[architecture_styles_framework_2026-04-22]]
+- [[clothing_framework_2026-04-22]]
+
+<!-- auto-generated-related:end -->

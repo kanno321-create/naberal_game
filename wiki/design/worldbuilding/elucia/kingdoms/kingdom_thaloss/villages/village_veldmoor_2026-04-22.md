@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *veld* (평야·들판, 게르만) + *-moor* (습지) = "들판 습지" |
 | **분위기** | 탈로스에서 유일하게 "평범한" 농촌 풍경 · 산이 뒤에 병풍처럼 선 절경 |
 | **특징** | Southveld 백작 Ergal 의 거처가 있음 · 탈로스 내 "먹을 것을 키우는 사람들"로 불림 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_thaloss_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashgate_2026-04-22]]
+- [[village_ashvein_2026-04-22]]
+- [[village_coldthorn_2026-04-22]]
+
+<!-- auto-generated-related:end -->

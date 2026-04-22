@@ -73,3 +73,15 @@ Herdsland 공작령을 다스리는 대규모 목축업자. Sylren 내에서 가
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: Herdsland 목축 전통·군마 공급 역사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

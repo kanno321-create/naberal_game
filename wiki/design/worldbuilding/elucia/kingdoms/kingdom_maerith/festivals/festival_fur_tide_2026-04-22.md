@@ -64,3 +64,15 @@ Maerith 왕국의 가을 경제 축제. 연간 최대 모피 경매가 열리는
 ## 다음 Wave 의존
 
 - **Chronicler**: 모피 교역 역사 · 최고 경매가 기록
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

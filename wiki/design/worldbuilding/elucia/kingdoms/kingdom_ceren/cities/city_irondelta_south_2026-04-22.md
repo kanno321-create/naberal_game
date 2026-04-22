@@ -29,3 +29,29 @@ wave: 2
 | 기능 | Deltawatch 공작 남부 해안 관문 · Ilaris 교역 비공식 채널 |
 | 모스웨이 관계 | Thyren Mossway 공작의 항구 확장 계획 대상 |
 | Rev.3 접점 | 서해 선박 출발 항구 · Ilaris 행 선박 탑승 가능 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ceren_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_cernmere_2026-04-22]]
+- [[city_fenlyn_2026-04-22]]
+- [[city_loravern_2026-04-22]]
+
+<!-- auto-generated-related:end -->

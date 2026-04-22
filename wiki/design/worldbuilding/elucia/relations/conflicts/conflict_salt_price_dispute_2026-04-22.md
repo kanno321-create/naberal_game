@@ -141,3 +141,15 @@ Aldric 왕국 Duchy of Coastfen (현 Selyne 공작 관할) 의 해안에서 소�
 - **Wave 4 Kingdom-Detailer (Ceren)**: Loravel 염전 지도·소금 상인 길드 상세
 - `treaty_salt_iron_exchange_2026-04-22.md`: 소금·철 교환 협정과 연계
 - `alliance_silvan_pact_2026-04-22.md`: Ilaris·Ceren 동맹 긴장과 연계
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

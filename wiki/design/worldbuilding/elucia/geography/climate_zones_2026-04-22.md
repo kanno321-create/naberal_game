@@ -202,3 +202,25 @@ graph TD
 - **Culturalist (Wave 2)**: 기후대별 축제·의복·건축·음식 variation 기준
 - **Historian (Wave 3)**: 과거 기후 이벤트(대가뭄·대홍수)가 왕국 흥망에 미친 영향
 - **Kingdom-Detailer (Wave 4)**: 각 왕국의 기후 대응 기술(방설 건축·관개·방조제 등) 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+- [[forests_2026-04-22]]
+
+<!-- auto-generated-related:end -->

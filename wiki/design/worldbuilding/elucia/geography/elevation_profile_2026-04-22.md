@@ -167,3 +167,25 @@ graph LR
 - **Road-Engineer (Wave 2)**: 고도 Ⅲ 구릉대가 주요 도로 우회 제약 구간, Azim Pass 방향 남부 저지가 대동맥 도로 후보
 - **Economist (Wave 2)**: 고도 Ⅳ 평야대 Aurion Basin이 제국 경제 핵심, 고도 Ⅰ·Ⅱ 산악대는 광업 지대
 - **Culturalist (Wave 2)**: 고도별 기후·문화 variation 기준 (산악 — 목축·채광·폐쇄, 평야 — 농업·개방, 습지 — 어업·신비)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[forests_2026-04-22]]
+
+<!-- auto-generated-related:end -->

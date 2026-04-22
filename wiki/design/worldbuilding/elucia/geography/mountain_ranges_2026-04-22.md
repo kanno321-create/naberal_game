@@ -161,3 +161,25 @@ graph TD
 - **Road-Engineer (Wave 2)**: Greygate Pass(1,600m)·Ironcleft Pass(2,100m)·Whitecrest Saddle(1,900m) 이 북부 도로망의 결절점
 - **Economist (Wave 2)**: Norvend 철광·희귀 광석 → 광업 왕국 Thaloss 의 경제 기반
 - **Culturalist (Wave 2)**: Norvend 고산 문화(Thaloss 폐쇄·강인·광산) vs 동부 릉 문화(Oryn 신비·숲·고립) 분화 기준
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+
+<!-- auto-generated-related:end -->

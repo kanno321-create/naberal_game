@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *wold* (삼림·황야) + *haven* (피난처·안식지) |
 | **분위기** | 불 꺼지면 아무것도 안 보이는 고립 마을 · 삼림꾼의 마지막 야영지 |
 | **특이점** | 탐험대 실종 전 마지막으로 목격되는 마을 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ilaris_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashenveil_2026-04-22]]
+- [[village_ashwood_2026-04-22]]
+- [[village_birkenmoor_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -28,3 +28,29 @@ wave: 2
 - **밀수 단속**: Veil Sea 방면 비밀 상륙 루트 상시 감시
 - **Rev.3 접점**: Veil Sea 전설 조사 관련 시나리오에서 정보 거점
 - **Q-CORE 2 간접**: "안개 속 노인이 나타나 물고기 많이 잡히는 해역을 알려준다" 전설이 Greycliff 주변 어부 사이 현재 진행형으로 회자됨 (Hornreach 마을과 독립적으로)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_moran_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_havenwick_2026-04-22]]
+- [[city_keldhaven_2026-04-22]]
+- [[city_mornheld_2026-04-22]]
+
+<!-- auto-generated-related:end -->

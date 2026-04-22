@@ -23,3 +23,29 @@ wave: 2
 | **주요 인물** | Darkwyn 성주 (이름 미확정) · 고참 숲 파수단원 다수 상주 |
 | **특이 현상** | 나침반 오류 반경 약 15km — 자기 이상 원인 불명 (추정: 지하 광물층 · 타종족 관련 구전 병존) |
 | **Rev.3 접점** | 고립된 북부 도시 · 기이한 사건 발생지 가능
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_oryn_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_orynthil_2026-04-22]]
+- [[city_soranwatch_2026-04-22]]
+- [[city_veilorngate_2026-04-22]]
+
+<!-- auto-generated-related:end -->

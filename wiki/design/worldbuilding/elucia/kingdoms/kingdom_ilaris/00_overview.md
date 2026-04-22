@@ -170,3 +170,15 @@ graph TD
 
 - **Chronicler (Wave 5)**: 왕국 공식 역사서 vs 엘프 구전 비교
 - **World-Integrator (Wave 5)**: 서부 해안 경제 네트워크 통합 지도
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

@@ -112,3 +112,15 @@ graph TD
 
 - **Wave 5 Chronicler**: 교황 즉위 연설 인-월드 문헌 · 이단 선포 칙령
 - **Wave 5 World-Integrator**: 교황 사망/퇴위 시 대륙 권력 재편 시뮬레이션
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

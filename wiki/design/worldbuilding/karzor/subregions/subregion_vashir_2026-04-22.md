@@ -41,3 +41,14 @@ status: mvp-draft
 
 - 남쪽 바다 건너편 존재 여부 (대표님 세계관 미확정 영역)
 - 조선업 기술 수준 (외양 항해 가능 대형선 여부)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

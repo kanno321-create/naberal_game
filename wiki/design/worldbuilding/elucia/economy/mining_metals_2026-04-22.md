@@ -143,3 +143,25 @@ Norvend 최심부에 채굴되는 일부 광석은 특이한 성질을 가진다
 - **Wave 3 Historian**: Norvend 광업의 역사 — 처음에 누가 채굴했는지 (드워프? 인간 초기 정착?)
 - **Wave 3 Diplomat**: Thaloss vs 성좌국 광물-식량 교역 조약 상세 · 조약 위반 시 갈등 시나리오
 - **Wave 4 Kingdom-Detailer (Thaloss)**: 산록 제련 도시 배치 · 광부 마을 · Greygate Pass 요새 도시
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[agriculture_2026-04-22]]
+- [[crafts_guilds_2026-04-22]]
+- [[currency_and_banking_2026-04-22]]
+
+<!-- auto-generated-related:end -->

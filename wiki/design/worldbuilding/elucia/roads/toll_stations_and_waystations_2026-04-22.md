@@ -159,3 +159,25 @@ Via Imperialis 5개 간선 위에 배치된 **제국 직할 대역참**. Elucia 
 - **Wave 4 Kingdom-Detailer (전 왕국)**: 주요 역참 위치·시설 상세
 - **Wave 3 Historian**: 역참 제도의 창설 역사
 - **Wave 3 Economist**: 관세 수입 규모·경제적 중요도
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[bridges_and_fords_2026-04-22]]
+- [[highway_azim_pass_2026-04-22]]
+- [[highway_kings_road_2026-04-22]]
+
+<!-- auto-generated-related:end -->

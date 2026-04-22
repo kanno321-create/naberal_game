@@ -101,3 +101,15 @@ Ilaris 왕국 제1 기사단. 왕국 해군 전력의 핵심이자 왕실 직속
 
 - **Chronicler**: 기사단 창설 역사 기록
 - **World-Integrator**: 해상 임무 지도 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

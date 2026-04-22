@@ -163,3 +163,21 @@ Nomen 섬은 현재 유일한 **다종족 공생 공간**이다.
 - Wave 5 Chronicler: 현재 시점 인-월드 연대기 최종 권
 - Wave 4 Kingdom-Detailer: 현재 각 왕국의 정치 상황 상세
 - Wave 3 Diplomat: 현재 국가 간 관계·동맹·갈등 구조
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

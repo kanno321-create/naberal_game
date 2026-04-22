@@ -41,3 +41,14 @@ status: mvp-draft
 
 - 드워프 이외 타종족 비율 분배
 - 광산 내 노예 사용 여부 (타종족 자치 공동체이므로 내부 자체 금지?)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

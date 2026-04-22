@@ -26,3 +26,29 @@ qcore_version: v1.0
 | **경제** | 훈제 어류 가공·수산물 유통·진주 채취 보조 |
 | **인접 마을** | Driftmoor (동쪽 구릉) · Lochvane (소도 방향) |
 | **Rev.3 접점** | 어업 마을 서민 생활 묘사. Sylren 왕국 방면 진입 경로 분기점 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_aldric_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_crestholm_2026-04-22]]
+- [[city_greenvale_2026-04-22]]
+- [[city_lonwyn_2026-04-22]]
+
+<!-- auto-generated-related:end -->

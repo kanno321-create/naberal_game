@@ -121,3 +121,15 @@ qcore_version: v1.0
 
 - **Wave 4 Kingdom-Detailer (Vaelin·Moran·Thaloss)**: 각 왕국 시각에서 동맹의 의미
 - **Wave 3 Historian**: 동맹 결성 역사·최초 조약 문서 전설 층위
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

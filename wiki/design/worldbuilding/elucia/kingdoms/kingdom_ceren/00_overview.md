@@ -188,3 +188,15 @@ graph TD
 
 - **Chronicler (Wave 5)**: 습지 전설 문헌·초대 여왕 서사 완성
 - **World-Integrator (Wave 5)**: 소금 레버리지 외교망 통합 그래프
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

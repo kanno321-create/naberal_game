@@ -106,3 +106,15 @@ graph LR
 
 - `sphere_of_influence_solaris_2026-04-22.md`: 4중 + 혼인 5중 헤게모니 연동
 - **Wave 4 Kingdom-Detailer (Thaloss)**: 왕가 계보·왕비 역할 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

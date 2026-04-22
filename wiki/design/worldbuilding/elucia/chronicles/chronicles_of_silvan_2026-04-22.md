@@ -112,3 +112,21 @@ Ashenveil 에는 묘한 전설이 있다. 마을 노인들 — 특히 약초 할
 나는 그저 들은 것을 적었을 뿐이다.
 
 *채록 완료 연도 미기재 · Ilarien 고서 상인 Brevan Holmwick 보관 양피지 16첩*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[annals_of_elucia_book_I_2026-04-22]]
+- [[annals_of_elucia_book_II_2026-04-22]]
+- [[mining_guilds_testimony_2026-04-22]]
+
+<!-- auto-generated-related:end -->

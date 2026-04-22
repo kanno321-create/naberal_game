@@ -73,3 +73,15 @@ Auravale 공작령을 수백 년간 지배해온 포도주 귀족 가문. *Caeli
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: Auravale 포도주 무역 역사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

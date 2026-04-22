@@ -19,3 +19,29 @@ wave: 4
 | **분위기** | 강과 바다 양쪽 어부 공존 — 두 문화 교류 거점 |
 | **특이점** | 어업 방식과 어획물이 강어부·해어부 완전 다름 → 마을 내 소규모 경쟁 문화 |
 | **위치 중요성** | Tidegate 마을과 함께 Mornheld 항구 물류 연계 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_moran_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashfield_2026-04-22]]
+- [[village_balmere_2026-04-22]]
+- [[village_cliffwatch_2026-04-22]]
+
+<!-- auto-generated-related:end -->

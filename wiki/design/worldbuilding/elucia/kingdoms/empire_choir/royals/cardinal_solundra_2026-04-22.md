@@ -84,3 +84,15 @@ Solundra 는 이단심문청(Office of the Sacred Truth)의 수장. 교황 Aurel
 ## 다음 Wave 의존
 
 - **Wave 5 Chronicler**: 이단심문 공식 기록·재판 선고문 인-월드 문헌
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

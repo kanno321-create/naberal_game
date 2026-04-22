@@ -98,3 +98,21 @@ Nomen 섬에는 다종족이 공생하고 있는데,
 - Wave 3 Diplomat: 현재 Elucia-Karzor-Nomen 3자 관계 상세
 - Wave 4 Kingdom-Detailer (Nomen): 섬 내부 역사·거주민 구조
 - Wave 5 Chronicler: 주요 해전 기록 인-월드 문헌화
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

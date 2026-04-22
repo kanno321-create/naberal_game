@@ -22,3 +22,29 @@ wave: 4
 ## 서사 접점
 - 주인공이 탈로스 방면 이동 시 최후 민간 거점
 - 긴장감 높은 전방 분위기 묘사
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_vaelin_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashford_2026-04-22]]
+- [[village_dawnwell_2026-04-22]]
+- [[village_elorbrook_2026-04-22]]
+
+<!-- auto-generated-related:end -->

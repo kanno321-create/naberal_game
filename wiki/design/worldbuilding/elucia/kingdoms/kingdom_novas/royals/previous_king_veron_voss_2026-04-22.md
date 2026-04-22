@@ -55,3 +55,15 @@ Veron Voss. 선왕 (사망, 8년 전). Novas 왕국 제6대 왕. Aldaron 의 부
 
 ## 다음 Wave 의존
 - **Chronicler**: Voss 왕조 제6~7대 전환기 역사 서사화
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

@@ -361,3 +361,21 @@ qcore_version: v1.0
 
 *검사관 Inspector-D — Wave Audit 완료 2026-04-22*
 *샘플링 없음 · Read 없이 판정 없음 · 전수검사 원칙 준수*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[audit_economy_culture_2026-04-22]]
+- [[audit_geography_political_2026-04-22]]
+- [[audit_kingdom_coast_moran_ilaris_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -131,3 +131,21 @@ Silvan 서해안 숲 → 엘프 (Ch.15 무대)
 - `event_plague_ash_death_2026-04-22.md` · `event_great_famine_2026-04-22.md`: 이 시기 대재난 상세
 - Wave 4 Kingdom-Detailer × 11: 각 왕국 건국사·왕조 교체 상세화
 - Wave 5 Chronicler: Annals of Elucia 이 시기 권 작성
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[00_timeline]]
+- [[era_divine_age_early_2026-04-22]]
+- [[era_divine_age_late_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -154,3 +154,25 @@ Eloryn 강 하구 Mirevane Bay 와의 접점에 형성된 삼각주 습지.
 - **Economist (Wave 2)**: Loravel 소금·어업·이탄, Lonwyn 담수 어업 = Ceren·Aldric 왕국 경제 기반
 - **Kingdom-Detailer (Ceren·Aldric, Wave 4)**: 습지 내부 마을·어촌 배치, 수운 항로 상세
 - **Culturalist (Wave 2)**: 습지 문화 — 물의 신·조석 달력·배 장례 풍습 등 독특한 문화 기반
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[climate_zones_2026-04-22]]
+- [[coastlines_2026-04-22]]
+- [[elevation_profile_2026-04-22]]
+
+<!-- auto-generated-related:end -->

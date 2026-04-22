@@ -132,3 +132,22 @@ graph LR
 - **Historian (Wave 3)**: Thaloss 와 Maerith 간 산악 경계 분쟁사
 - **Culturalist (Wave 2)**: 고원 문화 = Thaloss 광산 문화와 어떻게 차별화되는지
 - **Kingdom-Detailer (maerith, Wave 4)**: 고원 공작령·목축 경제 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+
+<!-- auto-generated-related:end -->

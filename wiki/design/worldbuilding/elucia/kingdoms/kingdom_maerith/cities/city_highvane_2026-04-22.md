@@ -33,3 +33,29 @@ wave: 2
 - 외래 상인과 정보 교류 최적 거점
 - 왕국 밖 소식 입수 가능
 - Seld 백작이 중립적 조력자 역할 가능성
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_maerith_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_coldmere_2026-04-22]]
+- [[city_ironhelm_2026-04-22]]
+- [[city_maerholt_2026-04-22]]
+
+<!-- auto-generated-related:end -->

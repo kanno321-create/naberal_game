@@ -172,3 +172,25 @@ graph LR
 - **Wave 3 Diplomat**: 양모 교역로 통제 → Ilaris 왕국의 무역 독점 시도와 성좌국 견제 갈등
 - **Wave 4 Kingdom-Detailer (Sylren·Aldric·Vaelin)**: 왕국 내 목장 분포·목장 도시·목부 마을 상세
 - **Wave 4 Kingdom-Detailer (Thaloss)**: 고산 하계 방목지 — 축산과 광업이 공존하는 특수 경제 구조
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[agriculture_2026-04-22]]
+- [[crafts_guilds_2026-04-22]]
+- [[currency_and_banking_2026-04-22]]
+
+<!-- auto-generated-related:end -->

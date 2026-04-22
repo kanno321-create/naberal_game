@@ -145,3 +145,22 @@ graph LR
 - **Historian (Wave 3)**: Veilorn Ridge 경계 형성사·타종족 박해 역사
 - **Diplomat (Wave 3)**: Karzor 와의 Veilorn Ridge 너머 긴장 관계
 - **Kingdom-Detailer (oryn, Wave 4)**: 삼림 공작령·타종족 은신지 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+
+<!-- auto-generated-related:end -->

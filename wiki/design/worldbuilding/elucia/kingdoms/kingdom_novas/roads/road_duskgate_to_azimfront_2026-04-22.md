@@ -53,3 +53,21 @@ qcore_version: v1.0
 
 - **Act 1 핵심 장면**: 주인공이 이 도로를 따라 Azim Pass 진입. 다중 검문 통과 긴장감
 - 성좌국 수배령 하에서 이 도로는 주인공에게 가장 위험한 구간
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 🔗 형제 노드
+
+- [[road_duskgate_to_duskwatch_2026-04-22]]
+- [[road_duskgate_to_moorfield_2026-04-22]]
+- [[road_duskgate_to_thornheld_2026-04-22]]
+
+<!-- auto-generated-related:end -->

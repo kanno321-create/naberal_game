@@ -89,3 +89,15 @@ qcore_version: v1.0
 - `alliance_silvan_pact_2026-04-22.md`: 서부 해안 동맹 연동
 - `conflict_salt_price_dispute_2026-04-22.md`: 소금 분쟁 완충 기제 연동
 - **Wave 4 Kingdom-Detailer (Ilaris·Ceren)**: 왕가 계보 상세
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

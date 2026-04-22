@@ -204,3 +204,15 @@ graph TD
 ## 다음 Wave 의존 포인트
 - **Wave 5 Chronicler**: Azim Pass 통행 연대기 · 관문 왕조 역사 서술
 - **Wave 5 World-Integrator**: Novas 와 타 왕국 관계도 통합
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../MOC]] — wiki 루트
+- [[../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

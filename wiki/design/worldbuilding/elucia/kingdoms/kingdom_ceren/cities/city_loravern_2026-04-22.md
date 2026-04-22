@@ -32,3 +32,29 @@ wave: 2
 | 밀수 | 교황청 감시 약함 → 소금 밀수·이탄 불법 거래 중심지 (추정) |
 | Q-CORE 2 | 어시장 구석 노점상 노인이 "물고기 보존 주문 공짜로 알려준다"는 소문 |
 | Rev.3 접점 | 밀수 퀘스트 · 수로 안내인 고용 · 정보 브로커 접촉 가능 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_ceren_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_cernmere_2026-04-22]]
+- [[city_fenlyn_2026-04-22]]
+- [[city_irondelta_south_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -76,3 +76,15 @@ Mireval 은 서해안 교역의 관문을 장악한 공작. Irondelta 항구를 
 ## 다음 Wave 의존
 
 - **Wave 5 Chronicler**: Irondelta 항구 교역 기록 인-월드 문헌
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

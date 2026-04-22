@@ -73,3 +73,15 @@ Southvale 공작령 내 Azim Pass 접근 지점을 관할하는 전략 백작령
 
 - Wave 5 Chronicler: Azim Pass 통행세 분쟁 역사
 - Wave 5 World-Integrator: Sylren-Novas-Karzor 3각 관계도에서 Azimgate 위치
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

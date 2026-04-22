@@ -135,3 +135,22 @@ graph LR
 - **Historian (Wave 3)**: Vaelin 왕국 건국사·Greygate Pass 지배권 분쟁
 - **Diplomat (Wave 3)**: Moran·Thaloss 와의 북부 동맹 구조
 - **Kingdom-Detailer (vaelin, Wave 4)**: 공작령 상세·왕가·기사단·도시
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[continent_administration_2026-04-22]]
+
+<!-- auto-generated-related:end -->

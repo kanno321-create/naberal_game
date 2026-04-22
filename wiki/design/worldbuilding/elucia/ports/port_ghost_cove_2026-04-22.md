@@ -25,3 +25,25 @@ wave: 2
 ## 스토리 포인트
 
 도주 · 비밀 임무 · 불법 거래가 필요한 스토리 분기에서 활용 가능. Veilglass Gate Port 허가를 받지 못한 자들이 밀항을 시도하는 곳으로도 사용될 수 있음.
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[port_aldricport_2026-04-22]]
+- [[port_caerveld_2026-04-22]]
+- [[port_fenlyn_2026-04-22]]
+
+<!-- auto-generated-related:end -->

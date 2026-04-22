@@ -28,3 +28,29 @@ wave: 2
 | **교역 품목** | 탈로스 철→Maerith / Maerith 구리→탈로스 |
 | **문화 혼재** | 탈로스 복장 + Maerith 억양 혼합 · 탈로스 순혈주의자들이 경계 |
 | **Rev.3 접점** | Maerith 정보 수집 거점 · Solden 백작 중재 역할 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_thaloss_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_embervane_2026-04-22]]
+- [[city_icehelm_2026-04-22]]
+- [[city_irongate_2026-04-22]]
+
+<!-- auto-generated-related:end -->

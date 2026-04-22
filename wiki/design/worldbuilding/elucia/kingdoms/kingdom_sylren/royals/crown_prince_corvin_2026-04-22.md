@@ -68,3 +68,15 @@ Sylren 왕세자. 아버지 Aldavian II 의 신중한 외교 노선과 어머니
 ## 다음 Wave 의존
 
 - Wave 5 Chronicler: 왕세자 Corvin 과 레가테 공개 갈등 기록 가능성
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

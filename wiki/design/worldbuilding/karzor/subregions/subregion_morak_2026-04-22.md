@@ -41,3 +41,14 @@ status: mvp-draft
 
 - 귀족 의회 5인 대표의 성향 분포 (친 Zarahim vs 자율파 vs 개혁파)
 - 서민 마법 사용이 성좌 신전에 의해 단속되는지 여부
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

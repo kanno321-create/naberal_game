@@ -18,3 +18,29 @@ wave: 4
 | **어원** | *pass* (관문·통과) + *watch* (감시) |
 | **분위기** | 완전 군사 마을. 민간인과 병사가 뒤섞인 긴장된 분위기 |
 | **특이점** | 관문 수호단 중간 막사 소재지. 교대 병사들의 휴식·보급 기지 |
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_novas_territories_2026-04-22]]
+
+### 🏘️ 형제 마을
+
+- [[village_ashridge_2026-04-22]]
+- [[village_coppervane_2026-04-22]]
+- [[village_dawnpost_2026-04-22]]
+
+<!-- auto-generated-related:end -->

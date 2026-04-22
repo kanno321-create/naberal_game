@@ -39,3 +39,29 @@ Orenwald 서쪽 가장자리, Soranth 강 상류 분지에 건설된 Oryn 왕국
 - 10개 지구 상세는 `capital_map_2026-04-22.md` 참조
 - 주요 도로 접속: King's Oak Road (서문 → 성좌국 방면) · Eastern Ridge Road (동문 → Veilorngate) · Soranth Southern Road (남문 → Soranwatch)
 - 서민가 Fernside 에서 이름 모를 학자 마법(불씨·정화 주문) 흔적 구전 침투율 가장 높음 (간접 단서 · Q-CORE 2 직접 서술 금지)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../../../MOC]] — wiki 루트
+- [[../../../MOC]] — Elucia 허브
+
+### 👑 왕국 허브
+
+- [[../../MOC]] — 10 왕국 + 성좌국
+
+### 🏛️ 소속 왕국 영토
+
+- [[../../../political/kingdom_oryn_territories_2026-04-22]]
+
+### 🏘️ 형제 도시
+
+- [[city_darkwyn_2026-04-22]]
+- [[city_soranwatch_2026-04-22]]
+- [[city_veilorngate_2026-04-22]]
+
+<!-- auto-generated-related:end -->

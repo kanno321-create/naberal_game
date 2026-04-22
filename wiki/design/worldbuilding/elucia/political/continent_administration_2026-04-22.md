@@ -152,3 +152,22 @@ Elucia (서쪽) 내 타종족 25% 는 주로 아래 **행정 공백지** 에 숨
 - **Diplomat (Wave 3)**: 왕국 간 봉건 종속·동맹·갈등 구조
 - **Kingdom-Detailer × 12 (Wave 4)**: 각 왕국 공작령·백작령 상세 인물·가문·사건
 - **Chronicler (Wave 5)**: 행정 층위 변천사 인-월드 문헌화
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 🗳️ 형제 정치 문서
+
+- [[autonomous_capitals_central_island_2026-04-22]]
+- [[borders_disputed_2026-04-22]]
+- [[borders_natural_2026-04-22]]
+- [[empire_papal_territories_2026-04-22]]
+
+<!-- auto-generated-related:end -->

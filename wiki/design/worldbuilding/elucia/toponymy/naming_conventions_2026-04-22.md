@@ -142,3 +142,25 @@ Elucia 지명은 **라틴어층·게르만어층·켈트어층·독자 조어층
 - **Kingdom-Detailer (Wave 4)**: 각 왕국 내 마을명은 해당 왕국 우세 언어층 규칙 준수
 - **Historian (Wave 3)**: 고대 지명 (마족 시대·신 시대 유래 지명) 별도 어근 필요할 수 있음
 - **Culturalist (Wave 2)**: 방언·지역 호칭이 공식 지명과 다를 때 대비표 필요
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[etymology_roots_2026-04-22]]
+- [[phoneme_patterns_2026-04-22]]
+- [[protagonist_village_candidates_2026-04-22]]
+
+<!-- auto-generated-related:end -->
