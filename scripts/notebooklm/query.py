@@ -36,12 +36,18 @@ import subprocess
 import sys
 from pathlib import Path
 
-# D-7 hardcoded fallback path — updated 2026-04-20 session #24.
-# Legacy path was ``shorts_naberal`` (3 notebooks, no 대본제작용). Active
-# registry lives at ``secondjob_naberal`` (5 notebooks, includes the
-# 대본제작용 / ``script-production-deep-research`` required for SCRIPT gate).
-# Env var ``NOTEBOOKLM_SKILL_PATH`` overrides for CI/portability/tests.
-DEFAULT_SKILL_PATH = Path(r"C:/Users/PC/Desktop/secondjob_naberal/.claude/skills/notebooklm")
+# D-7 skill path resolution — updated 2026-04-22 (집 PC 마스터 전략).
+# Active registry: ``secondjob_naberal`` (5 notebooks, includes the 대본제작용
+# / ``script-production-deep-research`` required for SCRIPT gate). Legacy
+# ``shorts_naberal`` 은 3 notebooks 만 있어 migrated.
+#
+# Resolution order (`_resolve_skill_path` 참조):
+#   1) kwarg `skill_path=`   — 테스트·CI 직접 주입
+#   2) env ``NOTEBOOKLM_SKILL_PATH`` — 회사 PC 등 다른 환경용 명시 override
+#   3) auto-detect           — parents[5] (Desktop 등) 형제 폴더 탐색
+#   4) hardcoded fallback    — 집 PC 표준 경로 (최후안)
+HARDCODED_FALLBACK = Path(r"C:/Users/PC/Desktop/secondjob_naberal/.claude/skills/notebooklm")
+DEFAULT_SKILL_PATH = HARDCODED_FALLBACK  # backward-compat alias for older callers
 
 # FOLLOW_UP_REMINDER marker emitted at the tail of every ``ask_question.py``
 # answer. Wrapper strips it so downstream consumers see clean answer text.
@@ -49,14 +55,41 @@ DEFAULT_SKILL_PATH = Path(r"C:/Users/PC/Desktop/secondjob_naberal/.claude/skills
 FOLLOW_UP_MARKER = "EXTREMELY IMPORTANT: Is that ALL you need"
 
 
+def _auto_detect_skill_path() -> Path | None:
+    """Try to locate ``secondjob_naberal`` as a sibling of ``naberal_group/``.
+
+    parents layout (from this file ``scripts/notebooklm/query.py``):
+        [0] notebooklm  [1] scripts  [2] game  [3] studios
+        [4] naberal_group  [5] Desktop (or equivalent)
+
+    Returns the skill path if the sibling ``secondjob_naberal`` tree exists,
+    else ``None``. Uses ``Path.resolve()`` so OS display names (e.g. Korean
+    ``바탕 화면``) do not matter — the real filesystem path is used.
+    """
+    try:
+        desktop = Path(__file__).resolve().parents[5]
+    except IndexError:
+        return None
+    candidate = desktop / "secondjob_naberal" / ".claude" / "skills" / "notebooklm"
+    return candidate if candidate.exists() else None
+
+
 def _resolve_skill_path(skill_path: Path | None) -> Path:
-    """Resolve the skill path per D-7 precedence: kwarg > env var > hardcoded."""
+    """Resolve the skill path per D-7 precedence.
+
+    Order: kwarg > env var > auto-detect > hardcoded fallback.
+    Never silently falls through — if all four fail the caller will hit the
+    ``FileNotFoundError`` in ``query_notebook`` per CLAUDE.md no-silent rule.
+    """
     if skill_path is not None:
         return skill_path
     env = os.environ.get("NOTEBOOKLM_SKILL_PATH")
     if env:
         return Path(env)
-    return DEFAULT_SKILL_PATH
+    auto = _auto_detect_skill_path()
+    if auto is not None:
+        return auto
+    return HARDCODED_FALLBACK
 
 
 def _strip_follow_up(answer: str) -> str:

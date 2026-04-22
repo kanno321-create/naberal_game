@@ -17,7 +17,10 @@ D-6 single-string 규율: 쿼리 6개는 pre-composed 단일 문자열. argv 로
     python scripts/notebooklm/run_deep_research.py 1 2       # 1,2번만 재실행
 
 환경:
-    NOTEBOOKLM_SKILL_PATH (optional) — 기본 C:/Users/PC/Desktop/secondjob_naberal/.claude/skills/notebooklm
+    NOTEBOOKLM_SKILL_PATH (optional) — skill 경로 override. 미지정 시 query.py 의
+    4단 resolution (kwarg > env > auto-detect > hardcoded) 이 자동으로
+    ``<Desktop>/secondjob_naberal/.claude/skills/notebooklm`` 을 찾아냅니다.
+    회사 PC 등 다른 환경에서 폴더 위치가 다르면 이 변수로 지정하십시오.
 """
 from __future__ import annotations
 
