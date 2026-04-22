@@ -107,11 +107,11 @@ note: >
 
 ---
 
-## 9. 주인공 고향 Ashenveil
+## 9. 주인공 추락 도착지 Ashenveil (고향 아님 · 우주 창조 존재)
 
 | 랜드마크 | 추정 좌표 | 표기명 | 비고 |
 |---------|---------|-------|------|
-| **Ashenveil (주인공 마을)** | (14%, 42%) | Ashenveil / 애신베일 ★ | Silvan 서쪽 끝 저지대 · 마왕군 첫 도래 |
+| **Ashenveil (주인공 추락지)** | (14%, 42%) | Ashenveil / 애신베일 ★ | Silvan 서쪽 끝 저지대 · 마왕군 첫 도래 · 나이트 우주 추락 도착지 (고향 아님) |
 | Misthollow (인근 마을) | (15%, 46%) | Misthollow | Ashenveil 남서 1일 |
 | Fernhollow (인근 마을) | (16%, 48%) | Fernhollow | Ashenveil 남 1.5일 |
 | Mirvane 항구 | (18%, 35%) | Mirvane Port | Ashenveil 에서 북동 4일 |
@@ -129,7 +129,7 @@ note: >
 ## 범례
 
 ```
-★  주인공 고향 (Act 1 오프닝)
+★  주인공 추락 도착지 (Act 1 오프닝 · 고향 아님 · 우주 창조 존재)
 ●  왕도 / 수도
 ◆  전략 통로 (Pass / Gate)
 ▲  주요 산맥
@@ -141,3 +141,15 @@ note: >
 *MAP 주석 생성: 2026-04-22 · Wave5-WorldIntegrator*
 *지도 원본: `wiki/design/지도.png`*
 *좌표 재검증 필요 시: 지도 실측 후 갱신*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../MOC]] — wiki 루트
+- [[MOC]] — Elucia 허브
+
+<!-- auto-generated-related:end -->

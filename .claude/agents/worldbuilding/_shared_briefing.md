@@ -145,6 +145,18 @@ qcore_version: v1.0  # Q-CORE 1·2·3 확정 반영 버전
 3. 본문 (표·mermaid·subsection 적극 활용)
 4. `## 대표님 미확정 사항 / 질문 큐` (에이전트가 필요 확인 사항 기록)
 5. `## 다음 Wave 의존 포인트` (후속 에이전트가 이 산출을 어떻게 참조할지)
+6. **`<!-- auto-generated-related -->` 마커 구간은 직접 작성 금지** — `scripts/obsidian/build_backlinks.py` 가 frontmatter 기반으로 자동 삽입한다. 에이전트는 이 구간 건드리지 말 것.
+
+### frontmatter 필수 key (자동 백링크 빌더 의존)
+
+`type`, `kingdom` (해당되는 경우), `subject` 는 **반드시** 박을 것. 이 메타가 build_backlinks.py 의 링크 규칙 입력이다. 누락 시 해당 파일은 Obsidian 그래프에서 고립된다.
+
+| `type` 값 | 용례 | 추가 필수 key |
+|----------|------|--------------|
+| `village` · `city` | 마을·도시 | `kingdom: kingdom_X` |
+| `political` | 정치 영토·분쟁·행정 | `subject: territory\|border\|...` |
+| `geography` · `economy` · `culture` · `roads` · `toponymy` · `ports` · `history` · `relations` · `chronicles` | 각 카테고리 | — |
+| `moc` · `master_index` · `readme` · `index` | 허브 (자동 섹션 스킵) | — |
 
 ### 본문 스타일
 
@@ -153,6 +165,24 @@ qcore_version: v1.0  # Q-CORE 1·2·3 확정 반영 버전
 - 각 항목 3~8 줄 밀도
 - 발언 원전 인용은 원문 그대로 + `:줄번호`
 - 추정 표기: `(추정)` / `(대표님 미확정 · 작업 가설)` 명시 의무
+
+---
+
+## 🕸️ Obsidian Vault 링크 의무 (2026-04-22 세션 #6 추가)
+
+**원칙**: wiki/ 에 생성하는 모든 파일은 **Obsidian 그래프에서 고립 노드가 되면 안 된다.**
+
+### 에이전트 책임
+
+1. **frontmatter 메타 정확히 박기** (위 표 참조) → build_backlinks.py 가 자동 링크
+2. **새 MOC 생성 시** 상위 MOC 에 반드시 등록 (`[[new_category/MOC]]` 추가)
+3. **경로 문자열 대신 `[[wikilink]]` 사용** — `wiki/design/foo.md` 가 아니라 `[[foo]]` 또는 `[[../foo]]`
+4. **생성 후 대표님께 보고 전에 실행**: `python scripts/obsidian/build_backlinks.py` → 자동 백링크 적용 → commit
+
+### 검증 포인트
+
+- 세션 시작 시 `session_start.py` Hook 이 자동 백링크 커버리지 출력. 85% 미만이면 경고.
+- 대표님이 Obsidian 그래프뷰 열었을 때 고립 노드 발견 시 자동 반려.
 
 ---
 

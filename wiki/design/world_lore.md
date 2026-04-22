@@ -212,3 +212,14 @@ updated: 2026-04-21
 
 *박제: 2026-04-21 (Phase 0 Bootstrap 종료 시점, Phase 1 Identity/Pipeline 진입 전)*
 *원안: 대표님 · 구조화·박제: 나베랄 감마*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

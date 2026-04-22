@@ -72,7 +72,7 @@ selected_session: 5
 | **산업** | 고사리 채취·약재·소량 목재 |
 | **분위기** | 골짜기 바닥의 작은 마을. 위에서 내려다봐야만 발견됨. 세상에서 잊혀진 곳 |
 | **스토리 포텐셜** | 극도의 고립. 외부 세계를 모르고 자란 주인공. 각성 후 충격이 극대화됨 |
-| **추천 이유** | 숨겨진 보석 같은 느낌. 주인공 출신지로 가장 원형적(archetype) |
+| **추천 이유** | 숨겨진 보석 같은 느낌. 주인공 추락 도착지 (고향 아님 · 세션 #7 정정) 로 가장 원형적(archetype) |
 
 ---
 
@@ -200,4 +200,26 @@ selected_session: 5
 
 - Wave 3 Character-Architect: 주인공 출신 마을 확정 후 가족·멘토 NPC 설계
 - Wave 3 Historian: 마을의 고대 역사·비밀 레이어 추가
-- Wave 4 Quest-Designer: 오프닝 퀘스트 "고향 탈출" 설계
+- Wave 4 Quest-Designer: 오프닝 퀘스트 "추락 도착지 탈출" 설계 (세션 #7 정정 · 고향 아님)
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../../../../MOC]] — wiki 루트
+- [[../MOC]] — Elucia 허브
+
+### 📑 카테고리 개요
+
+- [[00_overview]]
+
+### 🔗 형제 노드
+
+- [[etymology_roots_2026-04-22]]
+- [[naming_conventions_2026-04-22]]
+- [[phoneme_patterns_2026-04-22]]
+
+<!-- auto-generated-related:end -->

@@ -70,7 +70,7 @@ revision: 2
 ## 대표님 결정 대기 사항
 
 ### 캐릭터 미확정
-- 주인공 나이트의 본명·외형·무기·성별
+- ~~주인공 나이트의 외형·무기~~ → ✅ **전부 확정**: 성별 남자 · 이름 "나이트" · **본명 없음** (우주 창조) · 외형 = 순백 머리·파란 눈·178cm·그리피스/세피로스 스타일 · 무기 = 등장검+허리단검 · 공식 레퍼런스 `wiki/design/art/reference/knight_OFFICIAL_*.png` 3종 — 세션 #1·#2·#5 확정
 - **동료 8명** 각자 이름·성별·구체 배경 (특히 인간 4명의 과거가 Phase 2 반전 무게 결정)
 - "악의 신" 최종 칭호 명칭
 
@@ -147,3 +147,14 @@ revision: 2
 ---
 
 *Scaffolded: 2026-04-20 · Updated: 2026-04-21 (대표님 브레인스토밍 1차 박제 — 세계관·스토리·캐릭터 확정)*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->

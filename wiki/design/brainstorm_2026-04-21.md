@@ -901,3 +901,14 @@ purpose: 2026-04-21 대표님 브레인스토밍 세션 박제 — Rev.3 통합 
 
 *박제: 2026-04-21 · 원안: 대표님 · 구조화·인용 보존: 나베랄 감마*
 *이 문서의 "대표님 원안 (원문 인용)" 블록은 **변경 불가**. 나베랄 감마의 해석 섹션만 Rev.3 작업 시 갱신 가능.*
+
+<!-- auto-generated-related:start -->
+## 🔗 관련 (auto-generated)
+
+> `scripts/obsidian/build_backlinks.py` 로 자동 생성. 수정 금지 — 다음 실행 시 덮어쓰여집니다.
+
+### ⬆️ 상위
+
+- [[../MOC]] — wiki 루트
+
+<!-- auto-generated-related:end -->
