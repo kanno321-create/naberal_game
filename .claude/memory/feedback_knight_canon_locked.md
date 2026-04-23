@@ -1,10 +1,18 @@
 ---
-name: 나이트 Canon 완전 락업 · 본명·친부모·형제 없음 · 외형·무기 확정
-description: 나이트는 우주 창조 균형 수호자 · 본명·친부모·형제 개념 자체 없음 · 외형·무기·레퍼런스 Canon 전부 확정 · 재질문 금지
+name: 나이트 Canon 보조 락업 · 본명·친부모·형제·고향 없음 (외형·무기 일부 supersede)
+description: 나이트 외형 기본 · 본명·친부모·형제·고향 개념 없음 (이 부분만 유효) · 무기·정체 서사는 project_knight_true_canon_2026-04-23.md 로 교체됨
 type: feedback
 priority: critical
 originSessionId: f92ba1c3-04a6-465f-a4d2-ccc52bcdd138
+supersedes_partial_by: project_knight_true_canon_2026-04-23.md
 ---
+
+> ⚠️ **Partial Supersede (2026-04-23 · 세션 #9)**: 이 파일의 **무기** 및 **정체·서사** 부분은 [`project_knight_true_canon_2026-04-23.md`](project_knight_true_canon_2026-04-23.md) 로 교체됨.
+> - **여전히 유효**: 본명 개념 없음 · 친부모·형제 없음 · 고향 없음 (Ashenveil 은 도착지일 뿐) · 성별 남자 · 나이 불명 · 외형 레퍼런스 3종
+> - **폐기됨**: *"한손검 1 + 양손검 1"* → **얇은 레이피어 한 자루** · *"Q-CORE 4 A(백지) + B(수호자) 이중 자아"* → 수천 년 파견·각성·도주 구조 (백지/감정누수/누적슬픔 3층)
+> - **외형 정정 추가**: 손가락 노출 검은 장갑 · 흑갈색 부츠
+> - 재질문 금지 원칙은 동일 유지
+
 **규칙**: 나이트에 대한 **본명·친부모·형제·가족** 관련 질문 및 설정 재도입을 **절대 금지**. 외형·무기도 이미 확정돼 있으므로 추정값 제시 금지.
 
 **Why (대표님 반복 지적)**:

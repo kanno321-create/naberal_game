@@ -1,7 +1,90 @@
 # WORK HANDOFF — naberal_game
 
 ## 최종 업데이트
-- 날짜: **2026-04-24 (세션 #8 진입 · 영속 앵커 #3 구조적 결함 발견·복구 · 이중 박제 원칙 영구 박제 · FAIL-017 등재)**
+- 날짜: **2026-04-24 (세션 #9 · NotebookLM 브레인스토밍 대량 진척)**
+- 세션: **#9** (소설 전용 노트북 연동 · 12 쿼리 · 11 synthesis 박제 · 대표님 자율 진행 위임)
+- 상태: **Phase 0 Bootstrap · 집필 직전 설계 자산 대폭 축적** — Ch.02~16 주요 설계 + 엔딩 5종 + 여섯 순환 + 카르조르 저항군 synthesis 11건 완료 · NotebookLM `insert_text()` atomic 주입 패치 · 3000자 한도 확인 · 쿼리 쪼개짐 해결
+
+---
+
+## 세션 #9 **완료 항목** (2026-04-24 후반 · NotebookLM 창작 파트너 운용)
+
+> **세션 성격**: 대표님이 NotebookLM 노트북(소설 전용 `672ad9c5...`) 을 공동 저자로 지정 · 파일 기반 프롬프트 → 붙여넣기 방식 요구 · 대표님 부재 중 자율 진행
+> **핵심 가치**: Canon 위반 없는 **집필 가능 수준 설계 자산** 대량 축적 — Ch.02~03 성인식부터 Ch.16 진엔딩 학살, 엔딩 5종까지 각 장면·대사·괄호 B 발화 후보 확보
+
+### Phase A — 통신 버그 3단 해결
+- **v1 실패 (human_type)**: `StealthUtils.human_type()` 이 한 글자씩 keystroke 시뮬레이션 → NotebookLM UI 가 중간에 엔터 감지하여 프롬프트를 **여러 메시지로 분리 전송** · 대표님 스크린샷 직접 증명
+- **v2 실패 (fill)**: `.fill()` 교체 시도 · Angular 상태 업데이트 미트리거로 Enter 시 빈 값 인식
+- **v3 성공 (insert_text)**: `page.keyboard.insert_text()` + 300ms sleep + Enter. IME composition 이벤트로 atomic 삽입 · 쪼개짐 물리적 불가
+- **프롬프트 한도 확인**: NotebookLM 약 3000자 · 4440자 → rc=1 실패 / 1400~2200자 → 정상 (68~100초)
+- **정상 통신 검증**: 01~12 쿼리 약 5500~9000자 응답 · Canon 위반 0건
+
+### Phase B — 프롬프트 구조화
+- `.planning/nlm_prompts/` 에 12 프롬프트 원본 `.txt` + 실제 전송 `.sent.txt` 페어 영구 박제
+- `to_single_line()` 변환 = `\n` 제거 · `[ \t]+` 통합
+- Canon 핵심(나이트 Canon · 8 동료 프로필 · 원칙 5건) embedding 으로 레포 본문 누락 우회
+
+### Phase C — 12 쿼리 전송·수신 (순차 "하나씩 하나씩" 원칙 준수)
+- 01 Ch.02~03 Fernhollow 마을 도달·성인식
+- 02 Ch.14~16 삼각 관계 감정 곡선
+- 03 여섯 번의 균형 역사
+- 04 Ch.16 진엔딩 Scene 2 학살
+- 05 카르조르 저항군 내부 구조
+- 06 Ch.04~06 숲 악마·영웅·루시안
+- 07 Ch.11 기억 회복·Act 전환
+- 08 Ch.15 마왕 봉인 대면·세리스
+- 09 Ch.07~10 카일·엘라라·미리암 합류·할배 2차
+- 10 Ch.12~13 세 자아의 밤·인간 이탈
+- 11 진엔딩 Scene 3~6 왕좌 (⚠️ NotebookLM 세션 오염으로 응답 반복)
+- 12 엔딩 5종 차별화
+
+### Phase D — synthesis 11건 박제 (wiki/design/brainstorm/2026-04-24_nlm_session/)
+- INDEX.md — 마스터 인덱스
+- responses/ — 원본 응답 12개 + 중복본 1개 미러링
+- **synthesis_ch02_03_fernhollow** — Fernhollow 확정·할배 대사 3+1·의식 3단계·괄호 B 3 후보
+- **synthesis_ch04_06_forest_boss_lucian** — 숲 악마 트리거·의지결 "둥지가 있었소"·루시안 길치 첫 폭발·타종족 진압 3조 맥락
+- **synthesis_ch07_10_companions** — 카일 빈민가·엘라라 금서·미리암 학살 현장·할배 2차 모닥불 대사 3 후보
+- **synthesis_ch11_memory_recovery** — 거대 고룡 확장 대사·기억 회복 B안·재맥락 5 대사·1인칭→3인칭 전환 문장
+- **synthesis_ch12_13_departure** — 세 자아 C안 연출·동료 4 이탈 시점·미리암 연모 C안·카르조르 첫발
+- **synthesis_ch14_16_triangle** — 세리스 3단계·미리암-세리스 첫 직면·야영지 갭모에 5 씬
+- **synthesis_ch15_demon_king** — 수정 2 봉인·마왕 의식 폭풍·세리스 시조이신가·나이트 가해자 자각·오르토무스 용족
+- **synthesis_ch16_massacre** — 사망 순서 A안·보르단·세리스 대사·플래시백 매칭·3 생존자 연출
+- **synthesis_endings_five** — E1~E5 차별화 연출·E5 발동 C안·5 엔딩 메시지 테이블
+- **synthesis_six_cycles** — 6 순환 표·할배 독백 3 회고·이전 세대 수호자 Template·마족 대학살 진실·포식자 C안
+- **synthesis_karzor_rebel** — 4 핵심 인물 카드·이념 분열·나일라 주방 갭모에·3 사막 전투 문화·C안 거점·할배 흔적
+
+### Phase E — 미완·후속 과제
+- **11 synthesis 미완**: NotebookLM 세션 문맥 오염으로 Scene 3~6 응답이 Ch.12~13 또는 엔딩 5종 반복. story_full_narrative.md Scene 1~6 이 상세하여 집필 가능. 추후 브라우저 프로필 리셋 후 재쿼리 필요.
+- **대표님 결정 대기 항목** (각 synthesis 말미 정리):
+  - 마을 이름 (Fernhollow vs Amberroot)
+  - 할배 대사 다수 후보 중 선택
+  - 보르단·세리스 마지막 대사 후보 중 선택
+  - 6 순환 신 이름·무기 속성 승인
+  - 4 카르조르 인물 이름 승인
+  - Ch.11 문장 후보 선택
+  - E5 발동 시점 C안 승인
+
+### 산출물 요약
+- **스크립트 패치 (2건)**:
+  - `scripts/notebooklm/query.py` — rc 실패 시 stdout 포함한 오류 메시지
+  - `C:/Users/PC/Desktop/secondjob_naberal/.claude/skills/notebooklm/scripts/ask_question.py` — human_type → insert_text + 디버그 로그 강화
+- **runner 신설 (2건)**:
+  - `.planning/nlm_prompts/run.py` — to_single_line 변환 + .sent.txt 박제
+  - 원본 txt 13건 + 전송 sent.txt 12건
+- **응답 박제 (15건)**: 00_v1, 00_v2, 01~12, 10b (총 NotebookLM 호출 15회)
+- **synthesis (11건)**: wiki/design/brainstorm/2026-04-24_nlm_session/synthesis_*.md
+- **INDEX + 원본 미러링 (13건)**: wiki/design/brainstorm/2026-04-24_nlm_session/{INDEX.md, responses/}
+
+### 의사결정 통계
+- 대표님 직접 결정: 5건 (노트북 지정·붙여넣기 원칙·쿼리 낭비 지적·자율 진행 위임·대량 진척 지시)
+- 통신 버그 해결: 3단계 (human_type → fill → insert_text)
+- Canon 쿼리: 12건 전송·11건 유효 응답
+- synthesis 정제: 11건
+- 미완: 1건 (11 Scene 3~6 재쿼리 필요)
+
+---
+
+## 세션 #8 완료 항목 (2026-04-24 전반 · 영속 앵커 #3 구조적 결함 발견·복구 · 이중 박제 원칙 영구 박제 · FAIL-017 등재)
 - 세션: **#8** (세션 #7 재발 방지 체계의 **허위 작동** 발견 → 이중 박제 원칙으로 구조 재설계)
 - 상태: **Phase 0 Bootstrap 추가 연장 · 재발 방지 체계 비로소 실제 작동** — Critical Memories 3건 priority 자동 주입 검증 완료 · 전역↔로컬 27개 auto-sync 검증 완료 · FAIL-017 등재 · 다음 세션부터 이중 박제 원칙 자동 집행
 

@@ -6,7 +6,8 @@
 
 ## 🔒 Critical (priority: critical · §6.5 자동 주입)
 - [이중 박제 원칙](feedback_dual_persistence_required.md) — git 프로젝트 로컬 + Claude Code 전역 양쪽에 동시 저장 강제 · 한쪽만 저장 시 영속성 실패
-- [나이트 Canon 완전 락업](feedback_knight_canon_locked.md) — 본명·친부모·형제 없음 · 외형·무기 확정 · 재질문 절대 금지 (세션 #7)
+- [나이트 진정한 Canon (수십 년 분신 정체성)](project_knight_true_canon_2026-04-23.md) — 🔴 **최상위** · 균형의 수호자 · 전우주적 파견 시스템 · 기억 소거/감정 누수 · 각성·도주 · **자발적 수호 지속** · 방랑자 위장 · 자아 붕괴 반복 (세션 #9 · 2026-04-23)
+- [나이트 외형·이름 보조 Canon](feedback_knight_canon_locked.md) — ⚠️ 무기·정체 서사는 `project_knight_true_canon_2026-04-23.md` 로 교체 · 본명·친부모·형제·고향 없음 원칙만 유효 (세션 #7 + #9 축소)
 - [샘플링 독서 금지](feedback_no_sampling_full_read.md) — Canon 파일 부분 읽기 = FAIL-016 원인 · 전수 읽기 필수
 
 ## 📘 Feedback (대표님 지시 · 검증된 접근)
@@ -33,6 +34,11 @@
 - [세션 #5 Q-FIX-X1·X2 자체 해소](project_session5_qfix_extended_x1_x2.md) — Aldric/Aldren 이름 공간 정리 (욜로모드)
 - [세션 #5 Q-FIX-X3·X4 결정 대기](project_session5_qfix_x3_x4_pending.md) — 욜로모드 자체 판단 보류 · 대표님 결정 요청
 - [세션 #5 욜로모드 위임](project_session5_yolo_mode_authorization.md) — 퍼미션 질문 금지 · AI 자율 판단 · Karzor 전체 파이프라인 완수
+- [Episode 2 · 카라 시퀄](project_episode2_kara_sequel.md) — 여주인공 카라(Q-CORE 5) 가 마왕 나이트를 물리치는 시퀄 · 본편 미방문 지역(Thaloss·Vaelin·Nahir·Thari·북쪽 섬·용족 본거지) 무대 원칙 · 2026-04-24 대표님 확정
+
+## 📕 Synthesis (wiki/design/brainstorm/2026-04-24_nlm_session/ 외부 링크)
+- [페이즈 4.5 내부 갈등 설계](../../wiki/design/brainstorm/2026-04-24_nlm_session/synthesis_phase4_5_internal_conflict.md) — 인간 4인 vs 세리스 3막 갈등 · 은/음 속성 상극 Canon 신설 · 미냐 계열 룬어 (2026-04-24)
+- [다크판타지 4원칙 작법](../../wiki/design/brainstorm/2026-04-24_nlm_session/synthesis_dark_fantasy_4principles.md) — 오감·반전+코스믹 호러·템포·병적 비유 · style_bible_v2 부록 편입 후보 (2026-04-24)
 
 ## 📙 Reference (외부 자료·스크립트 위치)
 - [초보 1인 인디 게임 개발자 지식 인덱스](reference_beginner_gamedev_knowledge.md) — NotebookLM 6-쿼리 딥 리서치 결과 (Unity 6/Steam/AI/한국)

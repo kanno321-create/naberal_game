@@ -162,8 +162,12 @@ def query_notebook(
         env=env,
     )
     if result.returncode != 0:
+        # 2026-04-24: stdout 도 오류 메시지에 포함 (ask_question.py 가 사용자용 메시지를
+        # stdout 으로 print 하므로 stderr 만으로는 디버깅 불가).
         raise RuntimeError(
             f"NotebookLM query failed (rc={result.returncode}) "
-            f"notebook_id={notebook_id}: {result.stderr}"
+            f"notebook_id={notebook_id}\n"
+            f"--- STDOUT ---\n{result.stdout}\n"
+            f"--- STDERR ---\n{result.stderr}"
         )
     return _strip_follow_up(result.stdout)
