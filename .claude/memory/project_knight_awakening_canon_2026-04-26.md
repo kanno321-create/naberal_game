@@ -5,8 +5,8 @@ type: project
 priority: critical
 created: 2026-04-26
 session: 14 (라운드 4 직후 대표님 직접 박제)
+originSessionId: 2ae83fac-c29b-40f5-a0b3-a32829e9fd3b
 ---
-
 # 나이트 각성 Canon — 인종청소 결단의 빌드업 원칙
 
 ## 0. 결론 (대표님 직접 박제)
