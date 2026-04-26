@@ -11,6 +11,7 @@ timeout 기본 1200s (20분 · 대표님 "시간 빡빡하게 잡지마라")
 """
 from __future__ import annotations
 
+import os
 import re
 import sys
 import time
@@ -19,7 +20,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.notebooklm.query import query_notebook
 
-NOTEBOOK_ID = "672ad9c5-ec56-45a2-a5f7-17c5fa023b5c"  # 2026-04-24 소설 전용 노트북 (라노벨·다크판타지 기술 + kanno321-create/naberal_game 레포)
+# 환경변수 NLM_NOTEBOOK_ID 로 override 가능 (다른 노트북에 임시 질문 시).
+# Default = 2026-04-24 소설 전용 노트북 (라노벨·다크판타지 기술 + kanno321-create/naberal_game 레포)
+NOTEBOOK_ID = os.environ.get("NLM_NOTEBOOK_ID", "672ad9c5-ec56-45a2-a5f7-17c5fa023b5c")
 
 
 def to_single_line(text: str) -> str:

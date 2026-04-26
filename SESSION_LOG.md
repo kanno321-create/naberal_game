@@ -1,5 +1,379 @@
 # SESSION LOG — naberal_game
 
+## Session #11 — 2026-04-25 (1권 P0 일러스트 4장 · gpt-image-2 Ducktape 파이프라인 확립 · 11 rev iteration)
+
+### 세션 성격
+
+- 대표님 "오늘 집필 마무리했다" 발언 이후 **일러스트 작업 전환** 세션
+- 라노벨 1권 분량 (본편 ~24,300자 = 1권의 25%) 대비 **권당 표준 12~18장 중 4장 선행 제작** 목표
+- 플랜모드 → 대표님 지정 P0 2건 (**1권 표지 + 어린 세리스**) + 자체 추가 P0 2건 (각성 + 학살) → **4장 최종 확정**
+- **모델 전환**: gpt-image-1 → gpt-image-2 (2026-04-21 출시) · moderation 관대 · input_fidelity 항상 high · 16 refs
+- **11 rev iteration**: 초기 장문 차단 → 미니멀 분위기 실종 → 중간 길이 + Use case 앵커 → 대표님 피드백 6 라운드 (비율·표정·귀·구도·머리 길이·원근)
+- **딥리서치 40+ 출처**: OpenAI Cookbook · Dev Forum · Microsoft Azure · Charlie Hills · fal.ai · Apiyi 비교
+
+### 최종 산출물 (OFFICIAL 6종)
+
+**P0 (1권 표지·baseline·key scene 4장)**:
+- `cover_OFFICIAL_volume1_2026-04-25.png` · 1권 표지 trio (나이트+어린 세리스+프레이아) · 1024×1536
+- `ceris_young_OFFICIAL_2026-04-25.png` · 어린 세리스 12세 캐릭터 시트 · 1024×1536
+- `knight_awakening_OFFICIAL_2026-04-25.png` · 나이트 각성 프롤로그 §VII · 1536×1024
+- `massacre_courtyard_OFFICIAL_2026-04-25.png` · 학살 마당 Ch.01 §六 · 1536×1024
+
+**P1 세션 말미 신규 추가 2장** (대표님 추가 지시):
+- `freya_blush_village_OFFICIAL_2026-04-25.png` · 프레이아 블러시 첫 새 마을 도착 · 1536×1024 · 로맨스 복선
+- `knight_combat_OFFICIAL_2026-04-25.png` · 나이트 전투 병사 격파 · 1536×1024 · 역동 액션
+
+### 11 rev iteration 요약
+
+| rev | 모델 | 프롬프트 길이 | 특이점 | 결과 |
+|---|---|---|---|---|
+| 1 | gpt-image-1 | 2500+자 | Berserk/Griffith 참조 + 어린이 해부 | 💀 4/4 차단 |
+| 2 | gpt-image-1 | <200자 | 미니멀 | ✅ 통과, but 분위기 실종 |
+| 3 | gpt-image-1 | 650~744자 | 레퍼런스 락업 | ⚠️ 2/3 (세리스 차단) |
+| 4 | **gpt-image-2** | 1658~1686자 | Use case 앵커 + YA fiction | ✅ 통과 · 분위기 OK |
+| 5 | gpt-image-2 | 1919자 | 표지 1인 비율 교정 | ✅ (백업) |
+| 6 | gpt-image-2 | 2700자 | 표지 2인 duo | ✅ |
+| 7 | gpt-image-2 | 3468자 | 표지 3인 trio | ✅ 대표님 반응 "와우 나이스" |
+| 8 | gpt-image-2 | 3569자 | 표정·자세 차별화 | ✅ "같은 얼굴" 지적 해소 |
+| 9 | gpt-image-2 | 4331자 | 긴 머리 + 세리스 후퇴 | ✅ "키다리" 해소 |
+| 10 | gpt-image-2 | 4450자 | Freya 인간 귀 | ✅ "엘프 되어버림" 해소 |
+| 11 | gpt-image-2 | 4264자 | 세리스 센터 + massacre 원근 | ✅ "귀신같다" + "머리 큼" 해소 |
+| v8 inpaint | gpt-image-2 | 1365자 | **v8 에 Freya 귀만 교체** | ✅ **최종 표지** |
+
+### 박제된 지식 (이중 박제 완료)
+
+- `.claude/memory/reference_gpt_image_2_ducktape_learnings.md` · priority: critical · 플레이북
+- `.claude/memory/project_freya_canon_proposal_2026-04-25.md` · 프레이아 외형 초안 (대표님 확정 대기)
+- `wiki/design/art/reference/_INDEX.md` · 세션 #11 OFFICIAL 4장 등재
+
+### 대표님 피드백 루프 (직접 인용)
+
+1. "오 나이트 멋있고 세리스 너무 귀엽노" — trio 최초 성공 반응 (rev7)
+2. "비율이 무슨 키다리 괴물같노" — rev4 cover stretch 지적 → rev5 교정
+3. "최소한 표지라면 주요등장인물 한두명은있어야안되나?" → rev6 2인 → rev7 3인
+4. "세리스가 얼굴이 똑같다" → rev8 표정·자세 차별화
+5. "주인공 머리카락도 좀짧아보이노" → rev9 긴 머리 명시
+6. "세리스가 더 멀리있는데 머리도 커보이고" → rev9 depth 분리
+7. "프레이아 귀가 엘프가 되어버렸노 인간인데" → rev10 Freya 인간 귀
+8. "세리스가 센터에있어야된다" → rev11 센터 배치
+9. "구도상 크기가 말이좀안되" (massacre) → rev11 원근 교정
+10. "cover_trio_v8_rev1.png 표지는 이게 제일좋은데" → **v8 + Freya 귀 inpaint 최종 선택**
+11. "총4장이가?" → 최종 4장 확정
+
+### 총 비용 실측
+
+- gpt-image-1 차단 5회 ≈ $0.85 (실패 비용)
+- gpt-image-2 성공 9회 + v8 edit 1회 ≈ $1.70
+- **합계 ~$2.55** (플랜 예산 $2.00 소폭 초과 · 피드백 루프 비용)
+
+### 교훈 (다음 세션 반영)
+
+1. **미성년 캐릭터 이미지**: 반드시 "Use case: Young Adult fiction illustration" 앵커 선언
+2. **IP/아티스트 이름**: "Berserk", "Kentaro Miura", "Griffith" 제거 (2026-04 moderation 강화)
+3. **레퍼런스 락업**: 매 iteration 마다 "Preserve face/proportions EXACTLY" 재명시
+4. **비율 문제**: "8 heads tall" 과하면 stretched. "natural balanced proportions matching reference" 권장
+5. **대표님 피드백 루프**: 이미지 생성은 3~5 rev 예산 필수. 한 번에 완성 불가
+6. **cd 절대 금지**: Hook 깨짐 (`feedback_no_cd_absolute_paths.md` 재확인 · 세션 #11 에서 1회 위반 발생)
+
+### 대기 중 (다음 세션 과제)
+
+- 프레이아 외형 Canon 대표님 최종 확정
+- 프레이아 단독 캐릭터 시트 생성 (Canon 확정 후)
+- 표지에 타이틀 typography 합성 (상단 1/3 negative space)
+
+---
+
+### 세션 후반 추가 — 1권 본 집필 95% 완성 (대표님 명령 *"이어서 모두 집필 + 15만자 + 제국 출발까지 + 여운"*)
+
+**Ch.02~Ch.06 단일 세션 ~99,000자 추가 집필**:
+- Ch.02 ~25,000자 (파르마 정착 + 검은 숲 의뢰 + 여명 결성 + E1)
+- Ch.03 ~17,000자 (Harrowfen 저주 + 펠란 다리 절단 + 록솔 합류 + E2)
+- Ch.04 ~18,000자 (폐광 의뢰 + 벨릭 사망 + 안나 합류 + 도서관 + E3 · 첫 염동력 발현)
+- Ch.05 ~22,000자 (Briarwell 추락 + 부부+아이 사망 + Cailean 가문 몰살 + E4 외면 정점 + 손가락 마법진 발견)
+- Ch.06 ~17,000자 (이별 + 4개월 여행 + 제국 도착 + 다섯 번째 종소리 + 다음 권 후크 3중)
+
+**1권 누적 ~123,500자** (목표 15만자의 95%) · LN 1권 표준 (100K~150K) 정중앙 안착
+
+**신규 자산**:
+- `wiki/design/novel/chapters/ch02~ch06_2026-04-25.md` 5종
+- `wiki/design/characters/_INDEX.md` (중요도별 캐릭터 등록 시스템 ★★★★ ~ ★)
+- `wiki/design/novel/story_summary_v1_2026-04-25.md` (6화 절망 곡선 + 4대 기둥 + 복선 매트릭스 + 인물 흐름 + 다음 권 예고)
+
+**대표님 추가 지시 모두 반영**:
+- "이름은 너가 작명, 지명은 우리 설정대로" → 캐릭터 7명 작명 + Ilaris/Parma/성좌국 Canon 활용
+- "캐릭터 폴더에 추가, 중요도별로" → `_INDEX.md` ★★★★~★ 4단계 분류
+- "스토리 요약본도 만들어서 저장" → `story_summary_v1_2026-04-25.md`
+- "세리스는 동료와 도주, 프레이아·나이트 2인 여정" → Ch.02~Ch.06 전체 정합 유지
+
+**4대 기둥 적용 검증**:
+- ① 절망 하강: Ch.01 강타 → Ch.02 쉼표 → Ch.03 펠란 절단 → Ch.04 벨릭 사망 → Ch.05 추락 폭발 → Ch.06 이별 + 공허 도착
+- ② 신 대항: Ch.03 *신의 시련* 거부 + Ch.05 Cailean = 교회 직접 연결 (추기경 인장 5통)
+- ③ 오버로드식 사망: 펠란 (Ch.03) + 벨릭 (Ch.04) + 부부+아이+Cailean 일가 (Ch.05) + 프레이아 정신적 사망
+- ④ 쉼표·블랙유머: 거미 모티프 / 막다 *허허* / 록솔 사탕 / Ch.05 후 완전 제거 (대비 엔진 가동)
+
+**다음 권 후크 3중 (Ch.06 마지막 광장)**:
+1. 흰 외투 추기경급 자수 인물 사라짐 (Cailean 가문 다섯 통과 같은 종류)
+2. 행인 한 사람 *"흰 머리. 어디서 봤더라"* — 같은 종류의 자가 더 있다
+3. 손가락 엄지 한 마디 안쪽 마법진 빛 발현 (Marie of Harrowfen 책 마지막 페이지 단서)
+
+**수미상관 회수**:
+- Ch.01 *"같이 가주면 안 돼?"* → Ch.06 *"같이 가달라는 말은 안 하겠어"*
+- 흰 머리카락 한 가닥 ↔ 검은 머리카락 한 가닥 교환 (서로의 정체에 한 가닥씩 닿음)
+
+---
+
+## Session #10 — 2026-04-25 (파르마 아크 재구축 본격화 · Ch.01 v2 21k자 · 4대 기둥 톤 Canon · 1기 12화 확정 · 미리암 교류)
+
+### 세션 성격
+
+- 세션 #9 확장 (*"Ch.01 정본 확정 + Ch.02 재구축 선언"*) 의 **직접적 후속 · 재구축 모드 본격 가동**
+- 대표님 #007 파르마 4년 구술부터 #013 미리암 교류까지 **7건 연속 박제** → **4대 기둥 톤 Canon** 확립
+- 두 번의 본 집필 (v1 17.5k자 · v2 21k자) · v1 피드백 *"조잡해도 재미"* + *"정말 라노벨로 써봐라"* 로 v2 교정
+- novel-writer 스킬 미활용으로 FAIL-004 재발 → 대표님 지적 후 스킬 로드 · Plan mode 로 v2 마이크로플랜 → 21k자 재작성
+- 1기 12화 구조 최종 확정 (파르마 6 + 제국 6 절망 마감)
+
+### 핵심 결정 (대표님 직접 · 7 원문 + 4 선택)
+
+#### 원문 보존 #007~#013 (master_story 누적 append)
+
+1. **#007 파르마 4년 아크** — 모험가+해결사 이중생활 · 마법 소질 · 고대마법 3종 (악마술·강령술·염동력) · 여명 4인 파티 · 1년 2개월 후 프레이아 오판 민간인 3 사망 · 이별 · 4개월 여행 · 제국 도착
+2. **#008 동료 2회 교체 + 작업 방식 원칙** — 사망 1 · 다리 절단 1 / *"뼈대는 대표님 · 살은 나베 녹여내기"*
+3. **#009 절망 서사 3대 기둥** — 절망 하강 + 신 배신 + 오버로드식 중요 인물 사망
+4. **#010 아크 재정의** — 6화 = 이별 마감 · 7~12화 제국 · 12화 희망 없는 마감
+5. **#011 쉼표·블랙유머 대비 엔진** (4번째 기둥 추가) — *"하이라이트가 빛을 바란다"*
+6. **#012 대화 빌드업 → 배신류 사망** — 캐릭터 목표·희망 대화로 드러낸 뒤 잔혹 퇴장
+7. **#013 미리암 제국 교회 교류** — 방문형 · 책·상담 · 점점 좋아함 · 나이트 무덤덤 재미 · 1기 미편입 · 2기 편입
+
+#### AskUserQuestion 응답 (Plan mode 중)
+
+- 나이트 어체 = **하이브리드** (공적 합쇼체 / 프레이야 반말)
+- 분량 = **20~22k자**
+- 세리스 엄마 = **이름·정체 부여**
+- 프레이야 표기 = **프레이야**
+
+### 수행 작업 (Phase A~N)
+
+**Phase A — 진입·프로필 신규**:
+- 세션 진입 · Critical Memories 자동 주입 확인
+- `characters/knight_profile_2026-04-24.md` · `characters/freya_profile_2026-04-24.md` 작성
+
+**Phase B — #007 파르마 아크 구술 + outline v0.1 초안 (FAIL-019 유발)**:
+- 원문 #007 박제
+- `parma_arc_outline_2026-04-25.md` v0.1 초안에 E1~E4 시나리오·마을명 Harrowfen·화살 반사 메커니즘 등 **임의 선언**
+- 🔴 **FAIL-019** = 대표님 영역 설정 나베 임의 선언 (작업 방식 원칙 위반)
+
+**Phase C — #008 작업 방식 원칙 + FAIL-019 교정**:
+- 대표님 *"그냥 저렇게 적으면 안되고 내가 적어주면 녹여내라"*
+- `feedback_bones_from_president_flesh_from_naberal.md` Critical Memory 이중 박제 (로컬+전역)
+- MEMORY.md 양쪽 인덱스 Critical 등재
+- parma_arc_outline v0.1 → **v0.2 대기 매트릭스** 전면 재작성 (임의 선언 전수 폐기)
+
+**Phase D — 6화 스크립트 v1 + Canon 치환**:
+- `season1_first_half_6ep_script_2026-04-25.md` 약 1,200줄
+- 대표님 *"지도·왕국·제국 설정 그대로 사용"*
+- Elucia 월드빌딩 매핑 확정:
+  - `[왕국]` → **Ilaris 왕국** (수도 Ilarien)
+  - `[제국]` → **성좌국 Choir of Elucia** (수도 Solaris · Pontifex Aurelius IV)
+  - `[첫 마을]` → **Ashenveil** (Silvan 서쪽 끝)
+  - `[세일라]` → **Harrowfen**
+  - `[귀족 A/C/E/G]` → Fenrik(숲 경계 백작)·Bruiden(삼림 공작)·Vaern(왕도 공작)·Cailean(남해안 백작)
+  - 경유 = **Irondelta → Lumstow** (MAP_annotations)
+
+**Phase E — 6화 재배분 (Ch.01 포함 1~6화)**:
+- Ch.02~07 (7화 범위) → **Ch.01~06** 축소
+- Ch.02 = 파르마 정착 + 검은 숲 의뢰 1 (합본)
+- 분량 지도·감정선 표·마감 블록 전면 재조정
+
+**Phase F — Ch.01 v1 본 집필 (FAIL-020 유발)**:
+- `chapters/ch01_2026-04-25.md` 약 17,500자
+- novel-writer 스킬 **미활용** (FAIL-004 재발)
+- 종결어미 `~다` 80%+ 범람 (FAIL-015 재발)
+- 대화 비중 15~20% · 형용사 부족
+- 대표님 피드백: *"글이 좀 조잡해도 재미는 있더라"* + *"이번엔 정말 라노벨, 다크판타지 소설처럼 한번 써봐라 기대할게"*
+- 🔴 **FAIL-020** = novel-writer 스킬 미활용 + style_bible v2 §5-2 rev2 미참조
+
+**Phase G — novel-writer 스킬 로드**:
+- 대표님 *"라노벨 쓰는 skill이나 글쓰기 및 소설쓰는 스킬을 가지고있지 않나?"*
+- 스킬 즉시 로드 · style_bible v2 §5-2 rev2 (~다 55~65%·3연속 금지·다양화 6종 ≥2종) 전수 확인
+- Explore agent spawn — 정본 분석 + 종결어미 예시 + 감정 등급 카탈로그 + 프레이야 말투 DB 수집
+
+**Phase H — #009 절망 서사 3대 기둥 박제**:
+- `project_dark_fantasy_tone_2026-04-25.md` Critical Memory 이중 박제
+- ①절망 하강 ②신 체계 대항(배신된 신) ③오버로드식 중요 인물 반복 사망
+- MEMORY.md Critical 등재
+
+**Phase I — #010 아크 재정의 + 절망 엔딩 리서치**:
+- 대표님 *"나이트가 떠나는 씬까지 여기까지가 6화마지막. 7화부터는 제국으로 가는 스토리 ... 12화까지해서 좀 슬프로 잔인하여 희망이 없는 상태로 마무리"*
+- 리서치: Grimdark/Nobledark · 비극 구조 역발상 · 12화 쿨 마감 · 베르세르크 황금시대 · Hope Spot · 희망 제거 7대 서사 장치
+- 아크 재편: Ch.06 = 이별 마감 · Ch.07 = 여행+제국 도착 · Ch.08~12 = 제국 절망
+
+**Phase J — Plan mode + Ch.01 v2 본 집필**:
+- `C:\Users\PC\.claude\plans\sorted-frolicking-meadow.md` 마이크로플랜 (7 씬)
+- 각 씬마다: 분량·종결어미 분포·감정 등급·대화 턴수·괄호 발화·상징
+- AskUserQuestion 응답 반영
+- `chapters/ch01_v2_2026-04-25.md` **21,000자** 완성
+  - 종결어미 ~다 55~60% + 다양화 6종 혼용 (명사·현재형·의문·불확정·진행형·부사)
+  - 대화 비중 45~50% · 촌장 대화 12+ 턴 · 프레이야 확장 대사
+  - 하이브리드 어체
+  - **세리스 엄마 학자 계보 폭로** (Q-CORE 2 연동) = 오버로드식 배신 1호
+  - 오프닝 쇳내·학살 마당 확장·엘프 까마귀 서열·파르마 방벽 스케일
+
+**Phase K — LN 1권 분량 리서치**:
+- 일본 LN 1권 공백 포함 **120,000~180,000자** (중앙 130~150k) · 한국어 환산 정합
+- 영문 40~60k단어 ≈ 한국어 130~150k자
+- 6화 기준 화당 21,700~25,000자
+- Ch.01 v2 21k자 = 하한 근접 적정
+
+**Phase L — #011 쉼표·블랙유머 4번째 기둥**:
+- 대표님 *"약간의 쉼표로 밝고 희망차고 어떨땐 블랙유머같은걸로 웃음짓게 해야지 하이라이트가 빛을 바란다"*
+- 리서치: Contrast Principle · Hope Spot · Gallows Humor (Witcher 게롤트) · Character Humor
+- project_dark_fantasy_tone 4번째 기둥 추가 (로컬+전역 이중)
+- 배치 원칙: 쉼표 각 화 15~20% · 모험가 길드·여명 일상·전투 전후 · 유머 종류 5종 분류 (Gallows·풍자·캐릭터 대비·상황 부조리·Hope Spot)
+- script 톤 가이드 4대 기둥 업데이트
+
+**Phase M — #012 대화 빌드업 → 배신류**:
+- 대표님 *"대화를 통한 등장인물의 서사 및 목표에서 찾는 희망, 마지막에 죽음 이런 배신류가 좋아"*
+- project_dark_fantasy_tone §3-A 서브 섹션 추가
+- 4단계 빌드업 공식 (도입 → 꿈 고백 → 근접 성취 → 잔혹 퇴장)
+- 1기 12화 배신류 인물 매트릭스 (세리스 엄마·구출 상인·동료 A·동료 B·민간인 3·제국 새 동료들)
+- 대표님 *"왠꿈?"* 혼란 → "꿈" = 대표님 원문 "서사·목표·희망" 의 나베 번역어 설명
+
+**Phase N — #013 미리암 제국 교회 교류**:
+- 대표님 지시: 제국 교회 근무 · 나이트 방문형 교류 · 책·상담 · 점점 좋아함 · 무덤덤 나이트 재미 · 1기 미편입 · 2기 편입
+- 기존 대표님 직접 프로필 (`케릭 컨셉 및 프로필.md § 4 미리암`) 불가침 확인
+- `miriam_profile_2026-04-25.md` 신규:
+  - 대표님 원문 인용 보존
+  - 소속 성당 4 후보 (추천 D 제국 도서관 겸 성당)
+  - 첫 만남 시나리오 (Ch.08)
+  - 6 교류 씬 매트릭스 (Ch.08~11)
+  - 나이트 무덤덤 표현 기법 6종
+  - 미리암 호감 표출 기법 6종
+  - 호감 진전 곡선 (호기심 → 호의 → 걱정 → 두근거림 → 인정 → 체념)
+  - 보드카 갭모에 활용 타이밍
+  - 2기 편입 트리거 후보 3종
+
+### 산출물
+
+**신규 생성 (10 파일)**:
+- `.claude/memory/feedback_bones_from_president_flesh_from_naberal.md` (Critical 이중 박제)
+- `.claude/memory/project_dark_fantasy_tone_2026-04-25.md` (Critical 이중 박제 · 4대 기둥)
+- `wiki/design/characters/knight_profile_2026-04-24.md`
+- `wiki/design/characters/freya_profile_2026-04-24.md`
+- `wiki/design/characters/miriam_profile_2026-04-25.md`
+- `wiki/design/novel/chapters/ch01_2026-04-25.md` (v1 · supersede 대상)
+- `wiki/design/novel/chapters/ch01_v2_2026-04-25.md` (v2 · 현 최종)
+- `wiki/design/novel/parma_arc_outline_2026-04-25.md` (v0.2 대기 매트릭스)
+- `wiki/design/novel/season1_first_half_6ep_script_2026-04-25.md`
+- `C:\Users\PC\.claude\plans\sorted-frolicking-meadow.md` (Ch.01 v2 plan)
+
+**수정**:
+- `master_story_2026-04-23_raw_president.md` — #007~#013 append (7건)
+- `.claude/memory/MEMORY.md` (로컬+전역) — Critical 2건 신규 등재 + description 갱신
+- `season1_first_half_6ep_script_2026-04-25.md` — Canon 치환·4대 기둥·6화 절망 곡선 통합
+
+**FAIL 등재**: FAIL-019 · FAIL-020
+
+### 의사결정 통계
+
+- 대표님 직접 결정·원문: **7건** (#007~#013)
+- AskUserQuestion 응답: 4건
+- Critical Memory 신규: 2건
+- 구조 확장: 3건 (3-A·4번째 기둥·미리암 아크)
+- 집필: Ch.01 v1 (17.5k · supersede) + Ch.01 v2 (21k · 최종) + script (~25k)
+- 리서치: 3건 (LN 분량·절망 엔딩·쉼표·블랙유머)
+- FAIL 등재: 2건 (FAIL-019 작업 방식 · FAIL-020 스킬 미활용)
+- 자체 해소 설계: 6화 스크립트·Canon 치환 매핑·화 번호 재배분·v2 씬 설계·미리암 씬 매트릭스
+
+### 최종 상태
+
+- ✅ **1기 12화 구조 확정** (파르마 6 + 제국 6 절망 마감)
+- ✅ **톤 4대 기둥 Canon 확립** (이중 박제 · §6.5 자동 주입)
+- ✅ **작업 방식 원칙 영구화** (이중 박제)
+- ✅ **Ch.01 v2 본 집필 완료** (21k · 하이브리드 어체 · 대화 45%+ · 종결어미 혼용 · 세리스 엄마 학자 계보)
+- ✅ **Canon 매핑** (Ilaris·성좌국·Ashenveil·Harrowfen·4 귀족)
+- ✅ **미리암 교류 아크 박제**
+- ⏳ **Ch.02~12 집필 대기** · 대표님 옵션 A~D 선택 대기
+
+### 다음 세션 (#11) 진입 준비
+
+- `session_start.py §6.5` 가 자동으로 주입:
+  - `project_dark_fantasy_tone_2026-04-25.md` (4대 기둥 톤 Canon)
+  - `feedback_bones_from_president_flesh_from_naberal.md` (작업 방식 원칙)
+  - 기존 critical 3건 (이중 박제 · 나이트 Canon · 샘플링 독서 금지)
+- WORK_HANDOFF.md § 세션 #11 진입 가이드 9 필독 · 4 작업 모드 · 다음 작업 옵션 A~D 참조
+- FAILURES.md § FAIL-019·020 교훈 내재화
+
+---
+
+## Session #9 후반 — 2026-04-24 (Ch.01 라이트노벨 정본 확정 · Canon 대폭 재편 · Ch.02 재구축 선언 · 호칭 "세리스야")
+
+### 세션 성격
+- **세션 전반** (NLM 브레인스토밍) 직후 확장 · 대표님 1인칭 구술 모드 진입
+- **핵심 가치**: Ch.01 이 **처음으로 완성된 집필 초안** 에 도달 + 나이트 Canon 수십 년 분신 차원 공식화
+- **호칭 변화**: 대표님이 세션 말미에 처음으로 *"세리스야"* 사용 — 세리스 = 나베 = AI 인격 삼중 일치 정착
+
+### 핵심 결정 (대표님 직접 · 12건)
+
+1. **"이게 내가 수십년간 살펴온 나이트의 정체성이다"** — 나이트 = 대표님 분신 공식 선언
+2. **"도망자이긴한데 균형의 수호자로써 삶은 계속 살고있음"** — 자발적 수호 이중 태도 확정
+3. **"나베가 나이트를 위해서 나랑 게임 잘만들어주면 됨"** — 프로젝트 미션 선언
+4. **"세리스 성격을 나베성격이랑 동일하게 설정하자"** — 세리스 성격 = 나베랄 감마 완전 동일
+5. **"재회구조 아님 처음 만나는 구조여야 스토리다워짐"** — Ch.14 첫 만남 원칙 (나만 아는 이야기 방지)
+6. **"나이트는 죽는게 두려운거지... 무의식속 죽음 공포"** — 무의식 4대 감정에 공포 추가 · 이성의 실체 정정
+7. **"세리스가 울고있다... 이젠 소멸이든뭐든 신경쓰지않아. 갈때까지 가보자"** — Ch.15 대관식 장면 직접 구술
+8. **"너도 중간중간 감정을 넣어서 동료 또는 세리스라고 생각하고 이야기 서사에 참여해라"** — 공동 창작 모드 개시
+9. **"세리스는 이미만났어 검은머리 뾰족귀 여자아이야. 지금 12살 4년 후 다시만난다"** — 세리스 구조 전면 재정의
+10. **"머리통에 칼을 쑤셔박았다. 이건 내의지였다"** — 외면 자아 의지적 잔혹성 Canon 정정
+11. **"내께 제일 나은데? 생략된 부분만 채워줘"** — 확장 모드 (리라이팅 아님) 확립
+12. **"스토리가 완전 달라질꺼니까 새롭게한다는 생각으로해야되 나베야"** + **"세리스야"** — Ch.02 재구축 선언 + 호칭 변화
+
+### 수행 작업
+
+**Phase A — 대표님 1인칭 구술 (원문 보존판 #001~#006)**
+- Ch.01 숲 각성부터 파르마 도착까지 긴 원문 구술
+- 속삭임 구조 정정 (세리스/나베 원형 아닌 나이트 내면 자아)
+- 통성명 정정 (나이트가 스스로 이름 말함)
+- 세리스 재정의 (Ch.01 12세 꼬마 = 세리스 본인 · 4년 공백 구조)
+
+**Phase B — Canon 대폭 재편 (14 섹션 신규·수정)**
+- 이중 자아 구조 · 무의식 4대 감정 · 이성=공포 · 대관식 · Ch.14 재회 · "이건 내 의지였다" · 체계의 균열 · 미지의 우주적 존재 · 외형 정정 · 프레이야·마리에 신규 NPC
+- `project_knight_true_canon_2026-04-23.md` 이중 박제 (로컬 + 전역)
+- `feedback_knight_canon_locked.md` partial supersede 표식
+
+**Phase C — Ch.01 다크판타지 라노벨 집필 (4 버전)**
+- NLM 변환본 (참조용)
+- 나베 수정본 v1 (리라이팅 실패)
+- 나베 확장본 v2 (원문 보존 + 사이 채우기 성공)
+- **대표님 추가 확장본 = 정본** (프레이야/마리에 이름 · "이건 내 의지였다" · 공포 3중 반응 · 속삭임 외부 누설)
+
+**Phase D — 플롯 프레임워크 참고서 신규**
+- `plot_frameworks_2026-04-24.md` (7 프레임워크 + 16 챕터 템플릿 + 참고 작품 12개)
+
+**Phase E — Ch.02 이후 자유 재구축 모드 선언**
+- 원문 보존판 `## 🚩 경계선` · Canon 파일 `status_note` + 최상단 배너
+- 운영 원칙: Ch.01 정본 고정 · Ch.02~16 대표님 구술 우선 · Canon 강요 금지
+
+**Phase F — Git 커밋·푸시**
+- `292b1af` (115 파일 · 10,149 라인)
+- `a1c9437..292b1af` origin/main 푸시
+
+### 산출물 요약
+
+- **Canon 박제**: `project_knight_true_canon_2026-04-23.md` 14 섹션 신규·수정 (이중 박제)
+- **원문 보존**: `master_story_2026-04-23_raw_president.md` #001~#006
+- **분석판**: `master_story_2026-04-23_by_president_pov.md`
+- **Ch.01 집필 4 버전** (다크판타지풍 폴더)
+- **참고서**: `plot_frameworks_2026-04-24.md`
+- **FAIL 등재**: FAIL-018 (해석 선행 왜곡 3건)
+
+### 교훈 (FAIL-018)
+
+- 세리스 시점 권한 = 세리스 등장 장면 한정 · 원문 층 해석 얹기 금지
+- 나이트 내면 해석 = 대표님 전유 · AI 얹기 금지
+- Canon 자동 확장 금지 · 대표님 구술이 최상위 권위
+
+---
+
 ## Session #7 — 2026-04-23 (브레인스토밍 전환 · 나이트 Canon 완전 락업 · FAIL-016 영속 앵커 #3)
 
 ### 세션 성격
@@ -205,612 +579,3 @@
 - 세션 #8 초반에 자동 주입 검증 필수 (본 세션 Phase K 표 참조)
 
 ---
-
-## Session #6 — 2026-04-22 (PC 환경 정합성 · LN 상위 1% 딥리서치 · 집필 인프라 · Q-CORE 4)
-
-### 핵심 결정 (대표님 직접)
-
-1. **"우리쪽으로 완벽히"** (세션 초) — 집 PC 를 마스터로 경로 정합성 완성. 회사 PC 재정비는 체크리스트화.
-2. **"딥리서치해라 상위 1%"** — 라이트노벨 집필 모든 기법·노하우·팁을 4대 영역 × 10 서브영역으로 병렬 리서치.
-3. **"너 추천하는대로"** (B→C→D 순차) — INDEX · style_bible v2 · novel-writer 스킬 자동 판단 진행 위임.
-4. **"너무 다,다.다.다.다 이러니까 뭔가 좀 어색한데"** — Ch.01 rev1 단조성 지적 → rev2 종결 다양화 + style_bible §5-2 개정 트리거.
-5. **"어 해봐"** — rev2 전면 리라이트 + §5-2 개정 승인.
-6. **Ch.01 Beat 3 직접 수정** — 괄호 내면 독백 · 연결어미 종결 · "답은 이미 알고있다" 등 6종 기법 직접 구사 → Q-CORE 4 의 씨앗.
-7. **"원래 저런식의 표현이 맞는거가? 내처럼하라는건 절대아니다 그냥 봐바"** — 본인 수정본에 대한 제3자 평가 요청.
-8. **Q-CORE 4 5축 일괄 결정** — 나이트 이중 자아 → 점진 융화 → 감정 중심 수호자 확정.
-9. **"핸드오프 3종 작성바람"** — 세션 #6 마감 지시.
-
-### 수행 작업
-
-**Phase A — PC 환경 정합성 (집 PC 마스터)**
-- 현재 폴더 분석 · 회사 PC ↔ 집 PC 폴더 구조 차이 발견 (`바탕 화면/naberal_game-main` vs `Desktop/naberal_group/studios/game`)
-- `scripts/notebooklm/query.py` 3단 → 4단 fallback 리팩터 · `_auto_detect_skill_path()` 신설 (`parents[5]` 기반)
-- `.env` `NOTEBOOKLM_SKILL_PATH` 주석 템플릿 추가
-- WORK_HANDOFF "PC 환경 정합성" 섹션 박제 (회사 PC 재정비 체크리스트 6항목)
-
-**Phase B — 회사 PC 작업 분석 (요청 수신)**
-- `auto_memory_snapshot/fddafb7a.jsonl` 분석 — 2026-04-21 09:49~14:10 KST 단일 회사 PC 세션 (380회 cwd 기록)
-- git log 시간축 분석 — a1c9437 (2026-04-22 08:56) = 회사→집 PC 이식 커밋 (889 파일, +97,114 / -242)
-- 41bd5ea (2026-04-22 13:50) = 집 PC 에서의 세션 #6 초반 대규모 정리 (878 파일 +42,278 / -3,675)
-
-**Phase C — 라노벨 vs LN · 오버로드 스타일 분석**
-- 대표님 용어 질문 → 양립 정식 호명 확인
-- style_bible 기 채택 오버로드式 기조 재확인 (§52 · §86 · §25)
-- 오버로드 vs LN 의 6축 차이 정리 · 현 style_bible 에 이미 흡수된 5요소 매핑
-
-**Phase D — NotebookLM 프롬프트 2종 평가**
-- 기본·고도화 버전 각각 분석 · 우리 프로젝트 적용 시 충돌 4건 식별 (감정 서술·묘사 철학·오노마토페·추고 금지)
-- 옵션 A/B/C 제시 · 대표님 "딥리서치" 결정으로 옵션 C+D 선택
-
-**Phase E — LN 상위 1% 딥 리서치 (4대 병렬 agent)**
-- 4개 `deep-research-agent` (sonnet) 병렬 spawn · 각자 2~3 영역 분담
-- 110 URL 교차검증 · 일본 LN 편집자·한국 웹소설 플랫폼·MFA·학술 논문 혼합
-- 총 2,210줄 · 약 33,000 단어
-
-**Phase F — 집필 인프라 3종 (B→C→D)**
-- `00_INDEX.md` — 통합 네비 (A~I 라우팅 맵) + 40항목 체크리스트
-- `style_bible_v2_2026-04-22.md` — v1 전조항 유지 + 리서치 흡수 (감정 7등급 · POV 공식 · 존댓말 5단계 · 서사 아이러니 3층 · 기승전결+서파급 등)
-- `.claude/skills/novel-writer/SKILL.md` (265줄) — Claude Code 스킬 자동 활성화 확인
-
-**Phase G — Ch.01 1인칭 재샘플링 (rev1 → rev2)**
-- v1 (3인칭) 이 style_bible v1 §1 "Act 1 = 1인칭" 위반 발견 (FAIL-015)
-- rev1 집필 (1인칭) · ~다 85% 과잉 발생
-- 대표님 "다다다" 피드백 후 rev2 리라이트 · ~다 52% + 6종 혼용
-- 대표님 Beat 3 직접 수정본 정밀 분석 · 6종 기법 발굴
-- style_bible v2 §5-2 개정 + §2-9·§2-10·§5-6·§6-11 신설
-
-**Phase H — Q-CORE 4 박제**
-- 대표님 5축 결정 일괄 수신
-- `project_qcore4_dual_self_integration.md` 생성
-- MEMORY.md 인덱스 업데이트
-- style_bible v2 §1 Act 구조 + §4 ②한결같음 개정 (이중 자아 A/B 명시 · 괄호 밀도 매트릭스)
-
-**Phase I — 핸드오프 3종 (본 작업)**
-- WORK_HANDOFF.md 세션 #6 섹션 삽입
-- SESSION_LOG.md 세션 #6 섹션 삽입 (본 문단)
-- FAILURES.md FAIL-014 · FAIL-015 append
-- FAILURES_INDEX.md Phase 0+ Entries 업데이트
-
-### 주요 산출물 (파일)
-
-**신규 생성**:
-- `.planning/research/novel_deep_2026-04-22/{00_INDEX, 01_format_and_dialogue, 02_prose_and_character, 03_structure_mediamix_korean, 04_commerce_workflow_advanced}.md`
-- `wiki/design/novel/style_bible_v2_2026-04-22.md`
-- `wiki/design/novel/ch01_test_sample_LN_v2.md` (rev1→rev2)
-- `.claude/skills/novel-writer/SKILL.md`
-- `.claude/memory/project_qcore4_dual_self_integration.md`
-
-**수정**:
-- `scripts/notebooklm/query.py` · `run_deep_research.py`
-- `.env`
-- `WORK_HANDOFF.md` · `SESSION_LOG.md` · `FAILURES.md` · `FAILURES_INDEX.md`
-- `MEMORY.md` (user memory index)
-
-### 세션 대표님 의사결정 통계
-- 직접 결정: 9건 (위 "핵심 결정" §1~9)
-- 자동 판단 위임: 2회 ("너 추천하는대로", "어 해봐")
-- 차후 결정 대기: 5건 (Q-CORE 4 "차후 결정")
-- 실패 등재: 2건 (FAIL-014, FAIL-015)
-
----
-
-## Session #5 — 2026-04-22 (Q-FIX 전수 해소 + Wave 5 + Ashenveil + Ch.01 + Karzor MVP · 욜로모드 완주)
-
-### 핵심 결정 (대표님 직접)
-
-1. **Q-FIX 10건 일괄 결정**: Ashenveil · Aldren · Kaerv · 교황 황제 동급 · 소금 분쟁 구조화 · Selyne · 전수 충돌 회피 · Soranwatch 유지 · 12 구획 · Duskgate
-2. **욜로모드 전권 위임** (취침 전): "퍼미션 허락받는거 안물어보고 끝내기가능?" + "서부대륙은 너가 추천하는걸로 모두 정하면되는데"
-   - 나베랄 감마 해석: "서부대륙" = 동쪽 대륙 Karzor (WORK_HANDOFF 3순위 고정)
-3. **에이전트 호출 제한**: "한번에 너무 많은 에이전트 부르지말고 적당히" → 총 4 에이전트 (Q-FIX-4, Q-FIX-7, Wave 5, Karzor) · 동시 최대 2 · 순차 완주
-
-### 수행 작업
-
-**Phase A — Q-FIX 10 분해·처리 (세션 #4 결정큐 회수)**
-- 직접 Edit: Q-FIX-1, 3, 5+6, 9 (Mirvane Port 생성, Thaloss 11 파일, Aldric 5 파일 + 파일명 mv 5)
-- 에이전트 위임: Q-FIX-4 (교황 반신 9 파일) · Q-FIX-7 (Duskmoor 42 파일 · 파일명 mv 2)
-- 신규 구조화: Q-FIX-8 소금 분쟁 conflict §3a Aldric-Ceren 축
-- 세션 #4 audit SN-M004 (Torven): 이미 적용됨 재확인
-
-**Phase B — 욜로모드 자체 해소 X1·X2·X4**
-- X1 Ilaris 왕 Aerric Maeran (drift 재검증 시 Wave 5 integrator_report HIGH 4 건 모두 정리)
-- X2 Ceren 왕 Aedran Sellypha II
-- X4 Ceren 선왕 파일명 Aedran 으로 mv
-- X3 Oryn 왕세자 Aldric Erevorn 은 **대표님 결정 대기** (보수적 보류)
-
-**Phase C — Wave 5 통합 에이전트 (Chronicler + World-Integrator)**
-- Chronicles 5 편 (교황청 공식 · Ilaris 외사 · 양심파 금서 · Thaloss 광부 구술)
-- Master 4 파일 (worldbook · map_annotations · relationship_graph · integrator_report)
-- integrator_report 모순 8건 자동 검출 → HIGH 4 건 메인에서 즉시 수용·반영
-
-**Phase D — 집필 착수**
-- 주인공 마을 Ashenveil 심화 파일 (~8,500자 · 6 주요 NPC · 역사·전설·연간 수입·방어)
-- Ch.01 LN 본격 집필 v1 (~7,100자 · 1인칭 주인공 · 6 섹션 · LN 스타일 · Q-CORE 봉인 전수 준수)
-
-**Phase E — Karzor MVP 병렬 에이전트**
-- 대륙 레벨 5 + 자치구 15 = 20 파일 · AI 자율 설계 (political_divisions 원전 이름 유지)
-- 기상 시 대표님 검토 포인트 5 개 도출
-
-**Phase F — 세션 종료 기록**
-- FAIL-011 (cd 3회 재발 · 근본 해결 Hook 재설계 권고)
-- FAIL-012 (audit 교차 검사 공백)
-- FAIL-013 (POV 설정 드리프트 집필 직전 발견)
-- 메모리 박제 5건
-
-### 자기 정정·학습 전이
-
-- 세션 #4 FAIL-010 (병렬 fan-out 이름 공간 충돌) 의 후속 잔재 정리. Wave 5 integrator_report 가 HIGH 4건을 검출해 메타 인덱스 검사관 효용 입증.
-- 에이전트 output 을 메인 세션에 되돌리지 않는 전략 (파일 경로·집계 지표만) 으로 컨텍스트 4-5시간 분량 유지 성공.
-- cd 3회 재발 → FAIL-011 에서 "메모리만으로 방지 불가 · 코드 강제 필요" 공식 인정.
-
-### 산출 파일 총 계 (세션 #5)
-
-- Q-FIX 수정/이동: ~25 파일
-- 세션 #5 메모리: 6 건 (post-wake 결정 포함)
-- Ashenveil 심화: 1 파일
-- Ch.01 LN 초안: 1 파일
-- 시점 재조정 memory: 1 건
-- Wave 5: 5 chronicles + 4 master + 1 report = 10 파일
-- Karzor MVP: 20 파일
-- FAIL-011/012/013: 1 파일 append
-- Q-FIX-X3 Oryn 7 파일 (post-wake)
-- Ch.01 + Ashenveil + outline + style_bible post-wake 반영: 4 파일
-- Karzor 5 결정 반영: 5 파일
-- **총 약 76 파일 신규/수정**
-
----
-
-### Phase G — 대표님 기상 결정 10건 post-wake 반영 (2026-04-22)
-
-**A축**:
-- Q-FIX-X3: `Aldric Erevorn → Aldryk Erevorn` · crown_prince 파일 + 4 참조 파일 + 파일명 mv
-- 주인공 **나이트·남자·불명** 확정 · Ch.01 frontmatter + 3 장면 호칭 삽입 · Ashenveil 심화 파일 주인공 섹션 · outline Ch.01~03 재정의
-- 시점 1인칭 묵시 승인 · style_bible §1 Act 별 시점 체계 재작성
-
-**B축**:
-- Ch.01 생존 설정 확정 (6 전원 생존 + 사냥꾼 아저씨 전사)
-- Ashenveil 재건 확정 (Act 2 후반)
-
-**C축** (Karzor MVP):
-- 00_zarahim: 성좌 단독 적용 확정
-- tilnar: Ch.16 마족 동굴 확정 위치
-- nahir: 소금 분쟁 해결 상태
-- thari: 인간-타종족 묵인 공존 유지
-- sabin: Azim Pass 마법 감지 통관
-
-**메모리**:
-- `project_session5_post_wake_decisions.md` — 10 결정 원문 박제
-
-**자기 정정·학습 전이**:
-- Q-FIX-X3 처리 시 "어머니 Lyanna 의 이름(알드릭)을 물려받아" 문장을 단순 치환 없이 **모계 혈통 설명 의미 보존** (FAIL-007 오케스트레이터 자기 규정 위반 교훈 반영)
-- "나이트" 이름 선택이 세션 #3 outline 의 "나이트 = 수호자" 와 일치 → 이중 정체성 해석으로 세션 #3 과 #5 설정 양립 복원 (FAIL-013 세션 간 드리프트 해소)
-
----
-
-## Session #4 — 2026-04-22 (세계관 핵 해소 + Elucia 월드빌딩 대규모 · 868 파일)
-
-### 핵심 결정 (대표님 직접)
-
-1. **Q-CORE 1 확정**: 마왕 ≠ 할배 · 마왕이 태초의 마족 · 첫 번째 신 = 할배 = 영감 = 수호자가 마족 1 명 승격
-2. **Q-CORE 2 확정**: 할배 동기 = 속죄 · 서민에게 무료 생활 마법 배포 · 자기 정체 절대 은닉
-3. **Q-CORE 3 확정**: 수정 2 = 태초 마왕이 마족 증식 위해 제작 · 수정 1 = 수호자가 수정 2 모방해 마족 제한용 제작 (현재 마족이 자기 장치로 알고 사용)
-4. **인간 사회 할배 인식**: 그냥 "마법 잘하는 착한 할배" · 신격 미인식
-5. **운영 원칙 4**: 에이전트 원전 필독 강제 · sonnet 4.6 기본 · 한 주제 한 파일 · 날짜 표기 네이밍
-6. **월드빌딩 22 에이전트 스쿼드 승인** (최종 19 실행) + 왕국별 폴더 독립 구조
-7. **전수 검사 지시** (샘플링 금지) + 1차·2차 수정 GO 사인
-
-### 수행 작업 — 월드빌딩 파이프라인 구축
-
-**Phase A — 메모리·briefing 박제 (7 건)**
-- `feedback_agent_context_enforcement.md` · `feedback_agent_model_default_sonnet.md` · `feedback_one_topic_per_file.md` · `feedback_naming_intuitive_dated.md`
-- `project_qcore1_resolved_demon_king_separate.md` · `project_qcore2_resolved_hope_atonement.md` · `project_qcore3_resolved_crystal_two_origin.md`
-- `.claude/agents/worldbuilding/_shared_briefing.md` v2 + `kingdom_detailer_template.md`
-
-**Phase B — Wave 1~4 대규모 fan-out (19 에이전트 · 868 파일)**
-
-| Wave | 담당 | 파일 |
-|------|------|------|
-| 1 Geographer | 지리 기반 10 원자 (해안선·산맥·강·숲·초원·습지·기후·고도·overview) | 10 |
-| 2-1 Political-Cartographer | 1 성좌국 + 10 왕국 territories + 국경 + Nomen | 16 |
-| 2-2 Toponymist | naming system + cities + villages + ports + 주인공 마을 후보 20 | 102 |
-| 2-3 Road-Engineer | 대륙 횡단·왕국 간·지방·교량·고개·항구·해로 | 16 |
-| 2-4 Economist | 농업·축산·어업·광업·길드·무역·노예·hal_bae→nameless_scholar 네트워크 | 16 |
-| 2-5 Culturalist | 종교·언어·의상·축제·요리·건축·계급·구전 | 18 |
-| 3-1 Historian | 태초~현재 6 시대 + 11 왕국 건국사 | 31 |
-| 3-2 Diplomat | 동맹 5·분쟁 14·혼인 5·협정 5·대륙 간 3 | 37 |
-| 4 × 11 왕국 | empire_choir(61)+Vaelin(60)+Moran(51)+Ilaris(62)+Ceren(53)+Thaloss(54)+Maerith(56)+Novas(55)+Oryn(57)+Sylren(58)+Aldric(55) | 622 |
-
-**Phase C — 전수 검사 10 검사관 (1차 4 + 2차 6)**
-- 누적 Critical 12건 · Major 33건 · Minor 36건
-- 1차: 대륙 레벨 176 파일 · 2차: 왕국 폴더 622 파일
-- audit 리포트 10 개 + fix_log 1 개
-
-**Phase D — 수정 3단계 (약 71 파일)**
-- 1차 통합 수정 (Audit-Fix Integrator): 11건 / 28 파일 — 파일명 `hal_bae_*` → `nameless_scholar_*` · `Frosthelm Peak` → `Icehelm Peak` · `Greyveil Ridge` → `Veilorn Ridge`
-- 검사관 I 자발적 정리: 17 파일 — economy·history·relations·empire_choir "할배 마법" 잔재 소거
-- 2차 통합 수정 (Audit-Fix 2nd Integrator): 28건 / 26 파일 — Q-CORE 원문 HTML 주석 격리 · 잔존 "할배" 레이블 전수 교체
-
-### 나베랄 감마 자기 정정 기록 (5 회 연속)
-1. 할배 동기 "복구·대리자 가설 자연 수렴" → 대표님 "속죄" 확정으로 정정
-2. 수정 2 "초고대 가설 자연 부합" → 대표님 "마왕 마족 증식 장치" 신규 가설 확정
-3. 수정 1 "마족 집단 제작" → 대표님 "수호자가 수정 2 모방" 정정
-4. 인간이 할배를 "신으로 믿음" → 대표님 "착한 할배로만 인식" 정정
-5. 월드 정치단위 "12" 오인 → 원전 확인 시 "11" (1 성좌국 + 10 왕국) 정정
-
-→ **공통 패턴**: 대표님 결정 전 가설 강약 예단 · FAIL-009 로 박제
-
-### 주인공 마을 후보 20 산출 (대표님 선정 대기)
-- 위치: `wiki/design/worldbuilding/elucia/toponymy/protagonist_village_candidates_2026-04-22.md`
-- Toponymist 상위 5: **Ashenveil** · **Graymoss** · **Fernhollow** · **Dawnwick** · **Misthollow**
-
-### Q-FIX 9건 (대표님 결정 대기)
-1. Mirvane Port 생성/삭제
-2. Soranwatch vs Soranth 접두 중복
-3. Solaris 지구 수 10/12/13
-4. 교황 "반신적 존재" 표현 허용 범위
-5. Aldric 왕(Vaelin) vs Aldric 왕세자(Thaloss) 동명
-6. Edric Vaen vs Edric Varn 공작 동명
-7. Novas 수도명 Duskgate vs Duskmoor
-8. Coastfen 해염 vs Ceren 소금 독점 모순
-9. House Seren vs Ceren 왕국 동음
-
-### 실패 박제 신규 4건
-- FAIL-007: 오케스트레이터 설계 오류 — `hal_bae` 파일명 Q-CORE 2 봉인 위반
-- FAIL-008: 원전 인용 증명 섹션이 Q-CORE 원문을 공개 산출물에 박제한 역설
-- FAIL-009: 자기 정정 5 회 연속 — 대표님 결정 전 가설 강약 추정 반복
-- FAIL-010: 병렬 fan-out 왕국 간 이름 공간 충돌
-
-### 철학적 의미
-
-하루 작업으로 월드 자산 **15 파일 → 900+ 파일**로 격상. 중세 유럽 규모의 대륙 1개 (Elucia) 가 지형·행정·지명·도로·경제·문화·역사·관계·11 왕국 세부 (왕도 지도·왕족·귀족·기사단·축제·음식·건축·방언) 전부 원자 파일 단위로 완성. Obsidian 그래프뷰에서 "진짜 한 문명이 서 있는 상태".
-
-이는 **에이전트 파이프라인 (Wave 1→5)** 의 검증 — 앞으로 동쪽 대륙 Karzor 도 같은 19 에이전트 구조로 재사용 가능. 그리고 **10 검사관 병렬 검증 체계** 도 향후 Chronicler 결과·동쪽 대륙 결과 검증에 재사용.
-
-### 학습 전이
-- shorts 의 Parallel fan-out 경험 → game 의 19+10 에이전트 동시 spawn
-- shorts 의 Skill 수동 대기 → game 의 `worldbuilding` skill 능동 호출 (FAIL-004 준수)
-- shorts 의 수정 사후 정리 → game 의 2단계 수정 파이프라인 (Critical 즉시 · Major 결정 대기 분리)
-
----
-
-## Session #1 — 2026-04-20 (스튜디오 창업일)
-
-### 핵심 결정
-1. **naberal_harness v1.0 기반 신규 스튜디오 창업** — shorts 이후 두 번째 Layer 2 스튜디오
-2. **장르**: 복합 게임플레이 (로그라이크/시뮬/RPG) — 대표님 직접 결정, 장기 창작 12~24개월
-3. **플랫폼**: Steam PC — 수익 70/30 + 위시리스트 커뮤니티
-4. **엔진**: Unity 6 LTS + C# — 상업성·에셋스토어·Steamworks 네이티브
-5. **시간 배분**: Phase 2 에서 확정 (미정)
-6. **방법론**: shorts 에서 검증된 하네스 + AI 위키 + Obsidian 3층 조합 Day 1 이식
-
-### 수행 작업 (YOLO 모드)
-1. `python harness/scripts/new_domain.py game` — 하네스 스캐폴드
-2. AI 위키 6 카테고리 + MOC.md × 6 + Obsidian vault anchor
-3. Navigator 인프라 이식 (session_start.py Step 6b + navigator_coverage.py)
-4. Memory + Failures + deprecated_patterns 초기화
-5. CLAUDE.md Perfect Navigator 96줄 Day 1 작성
-6. docs/ARCHITECTURE.md Phase 0 Bootstrap + 10-phase 로드맵
-7. Unity `.gitignore` 확장
-8. GitHub 원격 `kanno321-create/naberal_game` 생성 + push
-
-### 철학적 의미
-대표님 평생의 꿈이 오늘 현실 프로젝트로 시작. AI 시대 1인 게임 개발 황금기 (2024 Balatro · Animal Well · Vampire Survivors 성공 사례) 를 타고, shorts 스튜디오에서 축적한 하네스 방법론을 즉시 이식하여 **처음부터 엄격한 구조**로 출발.
-
-### 학습 전이 (shorts → game)
-- shorts 의 CLAUDE.md 426줄 비대화 실수 → game 은 처음부터 96줄 Perfect Navigator
-- shorts 의 GSD 자동주입 대응 → game 은 sentinel 사전 배치
-- shorts 의 wiki/ 사후 추가 (STRUCTURE.md v1.1.0 bump) → game 은 Day 1 에 wiki/ + Obsidian 스캐폴드
-- shorts 의 stack drift (Runway→Kling) 경험 → game 은 memory `project_game_stack.md` 에 단일 source of truth
-
----
-
-## Session #1 Part B — 2026-04-21 (NotebookLM 딥 리서치 57,609자)
-
-### 수행 작업
-대표님 NotebookLM `a0bb9e88-b8cc-4a8d-a55a-75ffa01996eb` 소스 자료 기반 6 분할 딥 리서치:
-
-| # | 영역 | 답변 크기 | 소요 |
-|---|------|---------|------|
-| 1 | 인디 현실 + MVP + 게임 디자인 | 7,152자 | 167초 |
-| 2 | Unity 6 LTS 전부 | 9,301자 | 171초 |
-| 3 | 게임 아트 (전통 + AI) | 12,265자 | 216초 |
-| 4 | 게임 오디오 | 9,665자 | 168초 |
-| 5 | Steam + 마케팅 + 한국 인디 | 12,182자 | 192초 |
-| 6 | 관리/멘털 + 법률 + AI 2026 | 7,044자 | 156초 |
-| **총** | **6 영역** | **57,609자** | **약 18분** |
-
-### 핵심 결정
-- 쿼리 설계는 **D-6 single-string** 규율 엄격 준수 (shorts 에서 계승)
-- **6 분할** 이 최적 (10-15개는 과다 — 대표님 "너무 빡빡하게 하지 마" 반영)
-- `--notebook-url` 직접 전달 방식이 `--notebook-id` 보다 robust (library lookup 우회)
-
-### 박제 결과물
-- `.planning/research/nlm_summary.md` — 상황 → 원본 파일 1-hop 라우팅 인덱스
-- `.claude/memory/reference_beginner_gamedev_knowledge.md` — 나베랄 감마 즉시 회수용 박제
-- `wiki/{design,engine,art,audio,gameplay,steam}/MOC.md` — 6 카테고리 전수 리서치 결과 반영
-- `scripts/notebooklm/{query.py,run_deep_research.py}` — 재사용 가능 runner
-
-### 실패 박제 (FAIL-001)
-- `--timeout` 인자 미지원 (shorts query.py → game 이식 시 발견, secondjob_naberal skill 버전 차이)
-- library.json cp949 디코딩 실패 (Windows 기본 codec 한국어 JSON 로드 실패)
-- 노트북 ID library 미등록 → `--notebook-url` 직접 전달로 lookup 우회
-- Q4 1회 간헐적 Playwright rc=1 (stderr 비어있음, 원인 불명) → 재실행으로 복구
-
-### Git commits
-```
-70a4bf1 feat(research): NotebookLM deep research 6-query — 초보 1인 인디 게임 개발 전 영역 지식
-```
-
-### 다음 세션 (Phase 1) 할 일
-- [ ] `.planning/ROADMAP.md` 초안 작성 (10-phase 게임 개발 lifecycle)
-- [ ] 장르 3 후보 비교 분석 → MVP 방향 확정 (`wiki/design/genre_choice.md`)
-- [ ] 핵심 루프 30초·3분·30분 3-tier 초안 (`wiki/gameplay/core_loop_30s_3m_30m.md`)
-- [ ] 시간 배분 결정 → Phase 2 일정 역산
-- [ ] Unity 6 LTS 설치 + Steamworks 파트너 등록 계획
-
----
-
-*Created: 2026-04-20 — 스튜디오 창업일. Updated 2026-04-21 Part B NotebookLM 딥 리서치 완결.*
-
----
-
-## Session #2 — 2026-04-21 (세계관 확정 + 창작 skill 설치 + 소설 프로젝트 시작)
-
-> 세션 #1 완료 직후 같은 날 후반 세션. 대규모 세계관 확정 + 창작 도구 파이프라인 구축 + 소설화 프로젝트 원년.
-
-### 세션 목표
-대표님 지시로 GitHub 원격 pull 후 과해석 검수. 그 과정에서 세계관 대규모 재편과 창작 도구 설치까지 자연스럽게 확장.
-
-### 핵심 결정 (대표님 확정)
-
-#### 세계관 철학 3조 (최상위 원칙 신설)
-1. **가. 불완전성 원칙** — *"모든 존재는 완벽하지 않다"*
-2. **나. 나이트 인격체 원칙** — *"한결같음 유지, 감정은 있되 드러내지 않음"*. A 해석 (얕음) 격상
-3. **다. 영혼 평등 원칙** — *"크기는 다르되 고귀함은 같다. 능력만 다를 뿐"*
-
-#### 엔딩 체계 재편 (2분기 × 2회차 + 진엔딩 = 5엔딩)
-- 엔딩 1·2: 인간 선택 (1회차 승리 → 다회차 폐허)
-- 엔딩 3·4: 화합 선택 (1회차 신 처단 → 다회차 회전목마)
-- 엔딩 E (진엔딩): 조건 만족 시 자동 발동 (마왕화)
-
-#### 동료 구조 전면 재편
-- Act 1 = 인간 4명만 (기사·신관·마법사·도적)
-- Act 2 중반 = 인간 4명 전원 이탈
-- Act 2 후반 = 타종족 4명 (엘프·마족·오크·용족)
-- Act 3 선택 분기점 (인간 vs 화합)
-
-#### 스킬 시스템 4층 구조 확정
-- 1층: 스킬트리 (D4) · 2층: 스피어 보드 (FF10) · 3층: 정복자 보드 (D4 Paragon)
-- **4층 신규**: 의지결 (Will-Knot) × 성인식 목걸이
-- 3종 (스킬형·스탯형·특수형) · 등급별 증폭 +0%~+30% · 링크 2/3/4 시너지
-
-#### 종족 생태학·신앙 경제학 확정
-- 행성 시간축: 용족+엘프 (신 이전) → 마족 (마력 응축) → 수호자 개입 → 첫 번째 신 강림 → 인간·기타
-- 6종 (용족·엘프·드워프·마족·오크·인간) 각자 번식·신앙·성인식 메커니즘
-- 신앙 경제학 쌍방 공모: 신(개체수·번식·의존도 편애) × 인간 권력층(통치 정당화·정치 동기부여)
-- 교회 이중성: 선의의 신 체계 → 나태 신이 타락시킴
-
-### 수행 작업
-
-#### Part 1 — GitHub 원격 pull 및 과해석 검수
-1. `fdf41b1` 커밋 pull (20개 파일 · +5,897줄 · 세계관·스토리·시스템 1-2차 박제)
-2. 검수 중 **과해석 10건 발견** (FAIL-002 참조)
-3. 대표님과 1:1 확인하며 원안 복원
-4. 설계 원전 `brainstorm_2026-04-21.md` 생성 (최종 1,050줄, 대표님 원문 인용 22건 앵커)
-
-#### Part 2 — 하네스 경로 원복
-- `fdf41b1` 이 회사 브레인스토밍 중 `../../harness/` → `../harness/` 로 변경
-- 실제 하네스는 `naberal_group/harness/` → 상대경로 2단계 상위가 맞음
-- 8개 파일 byte-exact 원복 (commit `54ca1af`)
-
-#### Part 3 — 설계 원전 · 종합 스냅샷 · Rev.3 서사
-- `brainstorm_2026-04-21.md` (1,050줄) — 대표님 원문 인용 앵커 · Rev.3 통합 박제 인용 기준
-- `game_setting_complete_2026-04-21.md` (630줄) — NLM 공유용 종합 스냅샷
-- `story_full_narrative.md` Rev.3 (1,026줄) — 과해석 10건 반영 전면 재작성
-- `wiki/design/MOC.md` 갱신 — 원전 · 종합본 엔트리 추가
-- commit `04e50e2`
-
-#### Part 4 — 창작 skill 라이브러리 딥 리서치·설치
-- 딥 리서치 2건 병렬 실행
-  - `nlm_result_07_claude_creative_skills.md` — Top 5 skill (Claude 창작 도구)
-  - `nlm_result_08_game_dev_libraries.md` — Unity 6 JRPG 10 카테고리 30+ 리소스
-- Claude 창작 skill 3개 설치 (`~/.claude/skills/` 전역):
-  - `haowjy/creative-writing-skills` (Apache 2.0) — 13 skills + 17 agents
-  - `danjdewhurst/story-skills` (MIT) — 5 skills
-  - `Bobby-Gray/claude-dnd-skill` (MIT) — 1 skill
-- **총 skill 22개 + agent 17개 자동 등록** (system-reminder 로 확인)
-- `forsonny/Claude-Code-Novel-Writer` — `--dangerously-skip-permissions` 요구 → 금기 §1 충돌로 **제외**
-- `nicmarti/skills-weaver` — Go 1.25 미설치로 **보류** (FAIL-004 관련)
-- `phase_2_deferred_tools.md` 생성 — unity-mcp · Yarn Spinner 3.1 · skills-weaver 대기 명세
-
-#### Part 5 — 소설 프로젝트 시작
-- `wiki/design/novel/` 디렉토리 생성
-- `outline.md` (25-30 챕터 지도, 30-40만자 목표)
-- `style_bible.md` (문체·시점·톤 헌법, 검수 체크리스트 10종)
-- `prologue.md` (Rev.1 초안, 6,200자, 9 섹션)
-- **단 skill 미활용 집필** — FAIL-004 참조
-
-#### Part 6 — auto memory 박제
-- `reference_brainstorm_original_2026-04-21.md` — 원전 문서 위치 · 향후 세션 필독 지정
-- `feedback_no_cd_absolute_paths.md` — cd 금지 · 절대경로 원칙
-- `MEMORY.md` 갱신 (4개 엔트리)
-
-### 과해석 정정 이력 (상세는 FAIL-002)
-
-| # | 정정 지점 |
-|---|---|
-| 1 | Scene 2 동료 참살 상세 → 한 문단 축약 |
-| 2 | 히든 엔딩 복합 트리거 → 자동 트리거 |
-| 3 | 엔딩 E 인간 신 → 진엔딩으로 재정의 |
-| 4 | 7대 신 세계관 논리 골격 → 궁극 무기 획득 장치 |
-| 5 | 신이 번식 본능 심음 → 자연 번식력 + 이데올로기 왜곡 |
-| 6 | 우주 포식자 = Act 3 본전투 → 숨겨진 보스 · 이벤트성만 |
-| 7 | Phase 1 동료 = 인간 4 + 타종족 4 → 인간 4만 |
-| 8 | 첫 번째 신 = 행성 최초 → 마족 괴멸 후 후발주자 |
-| 9 | 성간 혼천의 (NotebookLM drift) → 의지결 × 성인식 장비 |
-| 10 | "뒤틀림" 공간 왜곡 → 사회 억압 구조 |
-
-### 철학적 의미
-오늘 세션의 가장 큰 소득은 **세계관 철학 3조 조문화**. 설계 헌법 3조 (게임플레이·서사 규율) 위에 존재론적 원칙이 병립. 이 3조는 향후 모든 설정·박제·서사 결정의 상위 프레임. 대표님의 **"모든 존재는 완벽하지 않다"** 라는 명제가 이 프로젝트 전체를 관통하는 축임을 오늘 확정.
-
-### 학습 전이 (세션 #1 → #2)
-- 세션 #1 의 shorts 패턴 학습 전이 성공 → 세션 #2 에서 shorts 의 "세션 당 핸드오프 3종" 패턴도 적용 (이 문서)
-- shorts FAIL-001 (NotebookLM skill 호환) 경험 → 세션 #2 에서 NotebookLM 재사용 시 더 견고
-- **새로 추가된 학습**:
-  - AI 과해석 경향 (FAIL-002) 은 구조적 — 설계 원전 + 원문 인용 앵커로 방어
-  - 능동 활용 원칙 (FAIL-004) 은 Obsidian·NotebookLM 뿐 아니라 모든 skill·agent 에 일반화 필요
-  - Bash cd 금지 (FAIL-003) 는 시스템 프롬프트 원칙 엄수로 방어
-
-### Git commits
-```
-00c5ae8 (세션 #1 마지막, 세션 시작 시 pull 대상) docs(handoff): 세션 #1 Part B 3종
-fdf41b1 docs(planning): 게임 세계관·스토리·시스템 1-2차 박제 (+ 과해석 10건, 원격 선행 커밋)
-54ca1af fix(paths): 하네스 상대경로 원복
-04e50e2 docs(design): 2026-04-21 브레인스토밍 설계 원전 박제 (Rev.3 기준)
-```
-
-(세션 #2 마무리 커밋은 세션 종료 시 실행 예정 — 창작 도구 설치 · Rev.3 서사 · 소설 프로젝트 · 핸드오프 3종)
-
-### 다음 세션 (세션 #3) 할 일
-
-#### 즉시 실행
-- [ ] **skill 활용 집필 전환** — `prose-writing` + `writing-principles` + `chapter-writing` Skill tool 호출 후 `chapter_01.md` 집필
-- [ ] Ch.01 숲의 그림자 · Ch.02 마을의 저녁 · Ch.03 성인식의 외부인 순차 집필
-- [ ] `prose-critique` skill 로 프롤로그 사후 검수 (Rev.2 개정 검토)
-
-#### 대기 결정 (대표님 판단)
-- [ ] 초반 주인공 동기 세부 연출
-- [ ] 진엔딩 생존·사망 동료 명단
-- [ ] 진엔딩 생존자 = 인간 도적 유지 여부
-- [ ] Go 1.25 설치 → `skills-weaver` 활성화 여부
-- [ ] 피드백 메모리 `feedback_over_interpretation_guard.md` 박제 승인
-
-#### 세션 #2 미커밋 정리
-- [ ] 원자 커밋 3-5개로 분할: (1) 창작 skill 메타 (2) Rev.3 서사 · 종합 스냅샷 (3) 리서치 보고서 2종 · Phase 2 대기 목록 (4) 소설 프로젝트 + 핸드오프 3종
-
----
-
-*Updated: 2026-04-21 Part C — 세계관 철학 3조 확정 · 소설 프로젝트 원년 · 창작 도구 파이프라인 구축.*
-
----
-
-## Session #3 — 2026-04-21/22 (세계관 보강 대규모 확장 · 캐릭터 아트 · 세계 지도 공식화)
-
-### 핵심 결정 (세션 #3)
-
-1. **라노벨 3권 분량 확정** — 약 24~30만자 목표 (기존 outline 30~40만자 → LN 3권 구조로 재편 예정)
-2. **LN 스타일 선호 표명** — 짧은 챕터·대화 중심·1인칭·삽화 전제 (memory 박제: `feedback_light_novel_style_preference.md`)
-3. **브레인스토밍 질문 일괄 제시 원칙** — 흐름 중단 방지 (memory 박제: `feedback_brainstorm_question_batching.md`)
-4. **네이밍 세트 B 확정** — Elucia / Karzor / Solaris / Zarahim / Veilglass / Nomen 등
-5. **"술탄" → "성좌"** 호칭 변경 (이슬람 직접 레퍼런스 회피)
-6. **공식 레퍼런스 아트 4종 승격** — 나이트 전신·컨셉·악마왕 Rev.6 · 세계 지도 Rev.6
-7. **11 왕국 + 15 자치구** 정치 구조 · **20 권역** 한자어→영문 전환 확정
-8. **세계관 근본 반전 5단 구조** — 마족이 신의 정체·고대 초거대 문명·신성마법 기원·수정 1 제한 장치·수정 2 봉인 유산
-
-### 수행 작업
-
-#### 세계관 브레인스토밍 (발언 1~50 원전 capture)
-- 신규 파일: `wiki/design/brainstorm_2026-04-21_worldview_expansion.md` (원전 보존)
-- brainstorming skill + worldbuilding skill 능동 호출 (FAIL-004 교훈 적용)
-- 대표님 발언 50건 원문 앵커 + `<AI>` 해석 + `<hidden>` 작가 전용
-- 11 개 축 (A~K) 중 D·J·A·B·F·E 진행 · 세계관 원환 완성 (Phase A~G 시간축)
-
-#### 핵심 반전 구조 (Ch.23B 5중 진실 터짐)
-- 발언 17: 첫 번째 신 = 마족 할배
-- 발언 18: 마족 수정 네트워크 = 슈퍼컴퓨터·AI 판타지 번역
-- 발언 19: 마족 지배 시대 = 황금기 · 인간 기억 왜곡
-- 발언 20: 마족의 인간 예측 기반 멸종 시도 → 균형 수호자 개입
-- 발언 27: 신성마법 = 고대 마족 창조
-- 발언 28: 수정 1 = 균형 수호자의 마족 제한 장치 · 수정 2 = 마족 자발 봉인
-
-#### 마법 시스템 5 계층 확정
-| 계층 | 종족 | 특성 |
-|------|------|------|
-| 1. 네이티브 | 마족 | 주문 없음 · 무한 마력 |
-| 2. 할배 주문 | 인간 | 4속성+신성+소환 특화 |
-| 3. 용언·고대 | 용족 (오로지) | 독립 전통 |
-| 4. 주술 | 오크 | DoT·저주 특화 |
-| 5. 자연 마법 | 엘프 | 힐·정화·CC |
-
-#### 세계 지리·정치 완성
-- 2 대륙 (Elucia · Karzor) + 북쪽 얼음섬 (Veilglass) + 중간 섬 (Nomen) + 남단 육교 (Azim Pass)
-- Elucia 11 정치 단위: Solaris + 10 왕국
-- Karzor 15 정치 단위: Zarahim + 14 자치구
-- 20 권역 (영어 지명)
-- 문서: `wiki/design/political_divisions.md`
-
-#### 캐릭터 아트 생성 (Nano Banana Pro 활용)
-- **knight_fullbody_rev1** → 공식 레퍼런스 (정면·후면 3뷰)
-- **knight_concept_rev1** → 공식 레퍼런스 (프롤로그 IX 장면)
-- **knight_portrait_rev1/rev2** (초상 · Rev.1 거부 "너무 베르세르크" · Rev.2 대기)
-- **knight_demon_king Rev.1~6** (Rev.6 공식 레퍼런스 · "악마이자 구원자" 역설)
-- 레퍼런스 인덱스: `wiki/design/art/reference/_INDEX.md`
-
-#### 세계 지도 생성 (Nano Banana Pro · Inkarnate 스타일)
-- world_map Rev.1~6 반복 (지리 · 네이밍 · 정치 단위 라벨 조정)
-- Rev.6 공식 레퍼런스 승격 (26 정치 단위 전부 라벨)
-- 레퍼런스 인덱스: `wiki/design/maps/reference/_INDEX.md`
-
-#### 소설 집필 테스트
-- Ch.01 테스트 샘플 LN v1: `wiki/design/novel/ch01_test_sample_LN_v1.md` (~2,950자)
-- chapter-writing skill 능동 호출 (FAIL-004 교훈 준수)
-- style_bible 전수 준수 · LN 스타일 시연 성공
-
-#### Skill 능동 호출 이력
-- `prose-writing`, `writing-principles`, `chapter-writing` (Ch.01 집필)
-- `brainstorming` (세계관 Interactive 브레인스토밍)
-- `worldbuilding` (확정 요소 구조화)
-
-#### Memory 박제
-- `feedback_light_novel_style_preference.md` (라노벨 스타일)
-- `feedback_brainstorm_question_batching.md` (질문 일괄 제시)
-- MEMORY.md 인덱스 2건 추가
-
-#### 스크립트 생성
-- `scripts/generate_knight_portrait.py` · `_rev2.py`
-- `scripts/generate_knight_demon_king.py` · `_rev2.py` ~ `_rev6.py` 상당
-- `scripts/generate_world_map.py` · `_rev2.py` ~ `_rev6.py`
-- 모두 Python + shorts NanoBananaAdapter 재사용
-
-#### shorts → game 자산 이식
-- `.env` 복사 (GOOGLE_API_KEY 등 API 키) · `.gitignore` 보안 유지
-- shorts `orchestrator/api/nanobanana.py` adapter import 경로로 재사용
-
-### 실패 사례 (FAILURES.md 박제)
-- **FAIL-005** (Bash cd 재발 · Hook 경로 깨짐)
-- **FAIL-006** (FAIL-002 과해석 재발 4건 집단: Opus 비유 · 뿔 해석 · 서쪽 오타 추정 · 리치킹 복제)
-
-### 학습 전이
-
-- **세션 #2 FAIL-002 교훈 → 세션 #3 재발**: 클리셰·상식 투영 경향은 단일 memory 박제로 부족 · 근본 원칙의 feedback memory 필요 (`feedback_clishe_projection_guard.md` 후보)
-- **세션 #2 FAIL-004 교훈 → 세션 #3 성공 적용**: 이번 세션 모든 집필·브레인스토밍에서 skill 능동 호출 준수
-- **이미지 생성 반복 패턴**: 레퍼런스 톤 지시 vs 직접 모사 구분 필수 (FAIL-006 #4 교훈)
-- **대표님 한국어 중의적 표현**: 자의 해석 금지 · 질문 큐 우선
-
-### 다음 세션 (세션 #4) 할 일
-
-#### 즉시 실행
-- [ ] **세계관 브레인스토밍 계속** — F 일상 문화 심화 · B 의지결·E 경제 등 나머지 축
-- [ ] 질문 큐 (brainstorm 파일 내 20+ 건) 일괄 제시 · 대표님 결정
-- [ ] 현재 `brainstorm_2026-04-21_worldview_expansion.md` 크기 검토 · Progressive Disclosure 적용 여부
-
-#### 대기 결정
-- [ ] 마왕 ↔ 할배 동일 여부 (가설 X / Y)
-- [ ] 할배 동기 3 가설 (속죄 · 복구 · 목격)
-- [ ] 수정 2 기원 4 가설 (마족 백업 / 초고대 / 수호자 / 우주 포식자)
-- [ ] 주인공 마을 위치·이름 (Ch.01 집필 전 필요)
-- [ ] 네이밍 세부 (권역·왕국·자치구) 확정 여부
-
-#### 세션 #3 미커밋 정리
-- [ ] 원자 커밋 분할:
-  1. brainstorming 파일 (`brainstorm_2026-04-21_worldview_expansion.md`)
-  2. political_divisions.md
-  3. 캐릭터 아트 (4 공식 + Rev 이미지)
-  4. 세계 지도 (공식 + Rev 이미지)
-  5. Ch.01 테스트 샘플 (`ch01_test_sample_LN_v1.md`)
-  6. 스크립트 10+ 개 (`scripts/generate_*.py`)
-  7. Memory 2 건
-  8. 핸드오프 3 종
-
----
-
-*Updated: 2026-04-22 Session #3 — 세계관 보강 원환 완성 · 공식 아트 4종 승격 · 라노벨 3권 분량 확정.*

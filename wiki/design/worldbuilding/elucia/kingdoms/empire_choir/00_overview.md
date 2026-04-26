@@ -68,23 +68,32 @@ qcore_version: v1.0
 
 ---
 
-## 국가 구조
+## 국가 구조 (2026-04-26 부 추기경 박제 갱신)
 
 ```mermaid
 graph TD
-    PX[교황 Pontifex Aurelius IV<br/>종교·세속 최고 권력]
-    CC[추기경단 College of Cardinals<br/>4~6명 · 교황 보좌]
+    PX[교황 Pontifex Aurelius IV<br/>종교·세속 최고 권력 · 흰 법의]
+    CC[추기경단 College of Cardinals<br/>4명 · 교황 보좌 · 자주 법의]
+    VC[부 추기경 Vice-Cardinals<br/>6~8명 · 추기경 직속 보좌<br/>흰 외투 + 세 줄의 황금 자수<br/>2026-04-26 신규 박제]
     AC[대교구장 Archbishops<br/>2개 대교구 직할]
     DK[6 공작 Dukes<br/>세속 봉건 행정]
     CT[백작·남작]
     CH[교구 신부·수도원장]
 
     PX --> CC
+    CC --> VC
+    VC -.영지 직접 접촉.-> CT
     CC --> AC
     CC --> DK
     DK --> CT
     AC --> CH
 ```
+
+> **2026-04-26 세션 #14 신규 박제 — 부 추기경 (Vice-Cardinal)**:
+> - 추기경 직속 보좌 + 변경 귀족 직접 접촉 채널 (Cailean 가문 보유 인장 다섯 통 = 부 추기경급)
+> - 외투 = 흰색 (교황 흰 법의와 별개 의복) + 가장자리 세 줄의 황금 자수
+> - 1권 결말 광장 흰 외투의 자 = 부 추기경 (Vol.2 메인 적대자 후보)
+> - 본문 정합 = 나이트6.md line 660 + 나이트4.md line 121 (찻잔 표식 = 부 추기경급)
 
 ---
 
@@ -112,6 +121,7 @@ graph TD
 | 추기경 (재정) | Cardian Lyra Vesenne | `royals/cardinal_vesenne_2026-04-22.md` |
 | 추기경 (이단심문) | Cardian Dravek Solundra | `royals/cardinal_solundra_2026-04-22.md` |
 | 추기경 (외교) | Cardian Theron Callindra | `royals/cardinal_callindra_2026-04-22.md` |
+| **부 추기경 (Vice-Cardinals)** | **6~8명 · [대표님 확정 대기]** | **2026-04-26 신규 박제 — 흰 외투 + 세 줄의 황금 자수 / Cailean 보유 인장 다섯 통 = 부 추기경급 / 1권 결말 광장 흰 외투의 자 = 본 직위** |
 | 전임 교황 | Pontifex Aurelius III (†) | `royals/previous_pope_aurelius_iii_2026-04-22.md` |
 | 대교구장 (Solaris) | Archbishop Caelus Morvaine | `royals/hierarchs_morvaine_2026-04-22.md` |
 | 대교구장 (Aurioncross) | Archbishop Sybilla Vorn | `royals/hierarchs_vorn_2026-04-22.md` |
