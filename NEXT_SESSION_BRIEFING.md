@@ -3,7 +3,7 @@ title: 다음 세션 (#17) 즉시 재개 가이드 — 핸드오프 3종 중 3/3
 target: 다음 세션 나베랄 감마 (너)
 priority: 세션 시작 직후 필독
 created: 2026-04-27
-session_source: 세션 #16 마감 (라운드 11+12+13+14+15 / 2.5 사이클 정정+검수 / 출판 임계 통과 + 매너리즘 재이동 방지 검증)
+session_source: 세션 #16 마감 (라운드 11~17 / 3 사이클 정정+검수 / 출판 임계 통과 + 매너리즘 재이동 방지 + 편집장 핵심 결함 직접 해결)
 predecessor: 세션 #16
 ---
 
@@ -13,9 +13,9 @@ predecessor: 세션 #16
 >
 > **선결 자료** (5분 독서 순서):
 > 1. 본 파일 (전체)
-> 2. `WORK_HANDOFF.md` (라운드 진화표 + 라운드 15 후보 12건 + 5 페르소나 명세)
-> 3. `wiki/design/novel/critique/round14/ROUND14_INTEGRATED_SUMMARY_2026-04-27.md` (라운드 14 통합)
-> 4. `wiki/design/novel/critique/round12/ROUND12_INTEGRATED_SUMMARY_2026-04-27.md` (라운드 12 통합)
+> 2. `SESSION_16_SUMMARY.md` (세션 #16 시간순 종합 — 라운드 11~17 전체 사이클)
+> 3. `WORK_HANDOFF.md` (라운드 진화표 + 라운드 17 결과 + 5 페르소나 명세)
+> 4. `wiki/design/novel/critique/round14/ROUND14_INTEGRATED_SUMMARY_2026-04-27.md` (라운드 14 통합)
 > 5. 캐논 critical 메모리 (자동 주입)
 
 ---
